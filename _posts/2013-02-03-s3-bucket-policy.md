@@ -11,14 +11,14 @@ title: Amazon S3のポリシーを設定してバケットの中身をすべて�
 
 [http://awspolicygen.s3.amazonaws.com/policygen.html](http://awspolicygen.s3.amazonaws.com/policygen.html)
 
-以下の項目を設定する。<bucket_name>は自分のバケット名に差し替える。
+以下の項目を設定する。&lt;bucket_name\&gt;は自分のバケット名に差し替える。
 
 * Select Type of Policy -- S3 Bucket Policy
 * Effect -- Allow
 * Principal -- *
 * AWS Service -- Amazon S3
 * Actions -- GetObject
-* Amazon Resource Name (ARN) -- arn:aws:s3:::<bucket_name>/
+* Amazon Resource Name (ARN) -- arn:aws:s3:::&lt;bucket_name&gt;/
 
 「Add Statement」ボタンを押して、「Generate Policy」ボタンを押すと、ポリシーが表示される。
 
