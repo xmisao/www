@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお{% endif %}</title>
+<link rel="stylesheet" href="{{ root }}/style/theme.css" type="text/css" />
+</head>
+<body>
+<header>
+<span id="logo"><a class="silent" href="{{ root }}/index.html">ぺけみさお</a></span>
+</header>
+<nav>
+</nav>
+<section>
+<article>
+{{ content }}
+</article>
+<div>
+{% if page.previous %}
+<li class="before left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="View {{ page.previous.title }}">Before</a></li>
+{% endif %}
+{% if page.next %}
+<li class="next right"><a rel="next" href="{{ page.next.url }}" class="btn" title="View {{ page.next.title }}">Next</a></li>
+{% endif %}
+</div>
+<div style="text-align:right;">
+<canvas id="img" width="32" height="32" />
+</div>
+</section>
+<aside>
+</aside>
+<footer>
+(C) 2012-2013 xmisao.com. All Rights Reserved.
+</footer>
+</body>
+</html>
