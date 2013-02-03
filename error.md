@@ -2,7 +2,8 @@
 layout: default
 title: error
 ---
-error
+このページは表示できません。
+<a href="{{ root }}/">トップページ</a>へどうぞ。
 
 # エントリ
 <ul class="posts">
