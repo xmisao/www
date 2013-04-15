@@ -15,9 +15,9 @@ DNSのサービスに転送がついていない場合は、wwwizer.comのサー
 wwwizer.comを使ってAmazon S3で公開した静的Webサイトを公開すると、アクセス時には以下のような挙動になる。
 
 1. example.comへのDNS問い合わせがwwwizer.comのサーバに解決される
-2 .wwwizer.comにアクセスすると、wwwizer.comのHTTPサーバによりwww.example.comにリダイレクトされる
-3 .www.example.comへのDNS問い合わせがCNAMEレコードによりAmazon S3に解決される
+2. wwwizer.comにアクセスすると、wwwizer.comのHTTPサーバによりwww.example.comにリダイレクトされる
+3. www.example.comへのDNS問い合わせがCNAMEレコードによりAmazon S3に解決される
 4. Amazon S3へのDNS問い合わせが走り、S3上の静的ファイルが返却される
 
+参考:  
 [Static hosting on Amazon S3 - DNS Configuration](http://stackoverflow.com/questions/8312162/static-hosting-on-amazon-s3-dns-configuration)
-

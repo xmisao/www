@@ -16,11 +16,11 @@ Gitには以下4種類の設定がある。
 なおgit configコマンドのデフォルトはlocalへの設定になる。
 別の範囲の設定にするには以下のようにオプションを指定する。
 
-git config --global user.name foo
+    git config --global user.name foo
 
 # Gitのユーザ名・メールアドレスの設定
 
 user.nameとuser.emailの設定値がコミット時のユーザの情報になる。
 
-git config user.name foo
-git config user.email bar@example.com
+    git config user.name foo
+    git config user.email bar@example.com
