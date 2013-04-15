@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-ぺけみさおの記録。
+ぺけみさお(xmisao)の記録。
 
 # エントリ
 <ul class="posts">
