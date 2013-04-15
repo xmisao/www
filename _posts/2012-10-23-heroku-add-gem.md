@@ -1,6 +1,6 @@
 ---
 layout: default
-title:Herokuでのgem追加方法
+title: Herokuでのgem追加方法
 ---
 
 # Herokuでのgem追加方法
