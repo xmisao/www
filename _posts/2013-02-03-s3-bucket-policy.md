@@ -15,7 +15,7 @@ title: Amazon S3のポリシーを設定してバケットの中身をすべて�
 
 * Select Type of Policy -- S3 Bucket Policy
 * Effect -- Allow
-* Principal -- *
+* Principal -- \*
 * AWS Service -- Amazon S3
 * Actions -- GetObject
 * Amazon Resource Name (ARN) -- arn:aws:s3:::&lt;bucket_name&gt;/
