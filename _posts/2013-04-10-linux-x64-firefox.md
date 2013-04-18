@@ -2,7 +2,8 @@
 layout: default
 title: x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う
 ---
-! x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う
+
+# x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う
 
 なぜかWebからはたどり着けないが、下記のURLからダウンロードできる。
 ディストロのfirefoxに満足できない場合は手間をかけず使えてありがたい。
