@@ -21,4 +21,4 @@ JavaでSAXPaserを使ってXMLをパースしている際に、例えばstartEle
     }
 
 参考:  
-[How to stop parsing xml document with SAX at any time?] http://stackoverflow.com/questions/1345293/how-to-stop-parsing-xml-document-with-sax-at-any-time
+[How to stop parsing xml document with SAX at any time?](http://stackoverflow.com/questions/1345293/how-to-stop-parsing-xml-document-with-sax-at-any-time)
