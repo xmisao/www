@@ -35,6 +35,12 @@ h1 {
 	background-color: #3b2291;
 	margin-bottom:1em;
 	color:#fff;
+	font-size: x-large;
+}
+h2 {
+	border-left: solid 5px #3b2291;
+	padding-left: 0.5em;
+	font-size: large;
 }
 #logo {
 	-webkit-transform: rotate(4deg);
@@ -77,8 +83,10 @@ a.silent{
 	text-decoration:none;
 }
 p{
-  line-height:1.4;
-	margin-bottom:1em;
+  line-height:1.6;
+	margin-bottom:0.8em;
+	margin-top:0.8em;
+	text-indent:1em;
 }
 pre{
 	margin-top:1em;
@@ -86,4 +94,34 @@ pre{
 	margin-left:1em;
 	padding:0.5em;
 	border:solid 1px;
+	overflow:auto;
+}
+li{
+	margin-bottom:0.5em;
+}
+table{
+	border-style:solid;
+	border-width:1px;
+}
+th{
+	border-style:solid;
+	border-width:1px;
+	background-color:#ddaadd;
+}
+td{
+	border-style:solid;
+	border-width:1px;
+}
+blockquote{
+	border-left:5px;
+	border-left-style:solid;
+	border-left-color:#aaaaaa;
+	padding-left:1em;
+}
+img#footerlogo{
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
+div.date{
+	text-align:right;
 }
