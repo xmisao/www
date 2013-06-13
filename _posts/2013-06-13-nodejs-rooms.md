@@ -34,4 +34,4 @@ socketが所属するRoomを取得する。
 
     io.sockets.manager.roomClients[socket.id]
 
-(Rooms - LearnBoost/socket.io Wiki)[https://github.com/LearnBoost/socket.io/wiki/Rooms]
+[Rooms - LearnBoost/socket.io Wiki](https://github.com/LearnBoost/socket.io/wiki/Rooms)
