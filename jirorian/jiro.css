@@ -1,0 +1,43 @@
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: black; }
+* {
+	margin:auto 0px;
+}
+body {
+	background-color:#eee;
+}
+header {
+	font-size:64pt;
+	margin:auto;
+	background-color:#edc32f;
+	text-align:left;
+	color:#000000;
+}
+p{
+  line-height:1.6;
+	margin-bottom:0.8em;
+	margin-top:0.8em;
+	text-indent:1em;
+}
+section {
+	background-color:#fff;
+	margin:0px auto;
+	width:80%;
+	padding:1em 1em 1em 1em;
+	border-style:none solid solid solid;
+	border-width:1px;
+	border-color:#ddd;
+}
+footer {
+	margin:1em auto auto auto;
+	text-align:center;
+	color:#6a5d21;
+	text-shadow:1px 0px 1px rgba(255, 255, 255, 0.5);
+	float:clear;
+}
+#back{
+	text-align:center;
+}
+img#footerlogo{
+	margin-left:0.5em;
+	margin-right:0.5em;
+}

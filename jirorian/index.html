@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<title>ラーメン二郎マップ -- ぺけみさお</title>
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0px; padding: 0px }
+      #map { width:800px; height: 600px }
+    </style>
+		<link rel="stylesheet" href="jiro.css" type="text/css" />
+
+		<script src="http://code.jquery.com/jquery-1.10.0.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="http://maps.google.com/maps/api/js?v=3&sensor=false"
+        type="text/javascript" charset="UTF-8"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+    var map;
+    
+    function init() {
+      var latlng = new google.maps.LatLng(35.6480801, 139.7416143);
+      var opts = {
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: latlng
+      };
+
+      map = new google.maps.Map(document.getElementById("map"), opts);
+
+			$.getJSON("jiro.json", function(json){
+				for(var i = 0; i < json.length; i++){
+					jiro = json[i];
+
+					var markerOpts = {
+						position: new google.maps.LatLng(jiro.lat, jiro.lng),
+						map: map,
+						title: jiro.name,
+						icon: 'jiro.png'
+					};
+					var marker = new google.maps.Marker(markerOpts);
+					attachInfoWindow(marker, jiro.name, jiro.url);
+				}
+			});
+    }
+
+		function attachInfoWindow(marker, name, url){
+			var infoWindow = new google.maps.InfoWindow({content: '<a href="' + url + '">' + name + '</a>'});
+			google.maps.event.addListener(marker, 'click', function(){
+				infoWindow.open(marker.get('map'), marker);
+			});
+		}
+    //]]>
+    </script>
+  </head>
+
+  <body onload="init()">
+		<header>ラーメン二郎マップ</header>
+		<section>
+		<p>食べログを参考に全国36店舗のラーメン二郎を地図上にマッピングしました。お近くのラーメン二郎を見つける際にご利用下さい。(最終更新日:2013年6月18日)</p>
+    <div id="map"></div>
+		<nav id="back"><p><a href="/">ぺけみさおのトップページに戻る</a></p></nav>
+		</section>
+		<footer>
+		(C) 2012-2013 <img id="footerlogo" src="xmisao_icon_16x16.png">xmisao.com. All Rights Reserved.
+		</footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40150713-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>
