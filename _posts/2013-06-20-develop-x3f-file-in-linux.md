@@ -26,8 +26,8 @@ wineをインストールする。debianの場合は以下。
 環境がx64の場合は32bit版をインストールする。
 
     dpkg --add-architecture i386
-		apt-get update
-		apt-get install wine-bin:i386
+    apt-get update
+    apt-get install wine-bin:i386
 
 なおAdobe DNG Converterの動作確認はwine 1.4.1で行った。
 
