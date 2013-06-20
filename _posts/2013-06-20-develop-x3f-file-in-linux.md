@@ -53,7 +53,7 @@ wineでAdobe DNG Converter.exeを実行するだけで、あとはGUIで操作�
 
 Adobe DNG Converterの詳しいオプションについては、次のPDFファイルを参照。
 
-(http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf)[http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf]
+[http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf](http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf)
 
 ## 好みの現像ソフトで現像する
 
