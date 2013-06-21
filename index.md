@@ -14,3 +14,9 @@ layout: default
 <ul class="posts">
 	<li><a href="/jirorian/">ラーメン二郎マップ</a> -- お近くの二郎をお探しの際に。</li>
 </ul>
+
+# プロジェクト
+
+- [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
+
+  
