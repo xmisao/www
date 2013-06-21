@@ -23,7 +23,7 @@ xmisaoと書いてぺけみさおと読む。某メーカー勤務のプログ�
 
 ## 連絡先
 
-[xmisao@gmail.com](xmisao@gmail.com)
+[mail@xmisao.com](mail@xmisao.com)
 
 ## 本サイト以外の活動
 
