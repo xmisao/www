@@ -19,7 +19,7 @@ title: About
 
 <img style="margin-left:auto; margin-right:auto" src="xmisao_icon_96x96.png" alt="み">
 
-xmisaoと書いてぺけみさおと読む。某メーカー勤務のプログラマ。学生時代からプログラミングやLinuxによるサーバ構築に親しむ。人並みに使える言語はRubyとJava。好きな環境はdebianとvim。趣味は映画、アクアリウム、文房具、天体観望などが好きなインドア派。
+xmisaoと書いてぺけみさおと読む。某メーカー勤務のプログラマ。学生時代からプログラミングやLinuxによるサーバ構築に親しむ。人並みに使える言語はRubyとJava。好きな環境はdebianとvim。趣味は映画、アクアリウム、文房具、天体観望など。インドア派。
 
 ## 連絡先
 
