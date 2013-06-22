@@ -2,94 +2,89 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}</title>
-<link rel="stylesheet" href="{{ root }}/style/theme.css" type="text/css" />
+<link rel="stylesheet" href="{{ root }}/bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="{{ root }}/bootstrap/css/bootstrap-responsive.min.css"/>
+<link rel="stylesheet" href="{{ root }}/css/theme3.css"/>
 <link rel="shortcut icon" href="{{ root}}/favicon.ico">
 <link rel="alternate" type="application/atom+xml" title="xmisao -- ぺけみさお" href="{{ root }}/feed.xml" />
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="{{ root }}/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<header>
-<span id="logo"><a class="silent" href="{{ root }}/index.html">ぺけみさお</a></span>
-</header>
-<nav>
-</nav>
-<section>
-<div class="date">{{ page.date }}</div>
-<article>
-{{ content }}
-</article>
-<div>
-<!-- Hatena Bookmark -->
-<a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
 
-<!-- Google Plus -->
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="medium" data-href="http://www.xmisao.com{{ page.url }}"></div>
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'ja'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-
-<!-- Facebook -->
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<div class="fb-like" data-href="http://www.xmisao.com{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-
-<!-- Twitter -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.xmisao.com{{ page.url }}">Tweet</a>
-</div>
-<div>
-{% if page.previous %}
-<li class="before left"><a rel="prev" href="{{ page.previous.url }}" class="btn" title="View {{ page.previous.title }}">Before</a></li>
-{% endif %}
-{% if page.next %}
-<li class="next right"><a rel="next" href="{{ page.next.url }}" class="btn" title="View {{ page.next.title }}">Next</a></li>
-{% endif %}
+<div class="container-fluid" id="header">
+	<div class="row-fluid">
+		<div class="span12">
+			<a id="logo" href="{{ root }}/index.html">ぺけみさお</a>
+		</div>
+	</div>
 </div>
 
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-8257359908391644";
-/* xmisao bottom */
-google_ad_slot = "8796587013";
-google_ad_width = 300;
-google_ad_height = 250;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-
-<div style="text-align:right;">
-<canvas id="img" width="32" height="32" />
+<div class="container" id="contents">
+	<div class="row">
+		<div class="span12 text-right">
+			{{ page.date | date: "%Y-%m-%d"}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12">
+			{{ content }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="span12 text-left">
+			<script type="text/javascript"><!--
+			google_ad_client = "ca-pub-8257359908391644";
+			/* xmisao bottom */
+			google_ad_slot = "8796587013";
+			google_ad_width = 300;
+			google_ad_height = 250;
+			//-->
+			</script>
+			<script type="text/javascript"
+			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+			</script>
+		</div>
+	</div>
+	<div class="row" id="buttons">
+		<div class="span12">
+			<!-- Hatena Bookmark -->
+			<a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+			<!-- Google Plus -->
+			<div class="g-plusone" data-size="medium" data-href="http://www.xmisao.com{{ page.url }}"></div><script type="text/javascript">window.___gcfg = {lang: 'ja'}; var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);})(); </script>
+			<!-- Facebook -->
+			<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script><div class="fb-like" data-href="http://www.xmisao.com{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+			<!-- Twitter -->
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.xmisao.com{{ page.url }}">Tweet</a>
+		</div>
+	</div>
+	<div class="row" id="prevnext">
+		<div class="span6">
+			{% if page.previous %}
+			&lt;&lt;<a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
+			{% endif %}
+		</div>
+		<div class="span6">
+			{% if page.next %}
+			<a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>&gt;&gt;
+			{% endif %}
+		</div>
+	</div>
 </div>
-</section>
-<aside>
-</aside>
-<footer>
-(C) 2012-2013 <img id="footerlogo" src="{{ root }}/style/xmisao_icon_16x16.png">xmisao.com. All Rights Reserved.
-</footer>
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40150713-1']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+<div class="container">
+	<div class="row">
+		<div class="span12 text-center" id="footer">
+			(C) 2012-2013 <img id="footericon" src="{{ root }}/style/xmisao_icon_16x16.png">xmisao.com. All Rights Reserved.
+		</div>
+	</div>
+</div>
+
+<!--  Google Analytics -->
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-40150713-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>
+</body>
+
 </body>
 </html>

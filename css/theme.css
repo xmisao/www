@@ -1,0 +1,47 @@
+body {
+	background-color:#eee;
+	font-size:12pt;
+}
+
+#header {
+	background-color:#d3381c;
+}
+
+#logo {
+	font-size:64pt;
+	color:#ea5506;
+	font-family: serif;
+	line-height:72pt;
+	text-decoration:none;
+}
+
+#contents {
+	background-color:#fff;
+	border-style:none solid solid solid;
+	border-width:1px;
+	border-color:#ddd;
+	padding:1em;
+}
+
+pre {
+	overflow:auto;
+}
+
+#buttons {
+	margin-top:1em;
+}
+
+#prevnext {
+	margin-top:1em;
+}
+
+#footer {
+	margin:1em auto auto auto;
+	color:#6a5d21;
+	text-shadow:1px 0px 1px rgba(255, 255, 255, 0.5);
+}
+
+img#footericon{
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
