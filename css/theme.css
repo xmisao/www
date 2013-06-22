@@ -23,6 +23,15 @@ body {
 	padding:1em;
 }
 
+h1{
+	color:#3b2291;
+}
+
+p{
+	text-indent:1em;
+	line-height:1.6;
+}
+
 pre {
 	overflow:auto;
 }
