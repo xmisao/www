@@ -13,6 +13,7 @@ layout: default
 <h3>ページ</h3>
 <ul class="posts">
 	<li><a href="/jirorian/">ラーメン二郎マップ</a> -- お近くの二郎をお探しの際に。</li>
+	<li><a href="/cigarette/">世界のたばこレビュー</a> -- ぺけみさおの吸ったたばこをレビューしていきます。</li>
 </ul>
 
 <h3>プロジェクト</h3>
