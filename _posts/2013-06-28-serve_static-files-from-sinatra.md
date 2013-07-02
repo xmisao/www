@@ -3,6 +3,8 @@ layout: default
 title: Sinatraで静的ファイルを配信する方法
 ---
 
+# Sinatraで静的ファイルを配信する方法
+
 Rubyの軽量WebアプリケーションフレームワークSinatraで、静的なファイルをどのように配信すべきか? という話。英語のWebページを漁っていたら以下の記事を見つけたので紹介する。
 
 [the best way to serve static files from Sinatra](http://lifeascode.com/2013/01/24/the-best-way-to-serve-static-files-from-sinatra/)
