@@ -34,11 +34,11 @@ stream()は引数を指定でき、:keep_openを指定してやると、接続�
 
 インストール
 
-   gem install thin
+    gem install thin
 
 起動(config.ruのあるディレクトリで)
 
-   thin start
+    thin start
 
 上記のアプリケーションの例をapp.rbとすると、config.ruはこんな感じで。
 
@@ -51,4 +51,3 @@ stream()は引数を指定でき、:keep_openを指定してやると、接続�
 
 参考:  
 [http://www.sinatrarb.com/contrib/streaming.html](http://www.sinatrarb.com/contrib/streaming.html)
-
