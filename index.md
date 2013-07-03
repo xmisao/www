@@ -20,4 +20,7 @@ layout: default
 
 - [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
 
+<h3>Webサービス</h3>
+
+- [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
   
