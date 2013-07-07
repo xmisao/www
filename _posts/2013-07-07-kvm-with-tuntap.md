@@ -80,5 +80,5 @@ ip addr listを実行して、以下のような表示がされれば成功し�
 これでゲストはtap0を通じて外部と自由に通信できるようになる。
 
 参考:  
-- http://wiki.debian.org/BridgeNetworkConnections
-- http://wiki.libvirt.org/page/Networking#Altering_the_interface_config
+- [http://wiki.debian.org/BridgeNetworkConnections](http://wiki.debian.org/BridgeNetworkConnections)
+- [http://wiki.libvirt.org/page/Networking#Altering_the_interface_config](http://wiki.libvirt.org/page/Networking#Altering_the_interface_config)
