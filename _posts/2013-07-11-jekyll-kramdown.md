@@ -17,9 +17,11 @@ jekyllはMarkdownパーサを切り替える機能がある。特に指定しな
 
     <ul><li>ほげ -ぴよ -ふが</li></ul>
 
-kramdownではこのような問題は発生しない。kramdownをインストールし、jekyllの_config.ymlに1行追加する。以下のとおり編集する。
+kramdownではこのような問題は発生しない。まずkramdownをインストールする。
 
     gem install kramdown
+
+jekyllの_config.ymlに以下の1行追加する。
 
     markdonw: kramdown
 
