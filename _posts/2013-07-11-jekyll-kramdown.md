@@ -3,6 +3,8 @@ layout: default
 title: jekyllのMarkdownパーサをmarukuからkramdownに変更する
 ---
 
+# jekyllのMarkdownパーサをmarukuからkramdownに変更する
+
 jekyllはMarkdownパーサを切り替える機能がある。特に指定しなければmarukuが使われる。
 
 これまでmarukuを使っていたが、marukuは日本語の扱いにバグがあるようで、例えば日本語で始まるリストは正しく変換することができないようだった。
