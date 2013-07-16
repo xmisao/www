@@ -29,11 +29,11 @@ muninで複数台のホストの監視を行うには、設定ファイル/etc/m
 
     [host1.example.com]
         address 127.0.0.1
-    		use_node_name yes
+        use_node_name yes
     
     [host2.example.com]
         address 192.168.1.3
-    		use_node_name yes
+        use_node_name yes
 
 munin-nodeはデフォルトでローカルホストからの接続を許可する設定になっているので、サーバではmunin-nodeの設定は行わない。
 
@@ -44,7 +44,7 @@ munin-nodeはデフォルトでローカルホストからの接続を許可す�
     Alias /munin /var/cache/munin/www
     <Directory /var/cache/munin/www>
         Order allow,deny
-    		Allow from 192.168.1.0/255.255.255.0
+        Allow from 192.168.1.0/255.255.255.0
         Options None
         <IfModule mod_expires.c>
           ExpiresActive On
@@ -55,7 +55,7 @@ munin-nodeはデフォルトでローカルホストからの接続を許可す�
 Apacheとmunin-nodeを再起動する。
 
     /etc/init.d/apache2 restart
-		/etc/init.d/munin-node restart
+    /etc/init.d/munin-node restart
 
 ## クライアント(ノード)
 
