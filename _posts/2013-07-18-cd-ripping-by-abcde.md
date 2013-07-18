@@ -19,20 +19,20 @@ abcdeには多数のオプションがあるが、単にリッピングするだ
 
 途中、対話的にCDDBのデータを編集するか、複数アーティストによるCDか聞かれる。普通はどちらもnを入力してやれば良いだろう。
 
-Grabbing entire CD - tracks: 01 02 03 04 05 06 07 08 09 10 11
-Retrieving 1 CDDB match...done.
----- Jazztronik / 七色 ----
-1: 七色
-2: 鳳凰 - PHOENIX
-3: Arabesque
-4: Magic Lady (Interlude)
-5: Don't hold in your tears
-6: Nana
-7: Sky Fallin'
-8: Someday (Etude For The Right)
-9: 影
-10: SAMURAI - 侍 (Album Version)
-11: Walk into the Memory
+    Grabbing entire CD - tracks: 01 02 03 04 05 06 07 08 09 10 11
+    Retrieving 1 CDDB match...done.
+    ---- Jazztronik / 七色 ----
+    1: 七色
+    2: 鳳凰 - PHOENIX
+    3: Arabesque
+    4: Magic Lady (Interlude)
+    5: Don't hold in your tears
+    6: Nana
+    7: Sky Fallin'
+    8: Someday (Etude For The Right)
+    9: 影
+    10: SAMURAI - 侍 (Album Version)
+    11: Walk into the Memory
 
 Edit selected CDDB data? [y/n] (n): n
 Is the CD multi-artist [y/N]? n
