@@ -28,10 +28,10 @@ TkDNDはSourceForgeでLinux向けのバイナリが提供されているので�
 
 [http://sourceforge.net/projects/tkdnd/](http://sourceforge.net/projects/tkdnd/)
 
-私の環境はx86\_64なので、tkdnd2.6-linux-x86_64.tar.gzをダウンロードした。これを展開し、/usr/lib/tcltk以下にコピーする。
+私の環境はx86\_64なので、tkdnd2.6-linux-x86_64.tar.gzをダウンロードした。これを展開し、/usr/lib/tcltk以下に配置する。
 
     tar zxvf tkdnd2.6-linux-x86_64.tar.gz
-    cp tkdnd2.6 /usr/lib/tcltk
+    mv tkdnd2.6 /usr/lib/tcltk
 
 なおTkDND 2.6はマルチプラットフォームで、Windows、Linux(X Window)、Macに対応しているようだ。
 
