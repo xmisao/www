@@ -20,7 +20,7 @@ col0, col1, col2の3カラムから成るテーブルを作成し、3つの条�
     SELECT * FROM `table_100k_noindex` WHERE (`col0` <= 1073741824) ORDER BY `col1` LIMIT 10000;
     SELECT * FROM `table_100k_noindex` WHERE (`col1` <= 1073741824) ORDER BY `col0` LIMIT 10000;
 
-ベンチマークの結果は以下の表のとおりになった。
+ベンチマークの結果は以下の表のとおりになった。単位は秒。
 
 <table class="table table-striped">
 <tr><th rowspan="2">インデックス</th><th colspan="2">クエリ</th><th colspan="3">レコード数</th></tr>
