@@ -23,7 +23,7 @@ col0, col1, col2の3カラムから成るテーブルを作成し、3つの条�
 ベンチマークの結果は以下の表のとおりになった。
 
 <table class="table table-striped">
-<tr><th rowspan="2">インデックス</th><th colspan="2" rowspan="2">クエリ</th><th colspan="3">レコード数</th></tr>
+<tr><th rowspan="2">インデックス</th><th colspan="2">クエリ</th><th colspan="3">レコード数</th></tr>
 <tr><th>WHERE</th><th>ORDER BY</th><th>0.1M</th><th>1M</th><th>10M</th></tr>
 <tr><td rowspan="2">なし</td><td>col0</td><td>col1</td>
 <td>0.16</td>
