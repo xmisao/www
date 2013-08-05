@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Markdown文法の日本語訳
+tag: markdown
 ---
 
 # Markdown文法の日本語訳

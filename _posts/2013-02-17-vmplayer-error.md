@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 64bitのDebianでVMWare Playerの起動にlibprotobufのエラーで失敗する
+tag: virtualization
 ---
 
 # 64bitのDebianでVMWare Playerの起動にlibprotobufのエラーで失敗する

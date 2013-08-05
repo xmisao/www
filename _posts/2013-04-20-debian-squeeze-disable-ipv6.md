@@ -1,6 +1,7 @@
 ---
 layout: default
 title: debian squeezeのIPv6を無効化
+tag: linux
 ---
 
 # debian squeezeのIPv6を無効化

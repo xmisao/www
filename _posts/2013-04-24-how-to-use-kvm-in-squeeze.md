@@ -1,6 +1,7 @@
 ---
 layout: default
 title: debian squeezeでのKVMの使い方
+tag: virtualization
 ---
 
 # debian squeezeでのKVMの使い方

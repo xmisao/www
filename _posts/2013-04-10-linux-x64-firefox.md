@@ -1,6 +1,7 @@
 ---
 layout: default
 title: x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う
+tag: linux
 ---
 
 # x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: EclipseでJavaのConsoleクラスから入力を得る方法
+tag: java
 ---
 
 # EclipseでJavaのConsoleクラスから入力を得る方法
