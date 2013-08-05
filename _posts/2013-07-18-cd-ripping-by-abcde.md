@@ -1,6 +1,7 @@
 ---
 layout: default
 title: LinuxでCDをリッピングするならabcdeを使おう
+tag: linux
 ---
 
 # LinuxでCDをリッピングするならabcdeを使おう

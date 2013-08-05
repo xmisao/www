@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Debianでタイムゾーンを変更する方法 
+tag: linux
 ---
 
 # Debianでタイムゾーンを変更する方法

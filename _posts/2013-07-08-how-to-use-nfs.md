@@ -1,6 +1,7 @@
 ---
 layout: default
 title: debian wheezyでNFS環境を構築
+tag: ['server', 'linux']
 ---
 
 # debian wheezyでNFS環境を構築

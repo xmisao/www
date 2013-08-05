@@ -1,6 +1,7 @@
 ---
 layout: default
 title: UbuntuやDebianのApacheの設定について
+tag: ['linux', 'server']
 ---
 
 # UbuntuやDebianのApacheの設定について

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rubyで2chにアクセスするライブラリx2chを作った
+tag: x2ch
 ---
 
 # Rubyで2chにアクセスするライブラリx2chを作った

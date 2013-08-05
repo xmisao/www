@@ -1,6 +1,7 @@
 ---
 layout: default
 title: RubyGemsで自作のgemを公開する
+tag: programming
 ---
 
 # RubyGemsで自作のgemを公開する

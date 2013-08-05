@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JekyllでRSSフィードを出力する
+tag: jekyll
 ---
 
 # JekyllでRSSフィードを出力する

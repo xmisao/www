@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Twitter Bootstrapでセンタリングする方法
+tag: programming
 ---
 
 # Twitter Bootstrapでセンタリングする方法

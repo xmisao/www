@@ -1,6 +1,7 @@
 ---
 layout: default
 title: LinuxでSIGMAのX3Fファイルを現像する
+tag: linux
 ---
 
 # LinuxでSIGMAのX3Fファイルを現像する

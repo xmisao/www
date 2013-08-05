@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 強力なシンボリックリンクとして活用できるmountのbindオプションについて
+tag: linux
 ---
 
 # 強力なシンボリックリンクとして活用できるmountのbindオプションについて

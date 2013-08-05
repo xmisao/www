@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Rubyでメモリ使用量を測定する(UNIX風OS限定)
+tag: ['programming', 'ruby']
 ---
 
 # Rubyでメモリ使用量を測定する(UNIX風OS限定)

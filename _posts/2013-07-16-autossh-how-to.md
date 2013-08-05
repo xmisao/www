@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ssh接続を維持し続けるautosshの使い方
+tag: ssh
 ---
 
 # ssh接続を維持し続けるautosshの使い方

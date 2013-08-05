@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sinatra::Streamingの使い方と注意点
+tag: sinatra
 ---
 
 # Sinatra::Streamingの使い方と注意点

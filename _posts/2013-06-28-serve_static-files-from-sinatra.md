@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sinatraで静的ファイルを配信する方法
+tag: sinatra
 ---
 
 # Sinatraで静的ファイルを配信する方法

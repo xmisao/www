@@ -1,6 +1,7 @@
 ---
 layout: default
 title: JavaScriptでオブジェクトの内容をダンプする方法
+tag: programming
 ---
 
 # JavaScriptでオブジェクトの内容をダンプする方法

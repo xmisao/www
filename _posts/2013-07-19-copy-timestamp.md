@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Linuxでタイムスタンプをコピーする方法
+tag: linux
 ---
 
 # Linuxでタイムスタンプをコピーする方法

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: DebianでRubyからTcl/TkのTkDNDを利用してドラッグアンドドロップを実装する
+tag: ruby
 ---
 
 # DebianでRubyからTcl/TkのTkDNDを利用してドラッグアンドドロップを実装する

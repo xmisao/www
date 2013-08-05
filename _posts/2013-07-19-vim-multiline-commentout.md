@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Vimで複数行を一括コメントアウトする
+tag: vim
 ---
 
 # Vimで複数行を一括コメントアウトする

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Socket.ioでチャットルームを実現する方法
+tag: programming
 ---
 
 # Socket.ioでチャットルームを実現する方法

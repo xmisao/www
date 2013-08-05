@@ -1,6 +1,7 @@
 ---
 layout: default
 title: kvmでTUN/TAPを使いゲストOSをホストOSと同じネットワークに所属させる
+tag: virtualization
 ---
 
 # kvmでTUN/TAPを使いゲストをホストと同じネットワークに所属させる

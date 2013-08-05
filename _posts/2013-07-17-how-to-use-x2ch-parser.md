@@ -1,6 +1,7 @@
 ---
 layout: default
 title: x2chの使い方 -- チャットちゃんねるを扱う
+tag: x2ch
 ---
 
 # x2chの使い方 -- チャットちゃんねるを扱う

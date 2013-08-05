@@ -1,6 +1,7 @@
 ---
 layout: default
 title: jekyllのMarkdownパーサをmarukuからkramdownに変更する
+tag: jekyll
 ---
 
 # jekyllのMarkdownパーサをmarukuからkramdownに変更する

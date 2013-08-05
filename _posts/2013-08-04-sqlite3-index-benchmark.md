@@ -1,6 +1,7 @@
 ---
 layout: default
 title: SQLite3のインデックスのベンチマーク
+tag: database
 ---
 
 # SQLite3のインデックスのベンチマーク
