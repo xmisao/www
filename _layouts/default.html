@@ -27,6 +27,11 @@
 		<div class="span12 text-right">
 			{{ page.date | date: "%Y-%m-%d"}}
 		</div>
+		{% if page.tags.size | size > 0 %}
+		<div class="span12 text-right">
+			タグ:{% for tag in page.tags %} <a href="/tags/{{ tag }}/">{{ tag }}</a>{% endfor %}
+		</div>
+		{% endif %}
 	</div>
 	<div class="row">
 		<div class="span12">
