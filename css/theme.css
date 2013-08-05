@@ -54,3 +54,7 @@ img#footericon{
 	margin-left:0.5em;
 	margin-right:0.5em;
 }
+
+ul.tagcloud li{
+	display:inline;
+}
