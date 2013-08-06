@@ -96,8 +96,9 @@ read_yamlメソッドは、パスとファイル名を引数にとって、そ�
 
 続いて、レイアウトファイルとして_layouts以下にtagpage.htmlというレイアウトファイルを作ろう。内容は以下のように、渡されたポストの一覧を作るLiquidテンプレートとする。
 
+{% raw %}
     <html>
-    <title>{{ page.title }}</title>
+    <title>\{\{ page.title \}\}</title>
     <body>
     <ul>
     {% for post in page.posts %}
@@ -106,5 +107,6 @@ read_yamlメソッドは、パスとファイル名を引数にとって、そ�
     </ul>
     </body>
     </html>
+{% endraw %}
 
 あとは適当にタグをつけたページを作成し、jekyll buildするとタグの一覧ページがサイトのtags以下に出力される。
