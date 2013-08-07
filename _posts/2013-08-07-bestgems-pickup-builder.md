@@ -4,7 +4,7 @@ title: BestGems Pickup! 第2回 「builder」
 tag: "bestgems_pickup"
 ---
 
-# BestGems Pickup! 第1回 「hike」
+# BestGems Pickup! 第2回 「builder」
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第2回は「builder」を取り上げる。
 
