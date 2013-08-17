@@ -94,6 +94,6 @@ jisx0208.1983のフォントを指定すれば、変換中も正しく日本語�
 <tr><td>-fwb</td><td>xterm*wideBoldFont</td><td>全角ボールド文字のフォント</td></tr>
 <tr><td rowspan="3">FreeType</td><td>-fa</td><td>xterm*faceName</td><td>半角文字のフォント</td></tr>
 <tr><td>-fb</td><td>xterm*faceNameDoublesize</td><td>全角文字のフォント</td></tr>
-<tr><td>FreeType</td><td>-fs</td><td>xterm*faceSize</td><td>フォントサイズ</td></tr>
+<tr><td>-fs</td><td>xterm*faceSize</td><td>フォントサイズ</td></tr>
 <tr><td>-</td><td>-fx</td><td>xterm*ximFont</td><td>インプットメソッドの変換中テキストのフォント</td></tr>
 </table>
