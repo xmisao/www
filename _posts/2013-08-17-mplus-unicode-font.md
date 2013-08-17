@@ -64,53 +64,53 @@ umplus_j10r.bdfとumplus_j12r.bdfの先頭のヘッダをそれぞれ以下の�
 
 umplus_j10r.bdf
 
-FONT -mplus-gothic-medium-R-normal--10-100-75-75-C-100-jisx0208.1990-0
-FOUNDRY "mplus"
-CHARSET_REGISTRY "jisx0208.1990"
-CHARS 6963
+    FONT -umplus-gothic-medium-R-normal--10-100-75-75-C-100-iso10646-1
+    FOUNDRY "umplus"
+    CHARSET_REGISTRY "iso10646"
+    CHARS 7187
 
 umplus_j12r.bdf
 
-FONT -umplus-gothic-medium-R-normal--12-120-75-75-C-120-iso10646-1
-FOUNDRY "umplus"
-CHARSET_REGISTRY "iso10646"
-CHARS 7187
+    FONT -umplus-gothic-medium-R-normal--12-120-75-75-C-120-iso10646-1
+    FOUNDRY "umplus"
+    CHARSET_REGISTRY "iso10646"
+    CHARS 7187
 
 1つ目のENDFONTと、連結した英文フォントのヘッダを削除する。
 具体的には以下の内容を削除する。(例はumplus_j10r.bdfの場合)
 
-ENDFONT
-STARTFONT 2.1
-COMMENT This font is a free software.
-COMMENT Unlimited permission is granted to use, copy, and distribute it,
-COMMENT with or without modification, either commercially and noncommercially.
-COMMENT THIS FONT IS PROVIDED "AS IS" WITHOUT WARRANTY.
-FONT -mplus-fxd-medium-R-normal--10-100-75-75-C-60-iso8859-1
-SIZE 10 75 75
-FONTBOUNDINGBOX 6 13 0 -4
-STARTPROPERTIES 20
-FONTNAME_REGISTRY ""
-FOUNDRY "mplus"
-FAMILY_NAME "fxd"
-WEIGHT_NAME "medium"
-SLANT "R"
-SETWIDTH_NAME "normal"
-ADD_STYLE_NAME ""
-PIXEL_SIZE 10
-POINT_SIZE 100
-RESOLUTION_X 75
-RESOLUTION_Y 75
-SPACING "C"
-AVERAGE_WIDTH 60
-CHARSET_REGISTRY "iso8859"
-CHARSET_ENCODING "1"
-COPYRIGHT "Copyright (C) 2002-2004 COZ"
-DEFAULT_CHAR 0
-FONT_DESCENT 4
-FONT_ASCENT 9
-_XMBDFED_INFO "Edited with xmbdfed 4.5."
-ENDPROPERTIES
-CHARS 224
+    ENDFONT
+    STARTFONT 2.1
+    COMMENT This font is a free software.
+    COMMENT Unlimited permission is granted to use, copy, and distribute it,
+    COMMENT with or without modification, either commercially and noncommercially.
+    COMMENT THIS FONT IS PROVIDED "AS IS" WITHOUT WARRANTY.
+    FONT -mplus-fxd-medium-R-normal--10-100-75-75-C-60-iso8859-1
+    SIZE 10 75 75
+    FONTBOUNDINGBOX 6 13 0 -4
+    STARTPROPERTIES 20
+    FONTNAME_REGISTRY ""
+    FOUNDRY "mplus"
+    FAMILY_NAME "fxd"
+    WEIGHT_NAME "medium"
+    SLANT "R"
+    SETWIDTH_NAME "normal"
+    ADD_STYLE_NAME ""
+    PIXEL_SIZE 10
+    POINT_SIZE 100
+    RESOLUTION_X 75
+    RESOLUTION_Y 75
+    SPACING "C"
+    AVERAGE_WIDTH 60
+    CHARSET_REGISTRY "iso8859"
+    CHARSET_ENCODING "1"
+    COPYRIGHT "Copyright (C) 2002-2004 COZ"
+    DEFAULT_CHAR 0
+    FONT_DESCENT 4
+    FONT_ASCENT 9
+    _XMBDFED_INFO "Edited with xmbdfed 4.5."
+    ENDPROPERTIES
+    CHARS 224
 
 ## 5. BCFファイルをPCF.GZに圧縮する
 
