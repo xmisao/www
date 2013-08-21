@@ -5,7 +5,7 @@ layout: default
 
 <h3>最近のエントリ</h3>
 <ul class="posts">
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts limit:20 %}
     <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
