@@ -31,6 +31,7 @@ layout: default
 <h3>プロジェクト</h3>
 
 - [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
+- [umplus](https://github.com/xmisao/umplus) -- Unicodeエンコードのmplusフォント
 
 <h3>Webサービス</h3>
 
