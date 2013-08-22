@@ -36,5 +36,5 @@ rootでhiddコマンドを実行して接続する。
     12:34:56:78:90:AB Bluetooth Keyboard [17ef:6048] connected
 
 参考:  
--[ja/BluetoothUser - Debian Wiki](https://wiki.debian.org/ja/BluetoothUser)
--[ja/HOWTO/BluetoothMouse](https://wiki.debian.org/ja/HOWTO/BluetoothMouse)
+- [ja/BluetoothUser - Debian Wiki](https://wiki.debian.org/ja/BluetoothUser)
+- [ja/HOWTO/BluetoothMouse](https://wiki.debian.org/ja/HOWTO/BluetoothMouse)
