@@ -16,7 +16,7 @@ tag: markdown
 
 コードはバッククオートで記述できる。
 
-   This is `code`.
+    This is `code`.
 
 This is `code`.
 
@@ -96,13 +96,14 @@ end
 例えばTwitter Bootstrapを使っていて、tableクラスとtable-stripedクラスを指定したい場合は以下。
 
 ~~~
-|aaa|bbb|
-|ccc|ddd|
-|eee|fff|
+|Left|Center|Right|
+|:-|:-:|-:|
+|abc|def|10,000|
+|efg|hij|20,000|
 {: .table .table-striped}
 ~~~
 
-|aaa|bbb|
-|ccc|ddd|
-|eee|fff|
-{: .table .table-striped}
+|Left|Center|Right|
+|:-|:-:|-:|
+|abc|def|10,000|
+|efg|hij|20,000|
