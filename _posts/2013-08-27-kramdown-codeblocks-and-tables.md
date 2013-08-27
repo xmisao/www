@@ -6,17 +6,25 @@ tag: markdown
 
 # kramdownのコードブロックとテーブル記法について
 
-RubyのMarkdownパーサであるkramdownは、シンタックスハイライト付きのコードブロックと、書きやすいテーブルを備えている。このエントリでは、これら2つの記法の使い方を取り上げる。
+技術系の文章をMarkdownで書いていると、コードブロックとテーブルを多用する。このエントリーでは、RubyのMarkdownパーサであるkramdownでこれらの記法の使い方をまとめる。
 
 詳しくは公式のシンタックスリファレンスを参照。
 
 [http://kramdown.rubyforge.org/quickref.html](http://kramdown.rubyforge.org/quickref.html)
 
-## コードブロック
+## コードとコードブロック
 
-4文字空白を入れると、それがコードブロックになる。
+コードはバッククオートで記述できる。
 
-        hoge
+   This is `code`.
+
+This is `code`.
+
+先頭に4文字空白を入れると、それがコードブロックになる。
+
+~~~
+    hoge
+~~~
 
     hoge
 
@@ -36,7 +44,8 @@ bar
 buz
 ~~~
 
-言語を指定するとシンタックスハイライトが可能。
+言語を指定することもできる。
+これは末尾で`{: .language-ruby}`するのと同一。
 
 ~~~~~
 ~~~ ruby
@@ -73,11 +82,13 @@ end
 |Left|Center|Right|
 |:-|:-:|-:|
 |abc|def|10,000|
+|efg|hij|20,000|
 ~~~
 
 |Left|Center|Right|
 |:-|:-:|-:|
 |abc|def|10,000|
+|efg|hij|20,000|
 
 ちなみにクラスで装飾したい場合は末尾に{}をつけて指定できる。
 これは他の記法でも一緒。
