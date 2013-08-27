@@ -22,13 +22,13 @@ Vimのプラグインを管理するプラグイン「Vundle」が入ってい�
 
 fugitiveを入れてリポジトリ内のファイルを編集すると、Gから始まる各種コマンドが使えるようになる。
 
-例えば以下の一連の操作はこんな感じ。
+例えば編集中のファイルをpushする以下の一連の操作はこんな感じ。
 
 |コマンド|fugitiveコマンド|
 |:-|-:|
 |git add %|Gwrite|
 |git commit -m "hoge"|Gcommit -m "hoge"|
 |git push origin master|Git push origin master|
-{.table .table-striped}
+{: .table .table-striped}
 
 まだ全然使いこなせていないが、これだけでも非常に便利。
