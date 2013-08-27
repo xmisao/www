@@ -25,7 +25,7 @@ fugitiveを入れてリポジトリ内のファイルを編集すると、Gか�
 例えば編集中のファイルをpushする以下の一連の操作はこんな感じ。
 
 |コマンド|fugitiveコマンド|
-|:-|-:|
+|:-|:-|
 |git add %|Gwrite|
 |git commit -m "hoge"|Gcommit -m "hoge"|
 |git push origin master|Git push origin master|
