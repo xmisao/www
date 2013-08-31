@@ -14,7 +14,7 @@ Rubyの軽量WebアプリケーションフレームワークSinatraで、静的
 
 config.ruに以下の内容を追加し、ディレクトリや個別ファイルの配信のため以下のmapを定義する。
 
-{% highlight ruby %}
+~~~~
 #map a directory including a directory listing
 map "/js" do
     run Rack::Directory.new("./resources/js")
@@ -24,6 +24,6 @@ end
 map "/favicon.ico" do
     run Rack::File.new("./resources/favicon.ico")
 end
-{% endhighlight %}
+~~~~
 
 これでrackupすれば/jsのアクセスには./resources/js内のファイルが配信し、/favicon.icoには./resources/favicon.icoを配信することができる。
