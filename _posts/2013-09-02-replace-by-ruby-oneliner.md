@@ -9,7 +9,7 @@ tag: ruby
 sedでやれという話ではあるけれど、最近Rubyのワンライナーに凝っているので書いた。
 以下の1行でtest.txt中のfooをbarに置換して上書きする。
 
-ruby -i -pe '$_.gsub!("foo", "bar")' test.txt
+    ruby -i -pe '$_.gsub!("foo", "bar")' test.txt
 
 Rubyワンライナーでは頻出の、以下3つのオプションの合わせ技になっている。
 
