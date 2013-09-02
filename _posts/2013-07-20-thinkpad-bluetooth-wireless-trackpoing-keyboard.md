@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: ThinkPad Bluetooth Wireless Trackpoing Keyboard ファーストインプレッション
 tag: thinkpad
 ---

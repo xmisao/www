@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: debian squeezeでのKVMの使い方
 tag: virtualization
 ---

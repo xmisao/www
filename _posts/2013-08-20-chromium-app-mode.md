@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Chromium(Google Chrome)でWebページをアプリのように使う
 tag: linux
 ---

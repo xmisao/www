@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Vimで複数行を一括コメントアウトする
 tag: vim
 ---

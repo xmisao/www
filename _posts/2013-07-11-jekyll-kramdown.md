@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: jekyllのMarkdownパーサをmarukuからkramdownに変更する
 tag: jekyll
 ---

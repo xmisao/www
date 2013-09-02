@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: BestGems Pickup! 第2回 「builder」
 tag: "bestgems_pickup"
 ---

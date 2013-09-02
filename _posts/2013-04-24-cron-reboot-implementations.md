@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: CronでOS起動時に処理を実行する@rebootの実装による差異
 tag: linux
 ---

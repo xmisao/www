@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: BestGems Pickup! 第3回 「tilt」
 tag: "bestgems_pickup"
 ---

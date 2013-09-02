@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: jekyllプラグインの作り方 ジェネレータ編
 tag: jekyll
 ---

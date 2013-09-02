@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Sinatra::Streamingの使い方と注意点
 tag: sinatra
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: findとxargsの基本的な使い方
 tag: linux
 ---

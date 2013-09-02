@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: muninによる複数ホスト監視環境の構築
 tag: linux
 ---

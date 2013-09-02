@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Sinatraで編集したファイルをオートリロード(自動再読み込み)する方法
 tag: sinatra
 ---

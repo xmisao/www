@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: uim-ximの使い方、およびxtermの日本語関連設定
 tag: linux
 ---

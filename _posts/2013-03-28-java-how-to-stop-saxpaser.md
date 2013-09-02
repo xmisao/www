@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: JavaのSAXPaserをどのように停止させるべきか? 例外で停止させるしかない。
 tag: java
 ---

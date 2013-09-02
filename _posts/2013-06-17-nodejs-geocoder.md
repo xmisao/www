@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Node.jsでGoogle Maps APIのジオコーディングを利用する
 tag: programming
 ---

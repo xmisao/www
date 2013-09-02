@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: jekyllで日本語を含むファイルの変換がYAML Exceptionで失敗する
 tag: jekyll
 ---

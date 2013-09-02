@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: BestGems Pickup! 第1回 「hike」
 tag: "bestgems_pickup"
 ---

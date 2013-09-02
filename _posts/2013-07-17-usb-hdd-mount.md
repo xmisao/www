@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: LinuxでUSB-HDDを接続時に所定のディレクトリへ自動マウントする方法
 tag: linux
 ---

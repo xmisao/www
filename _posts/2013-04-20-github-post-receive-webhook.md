@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: githubのwebhookでpushの通知をHTTPで受信する
 tag: github
 ---

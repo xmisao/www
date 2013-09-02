@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: vimの短縮入力(Abbreviations)について
 tag: vim
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 64bitのDebianでVMWare Playerの起動にlibprotobufのエラーで失敗する
 tag: virtualization
 ---

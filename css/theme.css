@@ -58,3 +58,10 @@ img#footericon{
 ul.tagcloud li{
 	display:inline;
 }
+
+h6 {
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-bottom-color: #bbb;
+	font-size: medium;
+}

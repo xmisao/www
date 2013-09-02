@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: JavaScriptでオブジェクトの内容をダンプする方法
 tag: programming
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Linuxでタイムスタンプをコピーする方法
 tag: linux
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: sudo -sでrootのシェルを起動する
 tag: linux
 ---

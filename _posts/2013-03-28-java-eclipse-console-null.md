@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: EclipseでJavaのConsoleクラスから入力を得る方法
 tag: java
 ---

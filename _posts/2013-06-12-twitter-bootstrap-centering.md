@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Twitter Bootstrapでセンタリングする方法
 tag: programming
 ---

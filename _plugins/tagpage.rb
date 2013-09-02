@@ -10,7 +10,21 @@ module Jekyll
 			self.data['tag'] = tag
 
 			self.data['title'] = "#{tag}タグのエントリ一覧"
-			self.data['posts'] = site.tags[tag]
+			self.data['posts'] = site.tags[tag].sort.reverse
+		end
+	end
+
+	class TagEntryPage < Page
+		def initialize(site, base, dir, tag)
+			@site, @base, @dir = site, base, dir
+			@name = 'entries.html'
+
+			self.process(@name)
+			self.read_yaml(File.join(base, '_layouts'), 'tag_entries.html')
+			self.data['tag'] = tag
+
+			self.data['title'] = "#{tag}タグのエントリ一覧"
+			self.data['posts'] = site.tags[tag].sort.reverse
 		end
 	end
 
@@ -21,6 +35,7 @@ module Jekyll
 			dir = 'tags'
 			site.tags.keys.each do |tag|
 				site.pages << TagPage.new(site, site.source, File.join(dir, tag), tag)
+				site.pages << TagEntryPage.new(site, site.source, File.join(dir, tag), tag)
 			end
 		end
 	end

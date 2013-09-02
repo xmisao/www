@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: sshの公開鍵をコマンド1発でリモートホストに登録するssh-copy-id
 tag: ssh
 ---

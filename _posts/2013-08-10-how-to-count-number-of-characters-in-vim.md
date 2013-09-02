@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Vimで文字数をカウントする方法
 tag: vim
 ---

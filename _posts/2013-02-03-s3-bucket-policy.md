@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Amazon S3のポリシーを設定してバケットの中身をすべて公開する
 tag: aws
 ---

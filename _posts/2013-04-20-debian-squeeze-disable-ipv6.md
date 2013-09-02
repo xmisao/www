@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: debian squeezeのIPv6を無効化
 tag: linux
 ---

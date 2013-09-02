@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: VimでGitを使うならfugitiveを使おう
 tag: vim
 ---

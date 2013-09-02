@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: RubyGemsで自作のgemを公開する
 tag: programming
 ---

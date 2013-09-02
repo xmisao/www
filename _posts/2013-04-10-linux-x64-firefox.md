@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う
 tag: linux
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: debian wheezyでNFS環境を構築
 tag: ['server', 'linux']
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: BestGems Pickup! 第4回 「Slop」
 tag: "bestgems_pickup"
 ---

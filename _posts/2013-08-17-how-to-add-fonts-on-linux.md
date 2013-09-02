@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Linuxでフォントを追加する方法
 tag: linux
 ---

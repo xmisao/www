@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Rubyで2chにアクセスするライブラリx2chを作った
 tag: x2ch
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Markdown文法の日本語訳
 tag: markdown
 ---

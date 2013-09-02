@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 軽量ディスプレイマネージャslimと自動ログイン設定
 tag: linux
 ---

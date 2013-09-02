@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: x2chの使い方 -- チャットちゃんねるを扱う
 tag: x2ch
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: ユニコードでエンコードしたmplusフォントの作り方
 tag: linux
 ---

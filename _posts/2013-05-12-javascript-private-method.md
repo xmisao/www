@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: JavaScriptのクラスでprivateメソッドを定義する方法
 ---
 

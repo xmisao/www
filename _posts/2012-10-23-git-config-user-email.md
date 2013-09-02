@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Gitの設定方法(ユーザ名・メールアドレス)
 ---
 

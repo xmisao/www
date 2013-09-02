@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Socket.ioでチャットルームを実現する方法
 tag: programming
 ---

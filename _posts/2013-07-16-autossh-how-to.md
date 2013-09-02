@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: ssh接続を維持し続けるautosshの使い方
 tag: ssh
 ---

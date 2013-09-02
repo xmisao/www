@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 自己署名証明書を作成するopensslコマンドはどこまで簡単にできるか
 tag: linux
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: SequelでSQLite3のBusyExceptionが出た場合の対処法
 tag: database
 ---

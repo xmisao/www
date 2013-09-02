@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Debianでタイムゾーンを変更する方法 
 tag: linux
 ---

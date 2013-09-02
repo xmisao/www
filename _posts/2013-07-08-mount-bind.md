@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 強力なシンボリックリンクとして活用できるmountのbindオプションについて
 tag: linux
 ---

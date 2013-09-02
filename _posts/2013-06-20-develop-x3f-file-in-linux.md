@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: LinuxでSIGMAのX3Fファイルを現像する
 tag: linux
 ---

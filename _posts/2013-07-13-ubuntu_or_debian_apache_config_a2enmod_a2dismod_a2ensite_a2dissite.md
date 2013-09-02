@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: UbuntuやDebianのApacheの設定について
 tag: ['linux', 'server']
 ---
