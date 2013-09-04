@@ -10,16 +10,16 @@ SQLite3のコマンドラインインタフェースsqlite3には出力形式を
 
 具体的には以下の操作。`.mode csv`で出力をCSV形式に指定し、`.output`で出力先のファイルを指定する。あとはクエリを実行するだけだ。
 
-.mode csv
-.output result.csv
-select * ffrom sometable;
+    .mode csv
+    .output result.csv
+    select * ffrom sometable;
 
 カラム名のヘッダが必要な場合は、`.headers on`をつけてやれば良い。
 
-.headers on
-.mode csv
-.output result.csv
-select * ffrom sometable;
+    .headers on
+    .mode csv
+    .output result.csv
+    select * ffrom sometable;
 
 ちなみにsqlite3は多機能で、`.mode`で指定できるモードには以下がある。
 
