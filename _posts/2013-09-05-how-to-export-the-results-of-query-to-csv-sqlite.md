@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: SQLite3でクエリの結果をCSVファイルへ出力する方法
-tag: sqlite
+tag: database
 ---
 
 # SQLite3でクエリの結果をCSVファイルへ出力する方法
