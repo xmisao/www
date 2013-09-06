@@ -37,7 +37,7 @@ Formatador.display_line('Hello, World!')
 Formatadorには、以下4つの基本的なメソッドがある。引数はいずれも文字列だ。
 
 |メソッド|機能|
-|:=|:=|
+|:-|:-|
 |format|STDOUTが標準出力なら、文字列にカラーコードを追加して返す|
 |display|文字列をformatすると共に、出力する|
 |display_line|文字列に改行を加えてdisplayする|
@@ -53,7 +53,7 @@ Formatador.display_line('[green]Hello, World![/]')
 タグは以下3種類がある。
 
 |タグ|意味|
-|:=|:=|
+|:-|:-|
 |\[スタイル\]|テキストのスタイルを変更する|
 |\[\_スタイル\_\]|テキストの背景色を変更する|
 |\[/]|スタイルと背景色の指定をクリアする|
@@ -62,7 +62,7 @@ Formatador.display_line('[green]Hello, World![/]')
 なおスタイルで指定できる色は以下だ。
 
 |指定|意味|
-|:=|:=|
+|:-|:-|
 |black|黒|
 |red|赤|
 |green|緑|
@@ -85,7 +85,7 @@ Formatador.display_line('[green]Hello, World![/]')
 色の他に以下のスタイルも指定できる。
 
 |指定|意味|
-|:=|:=|
+|:-|:-|
 |bold|太字|
 |underline|下線|
 |blink_slow|遅い点滅|
@@ -101,7 +101,7 @@ Formatador.display_line('[green]Hello, World![/]')
 テキストの装飾が簡単にできるだけでも強力だが、Formatadorにはさらに以下の拡張メソッドがある。
 
 |メソッド|機能|
-|:=|:=|
+|:-|:-|
 |display_table|テーブルを表示する|
 |display_compact_table|テーブルを表示する、ただし横線を省略する|
 |redisplay_progressbar|プログレスバーを表示する|
@@ -156,7 +156,7 @@ Formatador.redisplay_progressbar(42, 100, {:started_at => started_at})
 `redisplay_progressbar`の第1引数は現在の進捗、第2引数は合計、第3引数はオプションで、ハッシュで以下の要素が渡せる。
 
 |キー|機能|
-|:=|:=|
+|:-|:-|
 |:color|バーの色を文字列で指定する。デフォルトは白。|
 |:width|バーの幅を数値で指定する。デフォルトは50。|
 |:new_line|バーを出力した後に改行するかを真偽値で指定する。|
