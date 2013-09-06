@@ -42,6 +42,7 @@ Formatadorには、以下4つの基本的なメソッドがある。引数はい
 |display|文字列をformatすると共に、出力する|
 |display_line|文字列に改行を加えてdisplayする|
 |redisplay|最後の行に上書きして、文字列をdisplayする|
+{.table .table-striped}
 
 文字列はHTMLライクなタグを使って、カラーコードで装飾できる。例えば以下のコードでは、緑色のHello, World!を表示する。
 
@@ -56,6 +57,7 @@ Formatador.display_line('[green]Hello, World![/]')
 |\[スタイル\]|テキストのスタイルを変更する|
 |\[_スタイル_\]|テキストの背景色を変更する|
 |\[/]|色と背景色の指定をクリアする|
+{.table .table-striped}
 
 なおスタイルで指定できる色は以下だ。
 
@@ -78,6 +80,7 @@ Formatador.display_line('[green]Hello, World![/]')
 |light_magenta|明るいマゼンタ|
 |light_purple|明るい紫|
 |light_cyan|明るいシアン|
+{.table .table-striped}
 
 色の他に以下のスタイルも指定できる。
 
@@ -91,18 +94,21 @@ Formatador.display_line('[green]Hello, World![/]')
 |normal|文字色をデフォルトに戻す|
 |blink_off|点滅をなしに戻す|
 |positive|文字色と背景色を元に戻す|
+{.table .table-striped}
 
-## 表、プログレスバー、インデント
+### 表、プログレスバー、インデント
 
 テキストの装飾が簡単にできるだけでも強力だが、Formatadorにはさらに以下の拡張メソッドがある。
 
 |メソッド|機能|
 |:=|:=|
-|display_table||
-|display_compact_table||
-|redisplay_progressbar||
+|display_table|テーブルを表示する|
+|display_compact_table|テーブルを表示する、ただし横線を省略する|
+|redisplay_progressbar|プログレスバーを表示する|
+|indent|インデントを深くする|
+{.table .table-striped}
 
-`display_table`と`display_compact_table`は、いずれもハッシュの配列を表形式で表示するメソッドだ。`display_compact_table`は行の横線が省略される。第2引数にキーの配列を与えると、列の順序と表示/非表示を切り替えられる。サンプルは以下のとおり。
+`display_table`と`display_compact_table`は、いずれもハッシュの配列を表形式で表示するメソッドだ。オプションで第2引数にキーの配列を与えると、列の順序と表示/非表示を切り替えられる。サンプルは以下のとおり。
 
 ~~~~
 data = [
@@ -155,6 +161,7 @@ Formatador.redisplay_progressbar(42, 100, {:started_at => started_at})
 |:width|バーの幅を数値で指定する。デフォルトは50。|
 |:new_line|バーを出力した後に改行するかを真偽値で指定する。|
 |:started_at|開始時間をTime型で与える。このオプションを指定すると、完了予想時間を表示する。|
+{.table .table-striped}
 
 `indent`メソッドを使えば、出力をインデントできる。
 
@@ -176,6 +183,6 @@ end
       fuga
 ~~~~
 
-# 解説
+## 解説
 
 formatadorを使えば、美しい出力のコマンドラインツールを簡単に作ることができる。[前回のBestGems Pickup!](http://www.xmisao.com/2013/08/25/bestgems-pickup-slop.html)で取り上げたコマンドラインオプションのパーサ[Slop](https://github.com/leejarvis/slop)を併用すれば、使いやすく、見やすいツールを最小の手間で実現できるだろう。どちらも現時点では日本語の解説をほとんど見かけないが、非常に強力なGemだ。
