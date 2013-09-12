@@ -34,7 +34,7 @@ clientからは直接接続できないファイアウォール内側のホス�
 ssh -R port:remotehost:remoteport server
 ~~~~
 
-`-L`の逆で、自分が中継点になる。serverのportを、remotehostのremortportへフォワードする。
+`-L`の逆で、clientが中継点になる。serverのportを、remotehostのremortportへフォワードする。
 
 clientがファイアウォールの内側に居て、ファイアウォール内側の別ホストに対して、外部からアクセスさせたい場合に使うポートフォワードだ。
 
