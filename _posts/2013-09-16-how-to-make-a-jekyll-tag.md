@@ -35,9 +35,7 @@ jekyllのタグは`Liquid::Tag`を継承して作成する。必ず実装しな�
 これで`jekyll build`すれば、文書中のhelloworldタグがHello, World!に置き換わることが確認できるだろう。
 
 ~~~~
-{% raw %}
-{% helloworld %}
-{% endraw %}
+{% raw %}{% helloworld %}{% endraw %}
 ~~~~
 
 ## 引数つきタグ
@@ -67,9 +65,7 @@ Liquid::Template.register_tag('random', Jekyll::RandomTag)
 これで10未満の整数がランダムに埋め込まれる。
 
 ~~~~
-{% raw %}
-{% random 10 %}
-{% endraw %}
+{% raw %}{% random 10 %}{% endraw %}
 ~~~~
 
 ## タグブロック
@@ -108,11 +104,9 @@ Liquid::Template.register_tag('repeat', Jekyll::RepeatBlock)
 これでRepeat!が10回繰り返して挿入される。
 
 ~~~~
-{% raw %}
-{% repeat 10 %}<br>
-Repeat!<br>
-{% endrepeat %}<br>
-{% endraw %}
+{% raw %}{% repeat 10 %}
+Repeat!
+{% endrepeat %}{% endraw %}
 ~~~~
 
 ## コンテキストの取得
