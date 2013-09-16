@@ -104,9 +104,9 @@ Liquid::Template.register_tag('repeat', Jekyll::RepeatBlock)
 これでRepeat!が10回繰り返して挿入される。
 
 ~~~~
-{% repeat 10 %}
+\{\% repeat 10 \%\}
 Repeat!
-{% endrepeat %}
+\{\% endrepeat \%\}
 ~~~~
 
 ## コンテキストの取得
