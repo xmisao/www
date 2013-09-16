@@ -107,3 +107,4 @@ end
 |:-|:-:|-:|
 |abc|def|10,000|
 |efg|hij|20,000|
+{: .table .table-striped}

@@ -25,6 +25,7 @@ FreeBSDはVixie Cronをそのまま採用している。DebianではVixie Cron�
 | FreeBSD 9.1 | 実行される                      | Vixie Cron          |
 | Debian 7.0  | 実行されない(OS起動時のみ)      | Vixie Cron + パッチ |
 | CentOS 6.4  | 実行されない(OS起動時のみ)      | Cronie              |
+{: .table .table-striped}
 
 cronの実装によって挙動が異なるため、同じcrontabを書いても、自分の環境で@rebootが意図どおり動作するか、注意が必要になる。
 
