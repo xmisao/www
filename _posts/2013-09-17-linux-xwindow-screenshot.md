@@ -14,7 +14,7 @@ X Window Systemでスクリーンショットを撮るコマンドは`xwd`だ。
 xwd
 ~~~~
 
-画面の表示内容をすべてスクリーンショットに撮りたい場合、これはX Window Ssytemでルートウィンドウと呼ばれるものだが、xwdの`-root`オプションを使う。WindowsでいうPrintScreenにあたる操作と言える。
+画面の表示内容をすべてスクリーンショットに撮りたい場合、これはX Window Sytemでルートウィンドウと呼ばれるものだが、xwdの`-root`オプションを使う。WindowsでいうPrintScreenにあたる操作と言える。
 
 ~~~~
 xwd -root
@@ -41,3 +41,9 @@ xwd | convert - screenshot.png
 ~~~~
 
 これで晴れてLinuxのスクリーンショットがpngで出力できるわけだ。convertを通せばリサイズ等ができるので、あとは好みの形に加工するスクリプトを作ってしまうと良いだろう。
+
+ここまでxwdコマンドを使うことに拘ってきたが、imagemagickが入っているなら`import`を使うのが簡単だ。使い方はxwdとほぼ同じだが、出力ファイルが指定できるので、コマンド1発でjpegやpngにできる。
+
+~~~~
+import screenshot.png
+~~~~
