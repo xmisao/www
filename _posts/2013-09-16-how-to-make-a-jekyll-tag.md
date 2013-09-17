@@ -120,6 +120,6 @@ def render(context)
 	site = context.registers[:site]
 	config = site.config
 	url = config['url']
-	super
+	"some output"
 end
 ~~~~
