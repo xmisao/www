@@ -19,10 +19,10 @@ Press ENTER or type command to continue
 
 [L9](http://www.vim.org/scripts/script.php?script_id=3252)とはvimプログラミングに便利な関数とコマンドを提供するライブラリなのだそうな。しかも使い方はソースを読めときていて、実体がつかめない。
 
-> INTRODUCTION
-> l9 is a Vim-script library, which provides some utility functions and commands for programming in Vim.
->
-> USAGE
+> INTRODUCTION  
+> l9 is a Vim-script library, which provides some utility functions and commands for programming in Vim.  
+> 
+> USAGE  
 > See source code. 
 
 ざっとL9のソースを確認したところ、配列の操作やファイル入出力など、vimプラグイン開発のための関数やコマンドの詰め合わせのようだ。
