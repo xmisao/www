@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: FuzzyFinder 4.0以降の動作にはL9というライブラリも必要
 tag: vim
 ---
