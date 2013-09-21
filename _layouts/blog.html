@@ -71,7 +71,7 @@
 				&lt;&lt;<a rel="prev" href="{{ page.previous.url }}" title="{{ page.previous.title }}">{{ page.previous.title }}</a>
 				{% endif %}
 			</div>
-			<div class="span4 text-right">
+			<div class="offset1 span4 text-right">
 				{% if page.next %}
 				<a rel="next" href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }}</a>&gt;&gt;
 				{% endif %}
@@ -81,6 +81,8 @@
 	<div class="span3">
 		<h6>Author</h6>
 		<img src="{{ root }}/xmisao_icon_48x48.png"><a href="{{root}}/about.html">ぺけみさお</a>
+		<h6>Feed</h6>
+		<img src="{{ root }}/feed_icon_14x14.png"><a href="{{root}}/feed.xml">このブログを購読</a>
 		<h6>最近のエントリ</h6>
 		<script>
 			$.get("{{root}}/recent_entries.html", function(html){

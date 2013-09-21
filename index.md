@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-[ぺけみさお](/about.html)(xmisao)の記録。
+<img src="{{ root }}/xmisao_icon_16x16.png">[ぺけみさお](/about.html)(xmisao)の記録。
+
+<img src="{{ root }}/feed_icon_14x14.png"><a href="{{root}}/feed.xml">このブログを購読</a>
 
 <h3>最近のエントリ</h3>
 <ul class="posts">
