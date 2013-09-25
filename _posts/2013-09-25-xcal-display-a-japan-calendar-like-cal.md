@@ -29,5 +29,5 @@ xcalにはオプションはなく、先月はじめから来月末までのカ�
 スクリーンショットは冒頭のとおり。
 これでいちいちブラウザを開くことなく、ターミナルでカレンダーを確認できるようになった。
 
-- [xcal | RubyGems.org](https://rubygems.org/gems/xcal)
-- [xmisao / xcal](https://github.com/xmisao/xcal)
+- [RubyGems.org xcal](https://rubygems.org/gems/xcal)
+- [GitHub xmisao / xcal](https://github.com/xmisao/xcal)
