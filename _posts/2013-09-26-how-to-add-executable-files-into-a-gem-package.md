@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 実行可能ファイルをgemパッケージに含める方法
 tag: ruby
 ---
