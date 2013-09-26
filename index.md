@@ -33,7 +33,8 @@ layout: default
 <h3>プロジェクト</h3>
 
 - [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
-- [umplus](https://github.com/xmisao/xfonts-umplus) -- Unicodeエンコードのmplusフォントdebパッケージ
+- [xfonts-umplus](https://github.com/xmisao/xfonts-umplus) -- Unicodeエンコードのmplusフォントdebパッケージ
+- [xcal](https://github.com/xmisao/xcal) -- 日本の休日に対応したcalライクなカレンダーコマンド
 
 <h3>Webサービス</h3>
 
