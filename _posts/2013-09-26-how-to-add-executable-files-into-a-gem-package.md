@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
   s.email       = 'mail@xmisao.com'
   s.files       = ["bin/xcal", "lib/xcal.rb"]
   s.homepage    = 'https://github.com/xmisao/xcal'
-	s.executables << 'xcal' # here!
-	s.add_dependency('icalendar')
+  s.executables << 'xcal' # here!
+  s.add_dependency('icalendar')
 end
 ~~~~
 
