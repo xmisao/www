@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: partedでパフォーマンスの警告が出た場合の対処法
 tag: linux
 ---
