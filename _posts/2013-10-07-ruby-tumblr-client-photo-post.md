@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: tumblr_clientを使ってRubyでTumblrに画像を投稿する方法
-tag: ruby, tumblr
+tag: ['ruby', 'tumblr']
 ---
 
 # tumblr_clientを使ってRubyでTumblrに画像を投稿する方法
