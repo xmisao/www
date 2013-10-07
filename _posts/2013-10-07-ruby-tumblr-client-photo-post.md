@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: tumblr_clientでTumblrに画像を投稿する方法
-tag: ruby tumblr
+title: tumblr_clientを使ってRubyでTumblrに画像を投稿する方法
+tag: ruby, tumblr
 ---
 
-# tumblr_clientでTumblrに画像を投稿する方法
+# tumblr_clientを使ってRubyでTumblrに画像を投稿する方法
 
 昨日のエントリ[RubyでTumblrにアクセスする(tumblr_client)](http://www.xmisao.com/2013/10/06/ruby-tumblr-client.html)では、`tumblr_client`の使い方を簡単に説明した。続いて、今日はtumblrに画像を投稿してみよう。
 
@@ -30,7 +30,7 @@ client.photo("hogehoge.tumblr.com", {:data => '/path/to/photo.jpg', :caption => 
 
 ## ネットで公開されている画像を取り込ませる
 
-次にネットで公開されている画像をTumblrに取り込みたい場合だ。`photo()`のハッシュ引数に、今度はキーに`:source`を、値に画像へのURLを指定した要素を渡してやる。以下の例では*http://www-2.cs.cmu.edu/~chuck/lennapg/lena_std.tif*がTumblrに取り込まれる。余談だが、この画像はかの有名なレナのものだ。
+次にネットで公開されている画像をTumblrに取り込みたい場合だ。`photo()`のハッシュ引数に、今度はキーに`:source`を、値に画像へのURLを指定した要素を渡してやる。以下の例では*http://www-2.cs.cmu.edu/~chuck/lennapg/lena_std.tif*がTumblrに取り込まれる。余談だが、この画像はかの有名なレナのものだ。これを実行してダッシュボードを確認すれば、彼女が笑顔を向けてくれることだろう。
 
 ~~~~
 require 'tumblr_client'
@@ -43,5 +43,5 @@ Tumblr.configure do |config|
 end
 
 client = Tumblr::Client.new
-client.photo("hogehoge.tumblr.com", {:source => 'http://www-2.cs.cmu.edu/~chuck/lennapg/lena_std.tif', :caption => "433eros"})
+client.photo("hogehoge.tumblr.com", {:source => 'http://www-2.cs.cmu.edu/~chuck/lennapg/lena_std.tif', :caption => "Lena"})
 ~~~~

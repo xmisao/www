@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: RubyでTumblrにアクセスする(tumblr_client)
-tag: ruby tumblr
+tag: ruby, tumblr
 ---
 
 # RubyでTumblrにアクセスする(tumblr_client)
