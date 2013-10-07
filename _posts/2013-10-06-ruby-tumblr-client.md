@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: RubyでTumblrにアクセスする
-tag: ruby
+title: RubyでTumblrにアクセスする(tumblr_client)
+tag: ruby tumblr
 ---
 
-# RubyでTumblrにアクセスする
+# RubyでTumblrにアクセスする(tumblr_client)
 
 RubyでTumblrにアクセスするライブラリにはいくつかあるが、どれもあまり使われていない状況だ。その中で`tumblr_client`というGemがメジャーで、Tumblrによる解説でも使われている。このエントリでは`tumblr_client`を使って、Tumblrへの投稿と、ダッシュボードの取得をしてみることにする。
 
