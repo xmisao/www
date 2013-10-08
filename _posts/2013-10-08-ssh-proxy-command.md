@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: sshの多段接続について
+title: ProxyCommandによるsshの多段接続について
 tag: ssh
 ---
 
-# sshの多段接続について
+# ProxyCommandによるsshの多段接続について
 
 ![ssh proxy connection]({{ site.url }}/assets/2013_10_08_ssh_proxy_command.png)
 
