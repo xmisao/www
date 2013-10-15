@@ -6,7 +6,7 @@ tag: ruby
 
 # SinatraでCookieを扱う
 
-軽量Webアプリケーションフレームワーク[Sinatra]()でCookieを扱うには、`Sinatra::Cookies`エクステンションを使う。
+軽量Webアプリケーションフレームワーク[Sinatra](http://www.sinatrarb.com/intro-jp.html)でCookieを扱うには、`Sinatra::Cookies`エクステンションを使う。
 
 エクステンションを有効にするには`sinatra/cookies`をrequireする。
 すると`get()`などのブロック内で`cookies`が使用可能になる。
@@ -46,3 +46,7 @@ class MyApp < Sinatra::Base
   # The rest of your modular application code goes here...
 end
 ~~~~
+
+参考:
+
+- [Sinatra::Cookies](http://www.sinatrarb.com/contrib/cookies.html)
