@@ -6,7 +6,7 @@ tag: ruby
 
 # SequelでJOINした時に重複したカラムを特定する方法
 
-ソースを読むまで良く理解できなかったのでメモっておく。RubyのORMのSequelを使っている時に、JOINの結果カラム名が重複した場合、カラムを特定する方法だ。
+ソースを読むまで良く理解できなかったのでメモっておく。RubyのORM、Sequelを使っている時に、JOINの結果カラム名が重複した場合に、カラムを特定する方法だ。
 
 以下のようなデータベースがあったとする。
 
@@ -53,12 +53,16 @@ bar.join(:foo, :foo_id => :id).order(Sequel.asc(Sequel.qualify(:bar, :dup))).eac
 上記1行で発行されるSQLは以下。
 確かに`bar.dup`でORDER BYされている。
 
+~~~~
 "SELECT * FROM `bar` INNER JOIN `foo` ON (`foo`.`id` = `bar`.`foo_id`) ORDER BY `bar`.`dup` ASC"
+~~~~
 
 出力結果は以下のとおりとなる。
+`bar`テーブルの`dup`カラムを昇順ソートしたのでこれで正しい。
+ソート結果に反して`:dup`には`foo`テーブルの`dup`カラムの値が上書きされている事に注意。
 
 ~~~~
-{:id=>1, :dup=>1, :foo_id=>1}
-{:id=>2, :dup=>2, :foo_id=>2}
 {:id=>3, :dup=>3, :foo_id=>3}
+{:id=>2, :dup=>2, :foo_id=>2}
+{:id=>1, :dup=>1, :foo_id=>1}
 ~~~~
