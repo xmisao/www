@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: nginxをリバースプロキシにする設定
-tag: server nginx
+tag: ['server', 'nginx']
 ---
 
 # nginxをリバースプロキシにする設定
