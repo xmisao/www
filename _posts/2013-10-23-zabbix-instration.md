@@ -10,7 +10,7 @@ Debian WheezyにZabbix 2.0をインストールしてみることにする。
 基本的にマニュアルの[Installation from packages](https://www.zabbix.com/documentation/2.0/manual/installation/install_from_packages)の通りに進める。
 ただし多少詰まったとこがあったので、随時コメントを加えている。
 
-## Zabbigパッケージのインストール
+## Zabbixパッケージのインストール
 
 Zabbixのインストールはzabbixパッケージのインストールから始まる。
 このパッケージはZabbix本体ではなく、Zabbixをaptでダウンロードしてインストールするための準備をするものだ。
@@ -127,7 +127,7 @@ http://zabbixhostname/zabbixにアクセスする。
 
 ![Configure -> Hosts]({{ site.url }}/assets/2013_10_23_zabbix008.jpg)
 
-Zabbix 1.8.3以降はデフォルトでZabbixサーバはサーバの機能だけが有効になっており、Zabbixサーバを監視する機能は無効にあっている。
+Zabbix 1.8.3以降はデフォルトでZabbixサーバはサーバの機能だけが有効になっており、Zabbixサーバを監視する機能は無効になっている。
 
 Zabbixサーバの監視は、Zabbixサーバ上から有効にすることができる。
 Configuration -> Hostsを開いて、Zabbix Serverの"Not monitered"をクリックするとZabbixサーバを監視できるようになる。
