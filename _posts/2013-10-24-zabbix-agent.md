@@ -12,7 +12,7 @@ tag: ['zabbix', 'サーバ']
 
 前提としてZabbixサーバホストのポート10051番、Zabbix Agentホストのポート10050番が開いている必要がある。Zabbix サーバとZabbix Agentの間にファイアウォールがある場合は疎通させる設定が必要になる。
 
-![Network Requirements]({{ site.url }}/assets/2013_10_24_2013_10_24_network_requirements.png)
+![Network Requirements]({{ site.url }}/assets/2013_10_24_network_requirements.png)
 
 ## ホストへのZabbix Agentのインストール
 
