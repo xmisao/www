@@ -158,7 +158,7 @@ ZabbixサーバをZabbix Agentで監視しよう。
 Zabbix Agentのインストールは以下のとおり。
 
 ~~~~
-apt-get install zabbi-agent
+apt-get install zabbix-agent
 ~~~~
 
 これでZabbixサーバが動作しているホストのCPU使用率などが、Zabbixサーバ上で確認できるようになる。Monitoring -> GraphsからCPU loadなどを確認しよう。

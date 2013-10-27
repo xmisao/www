@@ -13,6 +13,23 @@ layout: default
 </ul>
 <p><a href="entries.html">過去のエントリ一覧</a></p>
 
+<h3>検索</h3>
+<div>
+<script>
+  (function() {
+    var cx = '010316783992048822387:wtqk9pesgts';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
+
 <h3>タグクラウド</h3>
 <ul class="tagcloud">
 {% for tag in site.tags %}

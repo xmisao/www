@@ -24,7 +24,7 @@ dpkg -i zabbix-release_2.0-1wheezy_all.deb
 apt-get update
 ~~~~
 
-Zabbix サーバのインストールでは、zabbix-サーバ-mysqlとzabbix-frontend-phpをインストールした。Zabbix Agentでは代わりにzabbix-agentをインストールする。
+続いて、Zabbixサーバのインストールでは、zabbix-server-mysqlとzabbix-frontend-phpをインストールした。Zabbix Agentの場合は代わりにzabbix-agentのみをインストールする。
 
 ~~~~
 apt-get install zabbix-agent
