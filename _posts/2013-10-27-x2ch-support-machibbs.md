@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: x2ch 0.9.2リリース、まちＢＢＳに対応
 tag: x2ch
 ---
