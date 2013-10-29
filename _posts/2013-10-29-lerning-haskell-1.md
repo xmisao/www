@@ -23,7 +23,9 @@ Haskellとは関数型言語である。
 その中で最も有名だというGHCを使うことにした。
 debianでは以下でインストールできる。
 
+~~~~
 apt-get install ghc
+~~~~
 
 ## Haskellの資料
 
@@ -33,7 +35,7 @@ apt-get install ghc
 日本語としてはこれが最大級かつ最も正確なようだ。
 GHCのマニュアルを足がかりに、Haskellをはじめてみよう。
 
-http://www.kotha.net/ghcguide_ja/latest/
+- [http://www.kotha.net/ghcguide_ja/latest/](http://www.kotha.net/ghcguide_ja/latest/)
 
 ## Hello, World!
 
