@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: もしRubyistがHaskellを学んだら(2)
-tag: haskell_lerning
+tag: learning_haskell
 ---
 
 # もしRubyistがHaskellを学んだら(2)
