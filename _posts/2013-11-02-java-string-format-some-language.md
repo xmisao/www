@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: JavaのString.formatの結果はロケールに依存する
 tag: java
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: スプリアスウェイクアップ問題 -- Javaのwait() / notify()を信用してはならない
 tag: java
 ---
