@@ -41,7 +41,7 @@ kill -l
 |13| SIGPIPE | パイプ破壊:読み手の無いパイプへの書き出し|
 |14| SIGALRM | alarm(2) からのタイマーシグナル|
 |15| SIGTERM | 終了 (termination) シグナル|
-|16| SIGSTKFLT 数値演算プロセッサにおけるスタックフォルト (未使用)|
+|16| SIGSTKFLT | 数値演算プロセッサにおけるスタックフォルト (未使用)|
 |17| SIGCHLD | 子プロセスの一時停止 (stop) または終了|
 |18| SIGCONT | 一時停止 (stop) からの再開|
 |19| SIGSTOP | プロセスの一時停止 (stop)|
@@ -66,7 +66,7 @@ kill -l
 ただし33はglibcの内部で使用されており、使えない。
 
 |ID| シグナル |
-|-:|:-|
+|:-|:-|
 |34| SIGRTMIN |
 |35| SIGRTMIN+1 |  
 |36| SIGRTMIN+2 |
