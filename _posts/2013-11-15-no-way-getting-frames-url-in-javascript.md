@@ -15,7 +15,7 @@ frameやiframeのURLを取得できるのは、同一ドメインの場合のみ
 ~~~~
 <html>
 	<frameset rows="100,*">
-		<frame src="<%= @url%>" name="webpage" onload="alert(webpage.location.href)">
+		<frame src="http://yahoo.co.jp/" name="webpage" onload="alert(webpage.location.href)">
 	</frameset>
 </html>
 ~~~~
