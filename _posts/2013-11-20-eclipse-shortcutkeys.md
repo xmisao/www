@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: 仕事で使える! Eclipseの7つのショートカットキー
 tag: java
 ---
