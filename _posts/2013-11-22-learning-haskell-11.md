@@ -19,7 +19,7 @@ def int2chr(i)
 	(i + 'a'.ord).chr
 end
 
-def cizer(str, x)
+def caesar(str, x)
 	result = ""
 	str.each_char{|c|
 		result << int2chr((chr2int(c) + x) % 26)
@@ -27,7 +27,7 @@ def cizer(str, x)
 	result
 end
 
-puts cizer("abc", 3)
+puts caesar("abc", 3)
 ~~~~
 
 Haskellで文字から数値への変換は`ord`を、逆に数値から文字への変換は`chr`関数で行う。これらの関数を使用できるようにするため、まず`Data.Char`をインポートしておく。
@@ -58,11 +58,11 @@ int2chr :: Int -> Char
 int2chr i = chr (i + ord 'a')
 ~~~~
 
-続いて文字列と整数を受け取り、文字列を整数の分だけずらして、シーザー暗号化する`cizer`関数を定義する。
+続いて文字列と整数を受け取り、文字列を整数の分だけずらして、シーザー暗号化する`caesar`関数を定義する。
 
 ~~~~
-cizer :: String -> Int -> String
-cizer s x = [int2chr ((chr2int c) + x) | c <- s]
+caesar :: String -> Int -> String
+caesar s x = [int2chr ((chr2int c) + x) | c <- s]
 ~~~~
 
 通して書くと以下のとおりだ。
@@ -77,10 +77,10 @@ chr2int c = ord c - ord 'a'
 int2chr :: Int -> Char
 int2chr i = chr (i + ord 'a')
 
-cizer :: String -> Int -> String
-cizer s x = [int2chr ((chr2int c) + x) | c <- s]
+caesar :: String -> Int -> String
+caesar s x = [int2chr ((chr2int c) + x) | c <- s]
 
-main = print $ (cizer "abc" 3)
+main = print $ (caesar "abc" 3)
 ~~~~
 
 ~~~~
