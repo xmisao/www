@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Zabbix 2.0で他のホストを監視する
-tag: ['zabbix', 'サーバ']
+tag: ['zabbix', 'server']
 ---
 
 # Zabbix 2.0で他のホストを監視する
