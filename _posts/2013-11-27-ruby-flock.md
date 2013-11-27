@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Rubyでflockを使ってファイルのロックを取得する
 tag: ruby
 ---
