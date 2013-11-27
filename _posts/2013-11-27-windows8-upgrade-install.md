@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Windows 8 Pro アップグレード版のメディアでWindowsを新規インストールする方法
 tag: windows
 ---
