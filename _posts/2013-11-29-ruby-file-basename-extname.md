@@ -10,12 +10,12 @@ Rubyにはファイル名を取得する`File.basename`メソッドと、ファ�
 
 ## ファイルの名前の取得
 
-File.basename("hogehoge.rb", '.*') #=> "hogehoge"
+    File.basename("hogehoge.rb", '.*') #=> "hogehoge"
 
 ファイル名の取得は`File.basename`メソッドで行う。ファイル名だけを取得するには、第2引数にサフィックスを指定するのがポイント。`.*`にマッチするまでのファイル名が返される。
 
 ## ファイルの拡張子の取得
 
-File.extname("hogehoge.rb") #=> ".rb"
+    File.extname("hogehoge.rb") #=> ".rb"
 
 一方、ファイルの拡張子の取得は`File.extname`メソッドで行う。こちらは特に何も指定せずに、単にファイル名を与えれば良い。
