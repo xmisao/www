@@ -17,6 +17,6 @@ server {
         server_name example.com;
         client_max_body_size 10m;
 
-				# 諸略
+				# 省略
 }
 ~~~~
