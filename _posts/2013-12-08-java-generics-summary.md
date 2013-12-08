@@ -11,104 +11,105 @@ Java 1.5からはクラスに型パラメータを渡せるようになった。
 標準ライブラリで代表的なものはコレクションクラスで、`List<T>`や`Map<K, V>`が該当する。
 
 ジェネリックとは、ようはクラスやインタフェースが扱う型をプログラマが指定できるクラスやインタフェースのことだ。
-ジェネリックのメリットは、コードに型を自在に差し替える柔軟性を持たせつつ、コンパイル時に型の不整合を検出できるためコードが型安全になり、実行時にCastExceptionが発生しなくなることだ。
+ジェネリックのメリットは、コードに型を自在に差し替える柔軟性を持たせられること。さらにコンパイル時に型の不整合を検出できるためコードが型安全になり、実行時に`CastException`が発生しなくなることだ。
 
 ## ジェネリッククラスの使い方
 
 型パラメータを持つクラスは以下のように定義できる。
 型パラメータの名前は何でも良いが、慣例で大文字1文字の名前をつける事が多い。
-クラス中では型パラメータを使って変数やメソッドを定義することができる。
+クラス中では型パラメータの型を使って変数やメソッドを定義することができる。
 
 ~~~~
 // ジェネリッククラスの例
 class GenericClass<T>{
-	// 型Tのオブジェクトを受け取り型Tの結果を返すメソッドの例
+	// 型Tのオブジェクトを受け取り
+	// そのまま結果を返すメソッドの例
 	public T method(T obj){
-		T result = new T();
-		return result;
+		return obj;
 	}
 }
 ~~~~
 
 イメージとしてはクラス中の型パラメータは実行時に指定されたクラスで読み替えて処理される。
-例えば以下のように初期化したジェネリッククラスは、以下のコードと同じように動作する。
+例えば`Object`クラスで初期化したジェネリッククラスは、以下のコードと同じように動作する。
 
 ~~~~
-	GenericClass<Object> gc = new GenericClass<Object>;
+GenericClass<Object> gc = new GenericClass<Object>;
 ~~~~
 
 ~~~~
+// TをObjectで読み替えたジェネリッククラスのイメージ
 class GenericClass{
 	public Object method(Object obj){
-		Object result = new Object();
-		return result;
+		return obj;
 	}
 }
 ~~~~
 
-型パラメータを複雑にしているのは、extends指定とワイルドカードだろう。
+型パラメータを複雑にしているのは、``extends指定``と``ワイルドカード``だろう。
 以下ではextends指定とワイルドカードを例示して説明する。
 
 ## extends指定
 
 型パラメータのextends指定は型パラメータが特定の型であることを要求する。
 その効用としてジェネリッククラスの中では要求したクラスの機能を自由に使うことができる。
-ClazzとそのサブクラスSubClazzが定義されているとして、これらのクラスを受け付けるGenericClassを定義してみよう。
+`Clazz`とそのサブクラス`SubClazz`が定義されているとして、これらのクラスを受け付ける`GenericClass`を定義してみよう。
 
 ~~~~
-class Clazz{
+public class Clazz{
 	public void function(){
 		// 処理
 	}
 }
 
-class SubClazz extends Clazz{
+public class SubClazz extends Clazz{
 	// SubClazzの実装
 }
 
-class GenericClass<T extends Clazz>{
-	// 型Tのオブジェクトを受け取り型Tの結果を返すメソッドの例
-	public T method(T obj){
-		T result = new T();
-		result.clazz_function(); // Clazzの機能の呼び出し
-		return result;
+public class GenericClass<T extends Clazz>{
+	public void method(T obj){
+		// Clazzのメソッドの呼び出し
+		obj.function();
 	}
 }
 ~~~~
 
-このGenericClassを使う場合は、TはClazzかそのサブクラスでなければならない。
+この`GenericClass`を使う場合は、`T`は`Clazz`かそのサブクラスでなければならない。
 
 ~~~~
 GenericClass<Object> gc1 = new GenericClass<Clazz>; // Clazzが型パラメータ
 GenericClass<Object> gc2 = new GenericClass<SubClazz>; // SubClazzが型パラメータ
 ~~~~
 
-以下のようにClazzと継承関係にない型パラメータを渡すとコンパイルエラーとなる。
+以下のように`Clazz`と継承関係にない型パラメータを渡すとコンパイルエラーとなる。
 
 ~~~~
-GenericClass<Object> gc = new GenericClass<Object>; // コンパイルエラー!
+// コンパイルエラー!
+GenericClass<Object> gc = new GenericClass<Object>; 
 ~~~~
 
 ## ワイルドカード
 
-プログラムでジェネリッククラスの性質のみに関心があり、ジェネリッククラスの型パラメータにまでは関心がない場合がある。このような型指定にはワイルドカード`?`が利用できる。
-例えば何らかのGenericClassを引数に取るメソッドは以下のように定義できる。
+プログラムでジェネリッククラスの性質のみに関心があり、ジェネリッククラスの型パラメータにまでは関心がない場合がある。
+このような型指定にはワイルドカード`?`が利用できる。
+例えば何らかの`GenericClass`を引数に取るメソッドは、以下のように定義できる。
 
 ~~~~
 public static void wildcardMethod(GenericClass<?> gc){
-	// 処理
+	// 何らかのGenericClassに対する処理
 }
 ~~~~
 
-なお型パラメータの継承関係はジェネリッククラスの型には関係がない。
-GenericClass<Clazz>とGenericClass<SubClazz>は別の型である事は注意が必要だ。
-以下のコードはコンパイルエラーとなる。
+なお型パラメータの継承関係はジェネリッククラスの型には何ら影響を与えない。
+`GenericClass<Clazz>`と`GenericClass<SubClazz>`は別の型である事は注意が必要だ。
+よって以下のコードはコンパイルエラーとなる。
 
 ~~~~
+// コンパイルエラー!
 GenericClass<Clazz> gc = new GenericClass<SubClazz>();
 ~~~~
 
-ClazzとSubClazzを型パラメータに受け取ったジェネリッククラスを受け入れられる変数の型は、ワイルドカードを使ったGenericClass<?>だけである。
+`Clazz`と`SubClazz`を型パラメータに受け取ったジェネリッククラスを受け入れられる変数の型は、ワイルドカードを使った`GenericClass<?>`だけである。
 
 ~~~~
 GenericClass<?> gc1 = new GenericClass<Clazz>();
