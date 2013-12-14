@@ -1,0 +1,46 @@
+<html>
+	<body style="background-color:#ccc;">
+		<div id="content" style="background-color:#fff">
+			<div class="box size11" style="border:dashed 1px;">1x1</div>
+			<div class="box size13" style="border:dashed 1px;">1x3</div>
+			<div class="box size21" style="border:dashed 1px;">2x1</div>
+			<div class="box size23" style="border:dashed 1px;">2x3</div>
+			<div class="box size31" style="border:dashed 1px;">3x1</div>
+			<div class="box size12" style="border:dashed 1px;">1x2</div>
+			<div class="box size22" style="border:dashed 1px;">2x2</div>
+			<div class="box size33" style="border:dashed 1px;">3x3</div>
+			<div class="box size32" style="border:dashed 1px;">3x2</div>
+			<div class="box size11" style="border:dashed 1px;">1x1</div>
+			<div class="box size13" style="border:dashed 1px;">1x3</div>
+			<div class="box size21" style="border:dashed 1px;">2x1</div>
+			<div class="box size23" style="border:dashed 1px;">2x3</div>
+			<div class="box size31" style="border:dashed 1px;">3x1</div>
+			<div class="box size12" style="border:dashed 1px;">1x2</div>
+			<div class="box size22" style="border:dashed 1px;">2x2</div>
+			<div class="box size33" style="border:dashed 1px;">3x3</div>
+			<div class="box size32" style="border:dashed 1px;">3x2</div>
+		</div>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.nested.js"></script>
+		<script>
+			settings = {
+				selector: '.box', // セレクタはboxクラス
+				minWidth: 100, // ボックスの幅の単位は100px
+				minColumns: 10, // 最低10単位(100px x 10単位 = 1000px)の幅のボックスをレイアウトする
+				gutter: 10, // ボックス間の間隔は10px
+				resizeToFit: true, // 空白より大きなボックスを空白に合うまでリサイズする
+				resizeToFitOptions: {
+						resizeAny: true // 空白より大きいまたは小さなボックスを空白に合うまでリサイズする
+				},
+				animate: true, // ボックスのレイアウトにアニメーションを使用
+				animationOptions: {
+						speed: 200, // 各要素のレンダリング速度は200ms
+						duration: 300, // アニメーション実行間隔は300msごと
+						queue: true, // 要素を1つずつ順番にアニメーションさせる
+						complete: function () { alert("Animation Completed."); } // アニメーション完了後にアラートを表示する
+				}
+			};
+			$("#content").nested(settings);
+		</script>
+	</body>
+</html>

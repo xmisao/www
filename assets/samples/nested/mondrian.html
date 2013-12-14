@@ -1,0 +1,31 @@
+<html>
+	<body>
+		<div id="content">
+		</div>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.nested.js"></script>
+		<script>
+			settings = {
+				gutter: 5,
+				animate: false,
+			};
+			for(var i = 0; i < 100; i++){
+				append();
+			}
+			$("#content").nested(settings);
+
+			function append(){
+				$("#content").append(create_element());
+				$("#content").nested(settings);
+			}
+
+			function create_element(){
+				var colormap = ['white', 'white', 'white', 'white', 'white', 'silver', 'red', 'blue', 'yellow'];
+				var w = Math.floor(Math.random() * 4) + 1;
+				var h = Math.floor(Math.random() * 3) + 1;
+				var color = colormap[Math.floor(Math.random() * colormap.length)];
+				return '<div class="box size' + w + h + '" style="border:solid 10px; background-color:' + color +'"></div>'
+			}
+		</script>
+	</body>
+</html>
