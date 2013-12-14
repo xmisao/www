@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: JavaScriptでオブジェクトの内容をダンプする方法
-tag: programming
+tag: ['programming', 'javascript']
 ---
 
 # JavaScriptでオブジェクトの内容をダンプする方法

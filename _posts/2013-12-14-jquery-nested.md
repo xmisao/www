@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 超簡単! jQuery Nestedによる動的グリッドレイアウト
-tag: javascript
+tag: ['javascript', 'web']
 ---
 
 # 超簡単! jQuery Nestedによる動的グリッドレイアウト
@@ -63,7 +63,7 @@ jQuery NestedをロードするとjQueryの要素が拡張されて`nested()`関
 $("#content").nested();
 ~~~~
 
-### Sample 2 jQuery Nestedのオプションについて
+### Sample.2 jQuery Nestedのオプションについて
 
 ![Sample.2]({{ site.url }}/assets/2013_12_14_nested_sample2.png)
 
@@ -112,7 +112,7 @@ jQuery Nestedのオプションを以下にまとめる。
 ||complete|function()|アニメーション完了時に実行する関数を指定する。デフォルトでは何も実行しない。|
 {: .table .table-striped}
 
-### Sample 3 ボックスの動的な追加と再描画
+### Sample.3 ボックスの動的な追加と再描画
 
 ![Sample.3]({{ site.url }}/assets/2013_12_14_nested_sample3.png)
 

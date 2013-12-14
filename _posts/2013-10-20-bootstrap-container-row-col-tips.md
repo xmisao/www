@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Twitter Bootstrapのcontainer、row、col(span)の正しい使い方
-tag: css
+tag: ['css', 'web']
 ---
 
 # Twitter Bootstrapのcontainer、row、col(span)の正しい使い方
