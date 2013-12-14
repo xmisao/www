@@ -8,7 +8,7 @@ tag: javascript
 
 ![Mondrian Composition]({{ site.url }}/assets/2013_12_14_nested_mondrian.png)
 
-'''jQuery Nestedで描いたモンドリアンのコンポジション'''
+*jQuery Nestedで描いたモンドリアンのコンポジション*
 
 ## jQuery Nestedとは
 
@@ -35,7 +35,7 @@ jQuery Nestedは1ファイルで、ダウンロードするだけでするに利
 
 ### Sample.1 マークアップとjQuery Nestedの呼び出し
 
-![Sample.1]({{ site.url }}/assets/2013_12_14_nested_sample1.jpg)
+![Sample.1]({{ site.url }}/assets/2013_12_14_nested_sample1.png)
 
 - [sample1.html]({{ site.url }}/assets/samples/nested/sample1.html)
 
@@ -65,7 +65,7 @@ $("#content").nested();
 
 ### Sample 2 jQuery Nestedのオプションについて
 
-![Sample.2]({{ site.url }}/assets/2013_12_14_nested_sample2.jpg)
+![Sample.2]({{ site.url }}/assets/2013_12_14_nested_sample2.png)
 
 - [sample2.html]({{ site.url }}/assets/samples/nested/sample2.html)
 
@@ -114,7 +114,7 @@ jQuery Nestedのオプションを以下にまとめる。
 
 ### Sample 3 ボックスの動的な追加と再描画
 
-![Sample.3]({{ site.url }}/assets/2013_12_14_nested_sample3.jpg)
+![Sample.3]({{ site.url }}/assets/2013_12_14_nested_sample3.png)
 
 - [sample3.html]({{ site.url }}/assets/samples/nested/sample3.html)
 
