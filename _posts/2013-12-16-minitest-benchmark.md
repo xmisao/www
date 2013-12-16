@@ -14,13 +14,13 @@ tag: ['ruby']
 
 - loop.rb
 
-~~~~~
+~~~~
 class Loop
 	def do_loop(n)
 		(1000 * n).times
 	end
 end
-~~~~~
+~~~~
 
 ベンチマークテストの記述には`minitest/benchmark`を`require`してやる必要がある。
 ベンチマークテストは`bench`をつけたメソッドに記述する。
@@ -30,7 +30,7 @@ end
 
 - test_loop.rb
 
-~~~~~
+~~~~
 require 'minitest'
 require 'minitest/autorun'
 require 'minitest/benchmark'
@@ -47,12 +47,12 @@ class Test < Minitest::Benchmark
 		end 
 	end 
 end
-~~~~~
+~~~~
 
 `test_loop.rb`の実行結果は以下のようになる。
 テストは成功しており、確かに`loop.rb`は線形のパフォーマンスを持っていることが確認できた。
 
-~~~~~
+~~~~
 $ ruby test_loop.rb 
 Run options: --seed 29223
 
