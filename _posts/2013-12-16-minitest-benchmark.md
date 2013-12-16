@@ -76,3 +76,4 @@ Finished in 0.826933s, 1.2093 runs/s, 1.2093 assertions/s.
 |assert_performance_logarithmic|実行時間が*y = a + b*ln(x)*の形で対数的に増加するかをテストする|
 |assert_performance_linear|実行時間が*y = a + bx*の形で線形に増加するかをテストする|
 |assert_performance_power|実行時間が*y = ax^b*の形でべき乗で増加するかをテストする|
+{: .table .table-striped}
