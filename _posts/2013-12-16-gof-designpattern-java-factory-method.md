@@ -105,4 +105,4 @@ ConcreteProduct was constructed.
 
 このシリーズのサンプルは、すべてGitHubでEclipseのプロジェクトごと公開することにした。今後もエントリーの追加と併せて、随時更新していく予定である。
 
-- (xmisao/GoF)[https://github.com/xmisao/GoF]
+- [xmisao/GoF](https://github.com/xmisao/GoF)
