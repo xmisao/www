@@ -83,7 +83,7 @@ root化した端末なら端末単体で動作可能だ。
 - 端末とPC(Windows / Mac)をUSBケーブルで接続する
 - PCからVMLite Android App Controllerを起動する
 
-アプリを起動してStartをタップすると、root化した端末ならVNCサーバが立ち上がる。root化していない端末なら、
+アプリを起動してStartをタップすると、root化した端末ならVNCサーバが立ち上がる。root化していない端末なら、PCと接続してVMLite Android App Controllerを起動することを促すメッセージが表示される。
 
 また同時にWebブラウザ経由の遠隔操作を可能とする、HTTPサーバも立ち上がる。こちらはJava Appletではなく、HTML5 Canvasを利用しており、Javaは不要である。
 
