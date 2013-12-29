@@ -74,7 +74,7 @@ open('thumbnail.jpg', 'w'){|f| f.write thmbnail}
 FeaturedImage::Finder.first URL
 ~~~~
 
-アスペクト比指定の検索条件。アスペクト比が4:3から16:9の画像のみ注目画像とみなす。アスペクト比の扱いについては_アスペクト比_の項目を参照。
+アスペクト比指定の検索条件。アスペクト比が4:3から16:9の画像のみ注目画像とみなす。アスペクト比の扱いについては__アスペクト比__の項目を参照。
 
 ~~~~
 FeaturedImage::Finder.first URL 1.2..1.8
