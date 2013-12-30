@@ -162,6 +162,18 @@ PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
 pppsetup --delete VPN
 ~~~~
 
+### 注意事項
+
+中にはIP 47番のGREを内側から疎通させないネットワークも存在する。その場合PPTPクライアントからPPTPサーバへの接続は行えない。ハマりどころで多そうなのは、DocomoのSPモードなどである。
+
+同様に自宅のネットワークでも、ルータがGREを通過させない場合は、GREを外部に向けて通過させる設定が必要になる。参考までにRTX1000の場合は以下である。
+
+~~~~
+ip filter 2000 pass * * gre
+select pp 1
+	ip pp secure filer 2000 # 実際は他のフィルタも同時に適用する
+~~~~
+
 ## 参考
 
 - [Setting up a PPTP VPN Server on Debian/Ubuntu](http://jesin.tk/setup-pptp-vpn-server-debian-ubuntu/)
