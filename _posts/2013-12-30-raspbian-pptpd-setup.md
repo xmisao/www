@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Raspberry PIのRaspbian(Debian)でPPTPサーバ環境を構築する
+title: Raspberry PIのRaspbian(Debian)でPPTPによるVPN環境を構築する
 tag: linux
 ---
 
-# Raspberry PIのRaspbian(Debian)でPPTPサーバ環境を構築する
+# Raspberry PIのRaspbian(Debian)でPPTPによるVPN環境を構築する
 
 Raspberry PI用のDebianがRaspbianである。
 今回はRaspbian(Wheezy)をインストールしたRaspberry PIにpptpdをインストールしてPPTPサーバ化して外部から接続できるようにする設定をする。
@@ -99,7 +99,7 @@ iptablesを利用している場合は、ここでiptablesでPPTPを疎通させ
 
 以下では参考までにYAMAHA RTX1000でPPTPサーバを外部に公開するフィルタとNATディスクリプタの定義を抜粋して紹介する。
 
-RTX1000を個人で使っている人には釈迦に説法だと思うが、実際に設定する場合は、PP番号、フィルタ番号、NATディスクリプタの番号は適宜自分の設定に読みかる。
+RTX1000を個人で使っている人には釈迦に説法だと思うが、実際に設定する場合は、PP番号、フィルタ番号、NATディスクリプタの番号は適宜自分の設定に読み替える。
 
 ~~~~
 ip filter 1000 pass * 192.168.0.128 tcp * 1723
