@@ -28,7 +28,7 @@ tag: essay
 
 さてアクセス解析で、2013年にもっとも良くアクセスされたエントリを振り返って見ることにしたい。
 
-## #1位 [Twitter Bootstrapでセンタリングする方法](http://www.xmisao.com/2013/06/12/twitter-bootstrap-centering.html) 2,120PV
+### 1位 [Twitter Bootstrapでセンタリングする方法](http://www.xmisao.com/2013/06/12/twitter-bootstrap-centering.html) 2,120PV
 
 Twitter Bootstrapで文字をセンタリングする方法について解説した。
 Bootstrapはメジャーなので、新しくBootstrapを使い始めた人にウケているのだと思われる。
