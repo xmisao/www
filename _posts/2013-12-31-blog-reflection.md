@@ -6,7 +6,7 @@ tag: essay
 
 # 2013年のブログを振り返る
 
-![Blog Access Log]({{ site.url }}/assets/2013_12_31_2013_acess.png)
+![Blog Access Log]({{ site.url }}/assets/2013_12_31_2013_access.png)
 
 2013年ははじめてまともにブログを書き続けた1年だった。
 ブログのネタになりそうな事は可能な限りブログに書いて、
