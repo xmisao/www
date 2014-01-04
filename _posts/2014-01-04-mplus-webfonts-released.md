@@ -7,7 +7,8 @@ tag: fonts
 # M+ FONTSをWebフォント化してSourceForge.jpでホスティングしてみた
 
 ![M+ Web Fonts Demo]({{ site.url }}/assets/2014_01_04_mplus.png)
-*[M+ Web Fonts Demo](http://www.xmisao.com/asset/samples/mplus/index.html)*
+
+*[M+ Web Fonts Demo](http://www.xmisao.com/assets/samples/mplus/index.html)*
 
 [M+ FONTS](http://mplus-fonts.sourceforge.jp/)はフリーで高品質な日本語フォントだ。M+ FONTSでは実験的に[Webフォントで公開されている](http://mplus-fonts.sourceforge.jp/webfonts/)が、残念ながら形式はTTFのみとなっている。これでは未だあなどれないシェアを持つInternet Explorerでは利用できず、より軽量なWOFFに対応したブラウザでもその恩恵にあずかることはできない。
 
