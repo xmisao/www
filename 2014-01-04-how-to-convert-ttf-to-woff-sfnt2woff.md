@@ -8,7 +8,7 @@ tag: fonts
 
 - [WOFF FONTS!](http://people.mozilla.org/~jkew/woff/)
 
-`sfnt2woff`はTrueType / OpenTypeのフォントをWOFF形式に変換するツールだ。WOFF形式はTrueType / OpenTypeと違い圧縮が効くのでファイルサイズの面でメリットがある。`sfnt2woff`を使えば手持ちのフォントを簡単に軽量なWebフォントに変換することができる。
+`sfnt2woff`はTrueType / OpenTypeのフォントをWOFF形式に変換するツールだ。WOFF形式はTrueType / OpenTypeと異なり圧縮が効くのでファイルサイズの面でメリットがある。`sfnt2woff`を使えば手持ちのフォントを簡単に軽量なWebフォントに変換することができる。
 
 `sfnt2woff`はWindowsとMacOS X向けにはコンパイル済みバージョンが提供されている。今回はLinux上で使用したいので、ソースからビルドすることにする。ソースは以下のリンクから入手できる。
 
