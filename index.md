@@ -52,6 +52,8 @@ layout: default
 - [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
 - [xfonts-umplus](https://github.com/xmisao/xfonts-umplus) -- Unicodeエンコードのmplusフォントdebパッケージ
 - [xcal](https://github.com/xmisao/xcal) -- 日本の休日に対応したcalライクなカレンダーコマンド
+- [featuredimage](https://github.com/xmisao/featuredimage) -- Webページから目を引く画像を抽出するライブラリ
+- [mplus-webfonts](http://mplus-webfonts.sourceforge.jp/) -- M+ FONTSをEOT, TTF, WOFFに変換したWebフォント
 
 <h3>Webサービス</h3>
 
