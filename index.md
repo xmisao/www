@@ -58,4 +58,5 @@ layout: default
 <h3>Webサービス</h3>
 
 - [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
+- [はてなブックマーク ウォールβ](http://hbwall.xmisao.com/) -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
   
