@@ -50,6 +50,10 @@ pre {
 	text-shadow:1px 0px 1px rgba(255, 255, 255, 0.5);
 }
 
+#favorites{
+	text-align: center;
+}
+
 img#footericon{
 	margin-left:0.5em;
 	margin-right:0.5em;
