@@ -50,6 +50,10 @@ pre {
 	text-shadow:1px 0px 1px rgba(255, 255, 255, 0.5);
 }
 
+#amazon{
+	text-align:center;
+}
+
 #favorites{
 	text-align: center;
 }
