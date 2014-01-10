@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(7)
+title: もしRubyistがHaskellを学んだら(7) リストの合計を計算する
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(7)
+# もしRubyistがHaskellを学んだら(7) リストの合計を計算する
 
 今日はリストの合計を求める関数を書くことにする。Rubyで書くと以下のようなイメージ。
 

@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(6)
+title: もしRubyistがHaskellを学んだら(6) リストの使い方
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(6)
+# もしRubyistがHaskellを学んだら(6) リストの使い方
 
 今日はリストを使ってみる。リストを定義し、リストの中身を順に表示するプログラムを作る。Rubyで書くと以下のようなイメージ。
 

@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(14)
+title: もしRubyistがHaskellを学んだら(14) クイックソート
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(14)
+# もしRubyistがHaskellを学んだら(14) クイックソート
 
 先日は挿入ソートについて考えたが、今日はクイックソートについて考える。
 今回もHaskellでの実装を念頭に置いて、まずRubyでクイックソートを実装する。

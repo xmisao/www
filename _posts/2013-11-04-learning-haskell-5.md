@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(5)
+title: もしRubyistがHaskellを学んだら(5) 条件分岐
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(5)
+# もしRubyistがHaskellを学んだら(5) 条件分岐
 
 今日は条件分岐を使う。Haskellで条件分岐をする方法は、いくつか種類があるようだが、馴染みのあるifを使ってみる。
 

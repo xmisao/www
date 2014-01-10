@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(15)
+title: もしRubyistがHaskellを学んだら(15) GHCiの使い方
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(15)
+# もしRubyistがHaskellを学んだら(15) GHCiの使い方
 
 今日は少し嗜好を変えて、Haskellを勉強する時に便利な、GHCiの使い方について少し整理してみることにする。
 

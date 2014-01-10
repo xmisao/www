@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(4)
+title: もしRubyistがHaskellを学んだら(4) 乱数の出力
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(4)
+# もしRubyistがHaskellを学んだら(4) 乱数の出力
 
 今日はHaskellで乱数を出力してみようと思う。Haskellの公式サイトのThe global random number generatorの例をそのまま使う。
 

@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(1)
+title: もしRubyistがHaskellを学んだら(1) Hello, World!
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(1)
+# もしRubyistがHaskellを学んだら(1) Hello, World!
 
 ## はじめに
 

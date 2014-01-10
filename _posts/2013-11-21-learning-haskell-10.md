@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(10)
+title: もしRubyistがHaskellを学んだら(10) リスト内包表記
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(10)
+# もしRubyistがHaskellを学んだら(10) リスト内包表記
 
 今日はリスト内包表記の生成器とガードを使う。
 ある数を指定すると、ある数の約数のリストを返す関数を書く。
