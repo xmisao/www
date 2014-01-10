@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: もしRubyistがHaskellを学んだら(16)
+title: もしRubyistがHaskellを学んだら(16) 型推論と型注釈
 tag: learning_haskell
 ---
 
