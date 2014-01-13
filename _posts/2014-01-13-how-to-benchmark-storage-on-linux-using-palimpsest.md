@@ -6,7 +6,7 @@ tag: linux
 
 # Linuxで簡単にストレージのベンチマークを実行する方法(palimpsest)
 
-私はLinuxでストレージのベンチマークを実行するには、これまで`bonnie++`を使っていたが、Gnomeに付属のユーティリティ`palimpsest`でグラフィカルにベンチマークが可能ということを知って試してみた。Debianでは`palimpsest`は`gnome-disk-utility`パッケージに含まれている。
+私はLinuxでストレージのベンチマークを実行するには、これまで`bonnie++`を使っていたが、Gnomeに付属のユーティリティ`palimpsest`でグラフィカルにベンチマークが可能ということを知って試してみた。Debianでは`palimpsest`は`gnome-disk-utility`パッケージに含まれている。なお`palimpsest`とは見慣れない単語だが、[羊皮紙の写本](http://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%B3%E3%83%97%E3%82%BB%E3%82%B9%E3%83%88)のことを言うらしい。
 
 ~~~~
 apt-get install gnome-disk-utility
