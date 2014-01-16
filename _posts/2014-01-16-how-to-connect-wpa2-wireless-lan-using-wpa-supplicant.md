@@ -44,7 +44,7 @@ ifconfig wlan0 up
 
 ## 4. ネットワークに接続する
 
-wpa_supplicantを実行して、無線LANで目的のネットワークに接続する。接続するネットワークの設定はここでは`/home/user/wpa_supplicant.conf`に書かれているものとする。`wpa_supplicant`コマンドは、オプションと引数の間にスペースが不要なことに注意。
+`wpa_supplicant`を実行して、無線LANで目的のネットワークに接続する。接続するネットワークの設定はここでは`/home/user/wpa_supplicant.conf`に書かれているものとする。`wpa_supplicant`コマンドは、オプションと引数の間にスペースが不要なことに注意。
 
 ~~~~
 wpa_supplicant -Dwext -iwlan0 -c/home/user/wpa_supplicant.conf

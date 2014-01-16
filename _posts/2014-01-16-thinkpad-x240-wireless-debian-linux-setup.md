@@ -4,7 +4,7 @@ title: ThinkPad X240で無線LANカードを使えるようにする(Debian Jess
 tag: ['linux', 'thinkpad']
 ---
 
-# ThinkPad X240で無線LANカードを使えるようにする(Debian jessie)
+# ThinkPad X240で無線LANカードを使えるようにする(Debian Jessie)
 
 ThinkPad X240で無線LANカードを使えるようにする設定する機会があったのでメモしておく。X240に限らず基本的にはIntelの無線LANカードはこれで使えるようになるはずである。
 
