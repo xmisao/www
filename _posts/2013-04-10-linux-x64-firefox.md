@@ -10,7 +10,7 @@ tag: linux
 ディストロのfirefoxに満足できない場合は手間をかけず使えてありがたい。
 (リンクは現時点の最新版firefox 20.0.1)
 
-[ftp://ftp.mozilla.org/pub/firefox/releases/20.0.1/linux-x86\_64/ja/](ftp://ftp.mozilla.org/pub/firefox/releases/20.0.1/linux-x86`_64/ja/)
+[ftp://ftp.mozilla.org/pub/firefox/releases/20.0.1/linux-x86\_64/ja/](ftp://ftp.mozilla.org/pub/firefox/releases/20.0.1/linux-x86_64/ja/)
 
 展開して単にfirefoxを起動すれば良い。自分は/opt/firefox以下に置いてパスを通した。
 
