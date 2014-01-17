@@ -6,7 +6,7 @@ tag: thinkpad
 
 # ThinkPad X240のHDDをSSDに換装する(写真つき)
 
-従来のThinkPadは簡単にHDDやメモリを容易に交換できることがユーザに受けていたところがある。ThinkPadのSSDモデルは高価だが、HDDを自分でSSDに換装してしまえば安くあがるからだ。
+従来のThinkPadは簡単にHDDやメモリにアクセスでき容易に交換できることがユーザに受けていたところがある。ThinkPadのSSDモデルは高価だが、HDDを自分でSSDに換装してしまえば安くあがるからだ。
 
 では本格的にウルトラブック路線にシフトしたX240はどうか。本機も[保守マニュアル](http://download.lenovo.com/jp/mobiles_pdf/sp40a26001_j.pdf)が公開されており、ドライブやメモリのユーザ交換が可能になっている。
 
