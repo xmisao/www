@@ -29,7 +29,7 @@ Error setting new values. Common errors:
    or because the userspace governor isn't loaded?
 ~~~~
 
-少し調べてgovernorのモジュールをロードすれば`ondemand`が選択できるようになるかもしれないと思い、`modprobe cpufreq_ondemand`してみても状況は変わらなかった。結局、ThinkPad X240にDebian JessieをインストールしてもCPUのクロックを適度に上下させる方法はわからなかった。
+少し調べてgovernorのモジュールをロードすれば`ondemand`が選択できるようになるかもしれないと思い、`modprobe cpufreq_ondemand`してみても状況は変わらなかった。結局、ThinkPad X240にインストールしたDebian Jessie上でCPUのクロックを適度に上下させる方法はわからなかった。
 
 ただ試行錯誤の成果として、CPUのクロック数を最低に固定する方法と、逆にCPUのクロック数を最高に固定する方法はわかった。具体的には`cpufreq-set`でそれぞれ以下のようにすればCPUのクロック数を固定できる。
 
@@ -47,4 +47,9 @@ Error setting new values. Common errors:
 # cpufreq-set -g performance
 ~~~~
 
-この方法でクロック数を上下させられるということは、`cpufreqd`等を使ってクロック数を制御する設定をすれば、狙いどおりの設定が実現できるかもしれない。とりあえず今日はここまで。
+この方法でクロック数を上下させられるということは、`cpufreqd`等を使ってクロック数を制御する設定をすれば、狙いどおりの設定が実現できるのかもしれない。とりあえず今日はここまで。
+
+参考までに調査したURLをあげておく。
+
+- [http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=723065](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=723065)
+- [http://forums.debian.net/viewtopic.php?f=5&t=107843](http://forums.debian.net/viewtopic.php?f=5&t=107843)
