@@ -37,7 +37,7 @@ Error setting new values. Common errors:
 
 ~~~~
 # cpufreq-set -c 0 --min 0.8GHz --max 0.8GHz
-# cpufreq-set -g powersav
+# cpufreq-set -g powersave
 ~~~~
 
 - クロック数を最大にしたい場合(※これで2.1GHz、負荷がかかると3.3GHzとなる)
