@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: ピュアRubyのMarkdownパーサkramdownを利用する
+tag: ruby
 ---
 
 # ピュアRubyのMarkdownパーサkramdownを利用する

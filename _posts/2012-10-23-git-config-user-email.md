@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Gitの設定方法(ユーザ名・メールアドレス)
+tag: git
 ---
 
 # Gitの設定の種類

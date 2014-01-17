@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Amazon S3で静的ホスティングする際のDNS設定
+tag: aws
 ---
 
 # Amazon S3で静的ホスティングする際のDNS設定
