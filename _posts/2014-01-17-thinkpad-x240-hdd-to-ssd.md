@@ -62,11 +62,11 @@ ThinkPadを完全に通電していない状態にするため、リア・バッ
 
 ## 6. HDDのカバーを取り外す
 
-![Step6_1]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_04.jpg)
+![Step6-1]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_04.jpg)
 
 HDDはプラスチックのカバーで固定されているので、このカバーを取り外す。図は保守マニュアルからの引用。このカバーはネジレスなので、引っ張るとぽこぽこと外れるようになっている。HDDを完全に取り外すと以下の写真の状態になる。
 
-![Step6_2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_05.jpg)
+![Step6-2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_05.jpg)
 
 ## 7. SDDにカバーを装着し、SATAケーブルをSSDに接続して、埋め込む
 
