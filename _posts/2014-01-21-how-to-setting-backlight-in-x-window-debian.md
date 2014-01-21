@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: X Windows Systemでバックライトの輝度を設定する方法(Debian)
+title: X Window Systemでバックライトの輝度を設定する方法(Debian)
 tag: ['linux', 'debian']
 ---
 
-# X Windows Systemでバックライトの輝度を設定する方法(Debian)
+# X Window Systemでバックライトの輝度を設定する方法(Debian)
 
 ノートPCを使っていて、コマンドラインからバックライトの輝度を設定したい場合は`xbacklight`コマンドが利用できる。
 このコマンドはDebianではそのまんま`xbacklight`パッケージに含まれているのでaptでインストールする。
