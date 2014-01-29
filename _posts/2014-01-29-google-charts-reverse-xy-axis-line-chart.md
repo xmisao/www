@@ -9,9 +9,9 @@ tag: ['javascript', 'google_charts']
 ![Reverse X/Y Axis Line Chart]({{ site.url }}/assets/2014_01_29_reverse_xy_axis_sample.png)
 
 [BestGems.org](http://bestgems.org/)を作る上で知ったGoogle Chartsの使い方 その2。
-順位などの折れ線グラフは値が小さい方を上にした方が望ましい。
-Google Chartsでは折れ線グラフの軸の方向を`vAxis.direction`または`hAxis.direction`オプションで設定できる。
-これらのオプションの値を`-1`にしてやると、X軸またはY軸が逆方向に描画されるようになる。
+順位などを折れ線グラフで表示する場合、値が小さい方を上にした方が望ましい。
+Google Chartsではこのような折れ線グラフの軸の方向を`vAxis.direction`または`hAxis.direction`オプションで設定できる。
+これらのオプションの値を`-1`にしてやると、X軸またはY軸が逆方向に描画されるようになるのだ。
 冒頭の画像は以下のサンプルコードで描画したものだ。
 本来A, B, C, DとなるX軸はD, C, B, Aと逆順に。
 Y軸はより値の小さい方が上に描画されるようになっている。
