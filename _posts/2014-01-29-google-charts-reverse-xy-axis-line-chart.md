@@ -34,8 +34,8 @@ Y軸はより値の小さい方が上に描画されるようになっている�
 
         var options = {
           title: 'Reverse X/Y Axis Sample',
-          vAxis: {direction:-1},
-          hAxis: {direction:-1} 
+          vAxis: {direction:-1}, // Y軸を逆方向にする
+          hAxis: {direction:-1}  // X軸を逆方向にする
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
