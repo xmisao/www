@@ -20,6 +20,18 @@ SHA-1のハッシュ値を計算するには`sha1sum`コマンドを使う。
 sha1sum FILE
 ~~~~
 
+これらのコマンドは`-c`オプションを使うとハッシュ値でファイルのコンペアを行うこともできる。
+
+~~~~
+md5sum FILE > FILE.md5
+md5sum -c FILE.md5
+~~~~
+
+~~~~
+sha1sum FILE > FILE.sha1
+sha1sum -c FILE.sha1
+~~~~
+
 手元のdebianで確認したところ、他にも以下のハッシュ計算用のユーティリティが存在した。
 
 - `shasum`
