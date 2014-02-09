@@ -10,8 +10,10 @@ tag: 2ch
 
 2013年8月、2chビューア●の個人情報が流出する事件があった。
 2chビューア●は、規制を回避して掲示板に書き込む機能と、過去ログを自由に閲覧できる過去ログ閲覧機能を提供していが、事件を発端に2chビューア●の機能はすべて停止された。
+
 しかし、2013年9月に突如「Rokkaシステム」なるものが発表され、現在一部の掲示板の過去ログ取得が可能になっている。
 さらに、2013年10月には従来のofflawに代わり、offlaw2が暫定的に公開され、2chビューア●なしで2chの過去ログが閲覧可能になった。
+
 2014年2月現在の状況を整理すると以下のようになる。
 
 - ●による規制回避書き込み不可
@@ -33,6 +35,7 @@ tag: 2ch
 
 公式のドキュメントから重要な部分を抜粋して引用する。
 
+~~~~
 > New method:
 >    Login and password -> futen.cgi
 >    futen.cgi -> SID
@@ -45,6 +48,7 @@ tag: 2ch
 >    http://rokka.<SITENAME>.<COM or NET>/<SERVER NAME>/<BOARD NAME>/<DAT NUMBER>/<OPTIONS>?sid=<SID>
 >
 >Sid length = 192 characters
+~~~~
 
 まずNew methodとして記載されているRokkaシステムの認証のシーケンスについて。
 わかりにくいが、これは次のように読み解ける。
@@ -134,6 +138,7 @@ offlow2については公式のドキュメントが無いがmonazillaの以下�
 
 要求メッセージの例を抜粋して引用する。
 
+~~~~
 > 要求メッセージの一例
 > GET /test/offlaw2.so?shiro=kuma&sid=ERROR&bbs=[板名]&key=[スレッド番号] HTTP/1.1
 > Accept-Encoding: gzip
@@ -143,6 +148,7 @@ offlow2については公式のドキュメントが無いがmonazillaの以下�
 > Accept-Language: ja
 > User-Agent: Monazilla/1.00 (ブラウザ名/バージョン)
 > Connection: close
+~~~~
 
 例から以下のURLにアクセスすれば良いことがわかる。
 パラメータの`sid=ERROR`は不要である。
@@ -156,9 +162,9 @@ http://<サーバ>/test/offlaw2.so?shiro=kuma&bbs=<板名>&key=<スレッド番�
 
 - [http://awabi.2ch.net/test/read.cgi/aquarium/1329895650/](http://awabi.2ch.net/test/read.cgi/aquarium/1329895650/)
 
-- <サーバ> -- `awabi.2ch.net`
-- <板名> -- `aquarium`
-- <スレッド番号> -- `1329895650`
+- <サーバ> -- ドメイン全体の`awabi.2ch.net`
+- <板名> -- `/test/read.cgi/`以下の`aquarium`
+- <スレッド番号> -- 末尾の`1329895650`
 
 これで以下のURLが得られる。
 一見無意味な`shiro=kuma`というパラメータは必須の模様。
