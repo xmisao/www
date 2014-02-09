@@ -1,0 +1,15 @@
+<html>
+<head>
+<script type="text/javascript">
+(function() {
+    window.onmousemove = handleMouseMove;
+    function handleMouseMove(event) {
+        event = event || window.event; // IE対応
+				document.body.innerHTML = event.clientX + ", " + event.clientY;
+    }
+})();
+</script>
+</head>
+<body>
+</body>
+</html>
