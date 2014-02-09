@@ -33,6 +33,6 @@ class Symbol
 end
 ~~~~
 
-つまりブロック付きメソッド呼び出しの`()`内の`&:to_s`は`&:to_s.to_proc`と同じであり、この`Proc`オブジェクトの処理内容は`{|obj, &args| obj.send :to_s, *args}`であるかのように振る舞うのである。これで、このイディオムが`[1, 2, 3].map{|n| n.to_s}`と同じ結果になることが理解できる。
+つまりブロック付きメソッド呼び出しの`()`内の`&:to_s`は`&:to_s.to_proc`と同じであり、この`Proc`オブジェクトの処理内容は`{|obj, &args| obj.send :to_s, *args}`であるかのように振る舞うのである。以上のことから、このイディオムが`[1, 2, 3].map{|n| n.to_s}`と同じ結果になることが理解できる。
 
 - [What does map(&:name) mean in Ruby?](http://stackoverflow.com/questions/1217088/what-does-mapname-mean-in-ruby)
