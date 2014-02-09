@@ -27,11 +27,11 @@ tag: x2ch
 ## Rokkaシステムを使ったBBSPINKの過去ログ取得
 
 実際に2chビューア●でRokkaシステムにアクセスし、BBSPINKの過去ログを取得してみたいと思う。
-まずRokkaシステムの公式(?)なドキュメントは以下である。
-またRokkaシステムに関しては以下のスレッドで議論されている。
+以下にRokkaシステムの公式(?)なドキュメント、Rokkaシステムに関して議論しているスレッド、Rokkaシステムのソースコードリポジトリを示す。
 
 - [http://stream.bbspink.com/update.txt](http://stream.bbspink.com/update.txt)
 - [Rokka System](http://pele.bbspink.com/test/read.cgi/erobbs/1379086553/)
+- [Cipherwraith / Rokka](https://github.com/Cipherwraith/Rokka)
 
 公式のドキュメントから重要な部分を抜粋して引用する。
 
