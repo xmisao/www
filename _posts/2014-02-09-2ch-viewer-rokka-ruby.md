@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: 2chビューア●の現状と過去ログ閲覧用新システム「Rokkaシステム」およびofflaw2について
-tag: 2ch
+tag: x2ch
 ---
 
 # 2chビューア●の現状と過去ログ閲覧用新システム「Rokkaシステム」およびofflaw2について
