@@ -16,7 +16,7 @@ JavaScriptでマウス座標を取得するには`onmousemove`イベントハン
     window.onmousemove = handleMouseMove;
     function handleMouseMove(event) {
         event = event || window.event; // IE対応
-				document.body.innerHTML = event.clientX + ", " + event.clientY;
+        document.body.innerHTML = event.clientX + ", " + event.clientY;
     }
 })();
 </script>
