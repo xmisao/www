@@ -23,19 +23,19 @@ Rubyでは単なるセッタやゲッタを自分でゴリゴリと定義する�
 
 ~~~~
 class Hoge
-	attr_accessor :foo
+  attr_accessor :foo
 end
 ~~~~
 
 ~~~~
 class Hoge
-	def foo=(val)
-		@foo = val
-	end
+  def foo=(val)
+    @foo = val
+  end
 
-	def foo
-		@foo
-	end
+  def foo
+    @foo
+  end
 end
 ~~~~
 
@@ -53,20 +53,20 @@ Rubyではメソッドを定義するメソッドを自分で定義すること�
 
 ~~~~
 class Object
-	def Object.my_attr_accessor(*fields)
-		fields.each{|field|
-			define_method(field.to_s){
-				instance_variable_get('@' + field.to_s)
-			}
-			define_method(field.to_s + "="){|val|
-				instance_variable_set('@' + field.to_s, val)
-			}
-		}
-	end
+  def Object.my_attr_accessor(*fields)
+    fields.each{|field|
+      define_method(field.to_s){
+        instance_variable_get('@' + field.to_s)
+      }
+      define_method(field.to_s + "="){|val|
+        instance_variable_set('@' + field.to_s, val)
+      }
+    }
+  end
 end
 
 class Hoge
-	my_attr_accessor :foo
+  my_attr_accessor :foo
 end
 
 hoge = Hoge.new
