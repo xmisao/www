@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Rubyのattr_accessor, attr_reader, attr_writerとは何か
-tag:
+tag: ruby
 ---
 
 # Rubyのattr_accessor, attr_reader, attr_writerとは何か
