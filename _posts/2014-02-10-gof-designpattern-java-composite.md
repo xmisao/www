@@ -22,7 +22,7 @@ Compositeパターンのクラス図は以下のとおり。
 
 ![Composite]({{ site.url }}/assets/2014_02_10_gof_composite.png)
 
-`Component`は木構造の要素を表すクラスである。コンポーネントに共通の操作はすべてこのクラスに定義する。表現したいコンポーネントの種類だけ、`Component`のサブクラスを作る。一例として、`Leaf`は木構造の中で葉を表すサブクラスであり、`Composite`は複数の`Component`を束ねるサブクラスであり、このパターンの本質的なクラスである。`Component`は子オブジェクトとして`Component`の集合を保持し、`operation`が呼ばれたら、全ての子オブジェクトに対して`operation`を再帰的に実行する。
+`Component`は木構造の要素を表すクラスである。コンポーネントに共通の操作はすべてこのクラスに定義する。表現したいコンポーネントの種類だけ、`Component`のサブクラスを作る。一例として、`Leaf`は木構造の中で葉を表すサブクラスである。`Composite`は複数の`Component`を束ねるサブクラスであり、このパターンの本質的なクラスである。`Composite`は子オブジェクトとして`Component`の集合を保持し、`operation`が呼ばれたら、全ての子オブジェクトに対して`operation`を再帰的に実行する。
 
 `Client`は`Leaf`と`Composite`を組み合わせて木構造を構成する。また`Client`は、`Component`のインタフェースを通じて、木構造中の任意の要素について、`operation`を呼び出すことができる。この際に、`Client`は、`operation`を呼び出した`Component`が、`Leaf`であるのか`Composite`なのか意識する必要はない。
 
