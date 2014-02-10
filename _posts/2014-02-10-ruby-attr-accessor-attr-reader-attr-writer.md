@@ -47,7 +47,34 @@ hoge.foo = "bar"
 p hoge.foo #=> "bar"
 ~~~~
 
-## おまけ:ソースコードを追ってみる
+## おまけ1 : attr_accessorを自分で定義する
+
+Rubyではメソッドを定義するメソッドを自分で定義することももちろん可能だ。例えば`attr_accessor`モドキは以下のように実装でき、きちんと動作する。
+
+~~~~
+class Object
+	def Object.my_attr_accessor(*fields)
+		fields.each{|field|
+			define_method(field.to_s){
+				instance_variable_get('@' + field.to_s)
+			}
+			define_method(field.to_s + "="){|val|
+				instance_variable_set('@' + field.to_s, val)
+			}
+		}
+	end
+end
+
+class Hoge
+	my_attr_accessor :foo
+end
+
+hoge = Hoge.new
+hoge.foo = 'bar'
+p hoge.foo #=> 'bar'
+~~~~
+
+## おまけ2 : Rubyのソースコードを追ってみる
 
 `attr_accessor`、`attr_reader`、`attr_writer`の実装がどうなっているのか気になったので少しRuby 1.9.3のソースコードを追ってみた。(途中で挫折)
 
