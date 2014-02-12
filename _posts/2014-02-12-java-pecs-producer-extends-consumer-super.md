@@ -37,7 +37,7 @@ public class Stack<T> {
 
 この`Stack`を拡張して、以下2つのメソッドを追加することにする。
 
-- `pushAll`メソッド -- `Iterable`を受け取り、スタックにコレクションの全要素を入力するメソッド
+- `pushAll`メソッド -- `Iterable`を受け取り、スタックにコレクションの全要素をプッシュするメソッド
 - `popAll`メソッド -- `Collection`を受け取り、スタックの全要素をポップしてコレクションに出力するメソッド
 
 ## Producer extends
