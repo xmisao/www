@@ -17,6 +17,7 @@ PECS(Producer extends and Consumer super)とは、Javaのジェネリックス�
 
 説明のためスタックの実装を考える。`Stack`はジェネリッククラスであり、任意のクラスのオブジェクトのスタックを表現する。`Stack`のソースコードを以下に示すが、実装は重要でないので、シグネチャに注目して欲しい。
 
+~~~~
 public class Stack<T> {
 	private List<T> stack = new ArrayList<T>();
 	
@@ -32,6 +33,7 @@ public class Stack<T> {
 		return stack.size() > 0 ? false : true;
 	}
 }
+~~~~
 
 この`Stack`を拡張して、以下2つのメソッドを追加することにする。
 
