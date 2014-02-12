@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: rsyncの基本的な使い方
+title: rsyc入門 3つの基本的な使い方
 tag: linux
 ---
 
-# rsyncの基本的な使い方
+# rsyc入門 3つの基本的な使い方
 
 ## rsync -avが基本
 
