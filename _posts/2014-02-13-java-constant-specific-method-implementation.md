@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: JavaでenumにAbstractメソッドを定義して定数に固有の振る舞いを実装する(定数固有メソッド実装)
+title: Javaの定数固有メソッド実装 -- enumにabstractメソッドを定義して定数に固有の振る舞いを実装する
 tag: java
 ---
 
-# JavaでenumにAbstractメソッドを定義して定数に固有の振る舞いを実装する(定数固有メソッド実装)
+# Javaの定数固有メソッド実装 -- enumにabstractメソッドを定義して定数に固有の振る舞いを実装する
 
 Javaのenumは特殊なクラスであり、enumにメソッドを定義することができる。では、そのメソッドをabstractにしたらどうなるだろうか? 実はenumに定義したabstractメソッドは、定数でオーバーライドすることになる。
 
