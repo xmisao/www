@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: kawasaki.rb #9でランキングから見るRubyGemsという発表をします
+title: kawasaki.rb ＃9でランキングから見るRubyGemsという発表をします
 tag: presentation
 ---
 
