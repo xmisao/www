@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ランキングから見るRubyGems -BestGems.orgのご紹介-</title>
+
+		<meta name="description" content="RubyGems.orgをスクレイピングして独自の集計を行いランキングするサイトを作りました。">
+		<meta name="author" content="xmisao">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown data-separator="\n---\n">
+## ランキングから見るRubyGems
+### -BestGems.orgのご紹介-
+
+　
+
+#### 2014/2/7
+#### Yokohama.rb #41
+#### ぺけみさお
+
+---
+
+## 自己紹介
+
+![](xmisao_icon_128x128.png)
+
+- ぺけみさお(xmisao)
+- http://www.xmisao.com
+- tiwtter: @xmisao
+- プログラマ(Java屋さん)
+- 趣味のRubyist
+
+---
+
+## Gem無くしてRubyは語れず
+
+![](ruby.png)
+
+---
+
+## RubyGems.org
+
+- Gemを調べる上で貴重な情報源
+- 各Gemのダウンロード数が公開されている
+- しかし特に集計は行っていない
+- 人気のGemはわからない
+
+![](rubygems.png)
+
+---
+
+## わいてくる疑問
+
+---
+
+## 1番ダウンロード
+## されている
+## Gemは何だろう?
+
+---
+
+## RSpecとminitestは
+## どちらが人気?
+
+---
+
+## The Ruby Toolboxを見る?
+
+---
+
+## 素朴な疑問に
+## 答える情報源は
+## 意外とない
+
+---
+
+# そこで
+
+---
+
+## BestGems.org
+
+- http://bestgems.org/
+- RubyGems.orgをスクレイピング
+- 独自の集計を行いGemをランキング
+
+![](bestgems.png)
+
+---
+
+## 先ほどの答え 1
+
+1番ダウンロードされているGemは...
+
+- 合計ダウンロード数 1位
+  - rake
+- 日別ダウンロード数 1位
+  - multi_json
+
+---
+
+## 先ほどの答え 2
+
+RSpecが優勢だがminitestも人気上昇
+
+- 合計ダウンロード数
+  - rspec-core 13,542,245
+  - minitest 6,672,945
+- 日別ダウンロード数
+	- rspec-core 27,964
+	- minitest 19,458
+
+---
+
+## BestGems.orgの情報
+
+- 合計ダウンロード数ランキング
+- 日別ダウンロード数ランキング
+- 注目のGemランキング
+- 個々のGemのダウンロード数・順位の推移
+- 各種統計情報
+  - 登録されているGem数の推移
+  - 合計・日別ダウンロード数の推移
+- レポート
+  - 2013下半期の集計結果
+  - etc.
+
+---
+
+## 合計ダウンロード数 TOP10
+
+おなじみのGemが並ぶ、上位は順位にほぼ上下なし
+
+1. rake
+2. thor
+3. rack
+4. activesupport
+5. json
+6. rails
+7. mime-types
+8. multi_json
+9. i18n
+10. builder
+
+---
+
+## 日別ダウンロード数 TOP10
+
+順位は日によってまちまち
+
+1. multi_json
+2. json
+3. mime-types
+4. rack
+5. rake
+6. activesupport
+7. i18n
+8. builder
+9. thor
+10. nokogiri
+
+---
+
+## RubyGems.orgの
+##集計からわかること
+
+---
+
+## Gemの総数
+
+---
+
+## 約70,000個、増え続けるGem
+
+- 2014/2/7時点でGemの総数は70,107個
+- 日々50個のGemが新たに登録されている
+
+![](number_of_gems.png)
+
+---
+
+## Gemのダウンロード数の推移
+
+---
+
+## ほぼ横ばい
+
+- 1日平均400万ダウンロード
+- Rubyは高い人気を保つ!
+
+![](download_trends.png)
+
+---
+
+## ランキングはサイトを
+## ご覧いただくとして…
+
+---
+
+## **全体の傾向**
+## について
+## 話します
+
+---
+
+## わいてくる疑問
+
+---
+
+## 実際どれだけの
+## Gemが使われているの?
+
+---
+
+## 人気は特定のGemに集中
+
+- 上位1.5%のGemが1日のダウンロード数の80%を占める
+- いわゆるロングテールはない、ショートテール
+- 上位1,000件が人気のGemの1つの目安と考えている
+
+![](2013_09_05_bems_downloads_graph.png)
+
+---
+
+## わいてくる疑問
+
+---
+
+## 人気が変動している
+## Gemはないの?
+
+---
+
+## Gemの順位は激しく変動
+
+![](nishinoshima.jpg)
+
+---
+
+## ダウンロード順位の分布
+
+- 全Gemの順位をプロットして散布図を作成
+- 合計と日別の順位に差があるGemが多数存在
+
+![](2014_01_24_scattergram_01.png)
+
+---
+
+## 良くわからないので
+## 左下を拡大すると…
+
+---
+
+## 上位1,000位の散布図 
+
+- 分布はきれいな扇型
+
+![](2014_01_24_scattergram_03.png)
+
+---
+
+## 人気下落中のGem :(
+
+- 合計ダウンロードの順位の方が高い
+
+![](2014_01_24_scattergram_03_1.png)
+
+---
+
+## 人気上昇中のGem :)
+
+- 日別ダウンロードの順位の方が高い
+
+![](2014_01_24_scattergram_03_2.png)
+
+---
+
+## このデータを元に
+## 人気上昇中の
+## 「注目のGem」を抽出したい
+
+---
+
+## 順位の差分をランキング
+
+- 対象: 日別ダウンロード数 上位1,000件のGem
+- 合計ダウンロード数との順位を比較
+- 順位の差分をソートして「注目のGemランキング」を作成
+
+---
+
+## 本日の注目のGem TOP10
+
+マイナーなGemが並ぶ
+
+1. bond-rails
+2. locationary
+3. sigdump
+4. psych-shopifork
+5. naught
+6. monetize
+7. puppet-syntax
+8. rspec-support
+9. foundation-rails
+10. globalize
+
+---
+
+## naught
+
+先月末から注目のGemに食い込む
+
+- 順位
+  - 合計ダウンロード数 5,836位
+  - 日別ダウンロード数 882位
+- Nullオブジェクトを構築するツールキットだそうです
+
+---
+
+### ダウンロード数は急上昇
+
+- ダウンロード数の急速な上昇が見られる
+
+![](naught_trend.png)
+
+---
+
+## わいてくる疑問
+
+---
+
+## もっと長い視点で
+## 見たらどうなる?
+
+---
+
+### BestGems.orgでは一定期間の
+### ダウンロード数・順位の変化を
+### 集計した「レポート」を公開
+
+---
+
+## 2013年 下半期レポート
+
+- 2013年7月1日から12月31日までのダウンロード数を集計
+- 始まりと終わりの合計ダウンロード順位も掲載
+
+---
+
+## 2013年 下半期
+## ダウンロードランキング
+
+ランキング上位は日別ランキングと類似
+
+1. rake
+2. multi_json
+3. rack
+4. mime-types
+5. json
+6. i18n
+7. activesupport
+8. builder
+9. tilt
+10. thor
+
+---
+
+## さらにレポートを分析
+
+---
+
+## 始まりと終わりの順位から
+## 2013年 下半期に
+## 躍進したGemを抽出
+
+---
+
+## 躍進したGem
+
+期間中に合計ダウンロード順位が特に上昇したGem
+
+1. minitest 109位→76位
+2. atomic 397位→128位
+3. thread_safe 524位→147位
+4. mini_portile 697位→154位
+5. sprockets-rails 630位→205位
+
+etc...
+
+---
+
+# まとめ
+
+---
+
+## まとめ
+
+- GemのランキングサイトBestGems.org
+- Gemのダウンロード数の集計からわかること
+  - Rubyの人気は依然として高い
+  - 特定のGemに人気が集中している
+  - 日々新しい注目のGemが登場している
+  - 躍進したGemも発見できる
+- BestGems.orgをぜひご利用下さい
+
+---
+
+## ご清聴
+## ありがとうございました
+
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
