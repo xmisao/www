@@ -66,3 +66,7 @@ Rubyの%記法には以下の種類がある。
 ~~~~
 %(()) => "()"
 ~~~~
+
+参考
+
+- [%記法](http://docs.ruby-lang.org/ja/1.9.3/doc/spec=2fliteral.html#percent)
