@@ -45,6 +45,6 @@ a = (foo && bar)
 
 参考
 
--[演算子式](http://docs.ruby-lang.org/ja/1.9.3/doc/spec=2foperator.html)
--[Difference between “and” and && in Ruby?](http://stackoverflow.com/questions/1426826/difference-between-and-and-in-ruby)
--[Difference between “or” and || in Ruby?](http://stackoverflow.com/questions/2083112/difference-between-or-and-in-ruby)
+- [演算子式](http://docs.ruby-lang.org/ja/1.9.3/doc/spec=2foperator.html)
+- [Difference between “and” and && in Ruby?](http://stackoverflow.com/questions/1426826/difference-between-and-and-in-ruby)
+- [Difference between “or” and \|\| in Ruby?](http://stackoverflow.com/questions/2083112/difference-between-or-and-in-ruby)
