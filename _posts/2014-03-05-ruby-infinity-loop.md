@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Rubyで無限ループはkernel.#loop
-tag:
+tag: ruby
 ---
 
 # Rubyで無限ループはkernel.#loop
@@ -12,7 +12,7 @@ Rubyの無限ループで最も簡潔なのは`Kernel.#loop`だろう。
 
 ~~~~
 loop do
-	# 無限ループ!
+  # 無限ループ!
 end
 ~~~~
 
