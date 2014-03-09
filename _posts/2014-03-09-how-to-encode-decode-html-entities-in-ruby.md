@@ -24,10 +24,18 @@ string = CGI.unescapeHTML("test &quot;unescaping&quot; &lt;characters&gt;")
 p string #=> "test \"unescaping\" <characters>"
 ~~~~
 
-なおRuby on Railsでは`cgi`ライブラリを使用せずとも、`h`メソッドで実体参照にエンコードした文字列が得られる。
+なおRuby on Railsでは`cgi`ライブラリを使用しなくても良いよう、ヘルパーメソッドが用意されている。
+
+`h`メソッドで実体参照にエンコードした文字列が得られる。
 
 ~~~~
 <%= h 'escaping <html>' %>
+~~~~
+
+文字列のデコードには`raw`メソッドを用いる。
+
+~~~~
+<%= raw '&lt br &gt' %>
 ~~~~
 
 参考
