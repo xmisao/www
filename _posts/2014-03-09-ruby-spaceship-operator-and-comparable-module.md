@@ -77,5 +77,6 @@ p v2.between?(v1, v3) #=> true
 ~~~~
 
 参考
+
 - [What is the Ruby <=> (spaceship) operator?](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 - [module Comparable](http://docs.ruby-lang.org/ja/1.8.7/class/Comparable.html)
