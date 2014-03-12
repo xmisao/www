@@ -22,6 +22,8 @@ Option "DPMS" "true"
 
 ~~~~
 xset -dpms
+xset s off
+xset dpms 0 0 0
 ~~~~
 
 もし恒久的にDPMSの機能が不要ならば、Xの設定ファイルにDPMSを無効にする記述をしてやると良い。
