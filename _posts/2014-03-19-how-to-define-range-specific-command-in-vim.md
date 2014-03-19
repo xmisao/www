@@ -12,7 +12,7 @@ vimで範囲指定できるコマンドを定義するには以下のように�
 " 範囲を受け取る関数の定義
 function! PrintRange() range
     echo "firstline: " . a:firstline
-		echo "lastline: " . a:lastline
+    echo "lastline: " . a:lastline
 endfunction
 
 " 範囲指定できるコマンドの定義
