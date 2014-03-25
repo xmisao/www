@@ -50,3 +50,7 @@ p a.inject(:+) #=> 1368
 ~~~~
 
 まるで魔法のようだ。
+
+参考
+
+- [How to sum array of numbers in Ruby?](http://stackoverflow.com/questions/1538789/how-to-sum-array-of-numbers-in-ruby)
