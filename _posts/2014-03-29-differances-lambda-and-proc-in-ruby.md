@@ -27,3 +27,7 @@ def method2
 end
 p method2() #=> "return in proc"
 ~~~~
+
+参考
+
+- [When to use lambda, when to use Proc.new?](http://stackoverflow.com/questions/626/when-to-use-lambda-when-to-use-proc-new)
