@@ -59,4 +59,4 @@ layout: default
 
 - [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
 - [はてなブックマーク ウォールβ](http://hbwall.xmisao.com/) -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
-  
+- [よく使うハンドサイン画像ジェネレータ](http://handsign.xmisao.com/) -- SNSで話題のハンドサイン画像を作ろう!  

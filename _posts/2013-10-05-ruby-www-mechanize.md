@@ -118,3 +118,10 @@ p page.search('h1.logo')
 以上がMechanizeの基本的な使い方で、これだけ知っているだけでもかなりの事ができる。
 Mechanizeのドキュメントの[Guide](http://mechanize.rubyforge.org/GUIDE_rdoc.html)と[Examples](http://mechanize.rubyforge.org/EXAMPLES_rdoc.html)には、より多くの使い方が例示されているので、詳しくはそちらを参照して欲しい。
 このエントリがMechanizeによる快適なスクレイピングの導入となればうれしい。
+
+### 2014年4月2日 追記
+
+続きを書いた。
+Mechanizeのより詳しい使い方については次のエントリを参照のこと。
+
+- [楽々スクレイピング! Ruby Mechanizeの使い方(2)](http://www.xmisao.com/2014/04/02/ruby-www-mechanize-2.html)
