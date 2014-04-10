@@ -47,6 +47,12 @@ draw.pointsize = 16
 draw.gravity = CenterGravity
 ~~~~
 
+以上で準備は整った。文字の描画には`Draw#annotate`を使う。引数には文字を描画する画像、幅、高さ、X座標、Y座標、描画する文字を指定する。
+
+~~~~
+draw.annotate(image, 100, 200, 300, 400, "foo")
+~~~~
+
 ## 画像の描画
 
 ある画像の内容をそのまま別の画像に描画するには、`Image#composite`を利用する。メソッドのレシーバになる画像に、引数で与えた画像の内容が描画される。引数には画像と描画するX座標とY座標、オプションを与える。画像は`Image`でも`ImageList`でも構わない。オプション`Magick::OverCompositeOp`は画像を上書き描画する指定である。
