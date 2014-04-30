@@ -5,6 +5,11 @@ layout: default
 
 <img src="{{ root }}/feed_icon_14x14.png"><a href="{{root}}/feed.xml">このブログを購読</a>
 
+<div>
+<a href="http://reader.livedoor.com/subscribe/http://www.xmisao.com/feed.xml" target="_blank" title="Subscribe with livedoor Reader"><img src="http://image.reader.livedoor.com/img/banner/88_31_3.gif" border="0" width="88" height="31" alt="Subscribe with livedoor Reader"></a>
+<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fwww.xmisao.com%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'></a>
+</div>
+
 <h3>最近のエントリ</h3>
 <ul class="posts">
   {% for post in site.posts limit:20 %}
