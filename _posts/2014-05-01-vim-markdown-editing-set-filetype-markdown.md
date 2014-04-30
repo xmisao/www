@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: vimで\*.mdのMarkdownを編集する際のfiletype設定
+title: vimで*.mdのMarkdownを編集する際のfiletype設定
 tag: vim
 ---
 
