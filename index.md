@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<img src="{{ root }}/xmisao_icon_16x16.png">[ぺけみさお](/about.html)(xmisao)の記録。
+<img src="{{ root }}/xmisao_icon_16x16.png">[ぺけみさお](/about.html)(xmisao)の記録。 <a href="https://twitter.com/xmisao" class="twitter-follow-button" data-show-count="false">Follow @xmisao</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 <img src="{{ root }}/feed_icon_14x14.png"><a href="{{root}}/feed.xml">このブログを購読</a>
 
