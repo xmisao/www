@@ -54,9 +54,11 @@ layout: default
 - [xcal](https://github.com/xmisao/xcal) -- 日本の休日に対応したcalライクなカレンダーコマンド
 - [featuredimage](https://github.com/xmisao/featuredimage) -- Webページから目を引く画像を抽出するライブラリ
 - [mplus-webfonts](http://mplus-webfonts.sourceforge.jp/) -- M+ FONTSをEOT, TTF, WOFFに変換したWebフォント
+- [syobocal](https://github.com/xmisao/syobocal) -- しょぼいカレンダーからデータを取得するライブラリ
 
 <h3>Webサービス</h3>
 
 - [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
 - [はてなブックマーク ウォールβ](http://hbwall.xmisao.com/) -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
 - [よく使うハンドサイン画像ジェネレータ](http://handsign.xmisao.com/) -- SNSで話題のハンドサイン画像を作ろう!  
+- [ぺけアニメデータベース](http://animedb.xmisao.com/) -- 似たアニメが一目瞭然! アニメのデータベースサイト
