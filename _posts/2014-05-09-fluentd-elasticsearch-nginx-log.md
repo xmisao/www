@@ -6,6 +6,8 @@ tag: ['kibana', 'fluentd', 'elasticsearch', 'nginx']
 
 # kibanaのためにfluentdでnginxのログをelasticsearchへ送る設定例
 
+## はじめに
+
 nginxのログをfluentd + elasticsearch + kibanaで可視化する設定例。
 
 ## nginx
