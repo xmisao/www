@@ -50,6 +50,8 @@ gem install fluent-plugin-elasticsearch
 
 ### fluent-plugin-typecast
 
+__2014/5/10 追記:fluentdがv.0.10.42以上ならこのプラグインを使わない方法がある。詳しくは一番下の追記を参照。__
+
 fluentdでデータの型を変換するプラグイン、fluent-plugin-typecastもインストールしておく。
 インストールはgemから以下のとおり。
 
@@ -108,3 +110,33 @@ ltsvでパースしたデータの値はすべて文字列である。
 以上で、fluentdでnginxのログを収集し、elasticsearchに送信する設定が完了した。
 設定項目は多いが内容は簡単なものなので、手順さえわかれば手早く設定することができると思う。
 kibanaをインストールしていれば、これでkibanaの画面上でログの可視化が可能となるはずである。
+
+## 2014/5/10追記
+
+[@repeatedly](https://twitter.com/repeatedly/status/464961290247475200)さん、情報ありがとうございます!
+
+fluentdがv.0.10.42以上であればtailプラグインに型変換をする機能が追加されているとのこと。このためfluent-plugin-typecastは不要である。fluent-plugin-typecastを使わずに書いた`fluentd.conf`は以下。
+
+~~~~
+<source>
+  type forward
+</source>
+
+<source>
+  type tail
+  format ltsv
+  tag nginx
+  path /var/log/nginx/access.log
+  pos_file /var/log/fluentd/buffer/access.log.pos
+  types request_length:integer,status:integer,request_time:float,bytes_sent:integer,body_bytes_sent:integer,upstream_response_time:integer
+</source>
+
+<match nginx>
+  type elasticsearch
+  host localhost
+  port 9200
+  index_name fluentd
+  type_name nginx
+  logstash_format true
+</match>
+~~~~
