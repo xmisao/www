@@ -60,6 +60,7 @@ layout: default
 - [featuredimage](https://github.com/xmisao/featuredimage) -- Webページから目を引く画像を抽出するライブラリ
 - [mplus-webfonts](http://mplus-webfonts.sourceforge.jp/) -- M+ FONTSをEOT, TTF, WOFFに変換したWebフォント
 - [syobocal](https://github.com/xmisao/syobocal) -- しょぼいカレンダーからデータを取得するライブラリ
+- [rubyjump.vim](https://github.com/xmisao/rubyjump.vim) -- バッファ内のRubyの定義に簡単に飛べるVimプラグイン
 
 <h3>Webサービス</h3>
 
