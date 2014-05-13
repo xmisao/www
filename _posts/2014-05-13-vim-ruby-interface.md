@@ -8,7 +8,7 @@ tag: ['vim', 'ruby']
 
 ## はじめに
 
-`+ruby`でビルドされたVimはRubyインタフェースを備えている。
+`+ruby`でビルドされたVimではRubyインタフェースが利用できる。
 このインタフェースを使えばVimをRubyを使って制御することができる。
 このエントリではVimのRubyインタフェースの使い方を簡単に説明する。
 
@@ -42,14 +42,13 @@ Rubyから変数の値を取得したり、Vimの関数を実行した結果を�
 ヘルプでは返り値は文字列となっているが、[配列や辞書も扱うことができる](http://www.xmisao.com/2014/05/07/if-ruby-vim-evaluate-memo.html)。
 
 ~~~~
-func! RubyFunc(arg1, arg2)
+let a = "foo"
+let b = 42
 ruby << EOF
-p VIM.evaluate('a:arg1') #=> "foo"
-p VIM.evaluate('a:arg2') #=> 42
+p VIM.evaluate('a') #=> "foo"
+p VIM.evaluate('b') #=> 42
 p VIM.evaluate('getpos(".")') #=> [0, 43, 1, 0]
 EOF
-endfunc!
-call RubyFunc("foo", 42)
 ~~~~
 
 ### VIM::command
