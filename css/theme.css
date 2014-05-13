@@ -73,3 +73,7 @@ h6 {
 	border-bottom-color: #bbb;
 	font-size: medium;
 }
+
+hide{
+  display: none;
+}
