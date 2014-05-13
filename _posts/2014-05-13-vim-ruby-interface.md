@@ -104,3 +104,6 @@ EOF
 
 以上、VimのRubyインタフェースの使い方をざっと説明した。
 Rubyに慣れきっていてVimスクリプトで複雑な処理を書くのが辛い…といった場合や、何かVimスクリプトの限界を越えた高度な処理を行いたい場合は、Rubyインタフェースを使ってみても良いだろう。
+
+- 参考
+  - [Vim documentation: if_ruby](http://vim-jp.org/vimdoc-ja/if_ruby.html)
