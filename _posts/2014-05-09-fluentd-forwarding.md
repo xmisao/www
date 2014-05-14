@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: fluentdでイベントを他のノードに転送する最小の設定
-tag: fluetnd
+tag: fluentd
 ---
 
 # fluentdでイベントを他のノードに転送する最小の設定
