@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Kawasaki.rb #12でVimとRubyのアツい関係という発表をします
+title: Kawasaki.rb ＃12でVimとRubyのアツい関係という発表をします
 tag: ['ruby', 'vim']
 ---
 
