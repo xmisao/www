@@ -89,7 +89,7 @@ fzf
 ~~~~
 
 候補はインクリメンタルにあいまい検索が可能である。
-選択候補の移動はカーソルキーか、vim風にCtrl-J`、`CTRL-K`またはemacs風に`Ctrl-N`、`CTRL-P`で行い、Enterキーで確定できる。
+選択候補の移動はカーソルキーか、vim風に`Ctrl-J`、`CTRL-K`またはemacs風に`Ctrl-N`、`CTRL-P`で行い、Enterキーで確定できる。
 `Ctrl-C`、`Ctrl-G`、`ESC`はキャンセルである。
 
 ### 複数候補の選択
