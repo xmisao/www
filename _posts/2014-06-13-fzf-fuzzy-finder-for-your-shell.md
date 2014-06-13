@@ -19,7 +19,7 @@ fzfはgithub上で現時点で300 Star以上付いており、percolの類似ツ
 
 ![fzf demo](https://camo.githubusercontent.com/0b07def9e05309281212369b118fcf9b9fc7948e/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f667a662e676966)
 
-## インストール(shell)
+## インストール(シェル)
 
 以下のようにgithubから`git clone`して、`install`スクリプトを実行することで、インストールが行われる。シェルの設定ファイルが書き換えられるので注意。
 
