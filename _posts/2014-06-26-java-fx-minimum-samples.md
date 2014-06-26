@@ -94,7 +94,7 @@ FXMLのロードには`FXMLLoader`を利用する。
 `load()`は引数にURLを取るので、JavaのリソースのURLを`getResource()`で取得している。
 EclipseであればJavaファイルと同一のフォルダにFXMLファイルを配置してやれば読み込めるはずである。
 
-# Sample3.fxml
+### Sample3.fxml
 
 ~~~~
 <?xml version="1.0" encoding="UTF-8"?>
