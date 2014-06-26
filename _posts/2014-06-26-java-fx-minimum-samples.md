@@ -84,11 +84,11 @@ public class Sample2 extends Application {
 ![Sample3]({{ site.url }}/assets/2014_06_26_sample3.png)
 
 JavaFXではFXMLという言語でインタフェースを記述できることが特徴となっている。
-次の例では__sample2.java__と同じウィンドウをFXMLを使って表示させてみよう。
+次の例では*sample2.java*と同じウィンドウをFXMLを使って表示させてみよう。
 
 FXMLの実体はXMLである。
 まず`import`でインポートするコントロールを記述し、シーングラフの構造はタグで記述する。
-以下に示す__Sample3.fxml__は、__sample2.java__でプログラムで記述したシーングラフを、FXMLで書き起こしたものである。
+以下に示す*Sample3.fxml*は、*sample2.java*でプログラムで記述したシーングラフを、FXMLで書き起こしたものである。
 
 FXMLのロードには`FXMLLoader`を利用する。
 `load()`は引数にURLを取るので、JavaのリソースのURLを`getResource()`で取得している。
