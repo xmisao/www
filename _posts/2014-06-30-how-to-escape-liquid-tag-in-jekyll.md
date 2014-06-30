@@ -14,3 +14,6 @@ jekyllでLiquidタグをエスケープするにはrawタグを使用する。
 この中身がエスケープされる
 {％ endraw ％}
 ~~~~
+
+- 参考
+  - [How to escape liquid template tags?](http://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags)

@@ -43,3 +43,6 @@ Liquidでは`for`でハッシュを走査すると配列が得られ`[0]`の要�
   {{ post.title }}
 {% endfor %}{% endraw %}
 ~~~~
+
+- 参考
+  - [An easy way to support tags in a jekyll blog](http://stackoverflow.com/questions/1408824/an-easy-way-to-support-tags-in-a-jekyll-blog)
