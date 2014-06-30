@@ -23,9 +23,9 @@ jekyllのタグには`site.tags`でアクセスできる。
 サイトの全タグを一覧するLiquidテンプレートは以下のように書ける。
 
 ~~~~
-{% for tag in site.tags %}
+{% raw %}{% for tag in site.tags %}
   {{ tag | first }}
-{% endfor %}
+{% endfor %}{% endraw %}
 ~~~~
 
 Liquidでは`for`でハッシュを走査すると配列が得られ`[0]`の要素にキーが、`[1]`の要素に値が格納される。
@@ -36,10 +36,10 @@ Liquidでは`for`でハッシュを走査すると配列が得られ`[0]`の要�
 
 `site.tags`の値は、キーのタグが付けられたページの配列となっている。
 
-以下は`jekyll`タグのページを一覧するLiquidテンプレートの例だ。
+以下は`jekyll`タグが付けられたページをタイトルの一覧するLiquidテンプレートの例だ。
 
 ~~~~
-{% for post in site.tags['jekyll'] %}
+{% raw %}{% for post in site.tags['jekyll'] %}
   {{ post.title }}
-{% endfor %}
+{% endfor %}{% endraw %}
 ~~~~
