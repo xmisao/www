@@ -127,21 +127,21 @@
             <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fwww.xmisao.com%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'></a>
           </div>
 					<h6>最近のエントリ</h6>
-					<script>
-						$.get("{{root}}/recent_entries.html", function(html){
-							$("#recent_entries").append(html);
-						});
-					</script>
 					<div id="recent_entries">
+            <ul class="posts">
+              {% for post in site.posts limit:10 %}
+                <li>{{ post.date | date: "%Y-%m-%d" }} &raquo; <br><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
 					</div>
 					{% for tag in page.tags %}
 					<h6>タグ:<a href="/tags/{{ tag }}/">{{ tag }}</a>のエントリ</h6>
-					<script>
-						$.get("{{root}}/tags/{{ tag }}/entries.html", function(html){
-							$("#tag_entries_{{ tag }}").append(html);
-						});
-					</script>
 					<div id="tag_entries_{{ tag }}">
+          <ul class="posts">
+          {% for post in site.tags[tag] limit:5 %}
+            <li>{{ post.date | date: "%Y-%m-%d" }} &raquo; <br><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endfor %}
+          </ul>
 					</div>
 					{% endfor %}
 					<div id="amazon">
