@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Vim用のDartプラグイン
+title: VimのDartプラグイン
 tag: ['vim', 'dart']
 ---
 
-# Vim用のDartプラグイン
+# VimのDartプラグイン
 
-Vim用のDartプラグインとして[Dart plugin for VIM](https://github.com/dart-lang/dart-vim-plugin)がある。
+VimでDartを編集するためのプラグインとして[Dart plugin for VIM](https://github.com/dart-lang/dart-vim-plugin)がある。
 
 Vundleを使っているなら以下を`.vimrc`に記述して、`BundleInstall`でインストールできる。
 
