@@ -173,4 +173,4 @@ end
 
 プログラムが書ける人であればGoogle Analyticsのデータを自在に分析することができるだろう。
 私もちょっとgerbでプログラムを書いて好みの集計をさせている。
-今まで以上にGoogle Analyticsが身近なものとなった。
+gerbのお陰で今まで以上にGoogle Analyticsが便利なものとなった。
