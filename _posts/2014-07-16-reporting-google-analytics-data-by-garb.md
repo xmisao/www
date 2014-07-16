@@ -156,6 +156,7 @@ end
 戻り値には更に日付が含まれるようになった。
 レコード数はURLと日付の組み合わせで4836件まで増えた。
 
+~~~~
 #<Garb::ResultSet:0x000000024a5838
  @results=
   [#<OpenStruct page_path="/", date="20140601", pageviews="2", sessions="1">,
