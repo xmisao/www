@@ -30,10 +30,10 @@ garbについては日本語でもREADMEレベルの情報がいくつかある�
 
 ## サンプルコード
 
-以下はgerbを使ってGoogle Analyticsからあるプロファイルのページ毎のページビューを取得する例である。
+以下はgarbを使ってGoogle Analyticsからあるプロファイルのページ毎のページビューを取得する例である。
 
 ~~~~ruby
-require 'gerb'
+require 'garb'
 require 'date'
 require 'pp'
 
@@ -167,10 +167,10 @@ end
 
 ## まとめ
 
-本エントリではRubyでGoogle Analyticsのデータを取得するGemであるgerbを紹介した。
-またgerbではレポートクラスの定義により取得するデータを指定することを説明し、
+本エントリではRubyでGoogle Analyticsのデータを取得するGemであるgarbを紹介した。
+またgarbではレポートクラスの定義により取得するデータを指定することを説明し、
 ディメンションと指標の組み合わせと取得できるデータについて具体例を述べた。
 
 プログラムが書ける人であればGoogle Analyticsのデータを自在に分析することができるだろう。
-私もちょっとgerbでプログラムを書いて好みの集計をさせている。
-gerbのお陰で今まで以上にGoogle Analyticsが便利なものとなった。
+私もちょっとgarbでプログラムを書いて好みの集計をさせている。
+garbのお陰で今まで以上にGoogle Analyticsが便利なものとなった。
