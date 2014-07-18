@@ -6,7 +6,7 @@ tag: bestgems
 
 # BestGems API v1を公開した
 
-拙作のGemのダウンロードランキングサイト[BestGems.org]のAPIを公開したのでブログに書いておく。
+拙作のGemのダウンロードランキングサイト[BestGems.org](http://bestgems.org/)のAPIを公開したのでブログに書いておく。
 
 要約するとBestGems.orgが保存しているGemのダウンロード数等を時系列で取得できるAPIとなっている。
 RubyGems.orgは時系列のデータを公開していないので、Gemの作者にとっては垂涎の情報と言えるだろう。
