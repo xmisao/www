@@ -85,8 +85,7 @@ Print Screen、Delete Pause/Breakキーはキーボード上部に、Home、End�
 
 Deleteキーが大きすぎるように感じる。私はさほど使わないのだが…。
 こいつを小さくして、ESCキー含めて上部キーをすべて右に1つずらした方が良い配列になるのではないだろうか。
-PauseとBreakは一体化されておりShiftキーで切り替えて入力する。
-またScroll LockはFn + Print Screen、InsertはFn + Pause/Breakで入力する。
+Scroll LockはFn + Print Screen、InsertはFn + Pause/Breakで入力する。
 
 右側に詰め込まれたキーは使用頻度を考慮してこの位置に配置されたものと思われる。
 ただ手を動かさないとタイプできないのは変わらないし、ブラインドタッチも厳しいため、使いやすさは微妙なところだ。
