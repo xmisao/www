@@ -12,11 +12,15 @@ tag: ['keyboard', 'review']
 
 KINESIS Freestyle2を購入し、昨日届いたのでさっそくレビューする。
 
+<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41Ptie9H5nL._SL160_.jpg" alt="Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.07.21</div></div><div class="amazlet-detail">Kinesis <br />売り上げランキング: 568,267<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+
 ## 価格
 
 KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http://www.edikun.co.jp/kinesis/freestyle.htm)からの通販で13,586円だった。
-なおAmazon.co.jpでの取り扱いは無いが、Amazon.comでは$89で販売されている。
-国内の実売価格は少々割高に感じるが、輸入品であることを考慮すれば許容範囲といえる。
+なおAmazon.co.jpでは本日時点でエジクンショップより15180円で販売されている。
+なぜか少し高い。
+なおAmazon.comでの価格は$89である。
+いずれも国内の実売価格は少々割高に感じるが、輸入品であることを考慮すれば許容範囲といえる。
 
 ## 製品の位置づけ
 
@@ -116,7 +120,7 @@ KINESISのキーボードはマクロを設定できる機能があるのが一�
 
 ## キータッチ
 
-奇抜な形状に気を取られがちだが、しっかりとしたキータッチも考えられている。
+奇抜な形状に気を取られがちだが、しっかりとキータッチも考えられている。
 
 キーはラバードームのメンブレンである。
 KINESISの他のキーボードはメカニカルスイッチを採用しているので、この点は注意。
@@ -127,7 +131,7 @@ KINESISが公開しているスペックによると、ピーク荷重は44グ�
 
 感想としては、非常に私の好みに合ったタイプ感だと付け加えておく。
 余談だが、私は結構メンブレンのキータッチが好きなのである。
-メカニカルや静電容量のスイッチだけがもてはやされる風潮には意義を唱えたい。
+メカニカルや静電容量のスイッチだけがもてはやされる風潮には異議を唱えたい。
 
 ## まとめ
 
@@ -136,3 +140,5 @@ KINESISが公開しているスペックによると、ピーク荷重は44グ�
 まあいろいろ書いてはみたものの、見事なキワモノ変態キーボードである。
 作りはしっかりとしており、変わったキーボードが欲しい人には自信を持ってオススメできる。
 RealforceやHHKBのような普通のキーボードに飽きた人が、形状の奇抜さに惹かれて購入することが多そうだ。
+
+<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41Ptie9H5nL._SL160_.jpg" alt="Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.07.21</div></div><div class="amazlet-detail">Kinesis <br />売り上げランキング: 568,267<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
