@@ -95,7 +95,7 @@ comments: true
 レイアウトでは先ほどのコードスニペットを`% if page.comments %`と`% endif %`で囲むようにする。
 
 ~~~~html
-{% raw %>
+{% raw %}
 {% if page.comments %}
 <div id="disqus_thread"></div>
     <script type="text/javascript">
