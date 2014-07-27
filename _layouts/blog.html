@@ -28,6 +28,7 @@
       #share{
         margin-top:1em;
         margin-bottom:1em;
+        background-color:#eeeeee;
       }
       #hatebu{
         background-color:#5178e6;
@@ -67,7 +68,7 @@
       url = "http://www.xmisao.com{{ page.url }}"
 
       $(document).ready(function(){
-          $("#hatebu").click(function(){ document.location = "http://b.hatena.ne.jp/entry/" + url ; });
+          $("#hatebu").click(function(){ document.location = "http://b.hatena.ne.jp/append?" + url ; });
           $("#gplus").click(function(){ document.location = "http://plus.google.com/share?url=" + url ; });
           $("#facebook").click(function(){ document.location = "https://www.facebook.com/sharer/sharer.php?u=" + url ; });
           $("#twitter").click(function(){ document.location = "http://twitter.com/home?status=" + encodeURI(title) + ' ' + url ; });
