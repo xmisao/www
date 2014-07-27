@@ -24,6 +24,67 @@
         }
       };
     </script>
+    <style rel="stylesheet">
+      #share{
+        margin-top:1em;
+        margin-bottom:1em;
+      }
+      #hatebu{
+        background-color:#5178e6;
+        color:#ffffff;
+        height:32px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:16px;
+      }
+      #gplus{
+        background-color:#db4b39;
+        color:#ffffff;
+        height:32px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:16px;
+      }
+      #facebook{
+        background-color:#3b5998;
+        color:#ffffff;
+        height:32px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:16px;
+      }
+      #twitter{
+        background-color:#26c4f1;
+        color:#ffffff;
+        height:32px;
+        padding-top:4px;
+        padding-bottom:4px;
+        padding-left:16px;
+      }
+    </style>
+    <script>
+      title = "{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}"
+      url = "http://www.xmisao.com{{ page.url }}"
+
+      $(document).ready(function(){
+          $("#hatebu").click(function(){ document.location = "http://b.hatena.ne.jp/entry/" + url ; });
+          $("#gplus").click(function(){ document.location = "http://plus.google.com/share?url=" + url ; });
+          $("#facebook").click(function(){ document.location = "https://www.facebook.com/sharer/sharer.php?u=" + url ; });
+          $("#twitter").click(function(){ document.location = "http://twitter.com/home?status=" + encodeURI(title) + ' ' + url ; });
+          $("#hatebu").hover(function(){ $(this).css("background-color", "#6188f6"); }, function(){ $(this).css("background-color", "#5178e6");} );
+          $("#gplus").hover(function(){ $(this).css("background-color", "#eb5b49"); }, function(){ $(this).css("background-color", "#db4b39");} );
+          $("#facebook").hover(function(){ $(this).css("background-color", "#4b69a8"); }, function(){ $(this).css("background-color", "#3b5998");} );
+          $("#twitter").hover(function(){ $(this).css("background-color", "#36d4ff"); }, function(){ $(this).css("background-color", "#26c4f1");} );
+      });
+
+      function non_zero(val){
+        if (val == 0){
+          return("")
+        } else {
+          return(val)
+        }
+      }
+    </script>
 	</head>
 	<body>
 		<div class="container-fluid" id="header">
@@ -53,6 +114,31 @@
 						{{ content }}
 					</div>
 
+          <!-- このページを共有 -->
+          <div id="share" class="row-fluid">
+            <div id="hatebu" class="span3"><img src="{{ root }}/assets/icon_hatebu_24.png"> はてブ <span class="count"></span></div>
+            <div id="gplus" class="span3"><img src="{{ root }}/assets/icon_gplus_24.png"> Google+</div>
+            <div id="facebook" class="span3"><img src="{{ root }}/assets/icon_facebook_24.png"> Facebook <span class="count"></span></div>
+            <div id="twitter" class="span3"><img src="{{ root }}/assets/icon_twitter_24.png"> Twitter <span class="count"></span></div>
+          </div>
+          <script type="text/javascript">
+            $.ajax({
+                url      : 'http://api.b.st-hatena.com/entry.count?url=' + url ,
+                dataType : 'jsonp',
+                success  : function(json){ $('#hatebu .count').text(non_zero(json)); }
+            }); 
+            $.ajax({
+                url      : 'https://graph.facebook.com/' + url,
+                dataType : 'jsonp',
+                success  : function(json){ $('#facebook .count').text( non_zero(json.shares || 0) ); }
+            });
+            $.ajax({
+                url      : 'http://urls.api.twitter.com/1/urls/count.json?url=' + url,
+                dataType : 'jsonp',
+                success  : function(json){ $('#twitter .count').text( non_zero(json.count || 0) ); }
+            });
+          </script>
+
 					<div id="adsense">
 						<div class="text-left">
 							<script type="text/javascript"><!--
@@ -66,17 +152,6 @@
 							<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 							</script>
 						</div>
-					</div>
-
-					<div id="buttons">
-						<!-- Hatena Bookmark -->
-						<a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ page.url }}" class="hatena-bookmark-button" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-						<!-- Google Plus -->
-						<div class="g-plusone" data-size="medium" data-href="http://www.xmisao.com{{ page.url }}"></div> <script type="text/javascript"> window.___gcfg = {lang: 'ja'}; (function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })(); </script> 
-						<!-- Facebook -->
-						<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script><div class="fb-like" data-href="http://www.xmisao.com{{ page.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
-						<!-- Twitter -->
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.xmisao.com{{ page.url }}">Tweet</a>
 					</div>
 
           <div id="disqus">
