@@ -38,6 +38,7 @@
         padding-top:4px;
         padding-bottom:4px;
         padding-left:16px;
+        display:block;
       }
       #share-gplus{
         background-color:#db4b39;
@@ -46,6 +47,7 @@
         padding-top:4px;
         padding-bottom:4px;
         padding-left:16px;
+        display:block;
       }
       #share-facebook{
         background-color:#3b5998;
@@ -54,6 +56,7 @@
         padding-top:4px;
         padding-bottom:4px;
         padding-left:16px;
+        display:block;
       }
       #share-twitter{
         background-color:#26c4f1;
@@ -62,6 +65,7 @@
         padding-top:4px;
         padding-bottom:4px;
         padding-left:16px;
+        display:block;
       }
     </style>
     <script>
@@ -69,10 +73,10 @@
       url = "http://www.xmisao.com{{ page.url }}"
 
       $(document).ready(function(){
-          $("#share-hatebu").click(function(){ document.location = "http://b.hatena.ne.jp/append?" + url ; });
-          $("#share-gplus").click(function(){ document.location = "http://plus.google.com/share?url=" + url ; });
-          $("#share-facebook").click(function(){ document.location = "https://www.facebook.com/sharer/sharer.php?u=" + url ; });
-          $("#share-twitter").click(function(){ document.location = "http://twitter.com/home?status=" + encodeURI(title) + ' ' + url ; });
+          $("#share-hatebu").attr('href', "http://b.hatena.ne.jp/append?" + url);
+          $("#share-gplus").attr('href', "http://plus.google.com/share?url=" + url);
+          $("#share-facebook").attr('href', "https://www.facebook.com/sharer/sharer.php?u=" + url);
+          $("#share-twitter").attr('href', "http://twitter.com/home?status=" + encodeURI(title) + ' ' + url);
           $("#share-hatebu").hover(function(){ $(this).css("background-color", "#6188f6"); }, function(){ $(this).css("background-color", "#5178e6");} );
           $("#share-gplus").hover(function(){ $(this).css("background-color", "#eb5b49"); }, function(){ $(this).css("background-color", "#db4b39");} );
           $("#share-facebook").hover(function(){ $(this).css("background-color", "#4b69a8"); }, function(){ $(this).css("background-color", "#3b5998");} );
@@ -118,10 +122,10 @@
 
           <!-- このページを共有 -->
           <div id="share" class="row-fluid">
-            <div id="share-hatebu" class="span3"><img src="{{ root }}/assets/icon_hatebu_24.png"> はてブ <span class="count"></span></div>
-            <div id="share-gplus" class="span3"><img src="{{ root }}/assets/icon_gplus_24.png"> Google+</div>
-            <div id="share-facebook" class="span3"><img src="{{ root }}/assets/icon_facebook_24.png"> Facebook <span class="count"></span></div>
-            <div id="share-twitter" class="span3"><img src="{{ root }}/assets/icon_twitter_24.png"> Twitter <span class="count"></span></div>
+            <a id="share-hatebu" class="span3"><img src="{{ root }}/assets/icon_hatebu_24.png"> はてブ <span class="count"></span></a>
+            <a id="share-gplus" class="span3"><img src="{{ root }}/assets/icon_gplus_24.png"> Google+</a>
+            <a id="share-facebook" class="span3"><img src="{{ root }}/assets/icon_facebook_24.png"> Facebook <span class="count"></span></a>
+            <a id="share-twitter" class="span3"><img src="{{ root }}/assets/icon_twitter_24.png"> Twitter <span class="count"></span></a>
           </div>
           <script type="text/javascript">
             $.ajax({
