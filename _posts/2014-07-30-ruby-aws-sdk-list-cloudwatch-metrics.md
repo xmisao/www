@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Rubyからaws-sdkを使ってCloudWatchのメトリックス一覧を取得する
-tag:
+tag: ['aws', 'ruby']
 ---
 
 # Rubyからaws-sdkを使ってCloudWatchのメトリックス一覧を取得する
