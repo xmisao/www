@@ -55,7 +55,7 @@ metrics.filter('metric_name', 'CPUUtilization').each{|metric|
 以下はディメンションによるフィルタの例である。
 `InstanceId`が`i-12345678`のメトリックス一覧だけを取得する。
 
-~~~~
+~~~~ruby
 metrics = AWS::CloudWatch::MetricCollection.new()
 metrics.filter('dimention', [{:name => 'InstanceId'}, {:value => 'i-12345678'}]).each{|metric|
   p metric
@@ -64,7 +64,7 @@ metrics.filter('dimention', [{:name => 'InstanceId'}, {:value => 'i-12345678'}])
 
 ネームスペース、メトリック名、ディメンションによるフィルタは`with_*`メソッドでも行える。
 
-~~~~
+~~~~ruby
 metrics = AWS::CloudWatch::MetricCollection.new()
 metrics.with_namespace('AWS/EBS')
 metrics.with_metric_name('CPUUtilization')
