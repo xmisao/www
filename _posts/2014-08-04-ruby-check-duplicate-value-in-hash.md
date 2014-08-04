@@ -25,7 +25,7 @@ if h.size == h.invert.size
 else
   puts "重複した値あり"
 end
-~~~~ruby
+~~~~
 
 `Hash#values`で値の配列を作って、`Array#uniq`してサイズを比較しても、同じ結果が得られる。
 ただ`Hash#invert`の方がメソッドの呼び出しが少ないのでスマートだろう。
