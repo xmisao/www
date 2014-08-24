@@ -1,7 +1,7 @@
 ---
 layout: blog
-title:
-tag:
+title: AWSの性能レポーティングツール AWS-Reportingを作った
+tag: ['aws-reporting', 'aws']
 ---
 
 # AWSの性能レポーティングツール AWS-Reportingを作った
