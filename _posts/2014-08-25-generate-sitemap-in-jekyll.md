@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: jekyllでsitemap.xmlを生成する
+title: jekyllでサイトマップ(sitemap.xml)を生成する
 tag: jekyll
 ---
 
-# jekyllでサイトマップを生成する
+# jekyllでサイトマップ(sitemap.xml)を生成する
 
 SEOを目的として、jekyllでsitemap.xmlを生成する方法についてまとめる。
 jekyllでsitemap.xmlを出力するには、Sitemap.xml Generatorプラグインを使う方法と、プラグインを使わず自力でsitemap.xmlを生成する方法がある。
