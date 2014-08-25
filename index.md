@@ -66,6 +66,7 @@ layout: default
 - [mplus-webfonts](http://mplus-webfonts.sourceforge.jp/) -- M+ FONTSをEOT, TTF, WOFFに変換したWebフォント
 - [syobocal](https://github.com/xmisao/syobocal) -- しょぼいカレンダーからデータを取得するライブラリ
 - [rubyjump.vim](https://github.com/xmisao/rubyjump.vim) -- バッファ内のRubyの定義に簡単に飛べるVimプラグイン
+- [aws-reporting](https://github.com/xmisao/aws-reporting) -- CloudWatchからデータを取得してAWSの性能をHTMLでレポーティングするツール
 
 <h3>Webサービス</h3>
 
