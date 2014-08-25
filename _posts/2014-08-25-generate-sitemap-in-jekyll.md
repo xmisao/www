@@ -80,6 +80,7 @@ sitemap:
 以下を`sitemap.xml`として配置する。
 
 ~~~~xml
+{% raw %}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -125,6 +126,7 @@ sitemap:
   </url>
   {% endfor %}
 </urlset>
+{% endraw %}
 ~~~~
 
 `http://example.com/`は自分のサイトのURLに置き換える。
