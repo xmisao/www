@@ -79,14 +79,14 @@ print str
 
 ~~~~ruby
 str = <<`EOS`
-echo "What time is is it now?"
+echo "What time is it now?"
 date
 EOS
 print str
 ~~~~
 
 ~~~~
-what time is is it now?
+what time is it now?
 Mon Aug 25 23:53:36 JST 2014
 ~~~~
 
