@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Debian wheezyにxrdpをインストール
-tag: debian
+tag: ['linux', 'xrdp']
 ---
 
 # Debian wheezyにxrdpをインストール
