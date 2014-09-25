@@ -15,22 +15,22 @@ debianであればaptから`colortest`パッケージでインストールでき
 ~~~~
 *background: #292929
 *foreground: #ffffff
-*color0: #404040
-*color1: #CE5666
-*color2: #80A673
-*color3: #E0BC93
-*color4: #778BAF
-*color5: #94738C
-*color6: #B5D2DD
-*color7: #d2d2d2
-*color8: #505050
-*color9: #952743
-*color10: #97D599
-*color11: #FFCAA2
-*color12: #5A667F
-*color13: #D8ADCE
-*color14: #82A9CC
-*color15: #ffffff
+*color0: #333333
+*color1: #A94952
+*color2: #83A949
+*color3: #A99F49
+*color4: #4983A9
+*color5: #A94983
+*color6: #49A99F
+*color7: #AAAAAA
+*color8: #666666
+*color9: #ED6975
+*color10: #B8ED69
+*color11: #EDE169
+*color12: #69B8ED
+*color13: #ED69B8
+*color14: #69EDE1
+*color15: #CCCCCC
 ~~~~
 
 ![colortest-16b]({{ site.url }}/assets/2014_09_25_colortest.png)
