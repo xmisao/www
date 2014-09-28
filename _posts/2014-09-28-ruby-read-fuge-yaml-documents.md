@@ -44,7 +44,7 @@ YAML.load_stream(STDIN){|doc|
 ~~~~
 
 このスクリプトに先ほど作った巨大なYAMLファイルを読み込んで処理させる。
-[timeでメモリ使用量を測定する方法](2014-09-28-shell-time-command-and-gnu-time-command.html)を使用してメモリ使用量を計る。
+[timeでメモリ使用量を測定する方法](http://www.xmisao.com/2014/09/28/shell-time-command-and-gnu-time-command.html)を使用してメモリ使用量を計る。
 出力は無駄なので`/dev/null`へリダイレクトする。
 
 ~~~~
