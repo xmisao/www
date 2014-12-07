@@ -8,7 +8,7 @@ tag: seccon
 
 2日間にわたるSECCON2014 オンライン予選が終わった。
 
-問題名さえ見られ無くなってしまうため、取り急ぎ一覧を。
+問題名さえ見られ無くなってしまうため、取り急ぎ保存していた一覧を。
 
 |Title|Genre|Points|
 |Welcome to SECCON|Start|100|
