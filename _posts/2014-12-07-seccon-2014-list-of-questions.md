@@ -11,6 +11,7 @@ tag: seccon
 終わると問題名さえ見られなくなってしまうため、取り急ぎ保存していた一覧を。
 
 |Title|Genre|Points|
+|:-|:-|:-|
 |Welcome to SECCON|Start|100|
 |Easy Cipher|Crypto|100|
 |Decrypt it (Easy)|Crypto|200|
