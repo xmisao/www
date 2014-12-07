@@ -8,7 +8,7 @@ tag: seccon
 
 2日間にわたるSECCON2014 オンライン予選が終わった。
 
-問題名さえ見られ無くなってしまうため、取り急ぎ保存していた一覧を。
+終わると問題名さえ見られなくなってしまうため、取り急ぎ保存していた一覧を。
 
 |Title|Genre|Points|
 |Welcome to SECCON|Start|100|
@@ -40,5 +40,6 @@ tag: seccon
 |Get the key|Network|100|
 |Get from curious "FTP" server|Network|300|
 |version2|Network|200|
+{: .table .table-striped}
 
-我がチームの成績は振るわなかったが、時間があったら感想をまとめたい。
+我がチームの成績は1500点 114位振るわないものだったが、時間があったら各問題の感想をまとめたい。
