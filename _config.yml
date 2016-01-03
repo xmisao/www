@@ -3,5 +3,5 @@ description: xmisaoの記録
 url: http://www.xmisao.com
 markdown: kramdown
 kramdown:
-  use_coderay: true
+  enable_coderay: true
   coderay_line_numbers: nil
