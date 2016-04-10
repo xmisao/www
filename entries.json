@@ -1,4 +1,3 @@
 ---
-layout: none
 ---
 [{% assign f = 0 %}{% for post in site.posts %}{% if f == 0 %}{% assign f = 1 %}{% else %},{% endif %}{"url":"http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}","title":"{{ post.title }}"}{% endfor %}]
