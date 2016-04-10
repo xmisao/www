@@ -2,6 +2,3 @@ name: xmisao -- ぺけみさお
 description: xmisaoの記録
 url: http://www.xmisao.com
 markdown: kramdown
-kramdown:
-  enable_coderay: true
-  coderay_line_numbers: nil
