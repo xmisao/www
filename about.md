@@ -5,15 +5,16 @@ title: About
 
 ## 本サイトについて
 
-ぺけみさおの記録。[jekyll](http://jekyllrb.com/)でAmazon S3上に構築しています。
+ぺけみさおの記録。[jekyll](http://jekyllrb.com/)を使用しています。
 
 ### ライセンス
 
-本サイトの内容は、特に注意書きのない限り、Creative Commons(表示)です。
+本サイトの内容は、クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンスの下に提供されています。
+注意書きがある場合は、注意書きに従って下さい。
 
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.ja"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
-この 作品 は [クリエイティブ・コモンズ 表示 3.0 非移植 ライセンスの下に提供されています。](http://creativecommons.org/licenses/by/3.0/deed.ja)
+この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンスの下に提供されています。</a>
 
 ## ぺけみさおのプロフィール
 
@@ -21,7 +22,7 @@ title: About
 
 <img style="margin-left:auto; margin-right:auto" src="xmisao_icon_96x96.png" alt="み">
 
-xmisaoと書いてぺけみさおと読む。某メーカー勤務のプログラマ。学生時代からプログラミングやLinuxによるサーバ構築に親しむ。人並みに使える言語はRubyとJava。好きな環境はdebianとvim。趣味は映画、アクアリウム、文房具、天体観望など。インドア派。
+xmisaoと書いてぺけみさおと読む。学生時代からプログラミングやLinuxによるサーバ構築に親しむ。プログラマ。主に使う言語は、趣味でRuby、仕事はJava。好きな環境はdebianとvim。インドア派。
 
 ### 連絡先
 
