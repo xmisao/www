@@ -67,10 +67,14 @@ layout: default
 - [syobocal](https://github.com/xmisao/syobocal) -- しょぼいカレンダーからデータを取得するライブラリ
 - [rubyjump.vim](https://github.com/xmisao/rubyjump.vim) -- バッファ内のRubyの定義に簡単に飛べるVimプラグイン
 - [aws-reporting](https://github.com/xmisao/aws-reporting) -- CloudWatchからデータを取得してAWSの性能をHTMLでレポーティングするツール
+- [xwebhookexe](https://github.com/xmisao/xwebhookexe) -- webhookを受信して任意のコマンドを実行するGo製Webサーバ
+- [wliconfig](https://github.com/xmisao/wliconfig) -- バッファローのWLIシリーズの設定を変更する非公式CLI
 
 <h3>Webサービス</h3>
 
 - [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
-- [はてなブックマーク ウォールβ](http://hbwall.xmisao.com/) -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
-- [よく使うハンドサイン画像ジェネレータ](http://handsign.xmisao.com/) -- SNSで話題のハンドサイン画像を作ろう!  
 - [ぺけアニメデータベース](http://animedb.xmisao.com/) -- 似たアニメが一目瞭然! アニメのデータベースサイト
+
+<h4>公開中止</h4>
+- はてなブックマーク ウォールβ -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
+- よく使うハンドサイン画像ジェネレータ -- SNSで話題のハンドサイン画像を作ろう!
