@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Let's EncryptのDNS-01認証を使用して無料のSSL証明書をWebサーバなしで取得する
+title: Let's EncryptのDNS-01を使用して無料のSSL証明書をWebサーバなしで取得する
 tag: letsencrypt
 ---
 
