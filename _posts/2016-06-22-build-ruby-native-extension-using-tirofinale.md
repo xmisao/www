@@ -6,7 +6,7 @@ tag: ruby
 
 # Rubyのnative extensionのビルドを簡単にするtirofinaleの試作
 
-[kawasaki.rb #37]で時間をいただいて、"native extensionのビルドどうしてますか?"というタイトルで発表したスライドです。
+[kawasaki.rb #37](https://kawasakirb.doorkeeper.jp/events/47273)で時間をいただいて、"native extensionのビルドどうしてますか?"というタイトルで発表したスライドです。
 
 Alpine Linux上で、APKBUILDを手がかりにして、native extensionのgemを簡単にビルドできるようにする、`tirofinale`というgemを試作してみました。
 
