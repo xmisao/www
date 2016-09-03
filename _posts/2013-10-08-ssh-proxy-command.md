@@ -4,7 +4,7 @@ title: ProxyCommandによるsshの多段接続について
 tag: ssh
 ---
 
-# ProxyCommandによるsshの多段接続について
+
 
 ![ssh proxy connection]({{ site.url }}/assets/2013_10_08_ssh_proxy_command.png)
 
@@ -14,7 +14,7 @@ ProxyCommandが指定されると、sshはまずProxyComamndを実行して、�
 
 ProxyCommndを使った多段接続には、これまでnetcatいわゆる`nc`が使われてきた。しかし、最近のsshは`-W`オプションをサポートしており、`nc`を併用することなく、多段接続を実現することができるようになっている。以下では`nc`を使う方法と、`ssh -W`を使う方法の2通りの使い方を紹介する。
 
-## ncを使う方法
+# ncを使う方法
 
 図中の*client*の`~/.ssh/config`に以下の設定をする。
 serverエントリは*server*に接続するための設定、server-anotherserverエントリは*server*を踏み台に*anotehrserver*に接続するための設定だ。
@@ -36,7 +36,7 @@ Host server-anotherserver
 ssh server-anotherserver
 ~~~~
 
-## ssh -Wを使う方法
+# ssh -Wを使う方法
 
 同じく図中のclientの`~/.ssh/config`に以下の設定をする。
 serverエントリは`nc`を使う方法と同様だ。
@@ -54,7 +54,7 @@ Host server-anotherserver
 
 *anoterhserver*への接続方法は`nc`の場合と変わらない。
 
-## ncとssh -Wどちらを使うべきか?
+# ncとssh -Wどちらを使うべきか?
 
 ここで疑問が沸くのが、一体`nc`と`ssh -W`どちらを使えば良いのかという点だ。踏み台となるホストに`nc`をインストールする必要がない分、後者の`ssh -W`を使った方が良さそうに見える。
 

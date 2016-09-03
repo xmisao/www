@@ -4,11 +4,11 @@ title: muninによる複数ホスト監視環境の構築
 tag: linux
 ---
 
-# muninによる複数ホスト監視環境の構築
+
 
 リソースモニタリングツールであるmuninは、ネットワークを通じて複数のホストを監視し、リソースの使用状況を出力することができる。今回は2台のdebian wheezyホストを監視する環境を構築する。
 
-## 前提
+# 前提
 
 muninは監視対象のホストからリソースの使用状況を収集してグラフ化するmunin本体と、個々のホストの使用状況を収集して転送するmunin-nodeに分かれている。
 
@@ -18,7 +18,7 @@ muninは/var/chache/munin以下にリソースの使用状況をまとめたWeb�
 
 以下ではApache + munin + munin-nodeをインストールしたサーバ(host1.example.com, 192.168.1.2)と、munin-nodeのみをインストールしたクライアント(host2.example.com, 192.168.1.3)の合計2台を監視する環境を構築する。
 
-## サーバ
+# サーバ
 
 debianではmuninをaptでインストールできる。サーバであり、監視対象でもあるので、muninとmunin-nodeの両方をインストールする。
 
@@ -58,7 +58,7 @@ Apacheとmunin-nodeを再起動する。
     /etc/init.d/apache2 restart
     /etc/init.d/munin-node restart
 
-## クライアント(ノード)
+# クライアント(ノード)
 
 監視対象のホストでは、munin-nodeのみをインストールする。
 
@@ -72,7 +72,7 @@ munin-nodeは接続元のIPアドレスによってアクセス制御を行な�
 
     /etc/init.d/munin-node restart
 
-## おわりに
+# おわりに
 
 以上でサーバで、サーバとクライアントの2台を監視する設定が完了した。
 

@@ -4,7 +4,7 @@ title: EclipseでJavaのConsoleクラスから入力を得る方法
 tag: java
 ---
 
-# EclipseでJavaのConsoleクラスから入力を得る方法
+
 
 簡単なプログラムで、JavaのSystem.console()で得られるjava.io.Consoleから入力を与えたい場合がある。
 

@@ -4,21 +4,21 @@ title: BestGems Pickup! 第6回 「daemons」
 tag: bestgems_pickup
 ---
 
-# BestGems Pickup! 第6回 「daemons」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第6回は「[daemons](http://daemons.rubyforge.org/)」を取り上げる。
 
-## 概要
+# 概要
 
 daemonsはrubyスクリプトをデーモン化し、外部からコントロール(start, stop等)できるようにするライブラリだ。
 
 daemonsは今日現在、合計ダウンロードランキング46位、デイリーダウンロードランキング66位につけている。
 
-## インストール
+# インストール
 
     gem install daemons
 
-## 使用例
+# 使用例
 
 damonesの使い方で一番オーソドックスなのは、制御スクリプトを書いてアプリケーションをデーモン化する方法だ。
 
@@ -98,7 +98,7 @@ ruby myproc_control.rb start
 ruby myproc_control.rb stop
 ~~~~
 
-## 解説
+# 解説
 
 daemonsを使えば、自分のrubyスクリプトを、わずか2行でデーモン化することが可能だ。自分でrubyでデーモンを書いたことがある人ならありがたみがわかるだろう。サーバや常時起動するアプリケーションを自分で書く機会があるなら、ぜひ抑えておきたいgemである。
 

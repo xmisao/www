@@ -4,7 +4,7 @@ title: JavaのSAXPaserをどのように停止させるべきか? 例外で停�
 tag: java
 ---
 
-# JavaのSAXPaserをどのように停止させるべきか? 例外で停止させるしかない。
+
 
 JavaでSAXPaserを使ってXMLをパースしている際に、例えばstartElement()ハンドラで以降の処理が不要だと判断し、パースを停止するにはどのようにプログラムすれば良いのか?
 例外を制御に使うのは非常に気持ち悪いが、残念ながらSAXExceptionをthrowするのが一番簡単で確実なようだ。

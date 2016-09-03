@@ -4,7 +4,7 @@ title: SIMカードをカットしてマイクロSIMにする夢を見た
 tag: mobile
 ---
 
-# SIMカードをカットしてマイクロSIMにする夢を見た
+
 
 ![sim2microsim]({{ site.url }}/assets/2013_12_14_sim_to_microsim.jpg)
 

@@ -4,7 +4,7 @@ title: Sinatra::Streamingの使い方と注意点
 tag: sinatra
 ---
 
-# Sinatra::Streamingの使い方と注意点
+
 
 SinatraからはWebサーバのIOが隠蔽されているので、通常はメモリ上で結果を生成し、それを返すことしかできない。
 

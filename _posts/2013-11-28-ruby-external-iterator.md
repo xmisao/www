@@ -4,7 +4,7 @@ title: Rubyの外部イテレータでブロックつきメソッドを利用す
 tag: ruby
 ---
 
-# Rubyの外部イテレータでブロックつきメソッドを利用する
+
 
 [Ruby 1.9のEnumeratorによる繰り返し処理](http://www.xmisao.com/2013/11/25/ruby-enumerator.html)では、外部イレテータによる繰り返し処理について説明した。
 

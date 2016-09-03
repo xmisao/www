@@ -4,7 +4,7 @@ title: Gnuplotのイケてるカラーセット
 tag: gnuplot
 ---
 
-# Gnuplotのイケてるカラーセット
+
 
 ![Awesome Graph]({{ site.url }}/assets/2013_09_09_awesome_graph.png)
 

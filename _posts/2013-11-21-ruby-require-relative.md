@@ -4,7 +4,7 @@ title: Rubyで相対パスのファイルをreuqire
 tag: ruby
 ---
 
-# Rubyで相対パスのファイルをreuqire
+
 
 以下のようなディレクトリ構造でソースファイルが配置されているとする。
 ここで`hoge.rb`から`lib/piyo.rb`をrequireする場合を考える。

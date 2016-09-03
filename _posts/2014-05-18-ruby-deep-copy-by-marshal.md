@@ -4,7 +4,7 @@ title: RubyのMarshalによる配列やハッシュのディープコピー
 tag: ruby
 ---
 
-# RubyのMarshalによる配列やハッシュのディープコピー
+
 
 Rubyでmarshalライブラリの`Marshal.dump`と`Marshal.load`を使えば、Rubyの配列やハッシュを簡単にディープコピーすることができる。以下はそのサンプルコード。
 

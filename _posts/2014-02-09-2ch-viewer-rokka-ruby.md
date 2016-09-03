@@ -4,9 +4,9 @@ title: 2chビューア●の現状と過去ログ閲覧用新システム「Rokk
 tag: x2ch
 ---
 
-# 2chビューア●の現状と過去ログ閲覧用新システム「Rokkaシステム」およびofflaw2について
 
-## はじめに
+
+# はじめに
 
 2013年8月、2chビューア●の個人情報が流出する事件があった。
 2chビューア●は、規制を回避して掲示板に書き込む機能と、過去ログを自由に閲覧できる過去ログ閲覧機能を提供していが、事件を発端に2chビューア●の機能はすべて停止された。
@@ -24,7 +24,7 @@ tag: x2ch
 [x2ch](https://github.com/xmisao/x2ch)を開発している都合上、技術的な部分が気になるので、Rokkaシステムとofflaw2による過去ログ取得を試してみた。
 このエントリーで記録を残しておきたいと思う。
 
-## Rokkaシステムを使ったBBSPINKの過去ログ取得
+# Rokkaシステムを使ったBBSPINKの過去ログ取得
 
 実際に2chビューア●でRokkaシステムにアクセスし、BBSPINKの過去ログを取得してみたいと思う。
 以下にRokkaシステムの公式(?)なドキュメント、Rokkaシステムに関して議論しているスレッド、Rokkaシステムのソースコードリポジトリを示す。
@@ -130,7 +130,7 @@ opts = ""
 puts open("http://rokka.#{server}/#{host}/#{board}/#{thread_id}/#{opts}?sid=#{sid}"){|f| f.read.toutf8}
 ~~~~
 
-## offlow2を使った2chの過去ログ取得
+# offlow2を使った2chの過去ログ取得
 
 offlow2については公式のドキュメントが無いがmonazillaの以下のドキュメントが参考になる。
 
@@ -195,7 +195,7 @@ thread_id = "1329895650"
 puts open("http://#{server}/test/offlaw2.so?shiro=kuma&bbs=#{board}&key=#{thread_id}"){|f| f.read.toutf8 }
 ~~~~
 
-## おわりに
+# おわりに
 
 本エントリでは情報流出事件後の2chビューア●の現状について整理した。続いてBBSPINKと2chについて過去ログの取得方法を調べ、Rubyで過去ログを取得するスクリプトを紹介した。
 

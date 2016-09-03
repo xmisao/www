@@ -4,7 +4,7 @@ title: VimのDartプラグイン
 tag: ['vim', 'dart']
 ---
 
-# VimのDartプラグイン
+
 
 VimでDartを編集するためのプラグインとして[Dart plugin for VIM](https://github.com/dart-lang/dart-vim-plugin)がある。
 

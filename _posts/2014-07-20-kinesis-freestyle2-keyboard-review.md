@@ -4,7 +4,7 @@ title: KINESIS Freestyle2レビュー
 tag: ['keyboard', 'review']
 ---
 
-# KINESIS Freestyle2レビュー
+
 
 このエントリーはKINESIS Freestyle2で書かれた。
 
@@ -14,7 +14,7 @@ KINESIS Freestyle2を購入し、昨日届いたのでさっそくレビュー�
 
 <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/41Ptie9H5nL._SL160_.jpg" alt="Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Kinesis Freestyle2 Keyboard [KB800PB-us] 【キネシス フリースタイル2 (9インチ) Win版】</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.07.21</div></div><div class="amazlet-detail">Kinesis <br />売り上げランキング: 568,267<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00CPJAN9W/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
-## 価格
+# 価格
 
 KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http://www.edikun.co.jp/kinesis/freestyle.htm)からの通販で13,586円だった。
 なおAmazon.co.jpでは本日時点でエジクンショップより15180円で販売されている。
@@ -22,7 +22,7 @@ KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http:/
 なおAmazon.comでの価格は$89である。
 いずれも国内の実売価格は少々割高に感じるが、輸入品であることを考慮すれば許容範囲といえる。
 
-## 製品の位置づけ
+# 製品の位置づけ
 
 エルゴノミクスキーボードの金字塔的メーカーであるKINESISのエントリーモデルだ。
 キーボードの形状は、他のKINESISのキーボードと大きく異なっている。
@@ -30,7 +30,7 @@ KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http:/
 説明するまでも無いと思われるが、KINESISの販売する一般的なキーボードは、キーがおわん型に配置された独特なエルゴノミクス設計である。
 一方、本キーボードは、一般的なキーボードの形状を維持しつつ、KINESISの哲学を実践した製品と言えるだろう。
 
-## ラインナップ
+# ラインナップ
 
 この製品のラインナップは少々複雑だ。
 まずWindows版とMac版があり、それぞれ左右のケーブル長が異なる9インチ版と20インチ版がある。
@@ -53,7 +53,7 @@ KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http:/
 このモデルとオプションの選択肢が多いことが、KINESIS Freestyle2を使い始める上での、最初の障壁であると言っても良い。
 私はKINESIS Freestyle2 for PCの9インチ版を単品で購入した。オプションは購入していない。
 
-## 外観
+# 外観
 
 最大の特徴はキーボードが左右に分割されていることだ。
 左右のキーボードはケーブルで接続されている。
@@ -70,7 +70,7 @@ KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http:/
 高級感があるかと言われれば微妙なところ。
 奇抜な形状なので安物には見えないだろうが…。
 
-## 配列
+# 配列
 
 ![KINESIS Freestyle2]({{ site.url }}/assets/2014_07_20_kinesis_freestyle2_layout.jpg)
 
@@ -118,7 +118,7 @@ Scroll LockはFn + Print Screen、InsertはFn + Pause/Breakで入力する。
 
 KINESISのキーボードはマクロを設定できる機能があるのが一般的のため、Freestyle2がこのような限定的なホットキーのサポートに留まっているのは残念である。
 
-## キータッチ
+# キータッチ
 
 奇抜な形状に気を取られがちだが、しっかりとキータッチも考えられている。
 
@@ -133,7 +133,7 @@ KINESISが公開しているスペックによると、ピーク荷重は44グ�
 余談だが、私は結構メンブレンのキータッチが好きなのである。
 メカニカルや静電容量のスイッチだけがもてはやされる風潮には異議を唱えたい。
 
-## まとめ
+# まとめ
 
 以上、KINESIS Freestyle2を簡単にレビューした。
 

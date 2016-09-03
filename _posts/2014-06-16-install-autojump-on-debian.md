@@ -4,7 +4,7 @@ title: debian wheezyにautojumpをインストール
 tag: shell
 ---
 
-# debian wheezyにautojumpをインストール
+
 
 [autojump](https://github.com/joelthelion/autojump)は学習する`cd`を標榜するコマンドだ。
 

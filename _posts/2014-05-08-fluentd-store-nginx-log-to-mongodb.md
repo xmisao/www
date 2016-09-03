@@ -4,13 +4,13 @@ title: fluentdでnginxのログをMongoDBに保存する
 tag: ['fluentd', 'linux']
 ---
 
-# fluentdでnginxのログをMongoDBに保存する(debian wheezy)
+
 
 fluentdでnginxのログをMongoDBに保存してみよう。
 
-## 準備
+# 準備
 
-### MongoDBのインストール
+## MongoDBのインストール
 
 debian wheezyならMongoDBは`mongodb`パッケージでインストールできる。
 
@@ -18,7 +18,7 @@ debian wheezyならMongoDBは`mongodb`パッケージでインストールでき
 apt-get install mongodb
 ~~~~
 
-### MongoDB Output pluginのインストール
+## MongoDB Output pluginのインストール
 
 fluentdをgemでインストールした場合、ログをMongoDBに保存するには、MongoDB Output pluginのインストールが必要である。
 
@@ -28,7 +28,7 @@ fluentdをgemでインストールした場合、ログをMongoDBに保存する
 gem install fluent-plugin-mongo --no-ri --no-rdoc
 ~~~~
 
-## nginxの設定
+# nginxの設定
 
 今回は[このエントリ](http://qiita.com/key/items/038b7913b3bb0298c625)を参考に、アクセスログをltsv形式で出力するように設定することにしよう。
 
@@ -65,7 +65,7 @@ nginxに設定ファイルを読み込ませて完了。事前に複数のログ
 /etc/init.d/nginx reload
 ~~~~
 
-## fluentdの設定
+# fluentdの設定
 
 fluentdの設定ファイル`fluent.conf`に以下の内容を記述する。
 
@@ -96,7 +96,7 @@ mkdir -p /var/log/fluentd/buffer
 
 これでflutendを再起動すればnginxのログを収集すると同時にMongoDBのnginxデータベースのaccessコレクションにデータが保存されるようになる。
 
-## 確認
+# 確認
 
 `mongo`コマンドでMongoDBに接続し、データが保存されているか確認してみよう。
 

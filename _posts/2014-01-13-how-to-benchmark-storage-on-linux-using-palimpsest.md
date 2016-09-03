@@ -4,7 +4,7 @@ title: Linuxで簡単にストレージのベンチマークを実行する方�
 tag: linux
 ---
 
-# Linuxで簡単にストレージのベンチマークを実行する方法(palimpsest)
+
 
 私はLinuxでストレージのベンチマークを実行するには、これまで`bonnie++`を使っていたが、Gnomeに付属のユーティリティ`palimpsest`でグラフィカルにベンチマークが可能ということを知って試してみた。Debianでは`palimpsest`は`gnome-disk-utility`パッケージに含まれている。なお`palimpsest`とは見慣れない単語だが、[羊皮紙の写本](http://ja.wikipedia.org/wiki/%E3%83%91%E3%83%AA%E3%83%B3%E3%83%97%E3%82%BB%E3%82%B9%E3%83%88)のことを言うらしい。
 
@@ -18,7 +18,7 @@ apt-get install gnome-disk-utility
 
 ![Format Dont Partition]({{ site.url }}/assets/2014_01_13_palimpsest_1.png)
 
-# USB 3.0のUSBメモリはどれだけ早いのか
+
 
 <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004HXHIOM/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/31MdE0nrooL._SL160_.jpg" alt="Transcend  SuperSpeed USB 3.0&Hi-Speed USB 2.0 USBメモリ 700シリーズ 32GB 永久保証 TS32GJF700" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004HXHIOM/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Transcend  SuperSpeed USB 3.0&Hi-Speed USB 2.0 USBメモリ 700シリーズ 32GB 永久保証 TS32GJF700</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.01.13</div></div><div class="amazlet-detail">トランセンド・ジャパン <br />売り上げランキング: 1,789<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B004HXHIOM/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 

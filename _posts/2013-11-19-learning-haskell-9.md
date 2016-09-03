@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(9) パターンマッチによる�
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(9) パターンマッチによる関数定義
+
 
 今日はパターンマッチによる関数定義をしてみることにした。実装するのは、TrueとFasleを逆転させる論理否定を行う`lnot`関数だ。
 

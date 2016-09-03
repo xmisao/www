@@ -4,14 +4,14 @@ title: 楽々スクレイピング! Ruby Mechanizeの使い方
 tag: ruby
 ---
 
-# 楽々スクレイピング! Ruby Mechanizeの使い方
+
 
 [Mechanize](http://mechanize.rubyforge.org/)はスクレイピングを補助するRubyライブラリだ。
 MechanizeはCookieのやり取りをはじめ、Webサイトとのインタラクションを自動化してくれる。
 `Net::HTTP`や`open-uri`では面倒なWebサイトへのアクセスを、Mechanizeを使えば簡単にRubyで記述することができる。
 以下では拙作の[http://bestgems.org/](http://bestgems.org/)を対象として、Mechanize 2.7.0の基本的な使い方を説明する。
 
-## 初期化とWebページの取得
+# 初期化とWebページの取得
 
 MechanizeでWebページを取得するのは簡単だ。
 `Mechanize`クラスを`new()`し、`get()`を呼びだせばWebページを取得できる。
@@ -35,7 +35,7 @@ page = agent.get('http://bestgems.org/')
 p page.body
 ~~~~
 
-## リンク
+# リンク
 
 Webページを取得した時点で、Mechanizeはページのリンクを抽出している。
 `links`を使えばページ中の全リンクのリストが取得できる。
@@ -71,7 +71,7 @@ p link.text
 p link.href
 ~~~~
 
-## フォーム
+# フォーム
 
 Mechanizeの強力な機能の1つが、フォームを扱えることだ。
 リンクの時と同様に、ページのフォームのリストを`forms`で取得できる。
@@ -99,7 +99,7 @@ form.q = 'x2ch'
 p agent.submit(form)
 ~~~~
 
-## スクレイピング
+# スクレイピング
 
 目的のページにたどり着く事ができたら、次にすることはページ中の要素を検索し内容を読み取ることだ。Mechanizeではページの`search()`メソッドがそれを助けてくれる。`search()`はXPathの文字列を引数に取り、検索した結果を返すメソッドだ。
 
@@ -113,13 +113,13 @@ page = agent.get('http://bestgems.org/')
 p page.search('h1.logo')
 ~~~~
 
-## おわりに
+# おわりに
 
 以上がMechanizeの基本的な使い方で、これだけ知っているだけでもかなりの事ができる。
 Mechanizeのドキュメントの[Guide](http://mechanize.rubyforge.org/GUIDE_rdoc.html)と[Examples](http://mechanize.rubyforge.org/EXAMPLES_rdoc.html)には、より多くの使い方が例示されているので、詳しくはそちらを参照して欲しい。
 このエントリがMechanizeによる快適なスクレイピングの導入となればうれしい。
 
-### 2014年4月2日 追記
+## 2014年4月2日 追記
 
 続きを書いた。
 Mechanizeのより詳しい使い方については次のエントリを参照のこと。

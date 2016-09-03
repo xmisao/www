@@ -4,14 +4,14 @@ title: AWSの性能レポーティングツール AWS-Reportingを作った
 tag: ['aws-reporting', 'aws']
 ---
 
-# AWSの性能レポーティングツール AWS-Reportingを作った
+
 
 AWSの性能レポーティングツールであるAWS-Reportingを公開した。
 8月頭からコツコツと作っていたもの。
 
 - [xmisao/aws-reporting](https://github.com/xmisao/aws-reporting)
 
-## 概要
+# 概要
 
 AWS-ReportingはAWSの性能レポーティングツールである。
 Amazon CloudWathcからデータを取得して、HTML形式でレポートを出力する。
@@ -19,13 +19,13 @@ Amazon CloudWathcからデータを取得して、HTML形式でレポートを�
 
 ![Screenshot](http://aws-reporting.xmisao.com/screenshot.png)
 
-## デモ
+# デモ
 
 レポートのサンプルには以下からアクセスできる。
 
 - [http://aws-reporting.xmisao.com/demo/](http://aws-reporting.xmisao.com/demo/)
 
-## インストール
+# インストール
 
 gemとして公開しているため、`gem install`でインストールできる。
 
@@ -33,9 +33,9 @@ gemとして公開しているため、`gem install`でインストールでき�
 gem install aws-reporting
 ~~~~
 
-## 使い方
+# 使い方
 
-### 設定
+## 設定
 
 `aws-reporting config`コマンドを実行する。
 AWSのアクセスキーIDとシークレットアクセスキーを設定する。
@@ -45,7 +45,7 @@ AWSのアクセスキーIDとシークレットアクセスキーを設定する
 aws-reporting config
 ~~~~
 
-### レポート生成
+## レポート生成
 
 `aws-reporting run`コマンドを実行する。
 このコマンドにより、AWS-ReportingはAmazon CloudWatchからデータを取得し、`/path/to/report`にHTML形式でレポートを保存する。
@@ -54,7 +54,7 @@ aws-reporting config
 aws-reporting run /path/to/report
 ~~~~
 
-### レポート確認
+## レポート確認
 
 Firefoxを使っているなら、HTTPサーバなしにレポートを開いて直接参照することができる。
 他のブラウザのために、AWS-Reportingは簡単なHTTPサーバ機能を備えている。
@@ -67,9 +67,9 @@ HTTPサーバが立ち上がり`/path/to/report`が公開される。
 aws-reporting serve /path/to/report
 ~~~~
 
-## 便利な使い方
+# 便利な使い方
 
-### レポート生成をcronでスケジュールする
+## レポート生成をcronでスケジュールする
 
 デイリーでレポートを出力するには`crontab`で以下のように設定すると良い。
 
@@ -79,7 +79,7 @@ aws-reporting serve /path/to/report
 
 レポートは`/path/to/report/20140824`のように保存される。
 
-### HTTPサーバでレポートを公開する
+## HTTPサーバでレポートを公開する
 
 例えば、nginxのバーチャルホスト設定は、以下のようになる。
 

@@ -4,7 +4,7 @@ title: LinuxでCDをリッピングするならabcdeを使おう
 tag: linux
 ---
 
-# LinuxでCDをリッピングするならabcdeを使おう
+
 
 音楽を楽しむならもはやリッピングが欠かせない。私はこれまでLinuxでCDをリッピングするのに[grip](http://sourceforge.net/projects/grip/)を使っていたが、開発が停滞しsqueeze以降ではdebianのリポジトリには含まれなくなってしまった。代わりのツールを探していたらabcdeというソフトがとても手に馴染んだので紹介する。
 

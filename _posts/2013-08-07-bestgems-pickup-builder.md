@@ -4,21 +4,21 @@ title: BestGems Pickup! 第2回 「builder」
 tag: "bestgems_pickup"
 ---
 
-# BestGems Pickup! 第2回 「builder」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第2回は「builder」を取り上げる。
 
-## 概要
+# 概要
 
 builderはXMLを簡単に構築できるライブラリだ。ある種のDSLのように、RubyのソースコードとしてXMLを記述することができる。APIを使用するために複雑なXMLをRubyで構築したり、HTMLを記述する用途にも利用できるだろう。
 
 builderは今日現在、合計ダウンロードランキング12位、デイリーダウンロードランキング5位につけている。人気急上昇のライブラリである。
 
-## インストール
+# インストール
 
     gem install builder
 
-## 使用例
+# 使用例
 
 XmlMarkupオブジェクトに対するメソッド呼び出しがそのままタグに、ブロックがタグで挟まれた内容として構築される。なおXmlMarkupはStringのサブクラスなので、そのまま文字列として振る舞う。以下のコードを見るだけで、使い方が一目でわかる。
 
@@ -91,7 +91,7 @@ declare!メソッドでDOCTYPE宣言も書ける。
     xml.target!  =>
     	<sample escaped="This&amp;That" unescaped="Here&amp;There"/>
 
-## 解説
+# 解説
 
 まるで魔法のようなXmlMarkupの仕組みは、Rubyのメタプログラミングに慣れた人にはお馴染みの、method_missingによるトリックだ。XmlMarkupクラスは、不要なメソッドをObjectクラスから省いた、いわゆるブランクスレートを継承している。
 ブランクスレートは定義されたメソッドの定義がないため、メソッド呼び出しはすべてmethod_missingで処理される。XmlMarkupはこのmethod_missingでメソッド名のタグを作る実装になっている。

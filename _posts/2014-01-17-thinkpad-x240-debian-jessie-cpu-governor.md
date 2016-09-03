@@ -4,7 +4,7 @@ title: Debian Jessieではcpufreq-set -g ondemandが失敗する?
 tag: ['thinkpad', 'linux']
 ---
 
-# Debian Jessieではcpufreq-set -g ondemandが失敗する?
+
 
 ThinkPad X240にDebian Jessieをインストールして使っているが、`cpufrequtils`パッケージをインストールしても、CPUのクロック数が変化しないことに気づいた。X240のCPUはCore i7-4600Uで定格2.1GHzだが、`/proc/cpuinfo`を確認しても常に定格の2.1GHz前後で動作している。
 

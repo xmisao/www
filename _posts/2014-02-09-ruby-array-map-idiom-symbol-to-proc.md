@@ -4,7 +4,7 @@ title: Rubyの[1, 2, 3].map(&:to_s)的なイディオムとSymbol#to_procにつ�
 tag: ruby
 ---
 
-# Rubyの[1, 2, 3].map(&:to_s)的なイディオムとSymbol#to_procについて
+
 
 ちょっと凝ったRubyのソースコードで良く目にする`[1, 2, 3].map(&:to_s)`のようなイディオムについて書いておきたい。まず以下はすべて同じ結果となる。
 

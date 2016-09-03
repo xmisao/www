@@ -4,7 +4,7 @@ title: PostgreSQLでCOPYする時はインデックスを削除すべし、数�
 tag: postgresql
 ---
 
-# PostgreSQLでCOPYする時はインデックスを削除すべし、数十倍高速化する
+
 
 常識なのかも知れないが、タイトルの通りである。
 
@@ -25,7 +25,7 @@ PostgreSQLに大量のデータを投入する方法については、[PostgreSQ
 
 今回は*2.*と*3.*のアプローチについて結果をまとめる。
 
-## 測定
+# 測定
 
 `values`テーブルと、`rankings`テーブルに合計およそ1億レコードをCOPY文を使って挿入する。
 スキーマは以下のとおり。
@@ -64,26 +64,26 @@ Indexes:
 
 環境はAmazon EC2のt1.microインスタンスに40GBのGeneral Purpose SSDを接続して使用した。
 
-## before
+# before
 
 主キーとインデックスを残したまま、単純にCOPY文を実行する。
 
-### SQL
+## SQL
 
 ~~~~
 COPY values FROM '/home/admin/csv/values.csv' WITH CSV;
 COPY rankings FROM '/home/admin/csv/rankings.csv' WITH CSV;
 ~~~~
 
-### 所要時間
+## 所要時間
 
 50時間経っても1テーブルの処理も完了せず、所要時間の測定は不能。
 
-## after
+# after
 
 主キーとインデックスを削除して、COPY文を実行し、主キーとインデックスを再作成する。
 
-### SQL
+## SQL
 
 ~~~~
 ALTER TABLE values DROP CONSTRAINT values_pkey;
@@ -108,7 +108,7 @@ CREATE INDEX rankings_gem_id_index ON rankings (gem_id);
 CREATE INDEX rankings_type_index ON rankings (type);
 ~~~~
 
-### 所要時間
+## 所要時間
 
 4時間で完了した。内訳は以下のとおり。
 
@@ -162,7 +162,7 @@ CREATE INDEX
 Time: 1058325.583 ms
 ~~~~
 
-## まとめ
+# まとめ
 
 主キーとインデックスを残したbeforeでは50時間経っても1テーブルのCOPY文も完了しなかったが、主キーとインデックスを削除したafterでは4時間で全体の処理が完了した。
 1テーブル2時間と考えると、afterはbeforeに比べて少なくとも25倍は高速であった。

@@ -4,7 +4,7 @@ title: 実行可能ファイルをgemパッケージに含める方法
 tag: ruby
 ---
 
-# 実行可能ファイルをgemパッケージに含める方法
+
 
 gemでアプリケーションを配布する場合、実行可能なファイルをgemパッケージに含めてやりたい事がある。例えば[拙作のxcalパッケージ](http://www.xmisao.com/2013/09/25/xcal-display-a-japan-calendar-like-cal.html)は、カレンダーを表示する`xcal`コマンドを含んでいる。以下ではxcalを例に、gemパッケージに実行可能ファイルを含める方法を説明する。
 

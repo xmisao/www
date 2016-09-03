@@ -4,7 +4,7 @@ title: sudoersのsecure_pathについて
 tag: linux
 ---
 
-# sudoersのsecure_pathについて
+
 
 sudoを使う際に環境変数PATHは意外とつまづきやすい部分だ。
 

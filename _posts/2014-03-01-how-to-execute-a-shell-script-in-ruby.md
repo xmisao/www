@@ -4,7 +4,7 @@ title: Rubyでシェルコマンドを実行する方法
 tag:
 ---
 
-# Rubyでシェルコマンドを実行する方法
+
 
 Rubyでは以下4つの方法でシェルコマンドを実行することができる。
 
@@ -13,7 +13,7 @@ Rubyでは以下4つの方法でシェルコマンドを実行することがで
 3. Kernel#system
 4. Kernel#exec
 
-## 1. Kernel#\`, バッククォート \`cmd\`
+# 1. Kernel#\`, バッククォート \`cmd\`
 
 これはBash, PHP, Perlなど他の言語と似ている。
 
@@ -26,7 +26,7 @@ value = `echo 'hi'`
 value = `#{cmd}`
 ~~~~
 
-## 2. %記法, %x( cmd )
+# 2. %記法, %x( cmd )
 
 バッククォートと同様に、シェルコマンドの結果を返す。
 
@@ -37,7 +37,7 @@ value = %x( echo 'hi' )
 value = %x[ #{cmd} ]
 ~~~~
 
-## 3. Kernel#system
+# 3. Kernel#system
 
 与えたシェルコマンドをサブシェルで実行する。
 
@@ -50,7 +50,7 @@ wasGood = system( "echo 'hi'" )
 wasGood = system( cmd )
 ~~~~
 
-## 4. Kernel#exec
+# 4. Kernel#exec
 
 シェルコマンドを実行して実行中のプロセスを置き換える。
 

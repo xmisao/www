@@ -4,7 +4,7 @@ title: JavaScriptランタイムが無いというエラーでrails serverが起
 tag: ruby
 ---
 
-# JavaScriptランタイムが無いというエラーでrails serverが起動しない場合
+
 
 `rails new`したプロジェクトを、`rails server`でさあ起動! というタイミングで以下のエラーが出て出鼻をくじかれた。
 

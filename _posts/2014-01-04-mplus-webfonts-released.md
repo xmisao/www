@@ -4,7 +4,7 @@ title: M+ FONTSをWebフォント化してSourceForge.jpでホスティングし
 tag: fonts
 ---
 
-# M+ FONTSをWebフォント化してSourceForge.jpでホスティングしてみた
+
 
 ![M+ Web Fonts Demo]({{ site.url }}/assets/2014_01_04_mplus.png)
 

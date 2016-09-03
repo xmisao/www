@@ -4,13 +4,13 @@ title: kibanaのためにfluentdでnginxのログをelasticsearchへ送る設定
 tag: ['kibana', 'fluentd', 'elasticsearch', 'nginx']
 ---
 
-# kibanaのためにfluentdでnginxのログをelasticsearchへ送る設定例
 
-## はじめに
+
+# はじめに
 
 nginxのログをfluentd + elasticsearch + kibanaで可視化する設定例。
 
-## nginx
+# nginx
 
 fluentdがnginxのログを解釈できるように、あらかじめログフォーマットを設定しておく。
 今回は[こちらのエントリ](http://www.xmisao.com/2014/05/08/fluentd-store-nginx-log-to-mongodb.html)の方法でltsv形式でログを出力するようにしておくことにする。
@@ -36,9 +36,9 @@ log_format ltsv 'time:$time_iso8601\t'
                 'host:$host';
 ~~~~
 
-## fluentd
+# fluentd
 
-### fluent-plugin-elasticsearch
+## fluent-plugin-elasticsearch
 
 fluentdでelasticsearchにデータを送るためのプラグイン、fluent-plugin-elasticsearchをインストールする。
 インストールはgemから以下で良い。
@@ -48,7 +48,7 @@ fluentdでelasticsearchにデータを送るためのプラグイン、fluent-pl
 gem install fluent-plugin-elasticsearch
 ~~~~
 
-### fluent-plugin-typecast
+## fluent-plugin-typecast
 
 __2014/5/10 追記:fluentdがv.0.10.42以上ならこのプラグインを使わない方法がある。詳しくは一番下の追記を参照。__
 
@@ -59,7 +59,7 @@ fluentdでデータの型を変換するプラグイン、fluent-plugin-typecast
 get install fluent-plugin-typecast
 ~~~~
 
-### fluentdの設定
+## fluentdの設定
 
 `fluentd.conf`に以下の内容を記述する。
 
@@ -105,13 +105,13 @@ ltsvでパースしたデータの値はすべて文字列である。
 これはlogstashの形式でデータを出力するオプションだ。
 これを指定しないとelasticsearchに格納されるレコードに`@timestamp`フィールドが作られず、kibanaでデータを時系列で描画することができない。
 
-## おわりに
+# おわりに
 
 以上で、fluentdでnginxのログを収集し、elasticsearchに送信する設定が完了した。
 設定項目は多いが内容は簡単なものなので、手順さえわかれば手早く設定することができると思う。
 kibanaをインストールしていれば、これでkibanaの画面上でログの可視化が可能となるはずである。
 
-## 2014/5/10追記
+# 2014/5/10追記
 
 [@repeatedly](https://twitter.com/repeatedly/status/464961290247475200)さん、情報ありがとうございます!
 

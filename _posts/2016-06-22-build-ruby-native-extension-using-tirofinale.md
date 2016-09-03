@@ -4,7 +4,7 @@ title: Rubyのnative extensionのビルドを簡単にするtirofinaleの試作
 tag: ruby
 ---
 
-# Rubyのnative extensionのビルドを簡単にするtirofinaleの試作
+
 
 [kawasaki.rb #37](https://kawasakirb.doorkeeper.jp/events/47273)で時間をいただいて、"native extensionのビルドどうしてますか?"というタイトルで発表したスライドです。
 

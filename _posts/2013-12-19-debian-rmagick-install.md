@@ -4,7 +4,7 @@ title: Debian WheezyにRMagickをインストール
 tag: ruby
 ---
 
-# Debian WheezyにRMagickをインストール
+
 
 RubyからImageMagickを使えるRMagickはネイティブエクステンションだ。ImageMagickの開発用のパッケージと強く依存しており、インストールにひと手間かかる。
 

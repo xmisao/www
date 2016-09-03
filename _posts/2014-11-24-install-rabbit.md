@@ -4,9 +4,9 @@ title: Debianでプレゼンテーションツールrabbitを使用する
 tag: ruby
 ---
 
-# Debianでプレゼンテーションツールrabbitを使用する
 
-## rabbitとは
+
+# rabbitとは
 
 [rabbit](http://rabbit-shocker.org/)はRuby製のプレゼンテーションツールだ。
 
@@ -15,7 +15,7 @@ rabbitコマンドでスライドを表示するだけでなく、スライド�
 
 このエントリではDebian Jessieにrabbitをインストールする方法と基本的な使い方を紹介する。
 
-## インストール
+# インストール
 
 インストールには、`apt-get`によりDebianのリポジトリからインストールする方法と、`gem install`でGemをビルドする方法の2通りがある。
 
@@ -42,9 +42,9 @@ gem install rabbit
 3. `You have to install development tools first.`と言われるエラー
   - `apt-get install build-essential`でビルド環境を整える
 
-## 使い方
+# 使い方
 
-### 入力ファイルの作成
+## 入力ファイルの作成
 
 スライドをMarkdownで書いてみる。
 以下の内容を`slide.md`として保存する。
@@ -69,7 +69,7 @@ gem install rabbit
 ![](picture.jpg "picture"){:width='100' height='100'}{% endraw %}
 ~~~~
 
-### スライドの表示
+## スライドの表示
 
 以下のように`rabbit`コマンドにスライドファイルを渡すとスライドが実行される。
 
@@ -77,7 +77,7 @@ gem install rabbit
 rabbit slide.md
 ~~~~
 
-### スライドの出力
+## スライドの出力
 
 `-p`オプションを指定し、`-o`オプションに出力ファイル名を指定する。
 以下のようにすると`slide.md`を`slide.pdf`としてPDF出力することが可能。
@@ -86,6 +86,6 @@ rabbit slide.md
 rabbit -p -o slide.pdf slide.md
 ~~~~
 
-### その他詳しい使い方
+## その他詳しい使い方
 
 [rabbitの公式](http://rabbit-shocker.org/ja/usage.html)に豊富な情報があるので詳しくはそちらを参照。

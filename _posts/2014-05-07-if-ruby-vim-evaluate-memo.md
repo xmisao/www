@@ -4,7 +4,7 @@ title: VimのRubyインタフェースのVIM::evaluateの戻り値の謎
 tag: ['vim', 'ruby']
 ---
 
-# VimのRubyインタフェースのVIM::evaluateの戻り値の謎
+
 
 VimのRubyインタフェースには、式を評価した結果をRubyで取得するための`VIM::evaluate`というモジュール関数がある。
 リファレンスを読むと、この関数の挙動は以下のとおりである。

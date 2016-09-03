@@ -4,7 +4,7 @@ title: Anker USB急速充電器 25Wと40Wの比較
 tag: gadget
 ---
 
-# Anker USB急速充電器 25Wと40Wの比較
+
 
 最近評判のAnkerのUSB急速充電器を買おうと思い25Wモデルにするか40Wモデルにするか小一時間悩んだので比較をメモしておく。
 AnkerのUSB急速充電器には「Anker 25W USB急速充電器 ACアダプタ」と「Anker 40 W USB急速充電器 ACアダプタ」の2モデルが存在する。

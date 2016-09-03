@@ -4,12 +4,12 @@ title: Android端末をリモート操作するアプリ3つ!
 tag: android
 ---
 
-# Android端末をリモート操作するアプリ3つ!
+
 
 ちょっと必要に迫られて、Android端末をリモート操作する方法があるのかどうか、その事情を調べてみた。
 結論から書くと、root化していない端末で、PCからの操作のみでAndroid端末を完全にリモート操作する方法は、現時点で存在しない。
 
-## リモート操作の定義
+# リモート操作の定義
 
 まずAndroidをリモート操作する言葉についてだ。
 この言葉は以下の2つの意味で使われている。
@@ -18,7 +18,7 @@ tag: android
 1. Android端末のファイルやアプリを遠隔操作で管理する
 2. Andorid端末の画面を直接遠隔操作する
 
-## 1. Android端末のファイルやアプリを遠隔操作で管理する
+# 1. Android端末のファイルやアプリを遠隔操作で管理する
 
 ![AirDroid]({{ site.url }}/assets/2013_12_23_airdroid.jpg)
 
@@ -51,14 +51,14 @@ AirDroidで行える主な操作は以下のとおり。
 - スクリーンショットの撮影(要root化)
 - カメラの操作
 
-## 2. Andorid端末の画面を直接遠隔操作する
+# 2. Andorid端末の画面を直接遠隔操作する
 
 いわゆるVNCやRemote Desktopのように、PCからAndroid端末の画面を直接操作するリモート操作である。
 PCでのリモート操作に慣れている人であれば、こちらを思い浮かべる人が多いだろう。
 
 この方式のリモート操作は、Androidでの実装が困難らしく、root化していない端末では満足に利用できない。一応、メジャーと思われる2つのアプリを紹介する。
 
-### droid VNC server (無料)
+## droid VNC server (無料)
 
 - [droid VNC server](https://play.google.com/store/apps/details?id=org.onaips.vnc&hl=ja)
 
@@ -72,7 +72,7 @@ root化さえしていれば、理想的なリモート操作が可能だと思�
 
 一応、CyanogenModを導入した手元のKindle Fire HD 8.9で試してみたが、どうやってもVNCサーバに接続することはできなかった。残念だ。
 
-### VMLite VNC Server (有料)
+## VMLite VNC Server (有料)
 
 - [VMLite VNC Server](https://play.google.com/store/apps/details?id=com.vmlite.vncserver&hl=ja)
 
@@ -89,6 +89,6 @@ root化した端末なら端末単体で動作可能だ。
 
 VMLite VNC Serverは有料(約1000円)だけあって、こちらは無事にVNCで接続可能であった。またWebブラウザ経由の遠隔操作も可能であった。
 
-## おわりに
+# おわりに
 
 以上、Android端末のリモート操作事情について調査して3つのアプリを紹介した。この分野はまだ実用になる方法がないというのが正直な感想である。

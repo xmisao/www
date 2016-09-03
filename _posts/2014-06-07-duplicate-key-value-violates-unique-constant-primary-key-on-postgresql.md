@@ -4,7 +4,7 @@ title: PostgreSQLでINSERT時に自動採番の主キーが重複してエラー
 tag: database
 ---
 
-# PostgreSQLでINSERT時に自動採番の主キーが重複してエラーが出る場合の対処法
+
 
 PostgreSQLでは主キーを省略して`INSERT`すると主キーが自動的に採番される。
 主キーの採番はシーケンスオブジェクトを使って行われ、通常はユニークな値が採番される。
@@ -22,7 +22,7 @@ ERROR:  duplicate key value violates unique constraint "table_pkey"
 2. シーケンスオブジェクトの値の確認
 3. シーケンスオブジェクトの値の更新
 
-## 1. 最大のキー値の確認
+# 1. 最大のキー値の確認
 
 まずテーブル中の最大のキー値を調べる。
 
@@ -30,7 +30,7 @@ ERROR:  duplicate key value violates unique constraint "table_pkey"
 SELECT MAX(id) FROM table;
 ~~~~
 
-## 2. シーケンスの値の確認
+# 2. シーケンスの値の確認
 
 続いて`nextval`関数でシーケンスオブジェクトが採番する値を調べる。
 この値が最大のキー値より小さければずれが生じている。
@@ -39,7 +39,7 @@ SELECT MAX(id) FROM table;
 SELECT nextval('table_id_seq');
 ~~~~
 
-## 3. シーケンスの値の更新
+# 3. シーケンスの値の更新
 
 修復するには`setval`関数でシーケンスオブジェクトの値を以下のように更新してやれば良い。
 

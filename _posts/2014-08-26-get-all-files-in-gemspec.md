@@ -4,9 +4,9 @@ title: 技あり! gemspec中でファイル一覧を取得する
 tag: ruby
 ---
 
-# 技あり! gemspec中でファイル一覧を取得する
 
-## はじめに
+
+# はじめに
 
 gemspecファイルはRubyのGemファイルの生成元となるファイルである。gemspecファイルでは、Gemに含むファイルの一覧を`Gem::Specification#files`に設定して、Gemファイルに含むファイル一覧を定義する。
 
@@ -16,7 +16,7 @@ gemspecファイルはRubyのGemファイルの生成元となるファイルで
 
 なおメジャーなGemを調べるには、拙作の[BestGems.org](http://bestgems.org/)が便利である。(宣伝)
 
-## rack
+# rack
 
 [rack](https://github.com/rack/rack)は合計ダウンロードランキング2位である。
 言わずと知れたWebサーバインタフェースはどのようにファイル一覧を取得しているのか。
@@ -33,7 +33,7 @@ s.files = Dir['{bin/*,contrib/*,example/*,lib/**/*,test/**/*}'] +
 
 良く読むと、これで`bin`直下のファイルや、`lib`以下の全ファイルなどを、一覧していることがわかる。意外とアナログである。
 
-## thor
+# thor
 
 [thor](https://github.com/erikhuda/thor)は合計ダウンロードランキング3位である。
 サードパーティのコマンドラインオプションのパーサとしては最も人気がある。
@@ -48,7 +48,7 @@ spec.files += Dir.glob("spec/**/*")
 
 これは読みやすい。使っているのは`Dir.glob`でrackと変わらない。あまりトリッキーなことはせずに、可読性を重視しているように見える。`Array#+`で配列を連結できることをうまく活用していると言えるだろう。
 
-## active-support
+# active-support
 
 [active-support](https://github.com/rails/rails/tree/master/activesupport)は合計ダウンロードランキング4位である。
 みんな大好きactive-supportは説明するまでもなく、Railsで使われている便利なクラスの詰め合わせだ。
@@ -62,7 +62,7 @@ s.files = Dir['CHANGELOG.md', 'MIT-LICENSE', 'README.rdoc', 'lib/**/*']
 
 なおrails系統のGemは同じように書かれていることを確認した。
 
-## json
+# json
 
 [json](https://github.com/flori/json)は合計ダウンロードランキング6位である。
 jsonはその名の示す通りJSONのパースと生成を行うライブラリだ。
@@ -76,7 +76,7 @@ s.files = ["./tests/test_json.rb", "./tests/test_json_addition.rb", 以下略
 jsonはプログラムによるファイル一覧の生成には頼らず、すべてのファイルを手書きするというアプローチを取っていた。
 まさか手書きとは思えないのだが、こういう形式のgemspecを出力するツールがあるのだろうか?
 
-## builder
+# builder
 
 [builder](https://github.com/jimweirich/builder)は合計ダウンロードランキング9位である。
 XML生成を行うライブラリである。
@@ -100,7 +100,7 @@ s.files = PKG_FILES.to_a
 
 `FileList`はrakeタスク中で使用できるファイル格納用の配列だ。`FileList.[]`は遅延評価であることを除いて`Dir.[]`と基本的には同じである。配列が必要なため最後に`FileList.to_a`している。
 
-## tzinfo
+# tzinfo
 
 [tzinfo](https://github.com/tzinfo/tzinfo)は合計ダウンロードランキング13位となっている。
 異なるタイムゾーン間での時刻の相互変換を行うためのライブラリである。
@@ -115,7 +115,7 @@ s.files = %w(CHANGES.md LICENSE Rakefile README.md tzinfo.gemspec .yardopts) +
 
 内容自体はもはやつまらないものだが、特筆すべきはSubversionの管理ファイルを除外している点だろう。以前はSubversionで管理していたのだろうか。現在はGitHubで管理されているのでもはや不要なコードのように見える。
 
-## tilt
+# tilt
 
 [tilt](https://github.com/rtomayko/tilt)は合計ダウンロードランキング16位だ。
 解説によると複数のテンプレートエンジンの汎用インタフェースとある。
@@ -132,7 +132,7 @@ s.files = %w[
 
 こいつもベタ書きだった。`%`記法を使ってコンマを省略している点がjsonと比べて新しいと言えば新しい。
 
-## polyglot
+# polyglot
 
 [polyglot](https://github.com/cjheath/polyglot)は合計ダウンロードランキング19位だ。
 良く知らないので説明は省略。
@@ -147,7 +147,7 @@ end
 
 20位まで見て疲れたので最後にもう1パターンだけ紹介して、このエントリを終わりにする。
 
-## jekyll
+# jekyll
 
 jekyllは合計ダウンロードランキング449位となっている。
 GitHubでも使われていて静的サイトジェネレータとして広く知られている。
@@ -166,7 +166,7 @@ s.files = all_files.grep(%r{^(bin|lib)/})
 
 この例では`git ls-files`の結果のうち、`bin`または`lib`からはじまるパスだけを、`files`に格納していることがわかる。
 
-## おわりに
+# おわりに
 
 似ているものは省略したがGemの合計ダウンロードランキング1〜20位とjekyllについて、gemspecでファイル一覧を取得する方法について調べた。
 

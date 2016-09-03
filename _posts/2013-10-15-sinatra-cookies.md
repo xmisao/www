@@ -4,7 +4,7 @@ title: SinatraでCookieを扱う
 tag: ruby
 ---
 
-# SinatraでCookieを扱う
+
 
 軽量Webアプリケーションフレームワーク[Sinatra](http://www.sinatrarb.com/intro-jp.html)でCookieを扱うには、`Sinatra::Cookies`エクステンションを使う。
 

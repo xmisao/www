@@ -4,7 +4,7 @@ title: 64bitのDebianでVMWare Playerの起動にlibprotobufのエラーで失�
 tag: virtualization
 ---
 
-# 64bitのDebianでVMWare Playerの起動にlibprotobufのエラーで失敗する
+
 
 vmplayerを起動したら下記のエラーが出てしまう。
 libprotobufは2.4のはずで、どうにもできず。

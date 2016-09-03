@@ -4,7 +4,7 @@ title: topの代わりに高機能なプロセスビューアhtopを使おう
 tag: linux
 ---
 
-# topの代わりに高機能なプロセスビューアhtopを使おう
+
 
 ![htop screenshot]({{ site.url }}/assets/2013_09_17_htop.jpg)
 

@@ -3,17 +3,17 @@ layout: blog
 title: Linuxで無線LAN
 ---
 
-# Linuxで無線LAN
+
 
 何かとうまく動いてくれないLinuxの無線LAN。
 コマンドで接続する場合は、WEPとWPAで利用するコマンドが異なる。
 Gnome Network Managerなどが動作していると、うまく動作しない模様。
 
-## wep
+# wep
 
 TODO
 
-## wpa2
+# wpa2
 
 設定ファイルは予め作成しておく。
 TODO

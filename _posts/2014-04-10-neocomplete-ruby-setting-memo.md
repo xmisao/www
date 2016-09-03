@@ -4,11 +4,11 @@ title: vimプラグインneocompleteの導入とRuby向けの設定メモ
 tag: ['vim', 'ruby']
 ---
 
-# vimプラグインneocompleteの導入とRuby向けの設定メモ
+
 
 自動的な入力補完を行ってくれる超絶便利なvimプラグインとして[neocomplete](https://github.com/Shougo/neocomplete.vim)がある。
 
-## インストール
+# インストール
 
 [Vundle](http://www.xmisao.com/2013/08/22/vundle.html)を使っていれば以下を`.vimrc`に記載して、`BundleInstall`でインストールできる。
 
@@ -16,7 +16,7 @@ tag: ['vim', 'ruby']
 Bundle "Shougo/neocomplete.vim"
 ~~~~
 
-### 設定
+## 設定
 
 `.vimrc`に以下の設定をする。
 

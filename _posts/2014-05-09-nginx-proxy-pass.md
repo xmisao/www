@@ -4,7 +4,7 @@ title: nginxのproxy_passの注意点
 tag: nginx
 ---
 
-# nginxのproxy_passの注意点
+
 
 nginxをリバースプロキシにする場合に使用する`proxy_pass`ディレクティブは、URIが与えられた場合と、そうでない場合で挙動が異なる。
 

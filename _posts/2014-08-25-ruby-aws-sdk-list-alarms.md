@@ -4,7 +4,7 @@ title: Rubyからaws-sdkを使ってアラームの一覧を取得する
 tag: ['ruby', 'aws']
 ---
 
-# Rubyからaws-sdkを使ってアラームの一覧を取得する
+
 
 Rubyのaws-sdkの使い方。
 

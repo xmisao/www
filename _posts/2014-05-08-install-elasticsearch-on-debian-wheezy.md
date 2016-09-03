@@ -4,11 +4,11 @@ title: debian wheezyにelasticsearchをインストール
 tag: ['linux', 'elasticsearch']
 ---
 
-# debian wheezyにelasticsearchをインストール
+
 
 debian weheezyにelasticsearchをインストールするメモ。
 
-## 準備
+# 準備
 
 elasticsearchにはJavaが必要である。
 事前にインストールしておく。
@@ -18,7 +18,7 @@ OpenJDK 7をインストールする場合は以下。
 apt-get install openjdk-7-jre
 ~~~~
 
-## ダウンロード
+# ダウンロード
 
 [公式サイト](http://www.elasticsearch.org/overview/elkdownloads/)から最新版のelasticsearchをダウンロードする。
 本エントリ執筆時点の最新版は1.1.1であった。
@@ -27,7 +27,7 @@ apt-get install openjdk-7-jre
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.1.1.tar.gz 
 ~~~~
 
-## インストール
+# インストール
 
 elasticsearchは圧縮ファイルを展開するだけで使用可能になる。
 今回は`/opt/elasticsearch`にelasticsearchを配置することにする。
@@ -37,7 +37,7 @@ tar zxvf elasticsearch-1.1.1.tar.gz
 mv elasticsearch-1.1.1 /opt/elasticsearch
 ~~~~
 
-## 実行
+# 実行
 
 `bin`以下にある`elasticsearch`を実行して動作することを確認する。
 

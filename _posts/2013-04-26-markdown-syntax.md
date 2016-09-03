@@ -4,7 +4,7 @@ title: Markdown文法の日本語訳
 tag: markdown
 ---
 
-# Markdown文法の日本語訳
+
 
 Markdownの文法は実装によって揺れがある。
 
@@ -12,7 +12,7 @@ Markdownの文法は実装によって揺れがある。
 
 これらの文法を調べるにあたり、それぞれ以下の翻訳が非常に役に立ったのでリンクしておく。
 
-## Markdown
+# Markdown
 
 原文
 <http://daringfireball.net/projects/markdown/syntax.php>
@@ -20,7 +20,7 @@ Markdownの文法は実装によって揺れがある。
 翻訳
 <http://blog.2310.net/archives/6>
 
-## PHP Markdown Extra
+# PHP Markdown Extra
 
 原文
 <http://michelf.ca/projects/php-markdown/extra/>

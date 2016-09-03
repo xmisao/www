@@ -4,7 +4,7 @@ title: Javaで実装された初代SimCity、Micropolisで遊ぼう
 tag: game
 ---
 
-# Javaで実装された初代SimCity、Micropolisで遊ぼう
+
 
 ![Micropolis]({{ site.url }}/assets/2014_03_31_micropolis.jpg)
 

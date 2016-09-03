@@ -4,7 +4,7 @@ title: Rubyでswitch文はどう書くの?
 tag: ruby
 ---
 
-# Rubyでswitch文はどう書くの?
+
 
 Stackoverflowより。
 

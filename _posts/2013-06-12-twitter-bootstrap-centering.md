@@ -4,7 +4,7 @@ title: Twitter Bootstrapでセンタリングする方法
 tag: ['css', 'web']
 ---
 
-# Twitter Bootstrapでセンタリングする方法
+
 
 Twitter Bootstrap 2.3.0以降で要素をセンタリングするにはtext-centerクラスを指定すればセンタリングできる。
 

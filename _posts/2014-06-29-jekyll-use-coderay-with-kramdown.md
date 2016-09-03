@@ -4,7 +4,7 @@ title: Jekyllでkramdown使用時にcoderayでシンタックスハイライト�
 tag: jekyll
 ---
 
-# Jekyllでkramdown使用時にcoderayでシンタックスハイライトする
+
 
 `_config.yml`に以下の内容を記述する。
 

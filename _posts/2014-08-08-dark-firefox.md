@@ -4,9 +4,9 @@ title: Firefoxを徹底的に黒くする テーマ / Stylish / Vimperator
 tag: firefox
 ---
 
-# Firefoxを徹底的に黒くする テーマ / Stylish / Vimperator
 
-## はじめに
+
+# はじめに
 
 ついカッとなってFirefoxを徹底的に黒くしたので手順をメモする。
 
@@ -14,7 +14,7 @@ tag: firefox
 
 ![Dark Firefox]({{ site.url }}/assets/2014_08_08_dark_firefox.jpg)
 
-## テーマ
+# テーマ
 
 これは簡単なカスタマイズだ。
 
@@ -22,25 +22,25 @@ tag: firefox
 
 私は[Simple brow](https://addons.mozilla.org/ja/firefox/addon/simple-brow/)を使った。流行っていないようだが、こういうシンプルなのが一番良い。
 
-## Stylish
+# Stylish
 
 最近は歳のせいか白いWebページを苦痛に感じるようになってきた。Webページ自体を黒くしたい。
 
 そんな要望を叶えてくれるのがStylishというアドオンと、Midnight Surfing - Global Dark Styleというスタイルだ。
 
-### Stylishとは
+## Stylishとは
 
 StylishはWebページの見た目を自在にカスタマイズするためのアドオンだ。
 
 このアドオンにより、[userstyles.org](https://userstyles.org/)からスタイルをインストールすることで、Webページの見た目をカスタマイズできるようになる。
 
-### Stylishのインストール
+## Stylishのインストール
 
 Stylishをまだインストールしていないなら、まずStylishをインストールする。以下からインストールできる。インストール後はFirefoxの再起動が必要。
 
 - [Stylish](https://addons.mozilla.org/ja/firefox/addon/stylish/)
 
-### Midnight Surfing - Global Dark Styleのインストール
+## Midnight Surfing - Global Dark Styleのインストール
 
 Midnight Surfing - Global Dark Styleは、その名の通りあらゆるサイトを黒背景・白文字のハイコントラストにするスタイルだ。
 
@@ -48,17 +48,17 @@ Stylishをインストールした上で、以下のページにアクセスし�
 
 - [Midnight Surfing - Global Dark Style ](https://userstyles.org/styles/23516/midnight-surfing-global-dark-style)
 
-## Vimperator
+# Vimperator
 
 以上で9割方のユーザは黒いFirefoxに満足できるものと思われるが、私はVimperatorを使っている。
 
-### Vimperatorとは
+## Vimperatorとは
 
 VimperatorとはFirefoxをVim風に操作できるVimmer垂涎のFirefoxアドオンである。このプラグインのためにFirefoxから離れられないVimmerも多いと思われる。
 
 Vimperatorの色は、カラースキームという独自の仕組みで設定する。Vimperatorも黒くするために、以下の手順でカラースキームを適用する。
 
-### カラースキーム
+## カラースキーム
 
 [abyss](https://github.com/revivre/Vimperator/blob/master/colors/abyss.vimp)という黒ベースのカラースキームを見つけた。少々古く最新のVimperatorに読み込ませたらエラーが出たので、少しカスタマイズした。
 
@@ -114,6 +114,6 @@ hi String             color: LimeGreen;
 :colorscheme abyss
 ~~~~
 
-## おわりに
+# おわりに
 
 以上でFirefoxを満足いくまで黒くすることができた。いろいろ試行錯誤していたら2時間ぐらいかかってしまった。一体何をやっているのやら…。

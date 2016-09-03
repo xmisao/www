@@ -4,7 +4,7 @@ title: リモートリポジトリへのgit pushがrefusing to update checked ou
 tag: git
 ---
 
-# リモートリポジトリへのgit pushがrefusing to update checked out branchで失敗する
+
 
 リモートでリポジトリを作成する。
 
@@ -51,7 +51,7 @@ error: failed to push some refs to 'ssh://remote-host/path/to/repos'
 
 理由はワーキングツリーとインデックスが不整合になるから。
 
-## 解決策1 リモートリポジトリでオプションを設定
+# 解決策1 リモートリポジトリでオプションを設定
 
 カレントブランチへのpushを受け付けるように`receive.denyCurrentBranch`オプションを`ignore`に設定する。
 
@@ -63,7 +63,7 @@ git config --add receive.denyCurrentBranch ignore
 
 ただし1人で使っている分には便利なことも多々ある…と思う。
 
-## 解決策2 リモートリポジトリを--bareで作成
+# 解決策2 リモートリポジトリを--bareで作成
 
 リモートリポジトリを`--bare`で作成すれば、ワーキングツリーが無くなるので、この問題は発生しない。
 

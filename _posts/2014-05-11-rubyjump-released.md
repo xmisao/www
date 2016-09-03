@@ -4,13 +4,13 @@ title: Vimプラグイン RubyJump v0.9.1 をリリースした
 tag: ['rubyjump', 'vim', 'ruby']
 ---
 
-# Vimプラグイン RubyJump v0.9.1 をリリースした
 
-## デモ
+
+# デモ
 
 ![rubyjump demo]({{ site.url }}/assets/2014_05_11_rubyjump_demo.gif)
 
-## リリース
+# リリース
 
 - [rubyjump.vim](https://github.com/xmisao/rubyjump.vim)
 
@@ -28,7 +28,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 - `RubyJumpVersion`コマンドでバージョンを確認できるようにした
 - その他バグフィックス多数
 
-## 機能の概要
+# 機能の概要
 
 改めて紹介すると、RubyJumpはvimでRubyスクリプトを編集する際に、バッファ中のメソッド、モジュール、クラス定義に素早くジャンプするためのプラグインだ。
 
@@ -38,7 +38,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 
 設定例などは[githubの日本語READMEファイル](https://github.com/xmisao/rubyjump.vim/blob/master/README.ja.md)を参照。
 
-## 開発の動機と設計思想
+# 開発の動機と設計思想
 
 Rubyの定義へ移動するには、ctagsを使ったタグジャンプや、rails.vimといったプラグインを使った方法がある。
 これらは便利だが、タグジャンプはファイルを更新する度にタグを生成するのが手間だし、rails.vimはrailsの構造に依存していてrails以外では使えないという欠点がある。

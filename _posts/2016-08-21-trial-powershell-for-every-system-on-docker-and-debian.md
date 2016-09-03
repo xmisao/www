@@ -4,15 +4,13 @@ title: Linuxでも動くようになったPowerShellを試しに使ってみた(
 tag: powershell
 ---
 
-# Linuxでも動くようになったPowerShellを試しに使ってみた(Docker/Debian)
-
-## はじめに
+# はじめに
 
 噂はありましたが、とうとう昨日、LinuxやMacOS Xでも、PowerShellが使えるようになりました。
 
 このエントリでは、DockerとDebian StretchでPowerShellをインストールして、使ってみます。
 
-### 対象ソフトウェア
+## 対象ソフトウェア
 
 |ソフトウェア  |バージョン    |備考                                                   |
 |:-            |:-            |:-                                                     |
@@ -21,9 +19,9 @@ tag: powershell
 |Docker        |1.11.0        |-                                                      |
 {: .table .table-striped}
 
-## インストール
+# インストール
 
-### Docker
+## Docker
 
 GitHubには[Dockerで動かせる記載](https://github.com/PowerShell/PowerShell/blob/master/docs/installation/docker.md)がありますが、このエントリ執筆時点では、DockerHubに`powershell`イメージが登録されていないようで、記載どおり`docker run -it powershell`しても動きません。
 
@@ -46,7 +44,7 @@ Copyright (C) 2016 Microsoft Corporation. All rights reserved.
 PS /> 
 ~~~~
 
-### Debian Stretch
+## Debian Stretch
 
 PowerShellの公式のビルド済みバイナリは、Windows、Ubuntu、CentOS、Mac OSX向けのみ提供されており、Debian向けのビルド済みバイナリはありません。
 とはいえ、UbuntuとDebianはほぼパッケージの構成が同じですので、DebianでもUbuntu向けのビルド済みバイナリを使うことができます。
@@ -70,13 +68,13 @@ Copyright (C) 2016 Microsoft Corporation. All rights reserved.
 PS /> 
 ~~~~
 
-## PowerShellの動作を確認する
+# PowerShellの動作を確認する
 
 Microsoftの[Windows PowerShell コマンドレットのタスク別ガイド](https://technet.microsoft.com/ja-jp/scriptcenter/dd772285.aspx)を参考に、Linux版Powershellの動作を確認してみます。
 
 WindowsでもPowerShellを使い慣れていないため、つまらない例なのはご容赦下さい。
 
-### コマンドレット一覧の表示
+## コマンドレット一覧の表示
 
 とりあえず使えるコマンドレットの一覧を見てみます。
 PowerShellでは、`Get-Command`コマンドレットで取得できます。
@@ -100,7 +98,7 @@ Cmdlet          Add-Member                                         3.1.0.0    Mi
 
 * [xmisao/powershell-for-every-system-commandlets.txt](https://gist.github.com/xmisao/b21ce53cd25e20db31652145f283037f)
 
-### 日付の表示と計算
+## 日付の表示と計算
 
 `Get-Date`コマンドレットで日付と時刻を表示してみます。
 
@@ -127,7 +125,7 @@ PS /> (Get-date).AddMinutes(137)
 Sunday, 21 August 2016 07:12:32
 ~~~~
 
-### ドライブ一覧の表示
+## ドライブ一覧の表示
 
 `Get-PSDrive`コマンドレットでドライブ一覧を確認してみます。 
 この程度ならLinuxでも使えるようです。
@@ -148,7 +146,7 @@ Variable                               Variable
 ~~~~
 
 
-### プロセス一覧の表示
+## プロセス一覧の表示
 
 `Get-Process`コマンドレットでプロセス一覧を確認してみます。
 この例ではDockerコンテナで動かしているので、プロセスIDが1でpowershellプロセスが起動しています。
@@ -161,7 +159,7 @@ Handles  NPM(K)    PM(K)      WS(K)     CPU(s)     Id  SI ProcessName
       0       0        0         21       5.39      1   1 powershell                                                                               
 ~~~~
 
-### コマンドレットの実行結果をCSVやXMLで出力
+## コマンドレットの実行結果をCSVやXMLで出力
 
 先ほどのプロセス一覧を`Export-Csv`コマンドレットでCSVに出力して、`Get-Content`コマンドレットで表示してみます。
 
@@ -191,7 +189,7 @@ PS /> Get-Content process.xml
 
 なお、PowerShellにはHTMLで出力する`ConvertTo-Html`というコマンドレットもあるのですが、LinuxのPowerShellでは省かれているようです。
 
-### ヘルプの表示
+## ヘルプの表示
 
 ヘルプの表示は`Get-Help`コマンドレットです。
 ためしに`Get-Member`のヘルプを表示してみます。
@@ -208,7 +206,7 @@ SYNOPSIS
 # 以下省略
 ~~~~
 
-### PowerShellスクリプトの実行
+## PowerShellスクリプトの実行
 
 ファイルに保存したPowerShellスクリプトを実行します。
 
@@ -239,7 +237,7 @@ PS /> ls -l one.ps1
 -rw-r--r-- 1 root root 86 Aug 21 05:19 one.ps1
 ~~~~
 
-### ループでも回してみる
+## ループでも回してみる
 
 1から10までループでも回してみます。
 評価した結果がそのまま出力されるのがPowerShellらしいですね。
@@ -258,7 +256,7 @@ PS /> for ($a = 1; $a -le 10; $a++) {$a}
 10
 ~~~~
 
-### .NET Frameworkのクラスを呼び出す
+## .NET Frameworkのクラスを呼び出す
 
 最後に`String`クラスの`Format`メソッドを呼び出して、`255`という数値を、16進数に整形して表示してみます。
 
@@ -267,7 +265,7 @@ PS /> [String]::Format("Hex: {0:x}", 255)
 Hex: ff
 ~~~~
 
-## おわりに
+# おわりに
 
 簡単ではありますが、PowerShellがLinuxでも動くことがわかりました。
 本当はコマンドレットを作成したり、いろいろ踏み込んだ実験がしてみたかったのですが、このエントリはここまでです。

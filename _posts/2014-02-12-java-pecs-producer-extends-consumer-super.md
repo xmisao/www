@@ -4,16 +4,16 @@ title: JavaジェネリックスのPECS原則、extendsとsuperの勘所
 tag: java
 ---
 
-# JavaジェネリックスのPECS原則、extendsとsuperの勘所
 
-## はじめに
+
+# はじめに
 
 PECS(Producer extends and Consumer super)とは、Javaのジェネリックスプログラミングにおいて、ジェネリッククラスのメソッドに柔軟性を持たせるための原則である。基本は以下の通り。
 
 - メソッドが値を取得するコレクション(Producer)は型にextendsをつける
 - メソッドで値を設定するコレクション(Consumer)は型にsuperをつける
 
-## 例
+# 例
 
 説明のためスタックの実装を考える。`Stack`はジェネリッククラスであり、任意のクラスのオブジェクトのスタックを表現する。`Stack`のソースコードを以下に示すが、実装は重要でないので、シグネチャに注目して欲しい。
 
@@ -40,7 +40,7 @@ public class Stack<T> {
 - `pushAll`メソッド -- `Iterable`を受け取り、コレクションの全要素をスタックにプッシュするメソッド
 - `popAll`メソッド -- `Collection`を受け取り、スタックの全要素をポップしてコレクションに出力するメソッド
 
-## Producer extends
+# Producer extends
 
 この時、もし`Stack<Number>`であれば、`pushAll`メソッドは`Iterable<Number>`だけでなく、`Number`のサブクラスのコレクション、すなわち`Iterable<Double>`や`Iterable<Integer>`も受け取れればAPIの柔軟性が増す。
 
@@ -54,7 +54,7 @@ public class Stack<T> {
 	}
 ~~~~
 
-## Consumer super
+# Consumer super
 
 一方、`Stack<Number>`の時、`popAll`メソッドは、`Collection<Number>`だけでなく、`Collection<Object>`を受け取り、値を詰め込むことができれば、APIはより柔軟になる。
 
@@ -68,7 +68,7 @@ public class Stack<T> {
 	}
 ~~~~
 
-## おわりに
+# おわりに
 
 本エントリーは、Effective Java 項目28の内容のうち、PECS原則に焦点を当てて、要点をまとめたものだ。境界ワイルドカード型の使い方については、詳しくは本書を参照。
 

@@ -6,19 +6,19 @@ tag: ['ruby', 'vim', 'rubyjump']
 
 __2014/5/11追記: [XRubyJumpはRubyJumpとなった。](http://www.xmisao.com/2014/05/11/rubyjump-released.html)このページの情報は古いので参考にしないこと。__
 
-# バッファ内の定義に簡単に飛べるXRubyJumpというvimプラグインを書いた
 
-## デモ
+
+# デモ
 
 ![xrubyjump.vim demo]({{ site.url }}/assets/2014_05_02_xrubyjump_demo.gif)
 
-## 概要
+# 概要
 
 - [xrubyjump.vim](https://github.com/xmisao/xrubyjump.vim)
 
 Rubyスクリプトの編集中に、バッファ内のメソッド、モジュール、クラスの定義に簡単に飛べるプラグイン。
 
-## インストール
+# インストール
 
 ワンファイルなので`~/.vim/plubin`に`xrubyjump.vim`をコピーするだけで使える。
 
@@ -28,7 +28,7 @@ Rubyスクリプトの編集中に、バッファ内のメソッド、モジュ�
 Bundle 'xmisao/xrubyjump.vim'
 ~~~~
 
-## 使い方
+# 使い方
 
 `*.rb`なファイルを開いて`:XRubuJump`を実行する。
 そうするとバッファの上に1行の候補選択ウィンドウが開く。
@@ -41,13 +41,13 @@ Bundle 'xmisao/xrubyjump.vim'
 autocmd BufNewFile,BufRead *.rb nmap ; :XRubyJump<CR>
 ~~~~
 
-## 残念なところ
+# 残念なところ
 
 - 飛べるのは`:XRubyJump`を実行したバッファ内の定義のみ。
 - 同名の定義が複数ある場合、どこに飛ぶかは未定義。
 - 構文解釈がしょぼいのでコメントアウトされた定義にも飛んでしまう。
 
-## 感想
+# 感想
 
 はじめてvimプラグインを作ることを思い立ったのですべてが手探りだった。
 vimスクリプトの文法がほぼほぼわからない。

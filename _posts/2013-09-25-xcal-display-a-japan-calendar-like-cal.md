@@ -4,7 +4,7 @@ title: cal風に日本のカレンダーを表示するxcalコマンドを作っ
 tag: ruby
 ---
 
-# cal風に日本のカレンダーを表示するxcalコマンドを作った
+
 
 ![xcal screenshot]({{ site.url }}/assets/2013_09_25_xcal.png)
 

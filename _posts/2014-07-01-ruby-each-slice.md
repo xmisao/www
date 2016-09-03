@@ -4,7 +4,7 @@ title: Rubyで配列をある要素数ごとに分割するならArray#each_slic
 tag: ruby
 ---
 
-# Rubyで配列をある要素数ごとに分割するならEnumerable#each_sliceを使おう
+
 
 Rubyで配列をある要素数ごとに分割する場合は`Enumerable#each_slice`が利用できる。
 

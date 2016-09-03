@@ -4,21 +4,21 @@ title: BestGems Pickup! 第8回 「what_methods」
 tag: bestgems_pickup
 ---
 
-# BestGems Pickup! 第8回 「what_methods」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第8回は「[what_methods](https://rubygems.org/gems/what_methods)」を取り上げる。
 
-## 概要
+# 概要
 
 what_methodsは非常にユニークなgemだ。what_methodsが提供する機能はただ1つ、メソッドを逆引きすることである。引数と期待する返り値を与えると、実際にその結果を返すメソッドの一覧を教えてくれる。
 
 what_methodsは今日現在、合計ダウンロードランキング2,887位、デイリーダウンロードランキング4,015位につけている。"best"なgemとは言いがたい順位ではあるが、面白いgemなので紹介する。
 
-## インストール
+# インストール
 
     gem install what_methods
 
-## 使用例
+# 使用例
 
 もしRubyで文字列"abc"に対して、"def"という文字列を得たいとしたら、あなたはどんなコードを書くだろうか? 私は以下のコードをぱっと思いつく。だが、果たしてこれが唯一無二のコードだと言えるだろうか。
 
@@ -54,7 +54,7 @@ require 'what_methods'
 "abc"["abc"] = "def" # => "def"
 ~~~~
 
-## 解説
+# 解説
 
 話をwhat_methodsの機能に戻そう。what_methodsが提供する機能はシンプルで、`Object`に対して`what?`メソッドを追加するというものだ。これにより、あらゆるオブジェクトに対して`what?`が使用可能となる。
 
@@ -95,7 +95,7 @@ WhatMethods::MethodFinder.show("Hello, World!", "Hello, Ruby!", "World"){|str|
 "Hello, World!".gsub!("World") == "Hello, Ruby!"
 ~~~~
 
-## まとめ
+# まとめ
 
 以上のようにwhat_methodsは引数と期待する結果から、メソッドを簡単に逆引きすることができるgemである。既知のメソッド以外に別の書き方が無いのかirbを使って色々と試してみるのも面白いだろう。また引数に当たりをつけてwhat_methodsを使うことで、どのメソッドを呼び出せば期待する結果が得られるのか、調査する用途にも利用できる。
 

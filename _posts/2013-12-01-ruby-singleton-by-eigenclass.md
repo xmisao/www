@@ -4,7 +4,7 @@ title: Rubyの特異クラスによるシングルトンの実装
 tag: ruby
 ---
 
-# Rubyの特異クラスによるシングルトンの実装
+
 
 インスタンスの生成を制限したシングルトンを、Rubyの特異クラスを使って実装してみよう。
 `SingletonClass`をシングルトンクラスとする。このクラスの生成`SingletonClass.new`を不可能にして、インスタンスの取得は`SingletonClass.get_instance`でのみ可能とする。

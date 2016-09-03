@@ -4,7 +4,7 @@ title: Rubyの<=>演算子とComparableモジュールの関係
 tag: ruby
 ---
 
-# Rubyの<=>演算子とComparableモジュールの関係
+
 
 Rubyにおける`<=>`演算子は、基本的な比較演算子で、以下のことが期待されている。
 

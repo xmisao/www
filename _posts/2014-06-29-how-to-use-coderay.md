@@ -4,7 +4,7 @@ title: coderayでシンタックスハイライトする
 tag: ruby
 ---
 
-# coderayでシンタックスハイライトする
+
 
 [coderay](http://coderay.rubychan.de/)はピュアRubyのシンタクスハイライト用ライブラリだ。
 公式サイトによると現時点で22個の主要な言語に対応している。
@@ -14,7 +14,7 @@ pygmentsはBrainFuckなどどうでも良いものを含めて100以上もの言
 pygmentsをRubyから使用するためのラッパ[pygments.rb](https://github.com/tmm1/pygments.rb)もある。
 しかし、ピュアRubyという点でcoderayを抑えておくのもメリットがあるだろう。
 
-## インストール
+# インストール
 
 coderayはgemからインストールできる。
 
@@ -22,7 +22,7 @@ coderayはgemからインストールできる。
 gem install coderay
 ~~~~
 
-## 使い方
+# 使い方
 
 coderayによるハイライトは以下2つの操作により行う。
 

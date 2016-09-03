@@ -4,7 +4,7 @@ title: FuzzyFinder 4.0以降の動作にはL9というライブラリも必要
 tag: vim
 ---
 
-# FuzzyFinder 4.0以降の動作にはL9というライブラリも必要
+
 
 最新の[FuzzyFinder](http://www.vim.org/scripts/script.php?script_id=1984)インストールしたら、以下のエラーが出るようになってしまった。
 

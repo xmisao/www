@@ -4,13 +4,13 @@ title: Vimプラグイン RubyJump v0.9.2 をリリースした
 tag: ['rubyjump', 'vim', 'ruby']
 ---
 
-# Vimプラグイン RubyJump v0.9.2 をリリースした
 
-## デモ
+
+# デモ
 
 ![rubyjump demo]({{ site.url }}/assets/2014_05_11_rubyjump_demo.gif)
 
-## リリース
+# リリース
 
 - [rubyjump.vim](https://github.com/xmisao/rubyjump.vim)
 

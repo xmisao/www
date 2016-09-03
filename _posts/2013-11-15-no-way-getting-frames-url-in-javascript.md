@@ -4,7 +4,7 @@ title: frameやiframeのURLはJavaScriptで外部から取得できない
 tag: javascript
 ---
 
-# frameやiframeのURLはJavaScriptで外部から取得できない
+
 
 frameやiframeのURLを取得できるのは、同一ドメインの場合のみである。
 外部のWebページをframeやiframeで表示している場合、そのURLをJavaScriptで取得する方法はない。

@@ -4,7 +4,7 @@ title: 継承とincludeおよび特異クラスによるRubyのメソッド探�
 tag: ruby
 ---
 
-# 継承とincludeおよび特異クラスによるRubyのメソッド探索順序
+
 
 ![Ruby Method Traverse]({{ site.url }}/assets/2013_12_01_ruby_method_traverse.png)
 

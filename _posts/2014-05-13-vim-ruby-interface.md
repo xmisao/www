@@ -4,15 +4,15 @@ title: VimのRubyインタフェース入門
 tag: ['vim', 'ruby']
 ---
 
-# VimのRubyインタフェース入門
 
-## はじめに
+
+# はじめに
 
 `+ruby`でビルドされたVimではRubyインタフェースが利用できる。
 このインタフェースを使えばVimをRubyを使って制御することができる。
 このエントリではVimのRubyインタフェースの使い方を簡単に説明する。
 
-## Rubyの実行
+# Rubyの実行
 
 Vimスクリプト中で`ruby`コマンドを使って以下のようにする。
 
@@ -30,12 +30,12 @@ puts "Hello, Ruby!"
 EOF
 ~~~~
 
-## VIMモジュール
+# VIMモジュール
 
 Vimから呼び出したRubyスクリプトでは`VIM`モジュールが使用できる。
 Rubyスクリプトではこのモジュールを使用してVimとのやりとりを行う。
 
-### VIM::evaluate
+## VIM::evaluate
 
 Vimで式を評価して、その値をRuby側で取得するモジュール関数である。
 Rubyから変数の値を取得したり、Vimの関数を実行した結果を取得するのに使用する。
@@ -51,7 +51,7 @@ p VIM.evaluate('getpos(".")') #=> [0, 43, 1, 0]
 EOF
 ~~~~
 
-### VIM::command
+## VIM::command
 
 Vimでコマンドを実行するモジュール関数である。
 
@@ -75,7 +75,7 @@ endfunc
 echo Add(1, 2) #=> 3
 ~~~~
 
-### VIM::Buffer, Vim::Window
+## VIM::Buffer, Vim::Window
 
 前述の`VIM::evalute`と`VIM::command`で事実上すべてのVimの機能をRubyから制御できるのだが、Rubyインタフェースにはバッファとウィンドウを簡単に扱うためのクラスが用意されている。
 
@@ -99,7 +99,7 @@ print "cursor: #{win.cursor.inspect}" #=> "cursor: [92, 0]"
 EOF
 ~~~~
 
-## おわりに
+# おわりに
 
 以上、VimのRubyインタフェースの使い方をざっと説明した。
 Rubyに慣れきっていてVimスクリプトで複雑な処理を書くのが辛い…といった場合や、何かVimスクリプトの限界を越えた高度な処理を行いたい場合は、Rubyインタフェースを使ってみても良いだろう。

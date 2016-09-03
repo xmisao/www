@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(16) 型推論と型注釈
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(16) 型推論と型注釈
+
 
 Haskellは型推論を備えた言語であり、静的型付けでありながら型を明記しなくても、型を推測してコンパイルすることができる。この点は動的型付けでダックタイピングなRubyとは対極である。
 

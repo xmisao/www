@@ -4,7 +4,7 @@ title: JavaのString.formatの結果はロケールに依存する
 tag: java
 ---
 
-# JavaのString.formatの結果はロケールに依存する
+
 
 驚くべきことに、この世には小数点を,(カンマ)で表記する言語がある、ドイツ語などがそうだ。
 

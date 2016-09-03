@@ -4,7 +4,7 @@ title: JavaScriptでマウス座標を取得する最も簡単な方法
 tag: javascript
 ---
 
-# JavaScriptでマウス座標を取得する最も簡単な方法
+
 
 JavaScriptでマウス座標を取得するには`onmousemove`イベントハンドラで、イベントオブジェクトの`clientX`と`clientY`を読めば良い。以下はマウス座標を表示するHTMLの例である。わずか7行のJavaScriptで実装が可能だ。
 

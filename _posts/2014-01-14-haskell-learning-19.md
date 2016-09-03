@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(19) ラムダ式と畳み込み
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(19) ラムダ式と畳み込み
+
 
 とうとう出てきましたよラムダ式。関数型言語では良く目にして、初学者の心を折るC言語でいうポインタのようなものである。
 

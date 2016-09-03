@@ -4,7 +4,7 @@ title: nginxの最大bodyサイズを設定する
 tag: nginx
 ---
 
-# nginxの最大bodyサイズを設定する
+
 
 nginxが受け付ける最大のbodyサイズはデフォルトで1Mバイトに制限されている。
 この制限に引っかかると、大きなファイルのアップロードなどが、413 Request Entity Too Largeで失敗してしまう。

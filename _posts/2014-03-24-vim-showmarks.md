@@ -4,7 +4,7 @@ title: マークを表示するvimプラグイン「ShowMarks」
 tag: vim
 ---
 
-# マークを表示するvimプラグイン「ShowMarks」
+
 
 ![ShowMarks]({{ site.url }}/assets/2014_03_24_vim_showmarks.png)
 
@@ -19,7 +19,7 @@ vimで素早くカーソルを移動をするのに欠かせない機能とし�
 このプラグインを導入すると、バッファの左端にマークが表示されるようになる。
 これでせっかく付けたマークを忘れてしまうこともなくなる。
 
-## インストール
+# インストール
 
 Vundleを使っていれば、以下を`.vimrc`に書いて、`:BundleInstall`すればインストールできる。
 
@@ -29,7 +29,7 @@ Bundle "ShowMarks"
 
 Vundleの導入方法については[Vundleでvimプラグインを管理する](http://www.xmisao.com/2013/08/22/vundle.html)を参照。
 
-## 使い方
+# 使い方
 
 ShowMarksを導入すると、自動的にマークが表示されるようになる。
 

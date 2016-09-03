@@ -4,7 +4,7 @@ title: BestGemsの開発環境の構築
 tag: bestgems
 ---
 
-# BestGemsの開発環境の構築
+
 
 [BestGems.org](http://bestgems.org/)をオープンソース化して早2ヶ月。
 幸いなことに、ちょこちょこではあるが、プロジェクトに協力してくれる人も現れている。
@@ -17,7 +17,7 @@ BestGemsが使用するGemパッケージはBundlerを使用して管理して�
 
 なお同様の内容を英語で[wiki](https://github.com/xmisao/bestgems.org/wiki/For-Developers)にアップロードしているので、最新の情報はそちらを参照して欲しい。
 
-## ソースコードの取得
+# ソースコードの取得
 
 githubから最新版のソースコードを取得する。
 
@@ -26,7 +26,7 @@ git clone https://github.com/xmisao/bestgems.org.git bestgems.org
 cd bestgems.org
 ~~~~
 
-## Gemパッケージのインストール
+# Gemパッケージのインストール
 
 BestGemsの依存関係はBundlerで管理されている。
 Bundlerを使って依存するGemパッケージをインストールする。
@@ -35,7 +35,7 @@ Bundlerを使って依存するGemパッケージをインストールする。
 bundle install
 ~~~~
 
-## DBスキーマのマイグレーション
+# DBスキーマのマイグレーション
 
 BestGemsはORMにSequelを使用している。
 Sequelのマイグレーション機能を使ってデータベースをマイグレーションする。
@@ -47,7 +47,7 @@ Sequelのマイグレーション機能を使ってデータベースをマイ�
 sequel -m migrations sqlite://db/master.sqlite3
 ~~~~
 
-## サンプルデータの取得
+# サンプルデータの取得
 
 1週間分のデータを含むサンプルデータが用意されている。
 サンプルデータをダウンロードして展開する。
@@ -58,7 +58,7 @@ tar zxvf bestgems_db_v5_sample_csv.tar.gz
 cd  bestgems_db_v5_sample_csv
 ~~~~
 
-## サンプルデータのインポート
+# サンプルデータのインポート
 
 サンプルデータはCSVである。
 SQLite3にサンプルデータをインポートする。
@@ -90,7 +90,7 @@ cd ..
 ~~~~
 
 
-## テストの実行
+# テストの実行
 
 BestGemsのテストは`rake`で実行する。
 
@@ -98,7 +98,7 @@ BestGemsのテストは`rake`で実行する。
 rake
 ~~~~
 
-## BestGemsの実行
+# BestGemsの実行
 
 BestGemsは`rack`で起動する。
 

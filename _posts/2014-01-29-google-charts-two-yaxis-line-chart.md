@@ -4,7 +4,7 @@ title: Google Chartsで左右2つのY軸を使った折れ線グラフを描画�
 tag: ['javascript', 'google_charts']
 ---
 
-# Google Chartsで左右2つのY軸を使った折れ線グラフを描画する方法
+
 
 ![Two Y Axis Line Chart]({{ site.url }}/assets/2014_01_29_two_y_axis_sample.png)
 

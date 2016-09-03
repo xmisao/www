@@ -4,11 +4,11 @@ title: VimでGitを使うならfugitiveを使おう
 tag: vim
 ---
 
-# VimでGitを使うならfugitiveを使おう
+
 
 VimでGitを使う時、いちいち!gitしていたが、さすがに億劫になったので[fugitive](https://github.com/tpope/vim-fugitive)を入れてみた。
 
-## インストール
+# インストール
 
 Vimのプラグインを管理するプラグイン「Vundle」が入っていない場合は、これを機にVundleも導入しよう。
 
@@ -18,7 +18,7 @@ Vimのプラグインを管理するプラグイン「Vundle」が入ってい�
 
     Bundle "tpope/vim-fugitive"
 
-## 使い方
+# 使い方
 
 fugitiveを入れてリポジトリ内のファイルを編集すると、Gから始まる各種コマンドが使えるようになる。
 

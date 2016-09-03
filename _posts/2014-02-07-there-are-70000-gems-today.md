@@ -4,7 +4,7 @@ title: Gemの数、7万個を超える
 tag: bestgems
 ---
 
-# Gemの数、7万個を超える
+
 
 ![70000 Gems!]({{ site.url }}/assets/2014_02_07_number_of_gems.png)
 

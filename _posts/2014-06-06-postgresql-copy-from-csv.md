@@ -4,7 +4,7 @@ title: COPY文でCSVファイルとテーブル間でデータを高速にコピ
 tag: database
 ---
 
-# COPY文でCSVファイルとテーブル間でデータを高速にコピーする(PostgreSQL)
+
 
 PostgreSQLには`COPY`文が用意されており、ファイルとテーブル間でデータを高速にコピーすることができる。
 このエントリでは`COPY`文でCSVファイルにデータを出力、またCSVファイルからデータを入力する方法を紹介する。
@@ -13,7 +13,7 @@ PostgreSQLには`COPY`文が用意されており、ファイルとテーブル�
 なお環境はDebian Wheezy標準のPostgreSQL 9.1.12を使用している。
 詳しくは`COPY`文についての[公式のドキュメント](http://www.postgresql.jp/document/9.1/html/sql-copy.html)を参照。
 
-## CSVファイルに出力
+# CSVファイルに出力
 
 テーブル`table`の内容をファイル`/path/to/file.csv`にコピーするには以下のようにする。
 ファイル名は絶対パスを与える必要があることに注意。
@@ -22,7 +22,7 @@ PostgreSQLには`COPY`文が用意されており、ファイルとテーブル�
 COPY table TO '/path/to/file.csv' WITH CSV
 ~~~~
 
-## CSVファイルから入力
+# CSVファイルから入力
 
 ファイル`/path/to/file.csv`の内容をテーブル`table`にコピーするには以下のようにする。
 やはりファイル名は絶対パスを与える必要があることに注意。
@@ -31,7 +31,7 @@ COPY table TO '/path/to/file.csv' WITH CSV
 COPY table FROM '/path/to/file.csv' WITH CSV
 ~~~~
 
-## 参考:4000万レコードのCOPYの処理時間
+# 参考:4000万レコードのCOPYの処理時間
 
 以下のテーブルにCSVから約4000万件のデータを`COPY`した。
 
@@ -68,7 +68,7 @@ COPY 44805691
 Time: 3852193.226 ms
 ~~~~
 
-## 参考:インデックスとWALの無効化による高速化
+# 参考:インデックスとWALの無効化による高速化
 
 `COPY`文はインデックスやWAL(ログ先行書き込み)の影響を受けるというエントリを見つけた。
 インデックスを削除したり、WALを無効化したりすることで、COPY文を高速化できるとのことである。

@@ -4,23 +4,23 @@ title: BestGems Pickup! 第5回 「formatador」
 tag: bestgems_pickup
 ---
 
-# BestGems Pickup! 第5回 「formatador」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第5回は「[formatador](https://github.com/geemus/formatador)」を取り上げる。
 
-## 概要
+# 概要
 
 formatadorは標準出力にテキストを整形して出力するライブラリだ。手動では煩わしいテキストの色付けや、テキストによる表組み、プログレスバーの実装まで可能だ。
 
 formatadorは今日現在、合計ダウンロードランキング115位、デイリーダウンロードランキング77位につけている。
 
-## インストール
+# インストール
 
     gem install formatador
 
-## 使用例
+# 使用例
 
-### テキストの出力と装飾
+## テキストの出力と装飾
 
 formatadorの機能は、すべてFormatadorクラスのクラスメソッド呼び出しで利用できる。もちろんインスタンスを生成しても良い。
 
@@ -96,7 +96,7 @@ Formatador.display_line('[green]Hello, World![/]')
 |positive|文字色と背景色を元に戻す|
 {: .table .table-striped}
 
-### 表、プログレスバー、インデント
+## 表、プログレスバー、インデント
 
 テキストの装飾が簡単にできるだけでも強力だが、Formatadorにはさらに以下の拡張メソッドがある。
 
@@ -183,6 +183,6 @@ end
       fuga
 ~~~~
 
-## 解説
+# 解説
 
 formatadorを使えば、美しい出力のコマンドラインツールを簡単に作ることができる。[前回のBestGems Pickup!](http://www.xmisao.com/2013/08/25/bestgems-pickup-slop.html)で取り上げたコマンドラインオプションのパーサ[Slop](https://github.com/leejarvis/slop)を併用すれば、使いやすく、見やすいツールを最小の手間で実現できるだろう。どちらも現時点では日本語の解説をほとんど見かけないが、非常に強力なGemだ。

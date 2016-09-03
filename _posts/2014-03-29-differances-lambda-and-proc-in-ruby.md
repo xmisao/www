@@ -4,7 +4,7 @@ title: RubyのlambdaとProc.newにおけるreturnの挙動の違い
 tag: ruby
 ---
 
-# RubyのlambdaとProc.newにおけるreturnの挙動の違い
+
 
 以下のような挙動となる。注意。
 

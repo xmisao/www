@@ -4,7 +4,7 @@ title: Rubyからaws-sdkを使ってCloudWatchのメトリックス一覧を取�
 tag: ['aws', 'ruby']
 ---
 
-# Rubyからaws-sdkを使ってCloudWatchのメトリックス一覧を取得する
+
 
 CloudWatchのメトリックス一覧はListMetrics APIで取得することができる。
 aws-sdkを使ってCloudWatchのメトリックス一覧を取得するには以下のようにする。

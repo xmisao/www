@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(20) Data.Mapによる連想配列
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(20) Data.Mapによる連想配列
+
 
 Rubyには連想配列を表す`Hash`クラスが用意されており、文法上もHashを定義するリテラルが存在するなど手厚いサポートがされている。ではHaskellはどうか。Haskellでは連想配列は`Data.Map`モジュールで提供されている。今日はRubyの`Hash`と、Haskellの`Data.Map`の使い方を以下のRubyのコードを元に比較してゆきたい。
 

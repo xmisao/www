@@ -4,7 +4,7 @@ title: LinuxでDPMSを一時的/恒久的に無効化する
 tag: linux
 ---
 
-# LinuxでDPMSを一時的/恒久的に無効化する
+
 
 DPMSはディスプレイの省電力機能を管理する仕組みである。
 

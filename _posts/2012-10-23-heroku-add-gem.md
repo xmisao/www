@@ -3,7 +3,7 @@ layout: blog
 title: Herokuでのgem追加方法
 ---
 
-# Herokuでのgem追加方法
+
 
 Gemfileにパッケージを記入する。
 

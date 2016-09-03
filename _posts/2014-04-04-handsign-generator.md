@@ -4,7 +4,7 @@ title: よく使うハンドサイン画像ジェネレータを作った
 tag: web
 ---
 
-# よく使うハンドサイン画像ジェネレータを作った
+
 
 ![Hand Sign Generator]({{ site.url }}/assets/2014_04_04_handsign_generator.jpg)
 

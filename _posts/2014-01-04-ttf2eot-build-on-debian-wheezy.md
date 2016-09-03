@@ -4,7 +4,7 @@ title: TTFをEOTに変換するttf2eotをLinuxでビルドするメモ
 tag: ['linux', 'fonts']
 ---
 
-# TTFをEOTに変換するttf2eotをLinuxでビルドするメモ
+
 
 [ttf2eot](http://code.google.com/p/ttf2eot/)はTTF形式のフォントをEOT形式に変換するツールだ。このツールのDebian Wheezyでのビルド方法をメモする。なおWindows版は実行可能バイナリが提供されている模様。
 

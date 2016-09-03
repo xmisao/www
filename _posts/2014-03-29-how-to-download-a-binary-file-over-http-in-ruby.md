@@ -4,7 +4,7 @@ title: RubyでHTTP経由でバイナリファイルをダウンロードする�
 tag: ruby
 ---
 
-# RubyでHTTP経由でバイナリファイルをダウンロードする方法
+
 
 UNIX風OSであればwgetを実行してしまうのが簡単である。
 

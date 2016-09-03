@@ -4,7 +4,7 @@ title: Debian WheezyでDartプログラミング
 tag: ['debian', 'dart']
 ---
 
-# Debian WheezyでDartプログラミング
+
 
 GoogleのいわゆるAltJSであるDartには、今日時点でDebian Wheezy向けのパッケージが用意されている。
 以下からダウンロードできる。`dart_1.5.3-1_amd64.deb`がそれだ。

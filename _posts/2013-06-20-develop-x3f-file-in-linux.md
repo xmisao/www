@@ -4,13 +4,13 @@ title: LinuxでSIGMAのX3Fファイルを現像する
 tag: linux
 ---
 
-# LinuxでSIGMAのX3Fファイルを現像する
+
 
 SIGMAのカメラはX3Fファイルで写真を保存するが、Linuxで広く使われているRAWファイル現像用のプログラムであるdcrawは、X3F形式を十分にサポートしていない。このためdcrawを利用するufraw等ではX3Fファイルを現像することはできない。
 
 事実上、SIGMAのユーザは写真の現像のためにSIGMA Photo Proが動作するWindowsかMacを使わざるを得ないわけだが、wineとAdobe DNG Converterを使えばLinuxでもX3Fファイルを現像する抜け道が存在する。
 
-## Adobe DNG Converterとは
+# Adobe DNG Converterとは
 
 Adobe DNG Converterは、各社のカメラのRAWファイルを、DNGファイルに変換できるツールである。下記ページから「Adobe DNG Converter 8.1 アップデート」のリンクからダウンロードできる。
 
@@ -18,7 +18,7 @@ Adobe DNG Converterは、各社のカメラのRAWファイルを、DNGファイ�
 
 DNGファイルは仕様が公開されており、dcrawでもサポートされている。本エントリではSIGMAのX3Fファイルに限定して話を進めるが、実際にはdcrawがサポートしていない大部分のカメラの写真をLinuxで現像するのに応用できるはずだ。
 
-## wineのインストール
+# wineのインストール
 
 wineをインストールする。debianの場合は以下。
 
@@ -32,7 +32,7 @@ wineをインストールする。debianの場合は以下。
 
 なおAdobe DNG Converterの動作確認はwine 1.4.1で行った。
 
-## Adobe DNG Converterのインストール
+# Adobe DNG Converterのインストール
 
 wineで先ほどダウンロードしたインストーラを起動し、Adobe DNG Converterをインストールする。
 
@@ -40,7 +40,7 @@ wineで先ほどダウンロードしたインストーラを起動し、Adobe D
 
 もしwineを初めて使うなら、~/.wine/drive_c/Program Files/Adobe以下にAdobe DNG Converter.exeが展開される。
 
-## Adobe DNG Converterの使い方
+# Adobe DNG Converterの使い方
 
 wineでAdobe DNG Converter.exeを実行するだけで、あとはGUIで操作することができる。
 
@@ -56,6 +56,6 @@ Adobe DNG Converterの詳しいオプションについては、次のPDFファ�
 
 [http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf](http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/photoshop/pdfs/dng_commandline.pdf)
 
-## 好みの現像ソフトで現像する
+# 好みの現像ソフトで現像する
 
 DNGファイルは様々なソフトでサポートされているので、あとはufrawなど好みの現像ソフトで思う存分現像すれば良い。Linuxで良い写真ライフを!

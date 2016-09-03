@@ -4,9 +4,9 @@ title: vimのcompletefuncの仕様についてのメモ
 tag: vim
 ---
 
-# vimのcompletefuncの仕様についてのメモ
 
-## ユーザ補完とcompletfunc
+
+# ユーザ補完とcompletfunc
 
 vimでは__\<C-x>\<C-u>__でユーザ補完を呼び出すことができる。
 ユーザ補完は変数`completefunc`で指定された関数を使って行われる。
@@ -25,7 +25,7 @@ vimでは__\<C-x>\<C-u>__でユーザ補完を呼び出すことができる。
 *1.*の呼び出しでは、`findstart`が1で、`base`がemptyである。
 *2.*の呼び出しでは、`findstart`が0で、`base`には補完するテキストの始点からカーソル位置までの文字列が入る。
 
-## completefuncの例
+# completefuncの例
 
 これを踏まえて、vimのドキュメントから月の名前を補完する補完関数の例を見てみよう。
 
@@ -53,7 +53,7 @@ endfun
 set completefunc=CompleteMonths
 ~~~~
 
-## 補完するテキストの始点の桁番号を期待した呼び出し
+# 補完するテキストの始点の桁番号を期待した呼び出し
 
 まずこの関数は、`a:firstline`を見て、1回目の呼び出しか2回目の呼び出しかを判定して、別の処理を行う。
 `if a:firstline`が真になる1回目の呼び出しでは、単語の始点を検索して桁番号を返す。
@@ -68,7 +68,7 @@ set completefunc=CompleteMonths
 foo bar[] baz
 ~~~~
 
-## 補完するテキストの候補を返すことを期待した呼び出し
+# 補完するテキストの候補を返すことを期待した呼び出し
 
 続いて2回目の呼び出しでは、`if a:firstline`は偽となる。
 こちらは前述の呼び出しよりいくらか見通しが良い。

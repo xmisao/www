@@ -4,7 +4,7 @@ title: kramdownのコードブロックとテーブル記法について
 tag: markdown
 ---
 
-# kramdownのコードブロックとテーブル記法について
+
 
 技術系の文章をMarkdownで書いていると、コードブロックとテーブルを多用する。このエントリーでは、RubyのMarkdownパーサであるkramdownでこれらの記法の使い方をまとめる。
 
@@ -12,7 +12,7 @@ tag: markdown
 
 [http://kramdown.rubyforge.org/quickref.html](http://kramdown.rubyforge.org/quickref.html)
 
-## コードとコードブロック
+# コードとコードブロック
 
 コードはバッククオートで記述できる。
 
@@ -61,7 +61,7 @@ def hoge
 end
 ~~~
 
-## テーブル記法
+# テーブル記法
 
 テーブルには|を使う。
 
