@@ -4,7 +4,7 @@ title: RubyGems.orgのダウンロード数のうち80%は上位1.5%のGemで占
 tag: bestgems
 ---
 
-# RubyGems.orgのダウンロード数のうち80%は上位1.5%のGemで占められている
+
 
 ![Gems Downloads Graph]({{ site.url }}/assets/2013_09_05_bems_downloads_graph.png)
 

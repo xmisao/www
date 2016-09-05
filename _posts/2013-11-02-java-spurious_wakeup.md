@@ -4,7 +4,7 @@ title: スプリアスウェイクアップ問題 -- Javaのwait() / notify()を
 tag: java
 ---
 
-# スプリアスウェイクアップ問題 -- Javaのwait() / notify()を信用してはならない
+
 
 Javaでスレッドを使っている時、`wait()`したら、Threadが`notify()`されるまで処理が止まると思ったら大間違いという話である。
 

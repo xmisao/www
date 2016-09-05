@@ -4,18 +4,18 @@ title: debian squeezeでのKVMの使い方
 tag: virtualization
 ---
 
-# debian squeezeでのKVMの使い方
+
 
 LinuxをホストOSとして仮想化を行うには、KVM(Kernel-based Virtual Machine)が手軽に利用できる。
 KVMの利用にはIntel-VTやAMD-VをサポートしたCPUで、これらの仮想化支援機能がBIOSで有効になっている必要がある。
 
-## KVMのインストール
+# KVMのインストール
 
 kvmとbridge-utilsパッケージをインストールする。
 
     apt-get install kvm bridge-utils
 
-## イメージファイルの作成
+# イメージファイルの作成
 
 イメージファイルはqemu-imgコマンドで作成する。
 kvm-imgコマンドも使えるが、qemu-imgを使うメッセージが出るので、qemu-imgの方が良い模様。
@@ -25,7 +25,7 @@ kvm-imgコマンドも使えるが、qemu-imgを使うメッセージが出る�
 上記コマンドではcentos64.imgというファイル名でqcow2の8GBのイメージファイルを作成している。
 qcow2は利用した実際に利用した分しか容量を消費しない。
 
-## 仮想マシンにゲストOSをインストール
+# 仮想マシンにゲストOSをインストール
 
 仮想マシンの起動はkvmコマンドで行う。
 
@@ -45,7 +45,7 @@ qcow2は利用した実際に利用した分しか容量を消費しない。
 なおkvmのウィンドウにフォーカスが当てると、マウスとキーボードの入力がゲストOSに取られてしまう。
 フォーカスを外したい場合は、Ctrl + AltでホストOSに戻れる。
 
-## 仮想マシンのゲストOSを起動
+# 仮想マシンのゲストOSを起動
 
 インストール済みのゲストOSを起動するだけなら以下で良い。
 

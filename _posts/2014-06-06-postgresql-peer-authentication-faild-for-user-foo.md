@@ -4,7 +4,7 @@ title: psqlがPeer authentication faild for user 'foo'のエラーで接続で�
 tag: database
 ---
 
-# psqlがPeer authentication faild for user 'foo'のエラーで接続できない場合
+
 
 PostgreSQLでユーザを追加した後に`psql`コマンドを使ってそのユーザで接続を試みると以下のエラーが発生した。
 これはUNIXドメインソケットでPeer認証を行った結果として発生するエラーである。

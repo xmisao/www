@@ -4,7 +4,7 @@ title: mkmfが無い場合はruby-devをインストール
 tag: ['debian', 'ruby']
 ---
 
-# mkmfが無い場合はruby-devをインストール
+
 
 インストールしたてのdebianではgemのビルド時に以下のエラーが出ることがある。
 

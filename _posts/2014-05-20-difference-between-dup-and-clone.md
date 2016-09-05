@@ -4,7 +4,7 @@ title: Rubyのdupとcloneの違い
 tag: ruby
 ---
 
-# Rubyのdupとcloneの違い
+
 
 Rubyの`Object.dup`と`Object.clone`の違いは、特異メソッドと`freeze`をコピーするかどうかである。
 `Object.clone`の方がコピーされる情報が多いが、一般的な用途には`Object.dup`で十分だ。

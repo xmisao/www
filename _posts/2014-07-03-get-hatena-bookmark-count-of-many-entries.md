@@ -4,7 +4,7 @@ title: 複数URLのはてなブックマーク数を一括取得するRubyスク
 tag: ['ruby', 'hatena']
 ---
 
-# 複数URLのはてなブックマーク数を一括取得するRubyスクリプト
+
 
 [はてなブックマーク件数取得API](http://developer.hatena.ne.jp/ja/documents/bookmark/apis/getcount)を使えば最大で50件のURLに対してはてなブックマーク数を取得することができる。これを複数回に分けて呼び出せば、理屈の上では何件でもはてなブックマーク数を取得できる。
 

@@ -4,12 +4,12 @@ title: jekyllでサイトマップ(sitemap.xml)を生成する
 tag: jekyll
 ---
 
-# jekyllでサイトマップ(sitemap.xml)を生成する
+
 
 SEOを目的として、jekyllでsitemap.xmlを生成する方法についてまとめる。
 jekyllでsitemap.xmlを出力するには、Sitemap.xml Generatorプラグインを使う方法と、プラグインを使わず自力でsitemap.xmlを生成する方法がある。
 
-## Sitemap.xml Generatorプラグインを使う方法
+# Sitemap.xml Generatorプラグインを使う方法
 
 Sitemap.xml Generatorはsitemap.xmlを出力するためのjekyllプラグインだ。
 以下からダウンロードできる。
@@ -68,7 +68,7 @@ sitemap:
 
 長くなったが、このプラグインを導入した状態で`jekyll build`すると設定ファイルの`sitemap: file:`で指定したパスにサイトマップが出力されるようになる。
 
-## 自力でsitemap.xmlを生成する方法
+# 自力でsitemap.xmlを生成する方法
 
 プラグインを使うよりお手軽なのは、sitemap.xmlを他のページと同じように自力で生成してしまう方法である。
 プラグインが使えないjekyll環境でも使うことができるのがメリットだ。

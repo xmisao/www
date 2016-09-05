@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(2) 計算結果の出力
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(2) 計算結果の出力
+
 
 前回はHello, World!を表示した。
 今日は計算をして、結果を表示することにした。

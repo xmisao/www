@@ -4,11 +4,11 @@ title: kvmでTUN/TAPを使いゲストOSをホストOSと同じネットワー�
 tag: virtualization
 ---
 
-# kvmでTUN/TAPを使いゲストをホストと同じネットワークに所属させる
+
 
 kvm(qemu)で仮想化したゲストには、デフォルトでホストから独立した仮想ネットワークが割り当てられる。そのため、外部からゲストOSにアクセスすることはできない。TUN/TAPを使えばゲストをホストと同じネットワークに所属させ、外部からゲストにアクセスできるようになる。
 
-## ブリッジと仮想NICの作成
+# ブリッジと仮想NICの作成
 
 ブリッジと仮想NICの作成は/etc/network/interfacesファイルの書き換えで行う。元のファイルを以下とする。
 
@@ -72,7 +72,7 @@ ip addr listを実行して、以下のような表示がされれば成功し�
         inet6 fe80::922b:34ff:fe16:1cf4/64 scope link 
            valid_lft forever preferred_lft forever
 
-## kvmの起動
+# kvmの起動
 
 以下のようなコマンドでKVMを起動する。-net nicと-net tapの2つの指定がポイント。
 

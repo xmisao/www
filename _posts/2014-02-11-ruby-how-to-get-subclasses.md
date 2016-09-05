@@ -4,9 +4,9 @@ title: Rubyでサブクラスの一覧を取得する方法
 tag: ruby
 ---
 
-# Rubyでサブクラスの一覧を取得する方法
 
-## ActiveSupportを使った方法
+
+# ActiveSupportを使った方法
 
 ActiveSupportを使っていれば`Class`が拡張されて`Class.subclasses`メソッドが使えるようになっている。このメソッドはクラスのサブクラスのリストを返すものだ。例えば`Integer`のサブクラスを得るには、以下のようにする。
 
@@ -16,7 +16,7 @@ require 'active_support/core_ext/class/subclasses'
 p Integer.subclasses #=> [Fixnum, Bignum]
 ~~~~
 
-## ActiveSupportを読む
+# ActiveSupportを読む
 
 これだけではつまらないので、ActiveSupportのソースコードを読んで、どのようにサブクラスを見つけているのか調べてみよう。定義は`subclasses.rb`である。
 
@@ -97,7 +97,7 @@ end
 
 こちらは少々トリッキーだが、特に難しいことはしていない。クラスの配列から親クラスが配列中に含まれていないクラス、つまり`self`の直接の子クラスだけを抽出している。親がリストに含まれている孫クラス以降はすべて除外されて、親がリストに含まれていない子クラスだけが残る仕組みだ。
 
-## 自分でサブクラスを取得してみる
+# 自分でサブクラスを取得してみる
 
 以上で、サブクラスを取得する仕組みがわかった。
 やっていることは簡単なのだが、ActiveSupportの`subclasses`の実装は、`descendants`をJRuby対応させたことで妙に複雑になってしまっているように見える。

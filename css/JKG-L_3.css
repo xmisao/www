@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "JK Gothic L";
+    src: url("/fonts/JKG-L_3.eot"); /* IE9 */
+    src: url("/fonts/JKG-L_3.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("/fonts/JKG-L_3.woff") format("woff"), /* chrome, firefox */
+    url("/fonts/JKG-L_3.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("/fonts/JKG-L_3.svg#JK Gothic L") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

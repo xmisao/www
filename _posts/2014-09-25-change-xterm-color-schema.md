@@ -4,7 +4,7 @@ title: xtermの配色を変更する
 tag: ['linux', 'xterm']
 ---
 
-# xtermの配色を変更する
+
 
 xtermの配色はX Window Systemのリソース設定(X resources)で変更する。
 

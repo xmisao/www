@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(13) 挿入ソート
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(13) 挿入ソート
+
 
 今日はリストの挿入ソートについて考える。
 Haskellでの実装を念頭に置いて、ループを再帰で考える。

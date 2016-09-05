@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(7) リストの合計を計算す�
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(7) リストの合計を計算する
+
 
 今日はリストの合計を求める関数を書くことにする。Rubyで書くと以下のようなイメージ。
 

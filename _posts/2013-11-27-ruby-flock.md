@@ -4,13 +4,13 @@ title: Rubyでflockを使ってファイルのロックを取得する
 tag: ruby
 ---
 
-# Rubyでflockを使ってファイルのロックを取得する
+
 
 Rubyの`File#flock`メソッドを使えば、`flock`システムコールを利用して、ファイルのロックを取得することができる。以下2つのプログラムを用意して、挙動を確認してみよう。
 
-## プログラム
+# プログラム
 
-## lock_blocking.rb
+# lock_blocking.rb
 
 これは、ファイル`LOCK`をロックし、入力を受け付けるまでロックし続けるプログラムである。もし既にロックが取得されていれば、ロックが取得できるまでブロックする。
 
@@ -23,7 +23,7 @@ open('LOCK', 'w'){|f|
 }
 ~~~~
 
-## lock_nonblocking.rb
+# lock_nonblocking.rb
 
 これも`LOCk`をロックするが、`File::LOCK_NB`を指定して、ノンブロックモードでロックしている。ロックが取得できたらロック成功として、入力があるまでロックを取得し続ける。もし既にロックが取得されていたら、`flock`は`false`を返し、ロック失敗となる。
 
@@ -39,7 +39,7 @@ open('LOCK', 'w'){|f|
 }
 ~~~~
 
-## 実験
+# 実験
 
 コンソールを2つ立ちあげて、以下の組み合わせでプログラムを同時に実行させてみよう。
 
@@ -51,7 +51,7 @@ open('LOCK', 'w'){|f|
 |4|lock_nonblocking.rb|lock_nonblocking.rb|
 {: .table .table-striped}
 
-### パターン1
+## パターン1
 
 `lock_blocking.rb`に続けて`lock_blocking.rb`を実行する。
 
@@ -78,7 +78,7 @@ trying to lock.
 lock succeed.
 ~~~~
 
-### パターン2
+## パターン2
 
 `lock_blocking.rb`に続けて`lock_nonblocking.rb`を実行する。
 
@@ -98,7 +98,7 @@ trying to lock.
 lock failed.
 ~~~~
 
-### パターン3
+## パターン3
 
 `lock_nonblocking.rb`に続けて`lock_blocking.rb`を実行する。
 
@@ -125,7 +125,7 @@ trying to lock.
 lock succeed.
 ~~~~
 
-### パターン4
+## パターン4
 
 `lock_nonblocking.rb`に続けて`lock_nonblocking.rb`を実行する。
 
@@ -145,7 +145,7 @@ trying to lock.
 lock failed.
 ~~~~
 
-## まとめ
+# まとめ
 
 ロックにはブロックとノンブロックがある。ブロックの場合は、ロックが取得できるまでブロックする。ノンブロックの場合は、ロックが取得できなければ失敗となる。
 

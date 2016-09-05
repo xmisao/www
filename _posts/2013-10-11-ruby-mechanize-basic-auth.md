@@ -4,7 +4,7 @@ title: Ruby MechanizeでBASIC認証する
 tag: ruby
 ---
 
-# Ruby MechanizeでBASIC認証する
+
 
 RubyのMechanizeでBASIC認証を扱う場合は`add_auth()`を使う。`add_auth()`の引数は、BASIC認証を使うURLの一部、ユーザ名、パスワードだ。以下の例のように、マッチするURL以下にBASIC認証を使ったアクセスを行う。
 

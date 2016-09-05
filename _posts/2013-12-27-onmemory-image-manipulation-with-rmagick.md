@@ -4,7 +4,7 @@ title: RMagickによるオンメモリの画像処理
 tag: ['ruby', 'programming']
 ---
 
-# RMagickによるオンメモリの画像処理
+
 
 RMagickはImageMagickをRubyで使えるようにしたラッパーである。
 
@@ -14,7 +14,7 @@ RMagickはImageMagickをRubyで使えるようにしたラッパーである。
 
 この方法は、変換元の画像がリモートに存在する場合や、出力先がファイルではなくデータベースである場合などで、中間ファイルを生成せずにRMagickによる画像処理を行う際に利用できる。
 
-## 画像の入力
+# 画像の入力
 
 `ImageList`のインスタンスが欲しい場合は、いったん空の`ImageList`を生成してから、`ImageList#from_blob`を呼ぶ。変数`data`には事前に読み込んだ画像のバイナリデータが格納されているものとする。
 
@@ -29,7 +29,7 @@ imagelist.from_blob(data)
 image = RMagick::Image.from_blob(data)[0]
 ~~~~
 
-## 画像の出力
+# 画像の出力
 
 `Image`または`ImageList`の画像のバイナリデータを得るには`to_blob`メソッドを使う。以下の例は変数`data`に画像`image`のバイナリデータを保存する例である。
 

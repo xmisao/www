@@ -4,7 +4,7 @@ title: Debian/UbuntuでexFATをマウントする方法
 tag: linux
 ---
 
-# Debian/UbuntuでexFATをマウントする方法
+
 
 最近はSDXCカードが普及して、exFATを使う機会が増えている。
 

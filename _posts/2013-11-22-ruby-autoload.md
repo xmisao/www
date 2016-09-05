@@ -4,7 +4,7 @@ title: Rubyでrequireのコストが無視できない場合はautoloadが使え
 tag: ruby
 ---
 
-# Rubyでrequireのコストが無視できない場合はautoloadが使える
+
 
 [昨日](http://www.xmisao.com/2013/11/21/ruby-require-relative.html)に引き続きRubyのreuiqreに関する話題である。
 

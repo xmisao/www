@@ -4,7 +4,7 @@ title: Sinatraでログをファイルに保存する方法
 tag: sinatra
 ---
 
-# Sinatraでログをファイルに保存する方法
+
 
 Sinatraで`Rack::CommonLogger`を使ってアクセスログを取る方法のメモ。
 アプリケーションに以下を記述する。

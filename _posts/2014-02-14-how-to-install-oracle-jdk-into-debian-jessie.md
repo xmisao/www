@@ -4,9 +4,9 @@ title: Debian jessieにOracleのJDKをインストールする方法
 tag: ['linux', 'java']
 ---
 
-# Debian jessieにOracleのJDKをインストールする方法
 
-## ダウンロード
+
+# ダウンロード
 
 OracleのページからJDKのtarボールをダウンロードする。(64bitのDebianなら"jdk-7-linux-x64.tar.gz")
 
@@ -14,7 +14,7 @@ OracleのページからJDKのtarボールをダウンロードする。(64bit�
 
 なおブラウザが使えない場合は、[Oracle JDKをコマンドラインからダウンロードする方法](http://www.xmisao.com/2014/02/14/how-to-download-oracle-jdk-from-the-commandline.html)に記載の方法でダウンロードできる。
 
-## 準備
+# 準備
 
 `java-package`パッケージをインストールする。このパッケージは、OracleのJDKからdebパッケージを生成するツールである。
 
@@ -22,7 +22,7 @@ OracleのページからJDKのtarボールをダウンロードする。(64bit�
 apt-get install java-package
 ~~~~
 
-## パッケージ生成
+# パッケージ生成
 
 java-packageの`make-jpkg`コマンドを使ってtarボールからdebパッケージを生成する。これにはしばらく時間がかかる。
 
@@ -30,7 +30,7 @@ java-packageの`make-jpkg`コマンドを使ってtarボールからdebパッケ
 make-jpkg jdk-7-linux-x64.tar.gz
 ~~~~
 
-## インストール
+# インストール
 
 rootになって、生成されたdebパッケージを`dpkg`でインストールする。
 
@@ -40,7 +40,7 @@ dpkg -i oracle-java7-jdk_7_amd64.deb
 
 以上でDeiban jessieでOracleのJDKが使用可能になる。
 
-## デフォルトの設定
+# デフォルトの設定
 
 複数のJavaがインストールされている場合は、デフォルトを設定してやる必要がある。
 

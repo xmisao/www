@@ -4,7 +4,7 @@ title: Rubyのバージョンとripperの関係
 tag: ruby
 ---
 
-# Rubyのバージョンとripperの関係
+
 
 ripperの基本的な使い方は[Rubyの標準添付ライブラリripperでRubyのソースをパースする](http://www.xmisao.com/2014/05/12/ruby-ripper.html)で紹介した。
 きょうはRubyのバージョンとripperの関係について少し書いておく。

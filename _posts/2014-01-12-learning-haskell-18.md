@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(18) FizzBuzz問題
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(18) FizzBuzz問題
+
 
 Haskellの書き方も何となくわかってきたので、ここで基本に立ち返り、いわゆるFizzBuzz問題をHaskellで実装してみることにする。
 

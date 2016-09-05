@@ -4,7 +4,7 @@ title: minitestのテストを全て実行するRakefile
 tag: ruby
 ---
 
-# minitestのテストを全て実行するRakefile
+
 
 タイトルのとおり、minitestのテストを全て実行するRakefileは以下のように書ける。
 これで`test`ディレクトリ以下にある`test_foo.rb`のようなテストスクリプトが全て実行される。

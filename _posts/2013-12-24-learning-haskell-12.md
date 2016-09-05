@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(12) リストを逆順にする
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(12) リストを逆順にする
+
 
 しばらく間が空いてしまったが、Haskellの勉強を続ける。
 今日はリストを逆順にする処理を再帰で考える。

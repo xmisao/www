@@ -4,7 +4,7 @@ title: Rubyの%記法について
 tag: ruby
 ---
 
-# Rubyの%記法について
+
 
 Rubyの%記法には以下の種類がある。
 

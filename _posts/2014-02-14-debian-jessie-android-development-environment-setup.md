@@ -4,7 +4,7 @@ title: Debian jessieでAndroidアプリの開発環境を整えるメモ
 tag: ['debian', 'android']
 ---
 
-# Debian jessieでAndroidアプリの開発環境を整えるメモ
+
 
 以下のページから"adt-bundle-linux-x86_64-20131030.zip"をダウンロードして展開。
 

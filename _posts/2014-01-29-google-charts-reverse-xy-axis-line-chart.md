@@ -4,7 +4,7 @@ title: Google Chartsで逆方向のX/Y軸を描画する方法
 tag: ['javascript', 'google_charts']
 ---
 
-# Google Chartsで逆方向のX/Y軸を描画する方法
+
 
 ![Reverse X/Y Axis Line Chart]({{ site.url }}/assets/2014_01_29_reverse_xy_axis_sample.png)
 

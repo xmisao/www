@@ -4,17 +4,17 @@ title: RubyでTumblrにアクセスする(tumblr_client)
 tag: ['ruby', 'tumblr']
 ---
 
-# RubyでTumblrにアクセスする(tumblr_client)
+
 
 RubyでTumblrにアクセスするライブラリにはいくつかあるが、どれもあまり使われていない状況だ。その中で`tumblr_client`というGemがメジャーで、Tumblrによる解説でも使われている。このエントリでは`tumblr_client`を使って、Tumblrへの投稿と、ダッシュボードの取得をしてみることにする。
 
-## インストール
+# インストール
 
 以下で入る。意外と依存関係がある。
 
     gem install tumblr_client
 
-## 初期化
+# 初期化
 
 トークン等、Tumblrにアクセスするために必要な要素は、事前に取得してあるものとする。それらの要素は`Tumblr.config`で以下のように設定する。
 
@@ -33,7 +33,7 @@ end
 Tumblr::Client.new()
 ~~~~
 
-## ダッシュボードの取得
+# ダッシュボードの取得
 
 Tumblrにアクセスしてする目に入るダッシュボードを取得してみよう。
 ダッシュボードへのアクセスは、`dashboard()`を使って行う。
@@ -53,7 +53,7 @@ client = Tumblr::Client.new
 pp client.dashboard(:type => 'text')["posts"]
 ~~~~
 
-## Tumblrへの投稿
+# Tumblrへの投稿
 
 Tumblrに投稿するには`text()`をはじめ、ポストの種類ごとに用意された各種メソッドを利用する。最も簡単なテキストポストをしてみることにしよう。`text()`に渡す引数は、投稿対象のブログと、投稿内容だ。以下では'hogehoge.tumblr.com'というブログに、タイトルが'hoge'で、本文が'piyo'の投稿をする。
 

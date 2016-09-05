@@ -4,11 +4,11 @@ title: BestGems Pickup! 第9回 「docile」
 tag: bestgems_pickup
 ---
 
-# BestGems Pickup! 第9回 「docile」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第9回は「[docile](https://rubygems.org/gems/docile)」を取り上げる。
 
-## 概要
+# 概要
 
 docileはあらゆるRubyのオブジェクトをDSLに変えてしまうGemである。
 このGemは特にオブジェクトの初期化をBuilderパターンで行っている場合に便利だ。
@@ -17,11 +17,11 @@ docileはあらゆるRubyのオブジェクトをDSLに変えてしまうGemで�
 docileは今日現在、合計ダウンロードランキング574位、デイリーダウンロードランキング116位につけている。
 docileは昨年11月から急速にダウンロード数を伸ばしている注目のGemである。
 
-## インストール
+# インストール
 
     gem install docile
 
-## 使用例
+# 使用例
 
 docileを使えば`Array`オブジェクトを操作するDSLを以下のように記述できる。
 `with_array`は渡した`Array`オブジェクトをブロック内に記述したDSLで初期化するメソッドだ。
@@ -84,7 +84,7 @@ end
 # => #<Pizza:0x00001009dc398 @cheese=true, @pepperoni=true, @bacon=false, @sauce=:extra>
 ~~~~
 
-## 解説
+# 解説
 
 docileはDSLを実行するため`dsl_eval`と`dsl_eval_immutable`の2つのメソッドを提供する。
 この2つのメソッドはDSLで実行する内容が「命令型」であるか、「関数型」であるかにより使い分ける。
@@ -139,7 +139,7 @@ end
 3. インスタンス変数はブロックコンテキスト限定である。
 4. DSLの実行はネストさせることができる。
 
-## まとめ
+# まとめ
 
 docileがいかにしてRubyのオブジェクトをDSLに変えてしまうか、それがわかっていただけただろうか。
 通常、このようなDSLを定義するには、リフレクション用メソッドを駆使する必要があるが、docileはいとも簡単にそれをやってのける。

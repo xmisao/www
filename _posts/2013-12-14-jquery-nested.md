@@ -4,20 +4,20 @@ title: 超簡単! jQuery Nestedによる動的グリッドレイアウト
 tag: ['javascript', 'web']
 ---
 
-# 超簡単! jQuery Nestedによる動的グリッドレイアウト
+
 
 ![Mondrian Composition]({{ site.url }}/assets/2013_12_14_nested_mondrian.png)
 
 *jQuery Nestedで描いたモンドリアンのコンポジション*
 
-## jQuery Nestedとは
+# jQuery Nestedとは
 
 - [jQuery Nested (github)](https://github.com/suprb/Nested)
 - [jQuery Nested Demo](http://suprb.com/apps/nested/)
 
 jQuery Nestedは動的なグリッドレイアウトを自動的に行なってくれるjQueryプラグインだ。所定の方法でマークアップしておけば、JavaScript 1行で、横幅に応じて自動的にグリッドレイアウトを行なうことができる。
 
-## jQuery Nestedの使い方
+# jQuery Nestedの使い方
 
 jQuery Nestedを使うにはjQueryとjQuery NestedのJavaScriptファイルを読み込んでやる必要がある。
 jQuery Nestedは1ファイルで、ダウンロードするだけでするに利用できる。
@@ -33,7 +33,7 @@ jQuery Nestedは1ファイルで、ダウンロードするだけでするに利
 /js/jquery.nested.js
 ~~~~
 
-### Sample.1 マークアップとjQuery Nestedの呼び出し
+## Sample.1 マークアップとjQuery Nestedの呼び出し
 
 ![Sample.1]({{ site.url }}/assets/2013_12_14_nested_sample1.png)
 
@@ -63,7 +63,7 @@ jQuery NestedをロードするとjQueryの要素が拡張されて`nested()`関
 $("#content").nested();
 ~~~~
 
-### Sample.2 jQuery Nestedのオプションについて
+## Sample.2 jQuery Nestedのオプションについて
 
 ![Sample.2]({{ site.url }}/assets/2013_12_14_nested_sample2.png)
 
@@ -112,7 +112,7 @@ jQuery Nestedのオプションを以下にまとめる。
 ||complete|function()|アニメーション完了時に実行する関数を指定する。デフォルトでは何も実行しない。|
 {: .table .table-striped}
 
-### Sample.3 ボックスの動的な追加と再描画
+## Sample.3 ボックスの動的な追加と再描画
 
 ![Sample.3]({{ site.url }}/assets/2013_12_14_nested_sample3.png)
 
@@ -144,7 +144,7 @@ function create_element(){
 }
 ~~~~
 
-### おまけ モンドリアンのコンポジション
+## おまけ モンドリアンのコンポジション
 
 - [mondrian.html]({{ site.url }}/assets/samples/nested/mondrian.html)
 

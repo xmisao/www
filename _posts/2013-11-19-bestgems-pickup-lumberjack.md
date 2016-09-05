@@ -4,11 +4,11 @@ title: BestGems Pickup! 第7回 「lumberjack」
 tag: bestgems_pickup
 ---
 
-# BestGems Pickup! 第7回 「lumberjack」
+
 
 拙作の[BestGems](http://bestgems.org/)から注目のGemを紹介するエントリー。第7回は「[lumberjack](https://rubygems.org/gems/lumberjack)」を取り上げる。
 
-## 概要
+# 概要
 
 lumberjackはログ出力ユーティリティだ。シンプルで高機能かつ高速な実装を標榜しており、Ruby標準のLoggerやActiveSupport::BufferedLoggerを置き換えられるとしている。
 
@@ -16,11 +16,11 @@ lumberjackはログ出力ユーティリティだ。シンプルで高機能か�
 
 lumberjackは今日現在、合計ダウンロードランキング214位、デイリーダウンロードランキング158位につけている。人気上昇中のgemと言える。
 
-## インストール
+# インストール
 
     gem install lumberjack
 
-## 使用例
+# 使用例
 
 Lumberjackの使いかたは、標準ライブラリの`Logger`と良く似ている。基本的には、`Lumberjack::Logger`を生成し、あとはそのインスタンスのログ出力メソッドを呼び出すだけである。詳しい使い方は、次の解説で説明する。
 
@@ -40,11 +40,11 @@ end
 logger.info("End request")
 ~~~~
 
-## 解説
+# 解説
 
 Lumberjackの機能をもう少し詳しく見ていこう。
 
-### Loggerの生成
+## Loggerの生成
 
 `Logger`のコンストラクタには、ログの出力先と、オプションを与える。どちらも省略が可能で、デフォルトでは`STDOUT`にログレベル`INFO`以上のログが出力される。
 
@@ -58,7 +58,7 @@ logger = Lumberjack::Logger.new()
 logger = Lumberjack::Logger.new("application.log", {:level => Lumberjack::Serverity.DEBUG})
 ~~~~
 
-### ログレベル
+## ログレベル
 
 Lumberjackのログレベルは、最も軽微なDEBUGから最も重大なUNKNOWNまで、以下の6段階がある。
 
@@ -74,7 +74,7 @@ Lumberjackのログレベルは、最も軽微なDEBUGから最も重大なUNKNO
 
 `Logger`に設定したログレベル以上のレベルのメッセージだけが、実際に出力される仕組みだ。
 
-### ログ出力
+## ログ出力
 
 `Logger`インスタンスのログ出力用のメソッドは、ログレベルに応じてそれぞれ以下のとおりである。
 
@@ -86,7 +86,7 @@ logger.fetal("FETAL message")
 logger.unknown("UNKNOWN message")
 ~~~~
 
-### 出力内容
+## 出力内容
 
 ログに出力されるメッセージには、以下のメタデータが付与される。
 
@@ -96,7 +96,7 @@ logger.unknown("UNKNOWN message")
 - process id -- ログを出力したプロセスのID(pid)
 - unit of work id -- 処理単位のユニークな12バイト長の16進数値
 
-### 処理単位
+## 処理単位
 
 Lumberjackでは、処理をまとまりを処理単位として指定できる。処理単位は`Lumberjack.unit_of_work`ブロックで指定する。
 
@@ -110,7 +110,7 @@ Lumberjack.unit_of_work do
 end
 ~~~~
 
-### 高度なロギング
+## 高度なロギング
 
 Lumberjackには、より高度なログ出力機能が存在する。これらの機能は多岐にわたるので、この紹介では簡単に触れるにとどめておくことにする。詳しくはLumberjackのドキュメントとソースコードを参照して欲しい。
 
@@ -122,7 +122,7 @@ Lumberjackのログはデフォルトでバッファリングされる。この�
 
 Lumberjackは時刻とサイズによるログローリング機能を備えている。またLumberjacはマルチプロセスに対応しており、マルチプロセスによる同一ファイルへのロギングが安全に行える。
 
-### まとめ
+## まとめ
 
 以上のように、Lumberjackは必要十分な機能を持ったログ出力ライブラリである。特にマルチプロセス対応なので、標準ライブラリの`Logger`が使えないケースにも活用できるだろう。使いかたも`Logger`とほぼ同様なので、学習コストも低い。
 

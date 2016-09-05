@@ -4,7 +4,7 @@ title: ThinkPad X240のHDDをSSDに換装する(写真つき)
 tag: thinkpad
 ---
 
-# ThinkPad X240のHDDをSSDに換装する(写真つき)
+
 
 従来のThinkPadは簡単にHDDやメモリにアクセスでき容易に交換できることがユーザに受けていたところがある。ThinkPadのSSDモデルは高価だが、HDDを自分でSSDに換装してしまえば安くあがるからだ。
 
@@ -16,13 +16,13 @@ tag: thinkpad
 
 <div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/413Vg%2BfvzoL._SL160_.jpg" alt="Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.01.17</div></div><div class="amazlet-detail">日本サムスン (2013-08-07)<br />売り上げランキング: 142<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
-## 0. 回復ドライブを作成しておく
+# 0. 回復ドライブを作成しておく
 
 Windowsを使わないのならこの手順は必要ないが、事前にWindows 8の回復ドライブを作成しておくことをおすすめする。回復ドライブの作成には16GB以上のUSBメモリが必要である。回復ドライブの作成方法についてはLenovoの公式ホームページを参照。
 
 - [Microsoft Windows 8プリロードのLenovoシステムでリカバリーメディアを作成し、復元する方法](http://support.lenovo.com/ja_JP/research/hints-or-tips/detail.page?AliasID=SF12-D0247)
 
-## 1. BIOSから内蔵バッテリーを無効化する
+# 1. BIOSから内蔵バッテリーを無効化する
 
 ThinkPad X240は内蔵のフロント・バッテリーとリア・バッテリーを搭載している。パーツ交換を行うにあたって、通電しながらの作業を防ぐため、事前に内蔵のバッテリーを無効化してやる必要がある。
 
@@ -30,19 +30,19 @@ ThinkPadの電源をオンする際にF1ボタンを押してThinkPad Setupプ�
 
 なおAC電源アダプターを再接続すると、自動的にこの項目は有効になるとのことなので注意。
 
-## 2. リア・バッテリーを取り外す
+# 2. リア・バッテリーを取り外す
 
 ![Step2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_00.jpg)
 
 ThinkPadを完全に通電していない状態にするため、リア・バッテリーを取り外す。図は保守マニュアルからの引用。リア・バッテリーを取り外す際は*図中1*の2箇所のラッチを操作して、バッテリーを引き抜く。
 
-## 3. 背面カバーのネジを8箇所緩める
+# 3. 背面カバーのネジを8箇所緩める
 
 ![Step3]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_01.jpg)
 
 背面カバー(保守マニュアルによると、ベース・カバー・アセンブリー)を取り外すため、まず8箇所のネジを緩める。写真で○をつけた箇所が緩めるネジである。なおこのネジはカバーと密着しており、完全に引き抜くことはできないようだ。
 
-## 4. 背面カバーを取り外す
+# 4. 背面カバーを取り外す
 
 ![Step4]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_02.jpg)
 
@@ -52,7 +52,7 @@ ThinkPadを完全に通電していない状態にするため、リア・バッ
 
 無事、背面カバーを取り外したら、マザーボードがむき出しになる。写真、左下がHDDである。ThinkPadをここまで分解したことはなかったので、私はちょっとドキドキである。
 
-## 5. HDDの2箇所のネジを取り外す
+# 5. HDDの2箇所のネジを取り外す
 
 ![Step5]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_03.jpg)
 
@@ -60,7 +60,7 @@ ThinkPadを完全に通電していない状態にするため、リア・バッ
 
 ドライブを取り出し、SATAケーブルをドライブから取り外す。保守マニュアルではSATAケーブルをマザーボードから取り外す手順も掲載されているが、その必要はない。ここは正直いじらない方が無難だと思う。
 
-## 6. HDDのカバーを取り外す
+# 6. HDDのカバーを取り外す
 
 ![Step6-1]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_04.jpg)
 
@@ -68,12 +68,12 @@ HDDはプラスチックのカバーで固定されているので、このカ�
 
 ![Step6-2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_05.jpg)
 
-## 7. SDDにカバーを装着し、SATAケーブルをSSDに接続して、埋め込む
+# 7. SDDにカバーを装着し、SATAケーブルをSSDに接続して、埋め込む
 
 ![Step7]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_06.jpg)
 
 SSDにカバーを装着して、SATAケーブルをSSDに接続する。あとは*手順 5.*、*手順 4.*、*手順 3.*、*手順 2.*を全く逆の手順で行い、背面カバーを被せれば良い。カバーは位置を合わせて、爪の部分を押していくとうまくはまるので、外すより取り付ける方が簡単である。
 
-## おわりに
+# おわりに
 
 以上でThinkPad X240のHDDをSSDに換装することができた。ThinkPadの電源をオンにしてSSDが認識されているかを確認しよう。

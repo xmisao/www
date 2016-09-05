@@ -4,7 +4,7 @@ title: Amazon S3で静的ホスティングする際のDNS設定
 tag: aws
 ---
 
-# Amazon S3で静的ホスティングする際のDNS設定
+
 
 Amazon S3はCNAMEで参照する事になるが、CNAMEは他のレコードと一切共存できないので注意が必要。
 特にexample.comのようにサブドメインをつけない場合は良く考えた方が良い。(naked domainと呼ばれる)

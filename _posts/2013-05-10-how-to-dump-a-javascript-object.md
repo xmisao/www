@@ -4,7 +4,7 @@ title: JavaScriptでオブジェクトの内容をダンプする方法
 tag: ['programming', 'javascript']
 ---
 
-# JavaScriptでオブジェクトの内容をダンプする方法
+
 
 JavaScriptのデバッグ時にオブジェクトが持つ要素を一覧したい場合がある。
 alert()ではObjectとしか出力できず不便。

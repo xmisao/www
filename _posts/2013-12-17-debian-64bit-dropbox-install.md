@@ -4,13 +4,13 @@ title: 64bit環境のDebian WheezyにDropboxをインストール
 tag: linux
 ---
 
-# 64bit環境のDebianにDropboxをインストール
+
 
 DropboxはLinuxにも対応している。
 今回は64bit版のDebian WheezyにDropboxをインストールして使えるようにしてみる。
 以下ではDropbox本体と、本体を補助するdropboxパッケージに分けて説明する。
 
-## Dropbox本体のダウンロードとインストール
+# Dropbox本体のダウンロードとインストール
 
 Dropboxの公式サイトに記載されているとおり以下のコマンドを実行する。
 
@@ -33,7 +33,7 @@ Please visit https://www.dropbox.com/cli_link?host_id=xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 認証が成功すればホームディレクトリ直下に`Dropbox`ディレクトリが作成され、このディレクトリがDropboxで同期される。
 
-## dropboxパッケージのダウンロードとインストール(オプション)
+# dropboxパッケージのダウンロードとインストール(オプション)
 
 dropboxパッケージはdropboxのデーモンを操作するコマンドやNautilus用のエクステンションを含んでいる。
 Dropboxを利用する上で必須というわけではないが、ぜひインストールしておこう。

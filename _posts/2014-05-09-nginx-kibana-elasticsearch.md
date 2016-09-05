@@ -4,15 +4,15 @@ title: nginxでkibanaを配信する / nginxをelasticsearchのリバースプ�
 tag: ['nginx', 'kibana', 'elasticsearch']
 ---
 
-# nginxでkibanaを配信する / nginxをelasticsearchのリバースプロキシとする
 
-## はじめに
+
+# はじめに
 
 kibanaやelasticsearchはアクセス制限の仕組みを持っていないので、インターネット上のホストにこれらのソフトをインストールして使用するには、HTTPサーバでアクセスアクセス制限を行うしかない。
 
 今回はnginxを使ってkibanaを配信するとともに、nginxをelasticsearchのリバースプロキシとして、両方にBASIC認証でアクセス制限をかける方法を紹介する。
 
-## nginx
+# nginx
 
 設定の前提は以下のとおり。
 実際には自分の環境に沿って読み替えること。
@@ -38,7 +38,7 @@ server {
 
 これで`http://example.com/`でkibanaを配信し、`http://example.com/es/`のアクセスがelasticsearchに転送されるようになる。
 
-## kibana
+# kibana
 
 ブラウザから見たelasticsearchのアクセス先は`http://example.com/es/`だ。
 これを踏まえてkibanaの`config.js`で`elasticsearch:`の行を以下のようにする。
@@ -47,7 +47,7 @@ server {
 elasticsearch: "http://example.com/es",
 ~~~~
 
-## おわりに
+# おわりに
 
 以上でkibanaを配信する設定、elasticsearchのリバースプロキシの設定が完了した。
 さっそく`http://example.com/`にアクセスしよう。

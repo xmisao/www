@@ -4,7 +4,7 @@ title: BestGems.orgをオープンソース化した
 tag: ['bestgems', 'ruby']
 ---
 
-# BestGems.orgをオープンソース化した
+
 
 さる人からリクエストをもらったので、思い切って拙作のGemのランキングサイト [BestGems.org](http://bestgems.org/)のソースコードをオープンソース化した。
 

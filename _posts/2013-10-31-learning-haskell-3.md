@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(3) 関数の定義
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(3) 関数の定義
+
 
 今日はHaskellで関数を定義して使ってみることにする。
 

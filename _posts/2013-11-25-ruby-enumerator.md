@@ -4,7 +4,7 @@ title: Ruby 1.9のEnumeratorによる繰り返し処理
 tag: ruby
 ---
 
-# Ruby 1.9のEnumeratorによる繰り返し処理
+
 
 Ruby 1.9以降では`Array#each`をはじめとする繰り返し処理が、Enumeratorクラスを通じて行われるようになった。例えば`[].each`は`Enumerator`を返す。
 

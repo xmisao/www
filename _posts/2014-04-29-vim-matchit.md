@@ -4,7 +4,7 @@ title: matchitでvimの%を拡張する
 tag: vim
 ---
 
-# matchitでvimの%を拡張する
+
 
 matchitはvimで対応する括弧にジャンプする`%`の機能を拡張し、HTMLやLaTeXのタグなど複数文字で構成されるペアを持った言語でも、この機能を利用できるようにするvimプラグインだ。
 

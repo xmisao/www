@@ -4,19 +4,19 @@ title: ソーシャルメディアのシェア数取得とシェア用のURLま�
 tag: web
 ---
 
-# ソーシャルメディアのシェア数取得とシェア用のURLまとめ
 
-## はじめに
+
+# はじめに
 
 ソーシャルメディアへの共有ボタンを自作する場合には、シェア数を取得したり、シェア用のURLへのリンクを設置する必要がある。
 このエントリでは、各ソーシャルメディアのシェア数を取得するURL・ページをシェアする用のURLをまとめる。
 対象とするソーシャルメディアは、はてなブックマーク、Google+、Facebook、Twitterの4つ。
 
-## シェア数取得URL
+# シェア数取得URL
 
 URLにシェア数を取得したいページのURLを連結するとシェア数が取得できる。
 
-### はてなブックマーク
+## はてなブックマーク
 
 URL: *http://api.b.st-hatena.com/entry.count?url=*
 
@@ -27,13 +27,13 @@ URL: *http://api.b.st-hatena.com/entry.count?url=*
 1
 ~~~~
 
-### Google+
+## Google+
 
 残念ながらGoogle+の+1数を取得する方法はない。
 
 公式のGoogle+ボタンを読み込んで、その内容から+1数を取得する荒業はあるらしい。
 
-### Facebook
+## Facebook
 
 URL: *https://graph.facebook.com/*
 
@@ -49,7 +49,7 @@ JSONが返る。
 }
 ~~~~
 
-### Twitter
+## Twitter
 
 URL: *http://urls.api.twitter.com/1/urls/count.json?url=*
 
@@ -62,31 +62,31 @@ JSONが返る。
 {"count":1,"url":"http:\/\/www.xmisao.com\/"}
 ~~~~
 
-## シェア用URL
+# シェア用URL
 
 URLにシェアさせたいページのURLを連結するとシェア用のページを表示できる。
 
-### はてなブックマーク
+## はてなブックマーク
 
 URL: *http://b.hatena.ne.jp/append?*
 
 はてなブックマークに追加するページを表示する。
 
-### Google+
+## Google+
 
 URL: *http://plus.google.com/share?url=*
 
 Google+に投稿するページを表示する。
 URLのみ入力された状態で、本文は空欄である。
 
-### Facebook
+## Facebook
 
 URL: *https://www.facebook.com/sharer/sharer.php?u=*
 
 Facebookでシェアするページを表示する。
 URLのみ入力された状態で、本文は空欄である。
 
-### Twitter
+## Twitter
 
 URL: *http://twitter.com/home?status=*
 
@@ -94,7 +94,7 @@ Twitterに投稿するページを表示する。
 TwitterにはURLを特別にシェアする仕組みはないので、あくまで任意の内容をtweetさせるもの。
 タイトルが必要な場合は、タイトルもURLエンコードして含めてやる必要がある。
 
-## おわりに
+# おわりに
 
 このブログの共有ボタンを自作のものに切り替えるために調べた。
 ソーシャルメディア毎にそれぞれ癖があって、なかなか使いづらい。

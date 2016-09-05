@@ -4,7 +4,7 @@ title: vimの短縮入力(Abbreviations)について
 tag: vim
 ---
 
-# vimの短縮入力(Abbreviations)について
+
 
 vimには、予め設定した文字列を入力をした場合に、それを別の文字列に置換する短縮入力(Abbreviations)機能がある。
 短縮入力はコードスニペットの挿入や、スペルミスの自動修正に活用できる。

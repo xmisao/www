@@ -4,7 +4,7 @@ title: ThinkPad Bluetooth Wireless Trackpoing Keyboard ファーストインプ�
 tag: thinkpad
 ---
 
-# ThinkPad Bluetooth Wireless Trackpoing Keyboard ファーストインプレッション
+
 
 はじめて触って戸惑ったので使い方をまとめてみた。
 

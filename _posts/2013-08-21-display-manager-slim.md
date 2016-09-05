@@ -4,7 +4,7 @@ title: 軽量ディスプレイマネージャslimと自動ログイン設定
 tag: linux
 ---
 
-# 軽量ディスプレイマネージャSLiMと自動ログイン設定
+
 
 [SLiM](http://slim.berlios.de/)は軽量なXのディスプレイマネージャだ。
 

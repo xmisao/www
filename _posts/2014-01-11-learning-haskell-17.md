@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(17) letとwhere
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(17) letとwhere
+
 
 再びHaskellでの実装を念頭に置いてRubyで実装したプログラムをHaskellで書き下すスタイルで勉強してみる。今回は円柱の体積の計算を通じて、Haskelの`let`と`where`について見ていく。
 

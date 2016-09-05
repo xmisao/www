@@ -4,7 +4,7 @@ title: PowerTOPを使ってLinuxマシンを省電力化する
 tag: ['linux', 'debian', 'thinkpad']
 ---
 
-# PowerTOPを使ってLinuxマシンを省電力化する
+
 
 PowerTOPはIntelが提供するLinux向けのツールで、プロセスやハードウェアが消費している電力を一覧し、必要に応じて様々な省電力設定を行うことができる。
 

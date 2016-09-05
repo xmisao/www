@@ -4,17 +4,17 @@ title: Zabbix 2.0で他のホストを監視する
 tag: ['zabbix', 'server']
 ---
 
-# Zabbix 2.0で他のホストを監視する
+
 
 [Debian WheezyへのZabbix 2.0のインストール](http://www.xmisao.com/2013/10/23/zabbix-instration.htm)では、Zabbixサーバをインストールしサーバのホストを監視する方法を説明した。続いて、他のDebian WheezyホストにZabbix Agentをインストールし、Zabbixの監視対象に追加してみよう。
 
-## 前提
+# 前提
 
 前提としてZabbixサーバホストのポート10051番、Zabbix Agentホストのポート10050番が開いている必要がある。Zabbix サーバとZabbix Agentの間にファイアウォールがある場合は疎通させる設定が必要になる。
 
 ![Network Requirements]({{ site.url }}/assets/2013_10_24_network_requirements.png)
 
-## ホストへのZabbix Agentのインストール
+# ホストへのZabbix Agentのインストール
 
 Zabbix Agentのインストールの手順は、Zabbix サーバの場合とほとんど変わらない。ZabbixのサイトからZabbixパッケージをダウンロードし、aptからZabbixがインストールできるようにする。
 
@@ -30,7 +30,7 @@ apt-get update
 apt-get install zabbix-agent
 ~~~~
 
-## Zabbix Agentの設定変更
+# Zabbix Agentの設定変更
 
 Zabbix Agentには、Zabbix サーバのホストを設定ファイルで教えてやる必要がある。/etc/zabbix/zabbix_agentd.confの、Server=の行にZabbix サーバのIPアドレスを入力する。
 
@@ -44,7 +44,7 @@ Server=1.2.3.4
 /etc/init.d/zabbix-agent restart
 ~~~~
 
-## Zabbix サーバから監視対象を追加する
+# Zabbix サーバから監視対象を追加する
 
 Zabbixにログインする。
 以下はGUIの操作になるので、スクリーンショットを交えながら説明してゆく。
@@ -72,6 +72,6 @@ Zabbixにログインする。
 
 再びHostタブを戻り、Saveボタンを押下しよう。これでZabbix Agentを監視し、Linux サーバのテンプレートで監視する設定が終了する。
 
-## おわりに
+# おわりに
 
 以上の手順で、Zabbix サーバでZabbix Agentのホストを監視することができるようになった。さっそくトレンドデータが取得できていることをMonitoringから確認してみよう。

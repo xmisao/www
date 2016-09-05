@@ -4,7 +4,7 @@ title: Debian wheezyにxrdpをインストール
 tag: ['linux', 'xrdp']
 ---
 
-# Debian wheezyにxrdpをインストール
+
 
 xrdpは*nixで動作するフリーのRDP(リモートデスクトップ)サーバだ。
 Debian wheezyにはxrdp 0.5.0のパッケージが用意されており、簡単に利用できる。
@@ -15,7 +15,7 @@ xrdp 0.5系には日本語のキーマップに関連したバグがあるらし
 
 以下ではDebian wheezy標準のxrdp 0.5.0をインストールする前提で進める。
 
-## xrdpのインストール
+# xrdpのインストール
 
 xrdpは以下でインストールできる。
 
@@ -25,7 +25,7 @@ apt-get install xrdp
 
 インストールと同時にxrdpのデーモンが立ち上がる。
 
-## rdesktopのインストール(Windowsから接続するなら不要)
+# rdesktopのインストール(Windowsから接続するなら不要)
 
 ローカルからxrdpに接続したい場合はrdesktopをインストールする。
 rdesktopはフリーのRDPクライアントだ。
@@ -35,7 +35,7 @@ rdesktopはフリーのRDPクライアントだ。
 apt-get install rdesktop
 ~~~~
 
-## xrdpへの接続
+# xrdpへの接続
 
 rdesktopを使用してローカルホストのxrdpに接続するには以下のようにする。
 
@@ -55,7 +55,7 @@ rdesktop localhost
 このようにxrdpは設定なしに利用をはじめることができる。
 ただいくらか注意点もあるので設定を確認してみよう。
 
-## xrdpの設定を確認する
+# xrdpの設定を確認する
 
 xrdpの設定は`/etc/xrdp/`以下に配置されている。
 Debian wheezyでは以下のファイルが存在していた。
@@ -81,7 +81,7 @@ Debian wheezyでは`crypt_level`で指定する暗号化レベルが`low`とな�
 
 `sesman.ini`にはセキュリティやログイン後に起動するスクリプト等の設定が書かれている。実際に使用をはじめる前に、こちらも一度設定を確認しておくと良いだろう。
 
-## xrdp接続時に起動するウィンドウマネージャを変更する
+# xrdp接続時に起動するウィンドウマネージャを変更する
 
 Debian wheezyのデフォルトの`sesman.ini`では、ユーザ毎にxrdp接続時に起動するウィンドウマネージャを変更できる設定になっている。
 

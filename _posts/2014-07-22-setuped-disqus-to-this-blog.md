@@ -4,7 +4,7 @@ title: このブログにDIDQUSのコメント欄を設置した / JekyllでDISC
 tag: ['dicqus', 'jekyll']
 ---
 
-# このブログにDIDQUSのコメント欄を設置した / JekyllでDISCUSを設置する方法
+
 
 DIDQUSは中央集権型のコメント蘭を提供するWebサービスだ。
 コメント機能を持たないブログなどに、コメント欄を設置することができる。
@@ -12,7 +12,7 @@ Jekyllは静的サイトのため、DISQUSは非常に役に立つ。
 
 このエントリでは、DISCUSへの登録と、Jekyllのlayoutの書き方を紹介する。
 
-## DISQUSへの登録
+# DISQUSへの登録
 
 以下のページにアクセスする。
 
@@ -31,7 +31,7 @@ DISQUSはFacebook、Twitter、Googleアカウントで使用可能だ。
 
 メールが送付されるので、Verificationすること。
 
-## サイトの登録
+# サイトの登録
 
 トップページに戻されるので、Add Disqus to Your Siteというリンクをクリックする。
 
@@ -47,7 +47,7 @@ DISQUSはFacebook、Twitter、Googleアカウントで使用可能だ。
 
 を入力してFinish registrationを実行する。
 
-## コメント欄の設置
+# コメント欄の設置
 
 Choose your platform画面に遷移する。
 
@@ -81,7 +81,7 @@ Jekyllは選択肢に無いのでUniversal Codeを選択する。
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 ~~~~
 
-## JellyでDISQUSをいい感じで使用する
+# JellyでDISQUSをいい感じで使用する
 
 Jekyllではページごとに変数を設定できる。
 ヘルプで[変数によりDISQUSコメント蘭を表示するかを切り替える実装](https://help.disqus.com/customer/portal/articles/472138-jekyll-installation-instructions)を見つけた。

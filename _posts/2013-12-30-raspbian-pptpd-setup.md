@@ -4,7 +4,7 @@ title: Raspberry PIのRaspbian(Debian)でPPTPによるVPN環境を構築する
 tag: linux
 ---
 
-# Raspberry PIのRaspbian(Debian)でPPTPによるVPN環境を構築する
+
 
 Raspberry PI用のDebianがRaspbianである。
 今回はRaspbian(Wheezy)をインストールしたRaspberry PIにpptpdをインストールしてPPTPサーバ化して外部から接続できるようにする設定をする。
@@ -20,21 +20,21 @@ Raspberry PI用のDebianがRaspbianである。
 2. ルータの設定
 3. PPTPクライアントの設定
 
-## 1. PPTPサーバ側の設定
+# 1. PPTPサーバ側の設定
 
-### モジュールの有効化
+## モジュールの有効化
 
 ~~~~
 modprobe ppp-compress-18
 ~~~~
 
-### pptpdのインストール
+## pptpdのインストール
 
 ~~~~
 apt-get install pptpd
 ~~~~
 
-### pptpdの設定
+## pptpdの設定
 
 `/etc/pptpd.conf`に以下の設定をする。
 PPTPサーバのIPアドレス`192.168.0.128`と、PPTPクライアントに割り当てるIPを`192.168.0.129-137`まで10個確保する。
@@ -46,7 +46,7 @@ remoteip 192.168.0.129-137
 bcrelay eth1
 ~~~~
 
-### pptpdオプションの設定
+## pptpdオプションの設定
 
 `/etc/ppp/pptpd-options`を設定する。
 このファイルではPPTPクライアントが利用するDNSサーバやMTU、MRUを設定する。今回はルータがDNSサーバを兼ねるので以下のようにする。
@@ -58,7 +58,7 @@ mtu 1490
 mru 1490
 ~~~
 
-### 接続用の設定
+## 接続用の設定
 
 `/etc/ppp/chap-secrets`を設定する。
 このファイルではPPTPサーバに接続するための認証情報を設定する。`USERNAME`と`PASSWORD`は自分で決めた値に読み替える。`[TAB]`はタブである。
@@ -67,7 +67,7 @@ mru 1490
 USERNAME[TAB]*[TAB]PASSWORD[TAB]*
 ~~~~
 
-### pptpdのサービス再起動
+## pptpdのサービス再起動
 
 pptpdの設定は以上で完了したので`pptpd`を再起動する。
 
@@ -75,7 +75,7 @@ pptpdの設定は以上で完了したので`pptpd`を再起動する。
 /etc/init.d/pptpd restart
 ~~~~
 
-### IPフォワーディングの設定
+## IPフォワーディングの設定
 
 `/etc/sysctl.conf`でIPv4のIPフォワーディングを有効にする設定をする。
 
@@ -89,11 +89,11 @@ net.ipv4.ip_forward=1
 sysctl -p
 ~~~~
 
-### iptablesの設定
+## iptablesの設定
 
 iptablesを利用している場合は、ここでiptablesでPPTPを疎通させるように設定を行う。今回はiptablesは全てのポリシーをACCEPTにしている前提なので、ここでは説明しない。
 
-## 2. ルータの設定
+# 2. ルータの設定
 
 利用しているルータでTCPのポート1723とIPの47番(GRE)をPPTPサーバに通過させる設定をする。設定方法はルータにより異なる。
 
@@ -112,11 +112,11 @@ pp select 1
 	ip pp secure filter in 1000 1001 # 実際は他のフィルタも同時に適用する
 ~~~~
 
-## 3. PPTPクライアントの設定
+# 3. PPTPクライアントの設定
 
 PPTPクライアントは何でも良いが、ここではDebianの設定例を紹介する。
 
-### PPTPクライアントのインストール
+## PPTPクライアントのインストール
 
 まずPPTPクライアントをインストールする。
 
@@ -124,7 +124,7 @@ PPTPクライアントは何でも良いが、ここではDebianの設定例を�
 apt-get install pptp-linux
 ~~~~
 
-### 接続先の設定
+## 接続先の設定
 
 接続先の設定は`pptpsetup`コマンドで行う。
 このコマンドは`/etc/ppp/peers/`以下に接続先の設定を保存する。
@@ -134,7 +134,7 @@ apt-get install pptp-linux
 pptpsetup --create VPN --server HOST --username USERNAME -password PASSWORD --encrypt
 ~~~~
 
-### 接続先へのルーティング設定
+## 接続先へのルーティング設定
 
 接続先のネットワークへのルーティングを設定してやる。
 
@@ -154,7 +154,7 @@ PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
 ...
 ~~~~
 
-### 接続先の削除
+## 接続先の削除
 
 なお設定変更時などいったんPPTPの設定を削除したい場合は、`pppsetup --delete VPN`を使う。
 
@@ -162,7 +162,7 @@ PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
 pppsetup --delete VPN
 ~~~~
 
-### 注意事項
+## 注意事項
 
 中にはIP 47番のGREを内側から疎通させないネットワークも存在する。その場合PPTPクライアントからPPTPサーバへの接続は行えない。ハマりどころで多そうなのは、DocomoのSPモードなどである。
 
@@ -174,6 +174,6 @@ select pp 1
 	ip pp secure filer 2000 # 実際は他のフィルタも同時に適用する
 ~~~~
 
-## 参考
+# 参考
 
 - [Setting up a PPTP VPN Server on Debian/Ubuntu](http://jesin.tk/setup-pptp-vpn-server-debian-ubuntu/)

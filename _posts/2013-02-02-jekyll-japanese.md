@@ -4,7 +4,7 @@ title: jekyllで日本語を含むファイルの変換がYAML Exceptionで失�
 tag: jekyll
 ---
 
-# jekyllで日本語を含むファイルの変換がYAML Exceptionで失敗する
+
 
 jekyllを実行したら以下のようなエラーが出て失敗した。
 

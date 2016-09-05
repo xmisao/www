@@ -1,0 +1,23 @@
+<div id="nav-prev-next">
+  <div id="prevnext" class="row">
+    <div class="col-xs-6 text-left">
+      {% if page.previous %}
+      <h6><span class="icon-arrow-left"></span> Previous post</h6>
+      <div class="post">
+        <div class="post-date">{{ page.previous.date | date: "%Y-%m-%d" }}</div>
+        <div class="post-title"><a href="{{ BASE_PATH }}{{ page.previous.url }}">{{ page.previous.title }}</a></div>
+      </div>
+      {% endif %}
+    </div>
+    <div class="col-xs-6 text-right">
+      {% if page.next %}
+      <h6>Next post <span class="icon-arrow-right"></span></h6>
+      <div class="post">
+        <div class="post-date">{{ page.next.date | date: "%Y-%m-%d" }}</div>
+        <div class="post-title"><a href="{{ BASE_PATH }}{{ page.next.url }}">{{ page.next.title }}</a></div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+

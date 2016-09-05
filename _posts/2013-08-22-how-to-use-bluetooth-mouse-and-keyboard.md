@@ -4,7 +4,7 @@ title: DebianでBluetoothマウスやキーボードを使う
 tag: linux
 ---
 
-# DebianでBluetoothマウスやキーボードを使う
+
 
 LinuxでもBluetoothマウスやキーボードが使いたい。
 

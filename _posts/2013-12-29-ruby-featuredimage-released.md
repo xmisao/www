@@ -4,7 +4,7 @@ title: Webページから目を引く画像を抽出してサムネイル化す�
 tag: ruby
 ---
 
-# Webページから目を引く画像を抽出してサムネイル化するFeaturedImageというGemを作った
+
 
 ![FeaturedImage]({{ site.url }}/assets/2013_12_29_featuredimage.jpg)
 
@@ -14,7 +14,7 @@ tag: ruby
 
 (※)ちょっと調べたところアイキャッチは和製英語だそうで、英語ではFeatured Imageなどと呼ぶ、らしい。実はこれも自信なし。
 
-## FeaturedImageとは
+# FeaturedImageとは
 
 - [FeaturedImage](https://github.com/xmisao/featuredimage)
 
@@ -24,13 +24,13 @@ FeaturedImageはWebページから目を引く画像(以下、注目画像)を�
 
 さらにFeaturedImageは注目画像の中央付近を切り抜いて任意のサイズにリサイズするサムネイル生成機能も備えている。
 
-## インストール
+# インストール
 
 ~~~~
 gem install featuredimage
 ~~~~
 
-## 使用例
+# 使用例
 
 この例が本エントリ冒頭の画像である。
 Wikipediaのレナのページから、注目画像を抽出して、サムネイルを生成している。結果、レナの顔付近のサムネイルが生成される。
@@ -48,9 +48,9 @@ thumbnail = FeaturedImage::Converter.convert(featuredimage, 180, 120) # バイ�
 open('thumbnail.jpg', 'w'){|f| f.write thmbnail}
 ~~~~
 
-## APIリファレンス
+# APIリファレンス
 
-### 基本的なAPI
+## 基本的なAPI
 
 基本的なAPIは注目画像を抽出する3つのAPIと、注目画像からサムネイルを生成する1つのAPI、合計4つのAPIを用意した。
 
@@ -64,7 +64,7 @@ open('thumbnail.jpg', 'w'){|f| f.write thmbnail}
 
 上記のAPIに従わずに、`FeaturedImage::Finder`や`FeaturedImage::Converter`のインスタンスを直接生成して利用することもできるが、ここでは解説しない。
 
-### 検索条件
+## 検索条件
 
 `FeaturedImage::Finder`のAPIは注目画像とみなす画像の条件を、検索条件としてさまざまな形で指定できる。以下はその例である。
 
@@ -104,7 +104,7 @@ FeaturedImage::Finder.first URL 320 240 1024 768
 FeaturedImage::Finder.first URL 320 240 1024 768 1.2..1.8
 ~~~~
 
-### アスペクト比
+## アスペクト比
 
 FeaturedImageではアスペクト比を幅 / 高さと定義する。以下に例を示す。
 
@@ -112,6 +112,6 @@ FeaturedImageではアスペクト比を幅 / 高さと定義する。以下に�
 - アスペクト比 0.5 -- 縦長の長方形、高さは幅の倍である。
 - アスペクト比 2.0 -- 横長の長方形、幅は高さの倍である。
 
-## まとめ
+# まとめ
 
 以上、Webページから目を引く画像を抽出して、サムネイルを生成するプログラムについて説明した。単純な抽出しかしていない割に、意外とそれっぽいサムネイルを生成することができる。実装行数も200行程度とコンパクトだ。リンク先を華やかに紹介したい場合に、ブログかWebサービスか何かに組み込んで利用できる、と思う。多分。

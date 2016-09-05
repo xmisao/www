@@ -4,7 +4,7 @@ title: ripperでシンタックスエラーを検出する
 tag: ruby
 ---
 
-# ripperでシンタックスエラーを検出する
+
 
 [Rubyの標準添付ライブラリripperでRubyのソースをパースする](http://www.xmisao.com/2014/05/12/ruby-ripper.html)で紹介したとおり、ripperはRubyスクリプトのパーサである。
 

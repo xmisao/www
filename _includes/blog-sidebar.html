@@ -1,0 +1,73 @@
+<div class="sidebar-element">
+  <h6>Author</h6>
+  <div class="container-fluid no-padding">
+    <div class="row">
+      <div class="col-xs-12 col-sm-1 col-md-3">
+        <img src="{{ root }}/xmisao_icon_48x48.png">
+      </div>
+      <div class="col-xs-12 col-sm-11 col-md-9">
+        <div class="padding-5px">
+          <div>
+            <a href="{{root}}/about.html">ぺけみさお(xmisao)</a>
+            <a href="https://github.com/xmisao" class="no-deco"><span class="icon-github"></a>
+            <a href="https://twitter.com/xmisao" class="no-deco"><span class="icon-twitter-min"></a>
+          </div>
+          <div>プログラマ。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sidebar-element">
+  <h6>Feed</h6>
+  <div><a href="{{root}}/feed.xml"><span class="icon-rss2"> このブログを購読</a></div>
+  <div><a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fwww.xmisao.com%2Ffeed.xml' target='_blank'> <span class="icon-feedly"> Feedlyで購読</a>
+    <!-- TODO Live Dwango Readerのロゴに差し替えたい -->
+    <div><a href="http://reader.livedwango.com/subscribe/http://www.xmisao.com/feed.xml" target="_blank" title="Subscribe with Live Dwango Reader"><span class="icon-rss"> LDRで購読</a></div>
+  </div>
+</div>
+<div class="sidebar-element">
+  <h6>Recent posts</h6>
+  <div id="recent_entries">
+    <ul class="posts">
+      {% for post in site.posts limit:10 %}
+      <li>
+        <div class="post">
+          <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+          <div class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="sidebar-element">
+  {% for tag in page.tags %}
+  <h6><span>Related posts <b class="my-tag"><a href="/tags/{{ tag }}/">{{ tag }}</a></b></h6>
+  <div id="tag_entries_{{ tag }}">
+    <ul class="posts">
+      {% for post in site.tags[tag] limit:5 %}
+      <li>
+        <div class="post">
+          <div class="post-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+          <div class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+<div class="sidebar-element">
+  <div id="sidebar-ads">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- xmisao_side -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:160px;height:600px"
+         data-ad-client="ca-pub-8257359908391644"
+         data-ad-slot="7264466618"></ins>
+    <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+</div>

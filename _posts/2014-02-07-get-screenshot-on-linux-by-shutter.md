@@ -4,7 +4,7 @@ title: Linuxでスクリーンショットを撮るならShutterを使ってみ�
 tag: linux
 ---
 
-# Linuxでスクリーンショットを撮るならShutterを使ってみよう
+
 
 shutterはWindowsでいうSnipping Toolを強化したようなLinux用のスクリーンショットツールである。DebianやUbuntuであればaptからインストールできる。perl製のリッチなツールなので依存するパッケージがぼこぼこ入る。
 

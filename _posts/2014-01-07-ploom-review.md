@@ -4,7 +4,7 @@ title: JTの電気加熱型たばこ用具「Ploom」レビュー
 tag: cigarette
 ---
 
-# JTの電気加熱型たばこ用具「Ploom」レビュー
+
 
 非喫煙者には関係ない話題である。
 

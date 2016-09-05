@@ -4,7 +4,7 @@ title: Rubyの軽量スレッドFiberを利用する
 tag: ruby
 ---
 
-# Rubyの軽量スレッドFiberを利用する
+
 
 パーフェクトRubyを読んでいて目に止まったので、Ruby 1.9から導入すあれた軽量スレッド`Fiber`を使ってみよう。
 

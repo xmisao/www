@@ -4,12 +4,12 @@ title: JavaFXの最小のサンプル
 tag: ['java', 'javafx']
 ---
 
-# JavaFXの最小のサンプル
+
 
 Java8からSwingに次ぐ新しいGUIライブラリとしてJavaFXが標準で使えるようになった。
 今日はJavaFXを使い始めるにあたって参考になる最小のサンプルを書いてみる。
 
-## ウィンドウの表示
+# ウィンドウの表示
 
 ![Sample1]({{ site.url }}/assets/2014_06_26_sample1.png)
 
@@ -25,7 +25,7 @@ JavaFXではシーングラフを表す`Scene`で描画対象を指定する。
 
 あとは`start()`に渡される`Stage`に`setScene()`でシーングラフを設定して、`Stage`の`show()`を呼べばウィンドウが表示される。
 
-### Sample1.java
+## Sample1.java
 
 ~~~~
 import javafx.application.Application;
@@ -45,7 +45,7 @@ public class Sample1 extends Application {
 }
 ~~~~
 
-## ラベルの追加
+# ラベルの追加
 
 ![Sample2]({{ site.url }}/assets/2014_06_26_sample2.png)
 
@@ -57,7 +57,7 @@ JavaFXのラベルコントロールは`Label`である。
 
 以下は`Hello, JavaFX!`という文字列を表示する例である。
 
-### Sample2.java
+## Sample2.java
 
 ~~~~
 import javafx.application.Application;
@@ -79,7 +79,7 @@ public class Sample2 extends Application {
 }
 ~~~~
 
-## FXMLの読み込み
+# FXMLの読み込み
 
 ![Sample3]({{ site.url }}/assets/2014_06_26_sample3.png)
 
@@ -94,7 +94,7 @@ FXMLのロードには`FXMLLoader`を利用する。
 `load()`は引数にURLを取るので、JavaのリソースのURLを`getResource()`で取得している。
 EclipseであればJavaファイルと同一のフォルダにFXMLファイルを配置してやれば読み込めるはずである。
 
-### Sample3.fxml
+## Sample3.fxml
 
 ~~~~
 <?xml version="1.0" encoding="UTF-8"?>
@@ -107,7 +107,7 @@ EclipseであればJavaファイルと同一のフォルダにFXMLファイル�
 </VBox>
 ~~~~
 
-### Sample3.java
+## Sample3.java
 
 ~~~~
 import javafx.application.Application;

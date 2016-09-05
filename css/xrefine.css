@@ -1,0 +1,383 @@
+/* Base styling */
+
+body {
+	background-color:#e8e8e8;
+	font-size:15px;
+}
+
+p{
+	text-indent:1em;
+	line-height:1.5;
+  font-size:15px;
+  color:#333;
+  margin-top:1.5em;
+  letter-spacing: 1px;
+}
+
+ul, ol, dl {
+  margin-top:0.5em;
+}
+
+li{
+	line-height:1.5;
+  font-size:15px;
+  color:#333;
+  margin-top:0.5em;
+  letter-spacing: 1px;
+}
+
+dt, dd{
+  font-size:15px;
+  color:#333;
+  margin-top:0.5em;
+  letter-spacing: 1px;
+}
+pre {
+    overflow: auto;
+    word-wrap: normal;
+}
+pre code {
+    white-space: pre;
+}
+
+/* Adbanced styling */
+
+#pane-logo {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.ui-mono {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+}
+
+.button-icons {
+  font-size: 32px;
+}
+
+.contents {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color:#fafafa;
+}
+
+#logo-string {
+  font-size:32px;
+  font-family:JK Gothic M;
+}
+
+.color-text {
+  color: #303030;
+}
+
+#entry-title {
+  font-size:32px;
+}
+
+#entry-info {
+}
+
+#logo {
+}
+
+#share {
+}
+
+#nav-prev-next {
+}
+
+#ads-main {
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+#sidebar-ads {
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+#footer {
+	margin:1em auto 1em auto;
+	color:#6a5d21;
+	text-shadow:1px 0px 1px rgba(255, 255, 255, 0.5);
+  font-weight:bold;
+}
+
+img#footericon{
+	margin-left:0.5em;
+	margin-right:0.5em;
+}
+
+ul.tagcloud li{
+	display:inline;
+}
+
+.padding-align-8px {
+  padding-top:8px;
+  padding-bottom:8px;
+}
+
+/* SNS share buttons */
+.hatena_back {
+  background-color: #00a5de;
+}
+.line_back {
+  background-color: #00b900;
+}
+.pocket_back {
+  background-color: #ef3f56;
+}
+.google_back {
+  background-color: #dc4e41;
+}
+.twitter_back {
+  background-color: #55acee;
+}
+.facebook_back {
+  background-color: #3b5998;
+}
+
+.hatena_back > a,
+.line_back > a,
+.pocket_back > a,
+.google_back > a,
+.twitter_back > a,
+.facebook_back > a {
+  text-decoration:underline;
+  color:#eee;
+  font-size:15px;
+}
+
+.sns-label {
+  padding-left: 0.5em;
+}
+
+
+/* Vertical align center */
+/* http://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.header {
+  padding-top:1.0em;
+  padding-bottom:1.0em;
+	background-color:#d3381c;
+  color:#fafafa;
+
+  /* Ichimatsu moyo */
+	background-image: linear-gradient(45deg, #df381c 25%, transparent 25%, transparent 75%, #df381c 75%, #df381c), linear-gradient(45deg, #df381c 25%, transparent 25%, transparent 75%, #df381c 75%, #df381c);
+	background-position: 0 0, 25px 25px;
+	background-size: 50px 50px;
+}
+
+.color-xmisao-red {
+	color:#df381c;
+}
+
+/* Change the bootstrap tab color */
+/* http://stackoverflow.com/questions/28296517/how-to-customize-bootstrap-3-tab-color */
+
+.nav > li.active > a {
+    background-color: #df381c !important;
+    color: #fafafa;
+}
+
+/* Tag like text decoration */
+/* http://memo-octopus.hatenablog.com/entry/2014/01/03/%E3%80%90CSS3%E3%80%91CSS%E3%81%A0%E3%81%91%E3%81%A7%E8%A1%A8%E7%8F%BE%E3%81%A7%E3%81%8D%E3%82%8B%E3%82%BF%E3%82%B0%E9%A2%A8%E3%82%BF%E3%82%B0%EF%BC%88%EF%BC%9F%EF%BC%89 */
+.my-tag{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px 2px 2px 0px;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.27273;
+  margin: 2px 4px 2px 10px;
+  padding: 3px 7px;
+  position: relative;
+}
+
+.my-tag:before{
+  border-top: 10px solid transparent;
+  border-right: 8px solid rgb(255, 255, 255);
+  border-bottom: 10px solid transparent;
+  content: "";
+  height: 0px;
+  position: absolute;
+  top: 0px;
+  left: -8px;
+  width: 0px;
+}
+
+/* Headers */
+
+h1 {
+  font-size:22px;
+	position: relative;
+	padding-bottom: .25em;
+	border-bottom: 4px solid #ccc;
+}
+h1::after {
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	z-index: 2;
+	content: '';
+	width: 20%;
+	height: 4px;
+	background-color: #df381c;
+}
+
+h2 {
+  font-size:20px;
+	position: relative;
+	padding: 0 .5em .5em 2em;
+	border-bottom: 1px solid #ccc;
+}
+h2::before,
+h2::after {
+	position: absolute;
+	content: '';
+	border-radius: 100%
+}
+h2::before {
+	top: .2em;
+	left: .2em;
+	z-index: 2;
+	width: 18px;
+	height: 18px;
+	background: rgba(223, 56, 28, .5);
+}
+h2::after {
+	top: .7em;
+	left: .7em;
+	width: 13px;
+	height: 13px;
+	background: rgba(223, 56, 28, .25);
+}
+
+h3 {
+  font-size:18px;
+  font-weight:bold;
+}
+
+/* For display title */
+h5 {
+  font-size:inherit;
+}
+
+h6 {
+  padding-top:0.5em;
+  padding-bottom:0.25em;
+	border-bottom-style: double;
+	border-width: 3px;
+	border-bottom-color: #bbb;
+	font-size: 18px;
+  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  color:#555;
+}
+
+/* Crrect display Google custom search form */
+.gsc-control-cse * {
+    box-sizing: content-box;
+}
+.gsc-input {
+    line-height: 1;
+}
+
+.no-deco {
+  text-decoration:none;
+}
+
+.no-padding {
+  max-width: 100%;
+  padding: 0px;
+}
+
+.padding-5px {
+  padding-left: 5px;
+}
+
+/* List styles */
+dl.posts {
+  overflow: hidden;
+  zoom: 1;
+}
+
+dl.posts > dt {
+  font-family: 'Ubuntu Mono', monospace;
+  width: 7em;
+  float: left;
+  clear: both;
+  font-weight: bold;
+}
+
+dl.posts > dd {
+  padding-left: 7em;
+}
+
+ul.posts {
+  padding-left:0px;
+}
+
+ul.posts > li {
+  list-style-type: none;  
+  margin-top: 0.5em;
+}
+
+/* Sidebar post style */
+div.post {
+  padding: 0.25em;
+  background-color:#f0f0f0;
+}
+
+div.post > .post-date {
+  font-family: 'Ubuntu Mono', monospace;
+  border-bottom-style: solid;
+  border-bottom-color: #aaa;
+  border-bottom-width: 1px;
+  size: smaller;
+}
+
+/* Overwrite default style for markup */
+b {
+  font-weight:normal;
+}
+
+/* Extend center grido for header layout */
+/* https://www.riarise.com/coding/bootstrap-extends-center-grid/ */
+.row-center{
+  letter-spacing:-0.4em;
+}
+
+.row-center > [class*='col-'] {
+  display:inline-block;
+  letter-spacing:0;
+  vertical-align:top;
+  float:none !important;
+}
+
+.row-center.va-middle > [class*='col-'] {
+  vertical-align:middle;
+}
+.row-center.va-bottom > [class*='col-'] {
+  vertical-align:bottom;
+}
+
+.col-align-left{
+  text-align:left;
+}
+
+.col-align-center{
+  text-align:center;
+}
+
+.col-align-right{
+  text-align:right;
+}

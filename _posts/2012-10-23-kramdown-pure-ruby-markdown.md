@@ -4,7 +4,7 @@ title: ピュアRubyのMarkdownパーサkramdownを利用する
 tag: ruby
 ---
 
-# ピュアRubyのMarkdownパーサkramdownを利用する
+
 
 kramdownはネイティブライブラリを利用しないのでお手軽。
 

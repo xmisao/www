@@ -4,17 +4,17 @@ title: Node.jsでGoogle Maps APIのジオコーディングを利用する
 tag: programming
 ---
 
-# Node.jsでGoogle Maps APIのジオコーディングを利用する
+
 
 geocoderライブラリを使うとGoogle Maps API v3.0で提供されるジオコーディングをNode.jsから利用できる。
 
 Webアプリケーションに組み込むのはもちろん、住所の一覧を一括で座標に変換するなど、いろいろ応用できる。
 
-## インストール
+# インストール
 
     npm install geocoder
 
-## 使い方
+# 使い方
 
 ジオコーディング、逆ジオコーディングともに取得できるデータはGoogle Maps APIのデータそのまま。
 
@@ -38,6 +38,6 @@ Webアプリケーションに組み込むのはもちろん、住所の一覧�
 参考:
 [Geocoding With Node.js](http://blog.stephenwyattbush.com/2011/07/16/geocoding-with-nodejs)
 
-## おまけ
+# おまけ
 
 これで[ラーメン二郎マップ](/jirorian/)を作りました。

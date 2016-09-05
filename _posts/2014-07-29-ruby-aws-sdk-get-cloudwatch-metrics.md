@@ -4,7 +4,7 @@ title: Rubyからaws-sdkを使ってCloudWatchのメトリックスを取得す�
 tag: ['aws', 'ruby']
 ---
 
-# Rubyからaws-sdkを使ってCloudWatchのメトリックスを取得する
+
 
 AWS SDKを使えばAWSにプログラムからアクセスできる。
 Ruby向けのSDKも提供されており、RubyからAWSを自在に制御することが可能だ。

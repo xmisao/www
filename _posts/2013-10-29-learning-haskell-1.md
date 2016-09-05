@@ -4,9 +4,9 @@ title: もしRubyistがHaskellを学んだら(1) Hello, World!
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(1) Hello, World!
 
-## はじめに
+
+# はじめに
 
 思い立ったが吉日、Haskellを勉強することにした。
 私のベースとなる言語はRubyなので、この連載はRubyistがHaskellを勉強したらどうなるのか? という観点で、日記形式で書いていく。
@@ -16,7 +16,7 @@ Haskellとは関数型言語である。
 だが、Haskellを学ぶことで、きっと新たなパラダイムを身につけることができる。
 そういう希望を胸に、私はHaskellの世界に身を投じる。
 
-## コンパイラのインストール
+# コンパイラのインストール
 
 さて、Haskellを使うにあたって、まずコンパイラをインストールする。
 はじめて知ったのだが、Haskellには主要な実装が複数存在するようだ。
@@ -27,7 +27,7 @@ debianでは以下でインストールできる。
 apt-get install ghc
 ~~~~
 
-## Haskellの資料
+# Haskellの資料
 
 これでコンパイラは手に入ったが、使い方がわからない。
 資料かチュートリアルを探さなければならない。
@@ -37,7 +37,7 @@ GHCのマニュアルを足がかりに、Haskellをはじめてみよう。
 
 - [http://www.kotha.net/ghcguide_ja/latest/](http://www.kotha.net/ghcguide_ja/latest/)
 
-## Hello, World!
+# Hello, World!
 
 最初に書くのはやはりHello, World!だろう。
 Haskellのコードの拡張子は`.hs`だという事を知った。

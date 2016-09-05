@@ -4,7 +4,7 @@ title: Kawasaki.rb ＃12でVimとRubyのアツい関係という発表をしま�
 tag: ['ruby', 'vim']
 ---
 
-# Kawasaki.rb #12でVimとRubyのアツい関係という発表をします
+
 
 時間がもらえるようなら発表します。
 資料は以下です。

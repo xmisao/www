@@ -4,7 +4,7 @@ title: AwesomeでJavaのGUIプログラムが上手く動作しない場合の�
 tag: linux
 ---
 
-# AwesomeでJavaのGUIプログラムが上手く動作しない場合の対処法
+
 
 タイル型ウィンドウマネージャ[Awesome](http://awesome.naquadah.org/)を使っていてJavaのGUIを使ったプログラムがうまく動作しない現象に遭遇した。
 特にエラー等は出ないのだが、メニューがクリックできなかったり、ともかく挙動がおかしい。

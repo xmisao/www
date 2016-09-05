@@ -4,11 +4,11 @@ title: 楽々スクレイピング! Ruby Mechanizeの使い方(2)
 tag: ruby
 ---
 
-# 楽々スクレイピング! Ruby Mechanizeの使い方(2)
+
 
 [楽々スクレイピング! Ruby Mechanizeの使い方](http://www.xmisao.com/2013/10/05/ruby-www-mechanize.html)では、Mechanizeの基本的な使い方を紹介した。このエントリーではもう一歩踏み込んだMechanizeの便利な使い方を紹介する。
 
-## User-Agentを設定する
+# User-Agentを設定する
 
 スクレイピングにおいてUser-Agentを偽装するのは有効な方法だ。
 Mechanizeでは`Mechanize#user_agent_alias=`で特定の文字列を指定してやることで、User-Agentを設定することができる。
@@ -38,7 +38,7 @@ agent.user_agent_alias = 'Windows IE 9'
 - iPhone
 - iPad
 
-## ログを保存する
+# ログを保存する
 
 スクレイピングのスクリプトはcron等で定期実行することも多いので、ログを保存しておけると便利である。
 Mechanizeにはロギング機能があり、`Mechanize#log=`でロガーを指定することで、スクレイピングのログを取ることができる。
@@ -54,7 +54,7 @@ agent.log = Logger.new $stderr
 page = agent.get('http://www.yahoo.co.jp/')
 ~~~~
 
-## HTTPプロキシを利用する
+# HTTPプロキシを利用する
 
 HTTPプロキシの設定は`Mechanize#set_proxy`で行う。
 引数にはアドレス、ポート、ユーザ名、パスワードを指定する。
@@ -65,7 +65,7 @@ agent = Mechanize.new
 agent.set_proxy('proxy.example.com', 8080)
 ~~~~
 
-## BASIC認証する
+# BASIC認証する
 
 MechanizeでBASIC認証するには`Mechanize#add_auth`を使う。
 `Mechanize#add_auth`の引数にはBASIC認証の対象とするURLの一部、ユーザ名、パスワードを指定する。
@@ -78,7 +78,7 @@ agent.add_auth('http://example.org', 'foo', 'bar')
 page = agent.get('http://example.org/buz') # BASIC認証を試行
 ~~~~
 
-## 不正なSSL証明書を受け入れる
+# 不正なSSL証明書を受け入れる
 
 イントラ内のホスト等で不正なSSL証明書をやむを得ず受け入れないといけない場合もあるだろう。
 そのような場合は`Mechanize#verify_mode=`で検証モードを無効に設定してやると不正なSSL証明書を受け入れてhttpsでアクセスすることもできる。
@@ -93,7 +93,7 @@ agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
 ただ、これはセキュリティに問題があるので、乱用すべきではない。
 正しくは`Mechanize#ca_file=`で証明書を設定してアクセスできるようにすべきだろう。
 
-## ファイルをダウンロードする
+# ファイルをダウンロードする
 
 `Mechanize#get_file`を使えばMechanizeを使ってファイルをダウンロードすることができる。
 返り値はファイルの内容のバイナリ文字列である。
@@ -105,7 +105,7 @@ agent = Mechanize.new
 agent.get_file('http://example.com/file.zip')
 ~~~~
 
-## ヒストリー機能を利用する
+# ヒストリー機能を利用する
 
 MechanizeはブラウザのようにアクセスしたURLの一覧をヒストリーとして保持している。
 ヒストリーを上手に活用することで、リファラも含めてあたかもブラウジングしているかのように、Webアクセスすることができる。
@@ -124,7 +124,7 @@ agent.back
 p agent.history #=> [http://www.google.com/, http://www.google.co.jp/?gfe_rd=cr&ei=RK08U8_mBKbH8gfNxYDICg]
 ~~~~
 
-## 要素を検索する
+# 要素を検索する
 
 `Mechanize::Page#search`はCSS記法やXPathでページのHTMLを検索して目的の要素を取り出すメソッドである。
 スクレイピングで良く使うメソッドであるが、`Mechanize::Page#search`は少々長い。
@@ -139,7 +139,7 @@ page = agent.get('http://example.com/')
 page / 'ul li'
 ~~~~
 
-## 条件にマッチしたリンクを取得する
+# 条件にマッチしたリンクを取得する
 
 `Mechanize::Page#links`ではページに存在するリンクの一覧を取得することができる。
 だが、実際にはリンクの一覧ではなく、テキストやリンク先が条件にマッチしたリンクを取得したい場合が大半だろう。
@@ -159,7 +159,7 @@ page.links_with(:href => /foo/).each do |link|
 end
 ~~~~
 
-## 条件にマッチしたフォームを取得する
+# 条件にマッチしたフォームを取得する
 
 条件にマッチしたリンクを取得するのと同様に、条件にマッチしたフォームも取得することができる。
 条件にマッチしたフォームの取得には`Mechanize::Page#form_with`や`Page#forms_with`を使う。
@@ -176,7 +176,7 @@ page.forms_with(:action => '/post/login.php').each do |f|
 end
 ~~~~
 
-## フレームの一覧を得る
+# フレームの一覧を得る
 
 時にはフレームを使ったWebページをスクレイピングすることがあるかもしれない。
 frameの一覧は`Mechanize::Page#frams`で、iframeの一覧は`Mechanize::Page#iframs`で取得できる。
@@ -190,7 +190,7 @@ page = agent.get('http://example.com/')
 page.iframe_with(:src => /foo/).click
 ~~~~
 
-## 画像の一覧を得る
+# 画像の一覧を得る
 
 リンクやフォームと同様に、Mechanizeでは画像の一覧を`Mechanize#images`で得られる。
 条件にマッチした画像を得る`Mechanize#images_with`や`Mechanize#image_with`もある。

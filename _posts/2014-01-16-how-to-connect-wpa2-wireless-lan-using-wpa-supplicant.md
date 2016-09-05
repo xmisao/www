@@ -4,7 +4,7 @@ title: Linuxでwpa_supplicantを使ってWPA2の無線LANに接続する方法
 tag: linux
 ---
 
-# Linuxでwpa_supplicantを使ってWPA2の無線LANに接続する方法
+
 
 Gnome Network Manager等を使わずに、自力で`wpa_supplicant`コマンドを使って、WPA2の無線LANに接続する方法を紹介する。
 
@@ -16,7 +16,7 @@ apt-get install wpasupplicant
 
 以下の手順は前提として有線LANの`eth0`と無線LANの`wlan0`のインタフェースがある環境を想定している。
 
-## 1. 有線LANを無効化する
+# 1. 有線LANを無効化する
 
 無線LANと有線LANを併用したい場合はこのステップを飛ばして良い。
 
@@ -26,7 +26,7 @@ apt-get install wpasupplicant
 ifconfig eth0 down
 ~~~~
 
-## 2. 無線LANを無効化する
+# 2. 無線LANを無効化する
 
 前の設定が残っていて以降の設定の妨げになる場合があるので、いったん無線LANを無効化する。
 
@@ -34,7 +34,7 @@ ifconfig eth0 down
 ifconfig wlan0 down
 ~~~~
 
-## 3. 無線LANを有効化する
+# 3. 無線LANを有効化する
 
 そのまんまである。さきほど無効化した無線LANを有効化する。
 
@@ -42,7 +42,7 @@ ifconfig wlan0 down
 ifconfig wlan0 up
 ~~~~
 
-## 4. ネットワークに接続する
+# 4. ネットワークに接続する
 
 `wpa_supplicant`を実行して、無線LANで目的のネットワークに接続する。接続するネットワークの設定はここでは`/home/user/wpa_supplicant.conf`に書かれているものとする。`wpa_supplicant`コマンドは、オプションと引数の間にスペースが不要なことに注意。
 
@@ -65,7 +65,7 @@ network={
 }
 ~~~~
 
-## 5. DHCPでIPアドレスを割り当てる
+# 5. DHCPでIPアドレスを割り当てる
 
 DHCPでIPアドレスを取得する場合は`dhclient`コマンドを使う。静的にIPを割り当てている場合は、このステップは不要だ。
 
@@ -73,9 +73,9 @@ DHCPでIPアドレスを取得する場合は`dhclient`コマンドを使う。�
 dhclient wlan0
 ~~~~
 
-## 補注
+# 補注
 
-### ネットワークのスキャン
+## ネットワークのスキャン
 
 ネットワークをスキャンして一覧するには`iwlist`コマンドを使う。`iwlist`コマンドは`wireless-tools`パッケージに含まれている。
 
@@ -83,7 +83,7 @@ dhclient wlan0
 iwlist wlan0 scan
 ~~~~
 
-### 接続できない場合
+## 接続できない場合
 
 上記の手順を踏んでも、何故かネットワークに接続できない環境を見たことがある。
 

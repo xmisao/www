@@ -4,7 +4,7 @@ title: Rubyのattr_accessor, attr_reader, attr_writerとは何か
 tag: ruby
 ---
 
-# Rubyのattr_accessor, attr_reader, attr_writerとは何か
+
 
 Ruby初心者であれば構文の一種だと誤解してしまいそうだが、これらはインスタンス変数にアクセスするためのメソッドを定義するメソッドである。
 
@@ -47,7 +47,7 @@ hoge.foo = "bar"
 p hoge.foo #=> "bar"
 ~~~~
 
-## おまけ1 : attr_accessorを自分で定義する
+# おまけ1 : attr_accessorを自分で定義する
 
 Rubyではメソッドを定義するメソッドを自分で定義することももちろん可能だ。例えば`attr_accessor`モドキは以下のように実装でき、きちんと動作する。
 
@@ -74,7 +74,7 @@ hoge.foo = 'bar'
 p hoge.foo #=> 'bar'
 ~~~~
 
-## おまけ2 : Rubyのソースコードを追ってみる
+# おまけ2 : Rubyのソースコードを追ってみる
 
 `attr_accessor`、`attr_reader`、`attr_writer`の実装がどうなっているのか気になったので少しRuby 1.9.3のソースコードを追ってみた。(途中で挫折)
 

@@ -4,7 +4,7 @@ title: SQLite3のインデックスのベンチマーク
 tag: database
 ---
 
-# SQLite3のインデックスのベンチマーク
+
 
 インデックスのつけ忘れで痛い目を見たので、SQLite3でインデックスの有無がどれほど参照性能に影響を与えるか、簡単なベンチマークをしてみた。
 
@@ -62,7 +62,7 @@ col0, col1, col2の3カラムから成るテーブルを作成し、3つの条�
 
 意外だったのは、1カラムのインデックスと、マルチカラムインデックスの条件で、差が約20%の高速化に留まったことだ。マルチカラムインデックスで、WHERE句にもインデックスが使えればもっと早くなると思ったが、この条件ではそうでもなかった。マルチカラムでソートすればまた違った結果が出たかもしれない。
 
-## ソースコード
+# ソースコード
 
     require 'sequel'
     
@@ -194,7 +194,7 @@ col0, col1, col2の3カラムから成るテーブルを作成し、3つの条�
     generate_data()
     benchmark()
 
-## スキーマ
+# スキーマ
 
     CREATE TABLE `table_100k_index` (`col0` integer, `col1` integer, `col2` varchar(255));
     CREATE TABLE `table_100k_noindex` (`col0` integer, `col1` integer, `col2` varchar(255));
@@ -212,7 +212,7 @@ col0, col1, col2の3カラムから成るテーブルを作成し、3つの条�
     CREATE INDEX `table_1m_index_col0_index` ON `table_1m_index` (`col0`);
     CREATE INDEX `table_1m_two_index_col0_col1_index` ON `table_1m_two_index` (`col0`, `col1`);
 
-## 全クエリとEXPLAIN QUERY PLANの結果
+# 全クエリとEXPLAIN QUERY PLANの結果
 
     SELECT * FROM `table_100k_noindex` WHERE (`col0` <= 1073741824) ORDER BY `col1`
     {:selectid=>0, :order=>0, :from=>0, :detail=>"SCAN TABLE table_100k_noindex (~333333 rows)"}

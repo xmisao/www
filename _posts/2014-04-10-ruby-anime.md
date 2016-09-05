@@ -4,7 +4,7 @@ title: しょぼいカレンダーを使ってRubyできょう放送されるア
 tag: ['ruby', 'anime']
 ---
 
-# しょぼいカレンダーを使ってRubyできょう放送されるアニメの一覧を表示する
+
 
 ![anime]({{ site.url }}/assets/2014_04_10_anime.png)
 

@@ -4,7 +4,7 @@ title: もしRubyistがHaskellを学んだら(11) シーザー暗号
 tag: learning_haskell
 ---
 
-# もしRubyistがHaskellを学んだら(11) シーザー暗号
+
 
 今日はシーザー暗号を実装する。
 シーザー暗号はアルファベットをある数だけずらした別のアルファベットに書き換える暗号だ。

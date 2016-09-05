@@ -4,7 +4,7 @@ title: ユニコードでエンコードしたmplusフォントの作り方
 tag: linux
 ---
 
-# ユニコードでエンコードしたmplusフォントの作り方
+
 
 mplusフォントが好きだ。
 しかし、mplusフォントはエンコーディングがJIS X 0208のBDFファイルしか配布されていない。
@@ -19,7 +19,7 @@ JIS X 0208のmplusのエンコーディングをツールで変換し、Unicode�
 
 最後にはこの手順で作成した私家版debパッケージを用意したので、同じ悩みを抱えた人にぜひ使ってもらいたい。
 
-## 手順
+# 手順
 
 1. mplusとモナーフォントを用意する
 2. モナーフォントに付属のjis2unicodeというツールを使って、mplusのJIS X 0208のフォントをユニコードに変換する
@@ -27,14 +27,14 @@ JIS X 0208のmplusのエンコーディングをツールで変換し、Unicode�
 4. BDFファイルの内容を整える
 5. BCFファイルをPCF.GZに圧縮する
 
-## 1. mplusとモナーフォントを用意する
+# 1. mplusとモナーフォントを用意する
 
 それぞれ以下からダウンロードして展開しておく。
 
 - [M+ FONTS](http://sourceforge.jp/projects/mplus-fonts/downloads/5030/mplus_bitmap_fonts-2.2.4.tar.gz/)
 - [モナーフォント](http://sourceforge.net/projects/monafont/files/monafont/monafont-2.90/monafont-2.90.tar.bz2/download)
 
-## 2. モナーフォントに付属のjis2unicodeというツールを使って、mplusのJIS X 0208のフォントをユニコードに変換する
+# 2. モナーフォントに付属のjis2unicodeというツールを使って、mplusのJIS X 0208のフォントをユニコードに変換する
 
 mplusフォントから、以下のファイルを作業用のディレクトリにコピーしておく。
 
@@ -50,7 +50,7 @@ mplusフォントから、以下のファイルを作業用のディレクトリ
     jis2unicode -b < mplus_j12r.bdf > umplus_j12r.bdf
 
 
-## 3. mplusの和文と英文のフォントをマージする
+# 3. mplusの和文と英文のフォントをマージする
 
 英文と和文両方に対応できるように、英文と和文のフォントをマージする。
 単にcatで連結して、次の手順で内容を整える。
@@ -58,7 +58,7 @@ mplusフォントから、以下のファイルを作業用のディレクトリ
    cat mplus_f10r.bdf >> umplus_j10r.bdf
    cat mplus_f12r.bdf >> umplus_j12r.bdf
 
-## 4. BDFファイルの内容を整える
+# 4. BDFファイルの内容を整える
 
 umplus_j10r.bdfとumplus_j12r.bdfの先頭のヘッダをそれぞれ以下のように整える。
 
@@ -112,7 +112,7 @@ umplus_j12r.bdf
     ENDPROPERTIES
     CHARS 224
 
-## 5. BCFファイルをPCF.GZに圧縮する
+# 5. BCFファイルをPCF.GZに圧縮する
 
 BCFファイルをPCFに変換し、gunzipで圧縮してPCF.GZファイルにする。
 
@@ -121,7 +121,7 @@ BCFファイルをPCFに変換し、gunzipで圧縮してPCF.GZファイルに�
 
 あとはこのフォントをインストールしてやれば完了。
 
-## 私家版debパッケージ
+# 私家版debパッケージ
 
 手順が面倒なので、umplus_j12r.pcf.gzとumplus_j10r.pcf.gzをdebianパッケージ化してみた。
 

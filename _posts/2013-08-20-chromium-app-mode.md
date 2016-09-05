@@ -4,7 +4,7 @@ title: Chromium(Google Chrome)でWebページをアプリのように使う
 tag: linux
 ---
 
-# Chromium(Google Chrome)でWebページをアプリのように使う
+
 
 Chromium(Google Chrome)には、メニューバーやタブバーを表示せずに、Webページをアプリケーションのように開けるappモードが存在する。
 

@@ -4,9 +4,9 @@ title: debian wheezyでNFS環境を構築
 tag: ['server', 'linux']
 ---
 
-# debian wheezyでNFS環境を構築
 
-## NFSサーバ
+
+# NFSサーバ
 
     apt-get install nfs-common  nfs-kernel-server
 
@@ -22,7 +22,7 @@ tag: ['server', 'linux']
 
     /etc/init.d/nfs-kernel-server restart
 
-## NFSクライアント
+# NFSクライアント
 
 NFSのマウントはmountコマンドに-t nfsを指定するだけで行える。
 

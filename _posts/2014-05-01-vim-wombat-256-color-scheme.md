@@ -4,7 +4,7 @@ title: wombatの256色カラースキーム(CUI・GUI両用)
 tag: vim
 ---
 
-# wombatの256色カラースキーム(CUI・GUI両用)
+
 
 ![wombat256]({{ site.url }}/assets/2014_05_01_wombat.png)
 

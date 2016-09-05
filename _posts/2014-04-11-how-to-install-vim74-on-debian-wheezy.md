@@ -4,7 +4,7 @@ title: Debian WheezyにVim 7.4をインストールする
 tag: ['linux', 'vim']
 ---
 
-# Debian WheezyにVim 7.4をインストールする
+
 
 Debian WheezyのVimは7.3なので、neocompleteが動作しなくて血を吐いた。
 至急、Debian WheezyにVim 7.4をインストールする必要がある。

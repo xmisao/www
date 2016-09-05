@@ -4,7 +4,7 @@ title: UbuntuやDebianのApacheの設定について
 tag: ['linux', 'server']
 ---
 
-# UbuntuやDebianのApacheの設定について
+
 
 Debian系OSのApache2の設定ファイルの書き方は独特で、モジュールやバーチャルホストはそれぞれ1つの設定ファイルに分けて記述し、httpd.confからそれらを読み込む方針を採っている。設定を読み解くには/etc/apache2にある以下4つのディレクトリが鍵になる。
 

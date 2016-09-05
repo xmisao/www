@@ -4,13 +4,13 @@ title: 最小インストールしたDebianの初期設定メモ
 tag: linux
 ---
 
-# 最小インストールしたDebianの初期設定メモ
+
 
 Debianのインストール時には追加のパッケージを一切インストールせず、1から環境構築するのが好きだ。
 以下はDebianを使えるようにする自分用の初期設定のメモ。
 気づいたことがあれば随時更新してゆく予定。
 
-## sudo
+# sudo
 
 `sudo`を使えるようにして、`user`ユーザで`sudo`できるようにする。
 設定後はいったんシェルから抜けてログインし直す。
@@ -25,7 +25,7 @@ exit
 exit
 ~~~~
 
-## sshのインストール
+# sshのインストール
 
 `openssh-server`パッケージをインストールし、sshサーバを立てる。
 これ以降はsshによる遠隔操作で環境構築できる。
@@ -34,7 +34,7 @@ exit
 apt-get install openssh-server
 ~~~~
 
-## aptの設定
+# aptの設定
 
 `/etc/apt/sources.list`を書き換えておく。
 具体的にはcontribとnon-freeのパッケージを追加し、さらにdebian-multimediaのリポジトリを追加する。
@@ -56,7 +56,7 @@ deb-src http://ftp.jp.debian.org/debian/ jessie-backports main contrib non-free
 deb http://www.deb-multimedia.org jessie main non-free
 ~~~~
 
-## シェル関係
+# シェル関係
 
 シェルで作業するのに欠かせないパッケージ群をインストールする。
 `bash-completion`パッケージを入れれば大抵は補完が効くので`zsh`は使っていない。
@@ -70,7 +70,7 @@ apt-get install screen
 apt-get install psmisc
 ~~~~
 
-## X環境
+# X環境
 
 Xを使えるようにする。
 X本体と基本的なツール、ログインマネージャ、ウィンドウマネージャをインストールする。
@@ -85,7 +85,7 @@ apt-get install slim
 apt-get install awesome
 ~~~~
 
-## Dropbox
+# Dropbox
 
 いわゆるdotfilesを共有しているので、Dropboxをインストールする。
 詳しくは[64bit環境のDebianにDropboxをインストール](http://www.xmisao.com/2013/12/17/debian-64bit-dropbox-install.html)を参照。
@@ -96,7 +96,7 @@ Dropboxを使う上で不足しているパッケージは事前にインスト�
 apt-get install python-gtk2 python libatk1.0-0 libgtk2.0-0
 ~~~~
 
-## 各種設定
+# 各種設定
 
 基本的には前述のDropboxで共有してあるファイルやディレクトリにリンクを張る。
 参考までに以下のファイルやディレクトリを共有している。
@@ -111,7 +111,7 @@ apt-get install python-gtk2 python libatk1.0-0 libgtk2.0-0
 - `.Xresource`
 - 他
 
-## ビルド環境
+# ビルド環境
 
 後々どうせ必要になるので整えておく。
 `build-essential`パッケージで大抵のものは入る。
@@ -120,7 +120,7 @@ apt-get install python-gtk2 python libatk1.0-0 libgtk2.0-0
 apt-get install build-essential
 ~~~~
 
-## Ruby
+# Ruby
 
 Ruby使いなので`ruby`を入れておく。
 `ruby-dev`も入れておくと幸せになれる。
@@ -135,7 +135,7 @@ apt-get install ruby ruby-dev
 gem install mechanize
 ~~~~
 
-## 日本語変換
+# 日本語変換
 
 インプットメソッドはUIMを使う。
 日本語変換にはMozcを使う。
@@ -149,7 +149,7 @@ apt-get install uim mozc-server uim-mozc
 im-config
 ~~~~
 
-## サウンドサーバ
+# サウンドサーバ
 
 PulseAudioをインストールする。
 音量設定を行う`pavucontrol`パッケージも入れておく。
@@ -158,7 +158,7 @@ PulseAudioをインストールする。
 apt-get install pulseaudio pavucontrol
 ~~~~
 
-## システム関係
+# システム関係
 
 CPUの省電力設定を行うため`cpufrequtils`をインストールする。
 
@@ -166,7 +166,7 @@ CPUの省電力設定を行うため`cpufrequtils`をインストールする。
 apt-get install cpufrequtils
 ~~~~
 
-## お気に入りのアプリケーション
+# お気に入りのアプリケーション
 
 良く使うアプリケーションをまとめて入れる。
 ブラウザはFirefoxを使いたいが、Debianのリポジトリはバージョンが古いため、自力でインストールする。
@@ -185,7 +185,7 @@ apt-get install tgif
 apt-get install libreoffice
 ~~~~
 
-### Firefox拡張のインストール
+## Firefox拡張のインストール
 
 現在使っているFirefox拡張は以下のとおり。
 それぞれインストールする。

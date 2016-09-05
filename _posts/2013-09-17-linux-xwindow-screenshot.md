@@ -4,7 +4,7 @@ title: Linux(X Window System)でスクリーンショットを撮る方法
 tag: linux
 ---
 
-# Linux(X Window System)でスクリーンショットを撮る方法
+
 
 最近のウィンドウ環境であれば、まるでWindowsのようにPrintScreenで簡単にスクリーンショットが撮れる。しかし、中にはやんちゃな環境を使っていて、古風な方法を是とする人も居るだろう。
 
@@ -48,6 +48,6 @@ xwd | convert - screenshot.png
 import screenshot.png
 ~~~~
 
-## 2014/2/7追記
+# 2014/2/7追記
 
 もっと今風なスクリーンショットツールとしては[shutter](http://www.xmisao.com/2014/02/07/get-screenshot-on-linux-by-shutter.html)が便利である。

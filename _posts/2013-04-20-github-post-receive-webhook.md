@@ -4,7 +4,7 @@ title: githubのwebhookでpushの通知をHTTPで受信する
 tag: github
 ---
 
-# githubのwebhookでpushの通知をHTTPで受信する
+
 
 githubはリポジトリにpushされたことを外部に通知する機能としてService Hooksを備えている。
 Service Hooksの1つにwebhookがあり、pushされたことをJSONで任意のURLにHTTPでPOSTできる。

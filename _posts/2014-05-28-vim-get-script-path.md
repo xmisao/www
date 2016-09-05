@@ -4,7 +4,7 @@ title: Vimスクリプトでスクリプトのディレクトリを取得する
 tag: vim
 ---
 
-# Vimスクリプトでスクリプトのディレクトリを取得する
+
 
 実行中のVimスクリプト自体のパスを取得するには`expand`を使って以下のようにする。
 `<sfile>`は取り込まれたファイルのファイル名を示す文字列である。
@@ -23,7 +23,7 @@ let s:script_path = expand('<sfile>:p') "=> /home/xmisao/.vim/plugin/script_path
 let s:script_dir = expand('<sfile>:p:h') "=> /home/xmisao/.vim/plugin
 ~~~~
 
-## 応用
+# 応用
 
 if_rubyにおいてVimスクリプトからの相対パスでRubyスクリプトをロードすることも簡単に行える。
 

@@ -4,7 +4,7 @@ title: liquidテンプレートタグをエスケープする方法
 tag: jekyll
 ---
 
-# liquidテンプレートタグをエスケープする方法
+
 
 jekyllで文章を書いていると、jekyllやliquidの使用方法を説明するために、liquidのタグをエスケープしたい場合がある。
 

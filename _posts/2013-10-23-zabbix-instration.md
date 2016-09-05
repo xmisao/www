@@ -4,13 +4,13 @@ title: Debian WheezyへのZabbix 2.0のインストール
 tag: ['zabbix', 'server']
 ---
 
-# Debian WheezyへのZabbix 2.0のインストール
+
 
 Debian WheezyにZabbix 2.0をインストールしてみることにする。
 基本的にマニュアルの[Installation from packages](https://www.zabbix.com/documentation/2.0/manual/installation/install_from_packages)の通りに進める。
 ただし多少詰まったとこがあったので、随時コメントを加えている。
 
-## Zabbixパッケージのインストール
+# Zabbixパッケージのインストール
 
 Zabbixのインストールはzabbixパッケージのインストールから始まる。
 このパッケージはZabbix本体ではなく、Zabbixをaptでダウンロードしてインストールするための準備をするものだ。
@@ -23,9 +23,9 @@ dpkg -i zabbix-release_2.0-1wheezy_all.deb
 apt-get update
 ~~~~
 
-## Zabbix本体のインストール
+# Zabbix本体のインストール
 
-### 本体のインストール
+## 本体のインストール
 
 続いてZabbixの本体をインストールする。自動的に最新版が入る。
 もし不足しているパッケージ(ApacheやMySQLなど)があれば同時にインストールされる。
@@ -35,7 +35,7 @@ apt-get update
 apt-get install zabbix-server-mysql zabbix-frontend-php
 ~~~~
 
-## PHPのタイムゾーン設定
+# PHPのタイムゾーン設定
 
 続いてPHPのタイムゾーンを設定する。
 `/etc/apache2/conf.d/zabbix`を開き、コメントアウトされている`php_value data.timezone`の行を有効にする。
@@ -45,7 +45,7 @@ apt-get install zabbix-server-mysql zabbix-frontend-php
 php_value date.timezone Asia/Tokyo
 ~~~~
 
-### Apacheの再起動
+## Apacheの再起動
 
 これでZabbixにアクセスする準備ができた。
 Apacheを再起動しよう。
@@ -59,25 +59,25 @@ Apacheを再起動しよう。
 
 以降はブラウザでの操作となる。
 
-## Zabbixの初期設定
+# Zabbixの初期設定
 
 ブラウザで最初に表示されるのは、Zabbixの初期設定画面だ。
 順に見ていく。
 
-### 1. Welcome
+## 1. Welcome
 
 ![Welcome]({{ site.url }}/assets/2013_10_23_zabbix000.jpg)
 
 Nextボタンを押して次に進む。
 
-### 2. Check of pre-requisites
+## 2. Check of pre-requisites
 
 ![Check of pre-requesites]({{ site.url }}/assets/2013_10_23_zabbix001.jpg)
 
 すべてOKなら問題ない。
 Nextボタンを押して次に進む。
 
-### 3. Configure DB connection
+## 3. Configure DB connection
 
 ![Configure DB connection]({{ site.url }}/assets/2013_10_23_zabbix002.jpg)
 
@@ -85,21 +85,21 @@ MySQLの管理者パスワードを入力する。
 Test Connectionボタンで接続をテストできる。
 最後にNextボタンを押して次に進む。
 
-### 4. Zabbix server details
+## 4. Zabbix server details
 
 ![Zabbix server details]({{ site.url }}/assets/2013_10_23_zabbix003.jpg)
 
 ホスト名とポートの設定画面だ。
 Nextをボタンを押下して次に進む。
 
-### 5. Pre-Installation summary
+## 5. Pre-Installation summary
 
 ![Pre-Installation summary]({{ site.url }}/assets/2013_10_23_zabbix004.jpg)
 
 Zabbixサーバの詳細が表示される画面だ。
 Nextを押下して次に進む。
 
-### 6. Install
+## 6. Install
 
 ![Install Fail]({{ site.url }}/assets/2013_10_23_zabbix005.jpg)
 
@@ -116,14 +116,14 @@ Donwload configuration fileのボタンからzabbix.conf.phpファイルをダ�
 
 これ以降の操作はオプションとなる。
 
-## Zabbixへのログイン
+# Zabbixへのログイン
 
 ![Login Screen]({{ site.url }}/assets/2013_10_23_zabbix007.jpg)
 
 http://zabbixhostname/zabbixにアクセスする。
 デフォルトのユーザ名はAdmin、パスワードはzabbixだ。
 
-### Zabbixサーバの監視
+## Zabbixサーバの監視
 
 ![Configure -> Hosts]({{ site.url }}/assets/2013_10_23_zabbix008.jpg)
 
@@ -132,7 +132,7 @@ Zabbix 1.8.3以降はデフォルトでZabbixサーバはサーバの機能だ�
 Zabbixサーバの監視は、Zabbixサーバ上から有効にすることができる。
 Configuration -> Hostsを開いて、Zabbix Serverの"Not monitered"をクリックするとZabbixサーバを監視できるようになる。
 
-### フォントの問題が発生しないか確認
+## フォントの問題が発生しないか確認
 
 なお私の環境ではMonitoring -> Mapsなどの画面で以下のエラーが発生しが。
 画像やグラフが正常に表示されなず、以下のようなメッセージが出る。
@@ -148,7 +148,7 @@ imagettftext(): Cound not find/open font ...
 apt-get install ttf-dejavu
 ~~~~
 
-## Zabbix ServerのホストをZabbix Agentで監視する
+# Zabbix ServerのホストをZabbix Agentで監視する
 
 先ほどまではZabbixサーバ自体の監視の話だった。
 ここの内容はZabbixサーバのホスト監視(CPU使用率など)に関するものだ。

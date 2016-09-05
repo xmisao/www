@@ -4,13 +4,13 @@ title: TokyoCabinetのオンメモリハッシュデータベースをRubyで利
 tag: programming
 ---
 
-# TokyoCabinetのオンメモリハッシュデータベースをRubyで利用する
+
 
 TokyoCabinetはいわゆるKVS(Key-Value Store)だ。
 TokyoCabinetは各種言語のバインディングを提供しており、Rubyでも簡単に使うことができる。
 このエントリではTokyoCabinetのオンメモリハッシュデータベースの使い方を紹介する。
 
-## インストール
+# インストール
 
 今回はdebianのパッケージを使うことにする。
 `ruby-tokyocabinet`をインストールする。
@@ -19,7 +19,7 @@ TokyoCabinetは各種言語のバインディングを提供しており、Ruby�
 apt-get install ruby-tokyocabinet
 ~~~~
 
-## 使用例
+# 使用例
 
 まず`ADB::new()`でデータベースのオブジェクトを生成し、`open('*')`でオンメモリのハッシュデータベースを開く。あとはHashライクにアクセスすることができる。
 

@@ -4,7 +4,7 @@ title: Debian WheezyでmemcachedをインストールしRubyから接続する
 tag: linux server ruby
 ---
 
-# Debian WheezyでmemcachedをインストールしRubyから接続する
+
 
 Debianであればmemcachedパッケージをaptでインストールできる。
 Debian Wheezyのmemcachedパッケージのバージョンは1.4.13である。

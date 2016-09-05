@@ -4,7 +4,7 @@ title: Rubyのmethod_missingの基本的な使い方
 tag: ruby
 ---
 
-# Rubyのmethod_missingの基本的な使い方
+
 
 Rubyでは、定義されていないメソッドが呼び出された場合、通常は`NoMethodError`が発生する。
 

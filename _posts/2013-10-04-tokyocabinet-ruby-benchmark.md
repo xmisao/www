@@ -4,7 +4,7 @@ title: TokyoCabinetで超高速・超省メモリのハッシュをRubyで体験
 tag: programming
 ---
 
-# TokyoCabinetで超高速・超省メモリのハッシュをRubyで体験しよう
+
 
 [TokyoCabinetのオンメモリハッシュデータベースをRubyで利用する](http://www.xmisao.com/2013/10/03/ruby-tokyocabinet.html)では、TokyoCabinetをRubyから活用する方法を簡単に紹介した。ここで気になるのは、TokyoCabinetはどれほどHashより効率的なのか?という事だ。結論を書くと、TokyoCabinetのオンメモリハッシュデータベースはRubyのHashより省メモリかつ高速である。
 

@@ -4,7 +4,7 @@ title: Rubyからaws-sdkを使ってEC2のインスタンスとEBSのボリュ�
 tag: ['ruby', 'aws']
 ---
 
-# Rubyからaws-sdkを使ってEC2のインスタンスとEBSのボリューム一覧を取得する
+
 
 Rubyのaws-sdkの使い方。
 
