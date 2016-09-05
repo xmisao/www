@@ -1,0 +1,28 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}</title>
+  <meta name="description" content="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}"/>
+  <meta property="og:description" content="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"/>
+  <meta property="og:url" content="http://www.xmisao.com{{ page.url }}"/>
+  <meta property="og:type" content="article"/>
+  <meta name="twitter:site" content="@xmisao">
+  <meta name="twitter:card" content="summary">
+  <link rel="shortcut icon" href="{{ root}}/favicon.ico">
+  <link rel="alternate" type="application/atom+xml" title="xmisao -- ぺけみさお" href="{{ root }}/feed.xml" />
+  <!-- jQuery 2.2.4 -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <!-- Twitter Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+  <!-- xrefine theme files -->
+  <link rel="stylesheet" href="{{ root }}/css/JKG-M_3.css"/>
+  <link rel="stylesheet" href="{{ root }}/css/icons.css"/>
+  <link rel="stylesheet" href="{{ root }}/css/xrefine.css"/>
+  <script src="/js/share.js"></script>
+</head>

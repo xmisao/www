@@ -1,0 +1,32 @@
+<div class="container-fluid top" id="pane-header">
+  <div class="row row-center va-bottom">
+    <div class="col-sm-4">
+      <div class="pull-left">
+        <div id="pane-logo">
+          <a href="/" class="no-deco color-text">
+            <img src="{{ root }}/xmisao_circle_icon_72x72.png" width="48" height="48">
+            <span id="logo-string">ぺけみさお</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <!-- TODO できれば中央揃えにしたい -->
+      <div class="center-block">
+        <ul class="nav nav-tabs">
+          <li role="presentation" {% if include.active-tab == "home" %}class="active"{% endif %}><a href="/"><span class="ui-mono">Home<span/></a></li>
+          <li role="presentation" {% if include.active-tab == "posts" %}class="active"{% endif %}><a href="/entries.html"><span class="ui-mono">Posts</span></a></li>
+          <li role="presentation" {% if include.active-tab == "about" %}class="active"{% endif %}><a href="/about.html"><span class="ui-mono">About</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="pull-right">
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="http://bestgems.org/"><span class="ui-mono">BestGems.org</span> <span class="icon-new-tab"></span></a></li>
+          <li role="presentation"><a href="http://animedb.xmisao.com/"><span class="ui-mono">xAnimeDB</span> <span class="icon-new-tab"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

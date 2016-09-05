@@ -1,6 +1,6 @@
 # coding:utf-8
 module Jekyll
-	class TagPage < Page
+	class TagIndexPage < Page
 		def initialize(site, base, dir, tag)
 			@site, @base, @dir = site, base, dir
 			@name = 'index.html'
@@ -11,6 +11,8 @@ module Jekyll
 
 			self.data['title'] = "#{tag}タグのエントリ一覧"
 			self.data['posts'] = site.tags[tag].sort.reverse
+			self.data['title-string'] = "#{tag}タグのエントリ一覧"
+      self.data['active-tab'] = 'posts'
 		end
 	end
 
@@ -34,7 +36,7 @@ module Jekyll
 		def generate(site)
 			dir = 'tags'
 			site.tags.keys.each do |tag|
-				site.pages << TagPage.new(site, site.source, File.join(dir, tag), tag)
+				site.pages << TagIndexPage.new(site, site.source, File.join(dir, tag), tag)
 				site.pages << TagEntryPage.new(site, site.source, File.join(dir, tag), tag)
 			end
 		end

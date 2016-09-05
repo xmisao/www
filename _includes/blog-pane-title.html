@@ -1,0 +1,6 @@
+<div class="header">
+  <div class="container">
+    <div id="entry-title">{{ page.title }}</div>
+    <div id="entry-info">タグ: {% for tag in page.tags %}<b class="my-tag"><a href="/tags/{{ tag }}/">{{ tag }}</a></b>{% endfor %} / 初版公開: {{ page.date | date: "%Y-%m-%d"}}{% if page.last_update %} / 最終更新: {{ page.last_update }}{% endif %}</div>
+  </div>
+</div>

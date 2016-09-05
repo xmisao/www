@@ -1,29 +1,24 @@
 ---
 layout: default
+title-string: "ぺけみさお(xmisao)のポートフォリオ"
+active-tab: "home"
 ---
-<img src="{{ root }}/xmisao_icon_16x16.png">[ぺけみさお](/about.html)(xmisao)の記録。 <a href="https://twitter.com/xmisao" class="twitter-follow-button" data-show-count="false">Follow @xmisao</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-<img src="{{ root }}/feed_icon_14x14.png"><a href="{{root}}/feed.xml">このブログを購読</a>
+<!--TODO 購読のリンクをつけるか要検討 -->
 
-<div>
-<a href="http://reader.livedoor.com/subscribe/http://www.xmisao.com/feed.xml" target="_blank" title="Subscribe with livedoor Reader"><img src="http://image.reader.livedoor.com/img/banner/88_31_3.gif" border="0" width="88" height="31" alt="Subscribe with livedoor Reader"></a>
-<a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fwww.xmisao.com%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png' alt='follow us in feedly' width='71' height='28'></a>
-</div>
-
-<h3>最近のエントリ</h3>
-<ul class="posts">
+<h1>最近のエントリ</h1>
+<dl class="posts">
   {% for post in site.posts limit:20 %}
-    <li>
-      <span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      <a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}">
-      <img src="http://b.hatena.ne.jp/entry/image/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}">
-      </a>
-    </li>
+  <dt>{{ post.date | date: "%Y-%m-%d" }}</dt>
+  <dd>
+  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+  <a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}"><img src="http://b.hatena.ne.jp/entry/image/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}"></a>
+  </dd>
   {% endfor %}
-</ul>
+</dl>
 <p><a href="entries.html">過去のエントリ一覧</a></p>
 
-<h3>検索</h3>
+<h1>検索</h1>
 <div>
 <script>
   (function() {
@@ -40,24 +35,18 @@ layout: default
 <gcse:search></gcse:search>
 </div>
 
-<h3>タグクラウド</h3>
+<h1>タグクラウド</h1>
 <ul class="tagcloud">
 {% for tag in site.tags %}
-    <li style="font-size: {{ tag | last | size | times: 200 | divided_by: site.tags.size | plus: 100 }}%">
-        <a href="/tags/{{ tag | first | slugize }}">
-            {{ tag | first }}({{ tag | last | size }})
-        </a>
-    </li>
+  <li style="font-size: {{ tag | last | size | times: 200 | divided_by: site.tags.size | plus: 100 }}%">
+      <a href="/tags/{{ tag | first | slugize }}">
+          {{ tag | first }}({{ tag | last | size }})
+      </a>
+  </li>
 {% endfor %}
 </ul>
 
-<h3>ページ</h3>
-<ul class="posts">
-	<li><a href="/jirorian/">ラーメン二郎マップ</a> -- お近くの二郎をお探しの際に。</li>
-	<li><a href="/cigarette/">世界のたばこレビュー</a> -- ぺけみさおの吸ったたばこをレビューしていきます。</li>
-</ul>
-
-<h3>プロジェクト</h3>
+<h1>プロジェクト</h1>
 
 - [x2ch](https://github.com/xmisao/x2ch) -- Rubyで簡単に2chへアクセスするためのライブラリ
 - [xfonts-umplus](https://github.com/xmisao/xfonts-umplus) -- Unicodeエンコードのmplusフォントdebパッケージ
@@ -70,11 +59,11 @@ layout: default
 - [xwebhookexe](https://github.com/xmisao/xwebhookexe) -- webhookを受信して任意のコマンドを実行するGo製Webサーバ
 - [wliconfig](https://github.com/xmisao/wliconfig) -- バッファローのWLIシリーズの設定を変更する非公式CLI
 
-<h3>Webサービス</h3>
+<h1>Webサービス</h1>
 
 - [BestGems](http://bestgems.org/) -- RubyGemsのダウンロード数集計サイト
 - [ぺけアニメデータベース](http://animedb.xmisao.com/) -- 似たアニメが一目瞭然! アニメのデータベースサイト
 
-<h4>公開中止</h4>
+<h2>公開中止</h2>
 - はてなブックマーク ウォールβ -- レスポンシブなはてなブックマークのホッテントリ一覧ページ
 - よく使うハンドサイン画像ジェネレータ -- SNSで話題のハンドサイン画像を作ろう!
