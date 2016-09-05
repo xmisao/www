@@ -27,12 +27,12 @@ function setFacebookLink(shareSelector, shareUrl, description) {
 }
 
 function setGooglePlusLink(shareSelector, shareUrl, description) {
-    $(shareSelector).attr("href", "https://plus.google.com/share?shareUrl=" + shareUrl);
+    $(shareSelector).attr("href", "https://plus.google.com/share?url=" + shareUrl.replace("http://", ""));
     setShareEvent(shareSelector, 'Google+', shareUrl);
 }
 
 function setHatebuLink(shareSelector, shareUrl, description) {
-    $(shareSelector).attr("href", "https://b.hatena.ne.jp/add?mode=confirm&shareUrl=" + shareUrl + "&description=" + encodeURIComponent(description));
+    $(shareSelector).attr("href", "https://b.hatena.ne.jp/entry/" + shareUrl.replace("http://", ""));
     setShareEvent(shareSelector, 'Hatena Bookmark', shareUrl);
 }
 
@@ -42,7 +42,7 @@ function setLineLink(shareSelector, shareUrl, description) {
 }
 
 function setPocketLink(shareSelector, shareUrl, description) {
-    $(shareSelector).attr("href", "http://getpocket.com/edit?url=" + shareUrl + "&title=" + encodeURIComponent(description));
+    $(shareSelector).attr("href", "http://getpocket.com/edit?url=" + shareUrl);
     setShareEvent(shareSelector, 'Pocket', shareUrl);
 }
 
