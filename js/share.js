@@ -58,11 +58,9 @@ function setShareEvent(selector, snsName, shareUrl) {
         //　*** Googleアナリティクスにイベント送らないなら、以下のコードは不要 ***
         // 'share'の文字列は任意に変えてもよい（Googleアナリティクス上の表示文字列として使われる）
         // 'nonInteraction' : 1にしないと、直帰率がおかしくなる（イベント発行したユーザーは直帰扱いでなくなる）ので注意
-        /*
         ga('send', 'social', snsName, 'share', shareUrl, {
             'nonInteraction': 1
         });
-        */
         // *** Googleアナリティクス送信ここまで ****
 
         // このあたりは適当に書き換えて下さい
