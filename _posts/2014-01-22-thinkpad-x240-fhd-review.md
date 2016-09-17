@@ -6,7 +6,7 @@ tag: thinkpad
 
 
 
-![ThinkPad X240 FHD]({{ site.url }}/assets/2014_01_22_thinkpad.jpg)
+![ThinkPad X240 FHD](/assets/2014_01_22_thinkpad.jpg)
 
 ThinkPad X240 ハイパフォーマンス高解像度ディスプレイパッケージを購入し、1週間使ったので感想をまとめたい。
 

@@ -6,7 +6,7 @@ tag: ['css', 'web']
 
 
 
-![Bootstrap Tips]({{ site.url }}/assets/2013_10_20_bootstrap_container_tips.jpg)
+![Bootstrap Tips](/assets/2013_10_20_bootstrap_container_tips.jpg)
 
 Twitter Bootstrap 3.0.0のcontainer、row、col(Bootstrap 2.xならspan)クラスの使い方を説明する。公式サイトでも例示されているが、体系だった説明がされていないのでBootstrap初心者の役に立つはずだ。
 

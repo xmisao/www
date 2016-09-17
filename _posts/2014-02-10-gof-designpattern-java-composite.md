@@ -20,7 +20,7 @@ Compositeパターンの主なメリットは以下のとおり。
 
 Compositeパターンのクラス図は以下のとおり。
 
-![Composite]({{ site.url }}/assets/2014_02_10_gof_composite.png)
+![Composite](/assets/2014_02_10_gof_composite.png)
 
 `Component`は木構造の要素を表すクラスである。コンポーネントに共通の操作はすべてこのクラスに定義する。表現したいコンポーネントの種類だけ、`Component`のサブクラスを作る。一例として、`Leaf`は木構造の中で葉を表すサブクラスである。`Composite`は複数の`Component`を束ねるサブクラスであり、このパターンの本質的なクラスである。`Composite`は子オブジェクトとして`Component`の集合を保持し、`operation`が呼ばれたら、全ての子オブジェクトに対して`operation`を再帰的に実行する。
 

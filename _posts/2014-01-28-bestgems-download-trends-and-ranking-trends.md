@@ -12,7 +12,7 @@ tag: bestgems
 
 - [rake -- BestGems](http://bestgems.org/gems/rake)
 
-![rake Download Trends]({{ site.url }}/assets/2014_01_28_download_trends.png)
+![rake Download Trends](/assets/2014_01_28_download_trends.png)
 
 合計ダウンロード数のチャートに重ねて、日別ダウンロード数のチャートを描画するようにした。
 合計ダウンロード数は単調に増加してゆくが、日別ダウンロード数は1週間ごとに周期性が現れる。
@@ -22,7 +22,7 @@ rakeのようにダウンロード数が安定しているGemでも、週末は�
 後半の日別ダウンロード数のチャートの乱れは、クリスマスから年末年始にかけてダウンロード数が大幅に減少したため生じたもの。
 普通はみんなクリスマスや年末年始にプログラミングなんか(以下略
 
-![rake Ranking Trends]({{ site.url }}/assets/2014_01_28_ranking_trends.png)
+![rake Ranking Trends](/assets/2014_01_28_ranking_trends.png)
 
 続いて新たに追加した合計・日別ダウンロード数のトレンドチャートについて見てみよう。
 rakeはBestGems.orgを昨年6月に立ち上げて以来、合計ダウンロード数のランキングで常に1位である。

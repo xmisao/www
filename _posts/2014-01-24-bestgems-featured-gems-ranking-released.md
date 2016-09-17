@@ -8,7 +8,7 @@ tag: bestgems
 
 # はじめに
 
-![Featured Gems Ranking]({{ site.url }}/assets/2014_01_24_featured_gems_ranking.png)
+![Featured Gems Ranking](/assets/2014_01_24_featured_gems_ranking.png)
 
 - [Featured Gems Ranking -- BestGems.org](http://bestgems.org/featured)
 
@@ -26,7 +26,7 @@ BestGems.orgでは合計ダウンロード数と日別ダウンロード数の2�
 このGemは、ダウンロード数の傾向も以下のとおり急速な増加を示しており、今後もこのダウンロード数を維持すれば、人気のGemになると予想できる。
 これは非常に極端なケースだが、このようなシンプルな方法でも、この結果は人気上昇中のGemを抽出できるという確かな手応えを感じさせる。
 
-![Download Trends]({{ site.url }}/assets/2014_01_24_download_trends.png)
+![Download Trends](/assets/2014_01_24_download_trends.png)
 
 注目のGemランキングでは、日別ダウンロードランキング上位1000件のGemについて、合計ダウンロード数での順位の差分を調べ、差分が多い順でGemを順位付けしている。
 上位1000件に対象を限定するのは、[以前の調査](/2013/09/05/rubygems-statistics.html)で日別ダウンロードランキングの上位1.5%のGemが、全ダウンロード数の80%を占めていることがわかったからだ。
@@ -40,13 +40,13 @@ BestGems.orgでは合計ダウンロード数と日別ダウンロード数の2�
 日別ダウンロード数の順位に対してグラフが線状になっている箇所は、ダウンロード数が極めて少ないGemが大量に存在し、順位に空白があるから生じたものだ。
 本来この散布図は、合計ダウンロード数と日別ダウンロード数の順位が近く、もっと直線に近い形になって良いはずだが、興味深いことに順位が異なるGemが全体的に幅広く分布していることがわかる。
 
-![Scattergram 01]({{ site.url }}/assets/2014_01_24_scattergram_01.png)
+![Scattergram 01](/assets/2014_01_24_scattergram_01.png)
 
 全Gemが対象だといささか範囲が広すぎるので、範囲を縮小して散布図をもう少し詳しく見てみよう。
 次の散布図は、注目のGemを順位付けする対象と同様に、日別ダウンロード数の順位を1000件に絞ったものだ。
 日別ダウンロード数の順位に対し合計ダウンロード数の順位が特に低いGemは、散布図中の直線に乗らない点として表れており、これが注目のGemとして抽出すべきGemである。
 
-![Scattergram 02]({{ site.url }}/assets/2014_01_24_scattergram_02.png)
+![Scattergram 02](/assets/2014_01_24_scattergram_02.png)
 
 更に表示範囲を絞ったのが次の散布図である。
 日別ダウンロード数1000位以内かつ合計ダウンロード数1000位以内の範囲を切り取ったものだ。
@@ -54,4 +54,4 @@ BestGems.orgでは合計ダウンロード数と日別ダウンロード数の2�
 実際にはこの散布図は扇型で、人気上昇中のGem、人気が落ちているGemが、それぞれ分散して存在することがわかる。
 この分布であれば、順位の差分により注目のGemを抽出するのは、そこまで筋の悪い方法では無さそうだ。
 
-![Scattergram 03]({{ site.url }}/assets/2014_01_24_scattergram_03.png)
+![Scattergram 03](/assets/2014_01_24_scattergram_03.png)

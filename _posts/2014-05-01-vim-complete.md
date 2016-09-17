@@ -10,7 +10,7 @@ vimで独自の補完を実行するには、`complete`関数を使用する。
 `complete`関数は第1引数に単語の開始位置を示す行内のバイトオフセット(通常は`col('.')`でカーソル位置を指定する)、第2引数で候補のリストを指定する。
 リストの要素は文字列か所定のキーを持つハッシュである。
 
-![vim complete 1]({{ site.url }}/assets/2014_05_01_vim_complete_1.png)
+![vim complete 1](/assets/2014_05_01_vim_complete_1.png)
 
 以下は最も単純な文字列のリストを指定して`complete`関数を使った例である。
 この形式では、候補に表示されるテキストと実際に挿入されるテキストは同様で、追加情報などはない。
@@ -52,7 +52,7 @@ endfunc
 |empty|0 でないならば、空文字であってもこの候補を追加する。|
 {: .table .table-striped}
 
-![vim complete 2]({{ site.url }}/assets/2014_05_01_vim_complete_2.png)
+![vim complete 2](/assets/2014_05_01_vim_complete_2.png)
 
 上記の例に追加で`abbr`を定義した。`abbr`は`word`の代わりに補完候補のポップアップに表示される文字列である。これを使ってポップアップに表示される文字列を自在に変更することができる。
 
@@ -67,7 +67,7 @@ func! MyCmpl()
 endfunc
 ~~~~
 
-![vim complete 3]({{ site.url }}/assets/2014_05_01_vim_complete_3.png)
+![vim complete 3](/assets/2014_05_01_vim_complete_3.png)
 
 更に`menu`を定義した。`menu`は候補の末尾に表示される追加情報である。以下の例では`1:foo`に対して`hoge`を、`2:bar`に対して`piyo`を、`3:baz`に対して`fuga`を、それぞれ追加情報として表示する。
 
@@ -82,7 +82,7 @@ func! MyCmpl()
 endfunc
 ~~~~
 
-![vim complete 4]({{ site.url }}/assets/2014_05_01_vim_complete_4.png)
+![vim complete 4](/assets/2014_05_01_vim_complete_4.png)
 
 `info`はプレビューウィンドウに表示する内容を指定するキーである。このキーが指定されると、スクリーンショットにあるように、候補を選択している最中にプレビューウィンドウが表示されるようになる。
 

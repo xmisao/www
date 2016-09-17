@@ -18,7 +18,7 @@ Adapterパターンの主なメリットは以下のとおり。
 本パターンは移譲と継承の2パターンの実装が知られている。
 クラス図はそれぞれ以下のとおり。
 
-![Adapter]({{ site.url }}/assets/2014_01_09_gof_adapter.png)
+![Adapter](/assets/2014_01_09_gof_adapter.png)
 
 これは再利用したい既存の実装Adapteeを、Adapteeとは互換性のないITargetインタフェースに適合させる例である。この際に、AdapteeとITargetの間を取り持つのがAdapterだ。(クラス図の赤のクラス)
 

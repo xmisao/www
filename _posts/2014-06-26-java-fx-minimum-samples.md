@@ -11,7 +11,7 @@ Java8からSwingに次ぐ新しいGUIライブラリとしてJavaFXが標準で�
 
 # ウィンドウの表示
 
-![Sample1]({{ site.url }}/assets/2014_06_26_sample1.png)
+![Sample1](/assets/2014_06_26_sample1.png)
 
 まずはウィンドウを表示しなければはじまらない。
 
@@ -47,7 +47,7 @@ public class Sample1 extends Application {
 
 # ラベルの追加
 
-![Sample2]({{ site.url }}/assets/2014_06_26_sample2.png)
+![Sample2](/assets/2014_06_26_sample2.png)
 
 続いて`VBox`にラベルを追加してみることにする。
 
@@ -81,7 +81,7 @@ public class Sample2 extends Application {
 
 # FXMLの読み込み
 
-![Sample3]({{ site.url }}/assets/2014_06_26_sample3.png)
+![Sample3](/assets/2014_06_26_sample3.png)
 
 JavaFXではFXMLという言語でインタフェースを記述できることが特徴となっている。
 次の例では*sample2.java*と同じウィンドウをFXMLを使って表示させてみよう。

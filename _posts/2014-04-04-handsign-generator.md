@@ -6,7 +6,7 @@ tag: web
 
 
 
-![Hand Sign Generator]({{ site.url }}/assets/2014_04_04_handsign_generator.jpg)
+![Hand Sign Generator](/assets/2014_04_04_handsign_generator.jpg)
 
 ●●が良く使うハンドサイン画像を簡単に作れるジェネレータを三番煎じくらいで作った。
 

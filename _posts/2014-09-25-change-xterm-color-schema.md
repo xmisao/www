@@ -33,7 +33,7 @@ debianであればaptから`colortest`パッケージでインストールでき
 *color15: #CCCCCC
 ~~~~
 
-![colortest-16b]({{ site.url }}/assets/2014_09_25_colortest.png)
+![colortest-16b](/assets/2014_09_25_colortest.png)
 
 リソース設定は一般的には`~/.Xdefaults`に記述し、Xアプリケーションに読み込ませる。
 別の方法として`xrdb`コマンドでリソース設定ファイルの内容をルートウィンドウに反映することもできる。

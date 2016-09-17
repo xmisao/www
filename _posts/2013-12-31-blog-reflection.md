@@ -6,7 +6,7 @@ tag: essay
 
 
 
-![Blog Access Log]({{ site.url }}/assets/2013_12_31_2013_access.png)
+![Blog Access Log](/assets/2013_12_31_2013_access.png)
 
 # はじめに
 

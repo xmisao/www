@@ -16,7 +16,7 @@ sshには以下3種類のポートフォワーディング機能がある。ポ�
 
 # ポートフォワーディング
 
-![port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_l.png)
+![port forward](/assets/2013_09_12_ssh_portforward_l.png)
 
 ~~~~
 ssh -L port:remotehost:remoteport server
@@ -28,7 +28,7 @@ clientからは直接接続できないファイアウォール内側のホス�
 
 # 逆ポートフォワーディング
 
-![reverse port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_r.png)
+![reverse port forward](/assets/2013_09_12_ssh_portforward_r.png)
 
 ~~~~
 ssh -R port:remotehost:remoteport server
@@ -40,7 +40,7 @@ clientがファイアウォールの内側に居て、ファイアウォール�
 
 # ダイナミックポートフォワーディング
 
-![dynamic port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_d.png)
+![dynamic port forward](/assets/2013_09_12_ssh_portforward_d.png)
 
 ~~~~
 ssh -D port server

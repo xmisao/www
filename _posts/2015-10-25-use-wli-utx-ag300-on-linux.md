@@ -6,7 +6,7 @@ tag: linux
 
 
 
-![WLI-UTX-AG300/C]({{ site.url }}/assets/2015_10_25_wli_utx_ag300c.jpg)
+![WLI-UTX-AG300/C](/assets/2015_10_25_wli_utx_ag300c.jpg)
 
 残念ながらLinuxでは、WindowsやMacと比較して、未だに無線LANの接続が不安定なことがあります。
 うまく設定したり適切なドライバを使用したりできれば、実用に耐える場合もあるのかも知れません。

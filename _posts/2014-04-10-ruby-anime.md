@@ -6,7 +6,7 @@ tag: ['ruby', 'anime']
 
 
 
-![anime]({{ site.url }}/assets/2014_04_10_anime.png)
+![anime](/assets/2014_04_10_anime.png)
 
 [しょぼいカレンダー](https://cal.syoboi.jp/)はその筋では有名なアニメ番組表サイトで、アニメの放送予定などをXMLで取得することもできる。APIと呼べるほど整理されていはいないが、サイトの[仕様が公開](https://sites.google.com/site/syobocal/spec)されており、その気になればアニメに関する様々な情報が取得可能だ。
 

@@ -26,7 +26,7 @@ JavaScriptでマウス座標を取得するには`onmousemove`イベントハン
 </html>
 ~~~~
 
-- [Mouse Position Sample HTML]({{ site.url }}/assets/samples/mouseposition/index.html)
+- [Mouse Position Sample HTML](/assets/samples/mouseposition/index.html)
 
 Internet Explorerではイベントハンドラにイベントオブジェクトが渡されないため、上記のコードでは`event`が`null`なら`window.event`でイベントオブジェクトを上書きするようになっている。`||`演算子を使えば条件分岐は必要ない。
 

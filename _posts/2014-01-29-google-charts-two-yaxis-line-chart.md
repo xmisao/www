@@ -6,7 +6,7 @@ tag: ['javascript', 'google_charts']
 
 
 
-![Two Y Axis Line Chart]({{ site.url }}/assets/2014_01_29_two_y_axis_sample.png)
+![Two Y Axis Line Chart](/assets/2014_01_29_two_y_axis_sample.png)
 
 [BestGems.org](http://bestgems.org/)を作る上で知ったGoogle Chartsの使い方 その1。
 値が大きく異なる2系列以上の折れ線グラフを描画したい場合がある。

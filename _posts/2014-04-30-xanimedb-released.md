@@ -6,7 +6,7 @@ tag: ['web', 'anime']
 
 
 
-![ぺけアニメデータベース]({{ site.url }}/assets/2014_04_30_animedb.png)
+![ぺけアニメデータベース](/assets/2014_04_30_animedb.png)
 
 - [ぺけアニメデータベース](http://animedb.xmisao.com/)
 

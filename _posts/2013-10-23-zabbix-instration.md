@@ -66,20 +66,20 @@ Apacheを再起動しよう。
 
 ## 1. Welcome
 
-![Welcome]({{ site.url }}/assets/2013_10_23_zabbix000.jpg)
+![Welcome](/assets/2013_10_23_zabbix000.jpg)
 
 Nextボタンを押して次に進む。
 
 ## 2. Check of pre-requisites
 
-![Check of pre-requesites]({{ site.url }}/assets/2013_10_23_zabbix001.jpg)
+![Check of pre-requesites](/assets/2013_10_23_zabbix001.jpg)
 
 すべてOKなら問題ない。
 Nextボタンを押して次に進む。
 
 ## 3. Configure DB connection
 
-![Configure DB connection]({{ site.url }}/assets/2013_10_23_zabbix002.jpg)
+![Configure DB connection](/assets/2013_10_23_zabbix002.jpg)
 
 MySQLの管理者パスワードを入力する。
 Test Connectionボタンで接続をテストできる。
@@ -87,21 +87,21 @@ Test Connectionボタンで接続をテストできる。
 
 ## 4. Zabbix server details
 
-![Zabbix server details]({{ site.url }}/assets/2013_10_23_zabbix003.jpg)
+![Zabbix server details](/assets/2013_10_23_zabbix003.jpg)
 
 ホスト名とポートの設定画面だ。
 Nextをボタンを押下して次に進む。
 
 ## 5. Pre-Installation summary
 
-![Pre-Installation summary]({{ site.url }}/assets/2013_10_23_zabbix004.jpg)
+![Pre-Installation summary](/assets/2013_10_23_zabbix004.jpg)
 
 Zabbixサーバの詳細が表示される画面だ。
 Nextを押下して次に進む。
 
 ## 6. Install
 
-![Install Fail]({{ site.url }}/assets/2013_10_23_zabbix005.jpg)
+![Install Fail](/assets/2013_10_23_zabbix005.jpg)
 
 PHPの設定ファイルを配置する画面だ。
 
@@ -112,20 +112,20 @@ Donwload configuration fileのボタンからzabbix.conf.phpファイルをダ�
 
 この状態でRetryボタンを押すとインストールが終了した。
 
-![Install Ok]({{ site.url }}/assets/2013_10_23_zabbix006.jpg)
+![Install Ok](/assets/2013_10_23_zabbix006.jpg)
 
 これ以降の操作はオプションとなる。
 
 # Zabbixへのログイン
 
-![Login Screen]({{ site.url }}/assets/2013_10_23_zabbix007.jpg)
+![Login Screen](/assets/2013_10_23_zabbix007.jpg)
 
 http://zabbixhostname/zabbixにアクセスする。
 デフォルトのユーザ名はAdmin、パスワードはzabbixだ。
 
 ## Zabbixサーバの監視
 
-![Configure -> Hosts]({{ site.url }}/assets/2013_10_23_zabbix008.jpg)
+![Configure -> Hosts](/assets/2013_10_23_zabbix008.jpg)
 
 Zabbix 1.8.3以降はデフォルトでZabbixサーバはサーバの機能だけが有効になっており、Zabbixサーバを監視する機能は無効になっている。
 
@@ -163,7 +163,7 @@ apt-get install zabbix-agent
 
 これでZabbixサーバが動作しているホストのCPU使用率などが、Zabbixサーバ上で確認できるようになる。Monitoring -> GraphsからCPU loadなどを確認しよう。
 
-![Welcome]({{ site.url }}/assets/2013_10_23_zabbix009.jpg)
+![Welcome](/assets/2013_10_23_zabbix009.jpg)
 
 現在のZabbixは必ずしも使いやすいUIとは言えないが、
 このエントリに興味を持って読んでもらえるレベルの人なら

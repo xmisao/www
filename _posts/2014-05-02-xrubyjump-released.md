@@ -10,7 +10,7 @@ __2014/5/11追記: [XRubyJumpはRubyJumpとなった。](/2014/05/11/rubyjump-re
 
 # デモ
 
-![xrubyjump.vim demo]({{ site.url }}/assets/2014_05_02_xrubyjump_demo.gif)
+![xrubyjump.vim demo](/assets/2014_05_02_xrubyjump_demo.gif)
 
 # 概要
 

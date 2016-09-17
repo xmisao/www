@@ -6,7 +6,7 @@ tag: game
 
 
 
-![Micropolis]({{ site.url }}/assets/2014_03_31_micropolis.jpg)
+![Micropolis](/assets/2014_03_31_micropolis.jpg)
 
 [Micropolis](http://code.google.com/p/micropolis/)は初代SimCityのPC向けの移植版である。
 現在はJavaによる実装が公開されており、あらゆるプラットフォームで初代SimCityを遊ぶことができる。

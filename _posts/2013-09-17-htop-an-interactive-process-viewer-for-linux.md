@@ -6,7 +6,7 @@ tag: linux
 
 
 
-![htop screenshot]({{ site.url }}/assets/2013_09_17_htop.jpg)
+![htop screenshot](/assets/2013_09_17_htop.jpg)
 
 マシンの状態を把握するに`top`は欠かせないコマンドだ。
 topは実に様々な操作が可能だが、何か簡単なことをするにも、複雑な操作が必要なことは否めない。

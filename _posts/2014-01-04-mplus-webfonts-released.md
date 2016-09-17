@@ -6,7 +6,7 @@ tag: fonts
 
 
 
-![M+ Web Fonts Demo]({{ site.url }}/assets/2014_01_04_mplus.png)
+![M+ Web Fonts Demo](/assets/2014_01_04_mplus.png)
 
 *[M+ Web Fonts Demo](/assets/samples/mplus/index.html)*
 

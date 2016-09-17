@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-![FeaturedImage]({{ site.url }}/assets/2013_12_29_featuredimage.jpg)
+![FeaturedImage](/assets/2013_12_29_featuredimage.jpg)
 
 はてなブックマークの一覧ページは、ブックマーク先のサイトの画像をサムネイルとして使って、利用者の目を引くようにデザインされている。任意のWebページに対して、あれに近いことを自分でもやりたいと思った。
 

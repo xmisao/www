@@ -8,7 +8,7 @@ tag: ['keyboard', 'review']
 
 このエントリーはKINESIS Freestyle2で書かれた。
 
-![KINESIS Freestyle2]({{ site.url }}/assets/2014_07_20_kinesis_freestyle2.jpg)
+![KINESIS Freestyle2](/assets/2014_07_20_kinesis_freestyle2.jpg)
 
 KINESIS Freestyle2を購入し、昨日届いたのでさっそくレビューする。
 
@@ -72,7 +72,7 @@ KINESIS Freestyle2 for PCの9インチ版の価格は[エジクン技研](http:/
 
 # 配列
 
-![KINESIS Freestyle2]({{ site.url }}/assets/2014_07_20_kinesis_freestyle2_layout.jpg)
+![KINESIS Freestyle2](/assets/2014_07_20_kinesis_freestyle2_layout.jpg)
 
 画像はエジクン技研のサイトから引用。
 

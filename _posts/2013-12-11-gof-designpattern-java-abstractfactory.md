@@ -18,7 +18,7 @@ AbstractFactoryパターンの主なメリットは以下の通り。
 
 クラス図は以下のとおり。
 
-![Abstract Factory]({{ site.url }}/assets/2013_12_11_gof_abstractfactory.png)
+![Abstract Factory](/assets/2013_12_11_gof_abstractfactory.png)
 
 ConcreteFactoryA, Bを使うことで、AbstractProductA, Bの実装は、正しい組み合わせで生成できる。(クラス図の緑と赤の組み合わせ)
 ClientはAbstractFactoryと生成されるオブジェクトの抽象クラス(AbstractProductA, B)だけを意識すれば良いのがポイント。

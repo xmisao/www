@@ -16,7 +16,7 @@ apt-get install gnome-disk-utility
 
 ストレージが空というのは、ファイルシステムやパーティションテーブルが存在しない状態のことだ。ストレージをこの状態にするには、`palimpsest`の*Format Drive*から*Dont't partition*を選択してフォーマットすれば良い。当然、全データが削除されるのでデータがあるストレージで実行するのは厳禁だ。
 
-![Format Dont Partition]({{ site.url }}/assets/2014_01_13_palimpsest_1.png)
+![Format Dont Partition](/assets/2014_01_13_palimpsest_1.png)
 
 
 
@@ -26,6 +26,6 @@ USB 3.0対応を謳うUSBメモリを買ったので、`palimpsest`でベンチ�
 
 ベンチマークの結果は以下のとおり。青線がReadで赤線がWriteである。平均読み込み速度は87.1MB/s、平均書き込み速度は10.9MB/sとなった。Readはスペックより早いが、Writeはスペックより遅く半分程度である。前半のWriteのスパイクと、1/3付近からのReadの速度向上が気になるが、概ねスペックどおりの結果となった。
 
-![Format Dont Partition]({{ site.url }}/assets/2014_01_13_palimpsest_2.png)
+![Format Dont Partition](/assets/2014_01_13_palimpsest_2.png)
 
 Readが80MB/sというと、640Mbpsであり、USB 2.0のスペックを超えて、一昔前の内蔵HDDのシーケンシャルリード並の速度である。USB接続のフラッシュメモリでこの速度が出るというのは隔世の感がある。たぶん探せばもっとコスパの良い製品もあるのだろうが、結果だけ見れば十分満足だ。

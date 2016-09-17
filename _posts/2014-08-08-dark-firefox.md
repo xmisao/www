@@ -12,7 +12,7 @@ tag: firefox
 
 この設定を施したFirefoxでこのブログを表示すると以下のような見た目になる。
 
-![Dark Firefox]({{ site.url }}/assets/2014_08_08_dark_firefox.jpg)
+![Dark Firefox](/assets/2014_08_08_dark_firefox.jpg)
 
 # テーマ
 

@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-![Ruby Method Traverse]({{ site.url }}/assets/2013_12_01_ruby_method_traverse.png)
+![Ruby Method Traverse](/assets/2013_12_01_ruby_method_traverse.png)
 
 継承とincludeおよび特異クラスが組み合わさった場合のRubyのメソッド探索順序は図中の番号のとおりだ。
 

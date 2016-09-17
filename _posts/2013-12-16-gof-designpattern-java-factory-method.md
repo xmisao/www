@@ -18,7 +18,7 @@ Factory Methodパターンの主なメリットは以下のとおり。
 
 クラス図は以下のとおり。
 
-![Factory Method]({{ site.url }}/assets/2013_12_16_gof_factorymethod.png)
+![Factory Method](/assets/2013_12_16_gof_factorymethod.png)
 
 Creatorにオブジェクトを生成するアブストラクトメソッドを定義しておき、サブクラスにProductの具象クラスを生成する実装をする。(クラス図の赤のクラス)
 

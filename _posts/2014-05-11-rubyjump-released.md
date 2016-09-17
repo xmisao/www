@@ -8,7 +8,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 
 # デモ
 
-![rubyjump demo]({{ site.url }}/assets/2014_05_11_rubyjump_demo.gif)
+![rubyjump demo](/assets/2014_05_11_rubyjump_demo.gif)
 
 # リリース
 
