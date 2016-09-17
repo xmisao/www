@@ -80,7 +80,7 @@ foo bar[] baz
 
 例えば`a:base`が`M`なら、`Mar`と`May`のみを要素として持つ配列が返り値となる。
 なお返すのは文字列の配列ではなく、ハッシュの配列でも構わない。
-有効なハッシュの形式は[vimで独自の補完を設定する(complete関数の使い方)](http://www.xmisao.com/2014/05/01/vim-complete.html)で紹介した`complete`関数の第2引数と同様である。
+有効なハッシュの形式は[vimで独自の補完を設定する(complete関数の使い方)](/2014/05/01/vim-complete.html)で紹介した`complete`関数の第2引数と同様である。
 
 参考
 

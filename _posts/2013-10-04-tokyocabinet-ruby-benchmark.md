@@ -6,7 +6,7 @@ tag: programming
 
 
 
-[TokyoCabinetのオンメモリハッシュデータベースをRubyで利用する](http://www.xmisao.com/2013/10/03/ruby-tokyocabinet.html)では、TokyoCabinetをRubyから活用する方法を簡単に紹介した。ここで気になるのは、TokyoCabinetはどれほどHashより効率的なのか?という事だ。結論を書くと、TokyoCabinetのオンメモリハッシュデータベースはRubyのHashより省メモリかつ高速である。
+[TokyoCabinetのオンメモリハッシュデータベースをRubyで利用する](/2013/10/03/ruby-tokyocabinet.html)では、TokyoCabinetをRubyから活用する方法を簡単に紹介した。ここで気になるのは、TokyoCabinetはどれほどHashより効率的なのか?という事だ。結論を書くと、TokyoCabinetのオンメモリハッシュデータベースはRubyのHashより省メモリかつ高速である。
 
 比較のため以下のコードで、メモリ使用量と処理時間のベンチマークを行った。16文字のキーに対して16文字の値を要素に持つハッシュを作り、要素の数を10万、100万、1000万と順に増やして計測した。
 

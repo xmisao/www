@@ -185,4 +185,4 @@ end
 
 # 解説
 
-formatadorを使えば、美しい出力のコマンドラインツールを簡単に作ることができる。[前回のBestGems Pickup!](http://www.xmisao.com/2013/08/25/bestgems-pickup-slop.html)で取り上げたコマンドラインオプションのパーサ[Slop](https://github.com/leejarvis/slop)を併用すれば、使いやすく、見やすいツールを最小の手間で実現できるだろう。どちらも現時点では日本語の解説をほとんど見かけないが、非常に強力なGemだ。
+formatadorを使えば、美しい出力のコマンドラインツールを簡単に作ることができる。[前回のBestGems Pickup!](/2013/08/25/bestgems-pickup-slop.html)で取り上げたコマンドラインオプションのパーサ[Slop](https://github.com/leejarvis/slop)を併用すれば、使いやすく、見やすいツールを最小の手間で実現できるだろう。どちらも現時点では日本語の解説をほとんど見かけないが、非常に強力なGemだ。

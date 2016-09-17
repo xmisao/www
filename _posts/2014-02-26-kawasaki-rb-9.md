@@ -8,4 +8,4 @@ tag: presentation
 
 発表資料は以下。
 
-- [ランキングから見るRubyGems](http://www.xmisao.com/presentation/kawasaki_rb_9/index.html)
+- [ランキングから見るRubyGems](/presentation/kawasaki_rb_9/index.html)

@@ -14,7 +14,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 
 - [rubyjump.vim](https://github.com/xmisao/rubyjump.vim)
 
-[XRubyJumpというvimプラグインを書いた](http://www.xmisao.com/2014/05/02/xrubyjump-released.html)が、本日これを大幅に機能拡張した最新版をリリースした。また、このリリースに合わせて、名前をXRubyJumpからRubyJumpに変更した。
+[XRubyJumpというvimプラグインを書いた](/2014/05/02/xrubyjump-released.html)が、本日これを大幅に機能拡張した最新版をリリースした。また、このリリースに合わせて、名前をXRubyJumpからRubyJumpに変更した。
 
 主な変更点は以下のとおり。
 

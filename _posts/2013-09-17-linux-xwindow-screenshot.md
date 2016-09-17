@@ -50,4 +50,4 @@ import screenshot.png
 
 # 2014/2/7追記
 
-もっと今風なスクリーンショットツールとしては[shutter](http://www.xmisao.com/2014/02/07/get-screenshot-on-linux-by-shutter.html)が便利である。
+もっと今風なスクリーンショットツールとしては[shutter](/2014/02/07/get-screenshot-on-linux-by-shutter.html)が便利である。

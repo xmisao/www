@@ -6,7 +6,7 @@ tag: ['zabbix', 'server']
 
 
 
-[Debian WheezyへのZabbix 2.0のインストール](http://www.xmisao.com/2013/10/23/zabbix-instration.htm)では、Zabbixサーバをインストールしサーバのホストを監視する方法を説明した。続いて、他のDebian WheezyホストにZabbix Agentをインストールし、Zabbixの監視対象に追加してみよう。
+[Debian WheezyへのZabbix 2.0のインストール](/2013/10/23/zabbix-instration.htm)では、Zabbixサーバをインストールしサーバのホストを監視する方法を説明した。続いて、他のDebian WheezyホストにZabbix Agentをインストールし、Zabbixの監視対象に追加してみよう。
 
 # 前提
 

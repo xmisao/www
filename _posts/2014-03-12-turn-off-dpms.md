@@ -34,4 +34,4 @@ Option "DPMS" "false"
 
 関連エントリー
 
-- [Linuxでディスプレイをスタンバイ状態にする方法](http://www.xmisao.com/2014/02/17/how-to-pub-screen-into-standby-on-linux.html)
+- [Linuxでディスプレイをスタンバイ状態にする方法](/2014/02/17/how-to-pub-screen-into-standby-on-linux.html)

@@ -28,4 +28,4 @@ server {
 結果、バックエンドのサーバは、自分が直接そのホストに対するアクセスを処理しているように見え、Hostに基づく様々な処理がうまく動くようになるわけだ。
 
 - 関連
- - [nginxをリバースプロキシにする設定](http://www.xmisao.com/2013/10/11/nginx-reverse-proxy.html)
+ - [nginxをリバースプロキシにする設定](/2013/10/11/nginx-reverse-proxy.html)

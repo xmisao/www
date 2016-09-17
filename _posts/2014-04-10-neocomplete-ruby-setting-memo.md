@@ -10,7 +10,7 @@ tag: ['vim', 'ruby']
 
 # インストール
 
-[Vundle](http://www.xmisao.com/2013/08/22/vundle.html)を使っていれば以下を`.vimrc`に記載して、`BundleInstall`でインストールできる。
+[Vundle](/2013/08/22/vundle.html)を使っていれば以下を`.vimrc`に記載して、`BundleInstall`でインストールできる。
 
 ~~~~
 Bundle "Shougo/neocomplete.vim"

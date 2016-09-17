@@ -34,4 +34,4 @@ only to a particular server you specify.
 ~~~~
 
 - 関連
-  - [楽々スクレイピング! Ruby Mechanizeの使い方](http://www.xmisao.com/2013/10/05/ruby-www-mechanize.html)
+  - [楽々スクレイピング! Ruby Mechanizeの使い方](/2013/10/05/ruby-www-mechanize.html)
