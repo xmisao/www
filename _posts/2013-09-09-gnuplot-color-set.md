@@ -6,7 +6,7 @@ tag: gnuplot
 
 
 
-![Awesome Graph]({{ site.url }}/assets/2013_09_09_awesome_graph.png)
+![Awesome Graph](/assets/2013_09_09_awesome_graph.png)
 
 大学を出て久しく、Gnuplotを使う機会もほぼ無くなった。Gnuplotには何かと苦労させられた思い出があるが、とりわけデフォルトの配色ーーあの原色で目が痛くなるやつーーが、初心者の恐怖をことさら煽っていると思う。あの配色さえマシになれば、世の大学生の幸福度が1%は上がるに違いない。
 

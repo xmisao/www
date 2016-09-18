@@ -12,7 +12,7 @@ VimでGitを使う時、いちいち!gitしていたが、さすがに億劫に�
 
 Vimのプラグインを管理するプラグイン「Vundle」が入っていない場合は、これを機にVundleも導入しよう。
 
-[Vundleでvimプラグインを管理する](http://www.xmisao.com/2013/08/22/vundle.html)
+[Vundleでvimプラグインを管理する](/2013/08/22/vundle.html)
 
 .vimrcに以下を追加して、BundleInstallを実行すればインストールされる。
 

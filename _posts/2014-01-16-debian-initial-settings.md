@@ -74,7 +74,7 @@ apt-get install psmisc
 
 Xを使えるようにする。
 X本体と基本的なツール、ログインマネージャ、ウィンドウマネージャをインストールする。
-ログインマネージャには[SLiM](http://www.xmisao.com/2013/08/21/display-manager-slim.html)を、ウィンドウマネージャは[Awesome](http://awesome.naquadah.org/)を使っている。
+ログインマネージャには[SLiM](/2013/08/21/display-manager-slim.html)を、ウィンドウマネージャは[Awesome](http://awesome.naquadah.org/)を使っている。
 タイル型ウィンドウマネージャ万歳。
 
 ~~~~
@@ -88,7 +88,7 @@ apt-get install awesome
 # Dropbox
 
 いわゆるdotfilesを共有しているので、Dropboxをインストールする。
-詳しくは[64bit環境のDebianにDropboxをインストール](http://www.xmisao.com/2013/12/17/debian-64bit-dropbox-install.html)を参照。
+詳しくは[64bit環境のDebianにDropboxをインストール](/2013/12/17/debian-64bit-dropbox-install.html)を参照。
 
 Dropboxを使う上で不足しているパッケージは事前にインストールしておく。
 
@@ -170,7 +170,7 @@ apt-get install cpufrequtils
 
 良く使うアプリケーションをまとめて入れる。
 ブラウザはFirefoxを使いたいが、Debianのリポジトリはバージョンが古いため、自力でインストールする。
-詳しくは[x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う](http://www.xmisao.com/2013/04/10/linux-x64-firefox.html)を参照。
+詳しくは[x86_64のLinuxでMozilla公式のfirefoxの64bit版バイナリを使う](/2013/04/10/linux-x64-firefox.html)を参照。
 
 ~~~~
 apt-get install vim-gtk

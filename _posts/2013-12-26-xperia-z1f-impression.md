@@ -6,7 +6,7 @@ tag: mobile
 
 
 
-![SO-02F and SO-03C]({{ site.url }}/assets/2013_12_26_z1f.jpg)
+![SO-02F and SO-03C](/assets/2013_12_26_z1f.jpg)
 
 # はじめに
 

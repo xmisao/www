@@ -8,7 +8,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 
 # デモ
 
-![rubyjump demo]({{ site.url }}/assets/2014_05_11_rubyjump_demo.gif)
+![rubyjump demo](/assets/2014_05_11_rubyjump_demo.gif)
 
 # リリース
 
@@ -22,7 +22,7 @@ tag: ['rubyjump', 'vim', 'ruby']
 - ripperの有効無効を切り替える`g:rubyjump#enable_ripper`オプションを追加した
 - RubyJumpの対象とするファイルタイプを`g:rubyjump#filetypes`で指定できるようにした
 
-特に目玉となる変更点は、Rubyスクリプトのパースに[ripper](http://www.xmisao.com/2014/05/12/ruby-ripper.html)を使ってジャンプ先を抽出するようにしたこと。これによりコメントアウトされたコードにジャンプすることがなくなるなど、ユーザビリティが向上した。Ruby 1.9以上のRubyが使えるVimなら自動的にデフォルトで有効になる。
+特に目玉となる変更点は、Rubyスクリプトのパースに[ripper](/2014/05/12/ruby-ripper.html)を使ってジャンプ先を抽出するようにしたこと。これによりコメントアウトされたコードにジャンプすることがなくなるなど、ユーザビリティが向上した。Ruby 1.9以上のRubyが使えるVimなら自動的にデフォルトで有効になる。
 
 微妙な改良点としては`g:rubyjump#filetypes`でRubyJumpのジャンプ対象とするファイルタイプを自由に指定できるようになった。RubyJumpはripperでシンタックスエラーになるソースコードは正規表現で解析してジャンプ先を抽出するので、例えばRubyを併用したVimスクリプトにも上手くジャンプすることができる。これまでRubyJumpをRubyJumpを使って開発できない(!)という問題があったが、それを解決した。
 

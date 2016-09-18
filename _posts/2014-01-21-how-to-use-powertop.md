@@ -18,15 +18,15 @@ apt-get install powertop
 
 PowerTOPはカーネルやハードウェアに設定を行うので起動にはroot権限が必要だ。PowerTOPで特に重要なのは、起動直後に表示される`Overview`画面と、省電力設定を行う`Tunable`画面である。これらの画面はtabキーで切り替え可能だ。
 
-![PowerTOP Overview]({{ site.url }}/assets/2014_01_21_powertop_1.png)
+![PowerTOP Overview](/assets/2014_01_21_powertop_1.png)
 
 Overview画面の一番上に表示されている"The battery reports a discharge rate of ..."の部分が現在の消費電力である。PowerTOPによる省電力設定では、この数値をできる限り下げる事が目的になる。Overview画面には電力消費が多い順にハードウェアやプロセスが表示されており、何が電力を浪費しているのかが把握できるようになっている。
 
-![PowerTOP Tunable]({{ site.url }}/assets/2014_01_21_powertop_2.png)
+![PowerTOP Tunable](/assets/2014_01_21_powertop_2.png)
 
 Tunable画面を見てみよう。この画面にはPowerTOPで省電力設定が可能な項目が一覧されている。省電力設定が可能だが現在は設定がされていない項目は`Bad`、省電力設定がされている項目は`Good`と表示されている。カーソルキーで設定する項目を選択して、Enterキーを押下すると省電力設定が行える。
 
-![PowerTOP Tunable Setting]({{ site.url }}/assets/2014_01_21_powertop_3.png)
+![PowerTOP Tunable Setting](/assets/2014_01_21_powertop_3.png)
 
 この際にPowerTOPが変更した設定は画面上部に表示される。この`VM writeback timeout`の省電力設定を有効化した例では、少々見づらいがPowerTOPが`echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs'`を実行したことがわかる。
 
@@ -36,7 +36,7 @@ Tunable画面を見てみよう。この画面にはPowerTOPで省電力設定�
 powertop --auto-tune
 ~~~~
 
-![PowerTOP Tunable After Auto Tune]({{ site.url }}/assets/2014_01_21_powertop_4.png)
+![PowerTOP Tunable After Auto Tune](/assets/2014_01_21_powertop_4.png)
 
 なおPowerTOPで行える設定は一時的なもので、リブートすると設定が元に戻ってしまう。
 設定を恒久的にするには、例えばDebianなら`/etc/rc.local`などに省電力設定を書いてやる必要がある。
@@ -53,7 +53,7 @@ exit 0
 もし何らかの理由で選択的に省電力設定を行う必要があるのなら、PowerTOP上で設定を変更した際に表示されるコマンドをメモっておき、有効にしたい項目を1つずつ`/etc/rc.local`に書き写してやらねばならない。
 ここは少し手間がかかるところだ。
 
-![PowerTOP Overview After Auto Tune]({{ site.url }}/assets/2014_01_21_powertop_5.png)
+![PowerTOP Overview After Auto Tune](/assets/2014_01_21_powertop_5.png)
 
 さて、これは`Tunable`で全ての項目を`Good`にした後の`Overview`画面だ。
 再び"The battery reports a discharge rate of ..."の行に注目し、冒頭のスクリーンショットと見比べてほしい。

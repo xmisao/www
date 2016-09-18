@@ -18,11 +18,11 @@ Jekyllは静的サイトのため、DISQUSは非常に役に立つ。
 
 - [https://disqus.com/}(https://disqus.com/)
 
-![Page1]({{ site.url }}/assets/2014_07_22_disqus_1.jpg)
+![Page1](/assets/2014_07_22_disqus_1.jpg)
 
 右上にあるLog inというリンクから登録画面に進む。
 
-![Page2]({{ site.url }}/assets/2014_07_22_disqus_2.jpg)
+![Page2](/assets/2014_07_22_disqus_2.jpg)
 
 DISQUSはFacebook、Twitter、Googleアカウントで使用可能だ。
 今回はこれらは利用せず、DISQUSに直接ユーザ登録する。
@@ -35,11 +35,11 @@ DISQUSはFacebook、Twitter、Googleアカウントで使用可能だ。
 
 トップページに戻されるので、Add Disqus to Your Siteというリンクをクリックする。
 
-![Page3]({{ site.url }}/assets/2014_07_22_disqus_3.jpg)
+![Page3](/assets/2014_07_22_disqus_3.jpg)
 
 すると以下のページが表示される。
 
-![Page4]({{ site.url }}/assets/2014_07_22_disqus_4.jpg)
+![Page4](/assets/2014_07_22_disqus_4.jpg)
 
 - サイト名
 - DISQUSのURL
@@ -51,7 +51,7 @@ DISQUSはFacebook、Twitter、Googleアカウントで使用可能だ。
 
 Choose your platform画面に遷移する。
 
-![Page5]({{ site.url }}/assets/2014_07_22_disqus_5.jpg)
+![Page5](/assets/2014_07_22_disqus_5.jpg)
 
 この画面ではプラットフォーム毎にDISQUSを設置する方法が説明されている。
 

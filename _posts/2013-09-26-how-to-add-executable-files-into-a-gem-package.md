@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-gemでアプリケーションを配布する場合、実行可能なファイルをgemパッケージに含めてやりたい事がある。例えば[拙作のxcalパッケージ](http://www.xmisao.com/2013/09/25/xcal-display-a-japan-calendar-like-cal.html)は、カレンダーを表示する`xcal`コマンドを含んでいる。以下ではxcalを例に、gemパッケージに実行可能ファイルを含める方法を説明する。
+gemでアプリケーションを配布する場合、実行可能なファイルをgemパッケージに含めてやりたい事がある。例えば[拙作のxcalパッケージ](/2013/09/25/xcal-display-a-japan-calendar-like-cal.html)は、カレンダーを表示する`xcal`コマンドを含んでいる。以下ではxcalを例に、gemパッケージに実行可能ファイルを含める方法を説明する。
 
 実行可能ファイルをgemパッケージに含めるには、まずディレクトリ構成を以下のようにして、binディレクトリにコマンド(この例では`xcal`)を配置する。
 
@@ -40,4 +40,4 @@ end
 
 結果として、gemをインストールしたユーザは、/usr/local/bin以下の起動用コマンドを実行することで、パッケージに含まれた実行可能ファイルを実行させることができるようになる。
 
-gemの作成方法とRubyGems.orgにgemを公開する方法については、[RubyGemsで自作のgemを公開する](http://www.xmisao.com/2013/06/22/rubygems-startup.html)を参照。
+gemの作成方法とRubyGems.orgにgemを公開する方法については、[RubyGemsで自作のgemを公開する](/2013/06/22/rubygems-startup.html)を参照。

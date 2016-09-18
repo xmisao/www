@@ -6,7 +6,7 @@ tag: vim
 
 
 
-![wombat256]({{ site.url }}/assets/2014_05_01_wombat.png)
+![wombat256](/assets/2014_05_01_wombat.png)
 
 vimのカラースキームではwombatが好きだ。
 オリジナルのwombatはgvim専用だが、256色のターミナル用に移植して、CUI・GUI両用としたカラースキームも公開されている。

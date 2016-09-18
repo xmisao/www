@@ -13,7 +13,7 @@ nginxのログをfluentd + elasticsearch + kibanaで可視化する設定例。
 # nginx
 
 fluentdがnginxのログを解釈できるように、あらかじめログフォーマットを設定しておく。
-今回は[こちらのエントリ](http://www.xmisao.com/2014/05/08/fluentd-store-nginx-log-to-mongodb.html)の方法でltsv形式でログを出力するようにしておくことにする。
+今回は[こちらのエントリ](/2014/05/08/fluentd-store-nginx-log-to-mongodb.html)の方法でltsv形式でログを出力するようにしておくことにする。
 前提とするltsvを出力する`log_format`の設定は以下。
 
 ~~~~

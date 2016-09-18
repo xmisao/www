@@ -20,7 +20,7 @@ tag: android
 
 # 1. Android端末のファイルやアプリを遠隔操作で管理する
 
-![AirDroid]({{ site.url }}/assets/2013_12_23_airdroid.jpg)
+![AirDroid](/assets/2013_12_23_airdroid.jpg)
 
 *AirDroidの仮想デスクトップ画面*
 

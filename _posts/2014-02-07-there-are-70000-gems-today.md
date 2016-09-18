@@ -6,7 +6,7 @@ tag: bestgems
 
 
 
-![70000 Gems!]({{ site.url }}/assets/2014_02_07_number_of_gems.png)
+![70000 Gems!](/assets/2014_02_07_number_of_gems.png)
 
 - [Number of All Gems -- BestGems](http://bestgems.org/stat/gems)
 

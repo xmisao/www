@@ -46,11 +46,11 @@ rdesktop localhost
 これでrdesktopのウィンドウが開きログインウィンドウが表示される。
 ユーザ名とパスワードを入力してログインする。
 
-![xrdp login]({{ site.url }}/assets/2014_09_24_xrdp_login.jpg)
+![xrdp login](/assets/2014_09_24_xrdp_login.jpg)
 
 コンソールからログインした場合と同じデスクトップ環境が起動して操作可能になった。
 
-![xrdp desktop]({{ site.url }}/assets/2014_09_24_xrdp_desktop.jpg)
+![xrdp desktop](/assets/2014_09_24_xrdp_desktop.jpg)
 
 このようにxrdpは設定なしに利用をはじめることができる。
 ただいくらか注意点もあるので設定を確認してみよう。

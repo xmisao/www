@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-[昨日](http://www.xmisao.com/2013/11/21/ruby-require-relative.html)に引き続きRubyのreuiqreに関する話題である。
+[昨日](/2013/11/21/ruby-require-relative.html)に引き続きRubyのreuiqreに関する話題である。
 
 `require`は実行された時に参照先を即座に読み込んでしまう。そのため`require`する対象が非常に大規模な場合、`require`にかかる時間やリソースが問題になる場合がある。そのような場合は`autoload`が助けになるかも知れない。
 

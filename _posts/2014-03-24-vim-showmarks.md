@@ -6,7 +6,7 @@ tag: vim
 
 
 
-![ShowMarks]({{ site.url }}/assets/2014_03_24_vim_showmarks.png)
+![ShowMarks](/assets/2014_03_24_vim_showmarks.png)
 
 vimで素早くカーソルを移動をするのに欠かせない機能としてマークがある。
 マークは`ma`のようにして行に印を付け、あとからその印に<code>`a</code>のように移動できる機能である。
@@ -27,7 +27,7 @@ Vundleを使っていれば、以下を`.vimrc`に書いて、`:BundleInstall`�
 Bundle "ShowMarks"
 ~~~~
 
-Vundleの導入方法については[Vundleでvimプラグインを管理する](http://www.xmisao.com/2013/08/22/vundle.html)を参照。
+Vundleの導入方法については[Vundleでvimプラグインを管理する](/2013/08/22/vundle.html)を参照。
 
 # 使い方
 

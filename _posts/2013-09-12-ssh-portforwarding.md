@@ -16,7 +16,7 @@ sshには以下3種類のポートフォワーディング機能がある。ポ�
 
 # ポートフォワーディング
 
-![port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_l.png)
+![port forward](/assets/2013_09_12_ssh_portforward_l.png)
 
 ~~~~
 ssh -L port:remotehost:remoteport server
@@ -28,7 +28,7 @@ clientからは直接接続できないファイアウォール内側のホス�
 
 # 逆ポートフォワーディング
 
-![reverse port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_r.png)
+![reverse port forward](/assets/2013_09_12_ssh_portforward_r.png)
 
 ~~~~
 ssh -R port:remotehost:remoteport server
@@ -40,7 +40,7 @@ clientがファイアウォールの内側に居て、ファイアウォール�
 
 # ダイナミックポートフォワーディング
 
-![dynamic port forward]({{ site.url }}/assets/2013_09_12_ssh_portforward_d.png)
+![dynamic port forward](/assets/2013_09_12_ssh_portforward_d.png)
 
 ~~~~
 ssh -D port server
@@ -52,7 +52,7 @@ SOCKSプロキシを経由した通信は、serverに中継されて他のホス
 
 # まとめ
 
-ポートフォワーディング機能は、直接接続できないファイアウォール内部のホストと一時的に通信したい場合や、Webアプリケーションのデバッグなどの際に重宝する。[以前紹介したautosshを使えば](http://www.xmisao.com/2013/07/16/autossh-how-to.html)、恒久的にポートフォワーディングによるトンネルを張り続けることも可能だ。
+ポートフォワーディング機能は、直接接続できないファイアウォール内部のホストと一時的に通信したい場合や、Webアプリケーションのデバッグなどの際に重宝する。[以前紹介したautosshを使えば](/2013/07/16/autossh-how-to.html)、恒久的にポートフォワーディングによるトンネルを張り続けることも可能だ。
 
 ただし、作業の度にsshでポートフォワーディングするような状況なら、VPNを整備するなど、環境そのものを見直す必要もあるだろう。
 

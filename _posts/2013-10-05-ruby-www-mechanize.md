@@ -124,4 +124,4 @@ Mechanizeのドキュメントの[Guide](http://mechanize.rubyforge.org/GUIDE_rd
 続きを書いた。
 Mechanizeのより詳しい使い方については次のエントリを参照のこと。
 
-- [楽々スクレイピング! Ruby Mechanizeの使い方(2)](http://www.xmisao.com/2014/04/02/ruby-www-mechanize-2.html)
+- [楽々スクレイピング! Ruby Mechanizeの使い方(2)](/2014/04/02/ruby-www-mechanize-2.html)

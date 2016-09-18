@@ -6,7 +6,7 @@ tag: bestgems
 
 
 
-![Gems Downloads Graph]({{ site.url }}/assets/2013_09_05_bems_downloads_graph.png)
+![Gems Downloads Graph](/assets/2013_09_05_bems_downloads_graph.png)
 
 パレートの法則の比ではない。
 

@@ -6,7 +6,7 @@ tag: ['javascript', 'google_charts']
 
 
 
-![Reverse X/Y Axis Line Chart]({{ site.url }}/assets/2014_01_29_reverse_xy_axis_sample.png)
+![Reverse X/Y Axis Line Chart](/assets/2014_01_29_reverse_xy_axis_sample.png)
 
 [BestGems.org](http://bestgems.org/)を作る上で知ったGoogle Chartsの使い方 その2。
 順位などを折れ線グラフで表示する場合、値が小さい方を上にした方が望ましい。

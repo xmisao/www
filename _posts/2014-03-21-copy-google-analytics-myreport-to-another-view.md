@@ -11,15 +11,15 @@ Google Analtycisでは閲覧したいレポートを1画面にまとめたマイ
 だが、Google Analyticsは不親切で、マイレポートを別のビューにコピーする方法がとてもわかりくい。
 そこで以下にマイレポートを別のビューにコピーする手順をまとめるので参考にして欲しい。
 
-![ScreenShot 0]({{ site.url }}/assets/2014_03_21_copy_myreport_0.png)
+![ScreenShot 0](/assets/2014_03_21_copy_myreport_0.png)
 
 コピーしたいマイレポートのページから、「共有」->「テンプレートのリンクを共有」を選択する。
 
-![ScreenShot 1]({{ site.url }}/assets/2014_03_21_copy_myreport_1.png)
+![ScreenShot 1](/assets/2014_03_21_copy_myreport_1.png)
 
 するとこのようなダイアログがポップアップし、URLが表示される。
 
-![ScreenShot 2]({{ site.url }}/assets/2014_03_21_copy_myreport_2.png)
+![ScreenShot 2](/assets/2014_03_21_copy_myreport_2.png)
 
 このURLにアクセスすると、自分のGoogle Analyticsの任意のビューに、先ほどのマイレポートをコピーすることができる。
 

@@ -12,7 +12,7 @@ OracleのページからJDKのtarボールをダウンロードする。(64bit�
 
 - [Java SE Development Kit 7 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
 
-なおブラウザが使えない場合は、[Oracle JDKをコマンドラインからダウンロードする方法](http://www.xmisao.com/2014/02/14/how-to-download-oracle-jdk-from-the-commandline.html)に記載の方法でダウンロードできる。
+なおブラウザが使えない場合は、[Oracle JDKをコマンドラインからダウンロードする方法](/2014/02/14/how-to-download-oracle-jdk-from-the-commandline.html)に記載の方法でダウンロードできる。
 
 # 準備
 

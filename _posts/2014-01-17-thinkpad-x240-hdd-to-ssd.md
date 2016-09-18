@@ -14,7 +14,7 @@ tag: thinkpad
 
 なお換装するSSDはSamsungの840EVO MZ-7TE250B/ITにした。容量が250GBクラスのSSDとしては容量単価が安く、また厚みもスペック上6.8mmと薄いことから、今回の用途に最適だと判断した。価格.comでも売れ行きは好調で、現時点では主要な通販サイトでは品切れも見られる。
 
-<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/413Vg%2BfvzoL._SL160_.jpg" alt="Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.01.17</div></div><div class="amazlet-detail">日本サムスン (2013-08-07)<br />売り上げランキング: 142<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/413Vg%2BfvzoL._SL160_.jpg" alt="Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Samsung SSD840EVO ベーシックキット250GB MZ-7TE250B/IT (国内正規代理店 ITGマーケティング取扱い品)</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 14.01.17</div></div><div class="amazlet-detail">日本サムスン (2013-08-07)<br />売り上げランキング: 142<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B00E5YOPZI/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 # 0. 回復ドライブを作成しておく
 
@@ -32,19 +32,19 @@ ThinkPadの電源をオンする際にF1ボタンを押してThinkPad Setupプ�
 
 # 2. リア・バッテリーを取り外す
 
-![Step2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_00.jpg)
+![Step2](/assets/2014_01_17_hdd_to_ssd_00.jpg)
 
 ThinkPadを完全に通電していない状態にするため、リア・バッテリーを取り外す。図は保守マニュアルからの引用。リア・バッテリーを取り外す際は*図中1*の2箇所のラッチを操作して、バッテリーを引き抜く。
 
 # 3. 背面カバーのネジを8箇所緩める
 
-![Step3]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_01.jpg)
+![Step3](/assets/2014_01_17_hdd_to_ssd_01.jpg)
 
 背面カバー(保守マニュアルによると、ベース・カバー・アセンブリー)を取り外すため、まず8箇所のネジを緩める。写真で○をつけた箇所が緩めるネジである。なおこのネジはカバーと密着しており、完全に引き抜くことはできないようだ。
 
 # 4. 背面カバーを取り外す
 
-![Step4]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_02.jpg)
+![Step4](/assets/2014_01_17_hdd_to_ssd_02.jpg)
 
 保守マニュアルではあっさり記載されているのだが、この工程が難所である。背面カバーには随所に爪があるため、基本的にはそこを狙ってカバーを引き剥がす。
 
@@ -54,7 +54,7 @@ ThinkPadを完全に通電していない状態にするため、リア・バッ
 
 # 5. HDDの2箇所のネジを取り外す
 
-![Step5]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_03.jpg)
+![Step5](/assets/2014_01_17_hdd_to_ssd_03.jpg)
 
 図は保守マニュアルから引用。*図中1*と*図中l2*のドライブ本体とケーブルを固定している2箇所のネジを取り外す。さらに*図中1*で固定されていた部品を取り外す。これでドライブが取外し可能となる。
 
@@ -62,15 +62,15 @@ ThinkPadを完全に通電していない状態にするため、リア・バッ
 
 # 6. HDDのカバーを取り外す
 
-![Step6-1]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_04.jpg)
+![Step6-1](/assets/2014_01_17_hdd_to_ssd_04.jpg)
 
 HDDはプラスチックのカバーで固定されているので、このカバーを取り外す。図は保守マニュアルからの引用。このカバーはネジレスなので、引っ張るとぽこぽこと外れるようになっている。HDDを完全に取り外すと以下の写真の状態になる。
 
-![Step6-2]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_05.jpg)
+![Step6-2](/assets/2014_01_17_hdd_to_ssd_05.jpg)
 
 # 7. SDDにカバーを装着し、SATAケーブルをSSDに接続して、埋め込む
 
-![Step7]({{ site.url }}/assets/2014_01_17_hdd_to_ssd_06.jpg)
+![Step7](/assets/2014_01_17_hdd_to_ssd_06.jpg)
 
 SSDにカバーを装着して、SATAケーブルをSSDに接続する。あとは*手順 5.*、*手順 4.*、*手順 3.*、*手順 2.*を全く逆の手順で行い、背面カバーを被せれば良い。カバーは位置を合わせて、爪の部分を押していくとうまくはまるので、外すより取り付ける方が簡単である。
 

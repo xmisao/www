@@ -14,7 +14,7 @@ Raspberry PI用のDebianがRaspbianである。
 ルータ下にPPTPサーバ化したRaspberry PIがぶら下がっている構成である。
 サーバの設定、ルータの設定、クライアントの設定と3段階に分けて手順を紹介する。
 
-![FeaturedImage]({{ site.url }}/assets/2013_12_30_pptp_network.png)
+![FeaturedImage](/assets/2013_12_30_pptp_network.png)
 
 1. PPTPサーバ側の設定
 2. ルータの設定

@@ -6,11 +6,11 @@ tag: ['web', 'anime']
 
 
 
-![ぺけアニメデータベース]({{ site.url }}/assets/2014_04_30_animedb.png)
+![ぺけアニメデータベース](/assets/2014_04_30_animedb.png)
 
 - [ぺけアニメデータベース](http://animedb.xmisao.com/)
 
-[先日しょぼいカレンダーからデータを取得するgemを作った](http://www.xmisao.com/2014/04/15/ruby-gem-syobocal.html)ので、その応用としてアニメのデータベースサイトを作ってみた。
+[先日しょぼいカレンダーからデータを取得するgemを作った](/2014/04/15/ruby-gem-syobocal.html)ので、その応用としてアニメのデータベースサイトを作ってみた。
 
 スタッフやキャストが似ているアニメが一発でわかるのがこのサイトの最大のポイント。一例として、[魔法少女まどか☆マギカ](http://animedb.xmisao.com/title/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB)は同作の劇場版である[劇場版 魔法少女まどか☆マギカ](http://animedb.xmisao.com/compare/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB/%E5%8A%87%E5%A0%B4%E7%89%88%20%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB)や、同じく新房監督でシャフト制作の[偽物語](http://animedb.xmisao.com/compare/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E3%81%BE%E3%81%A9%E3%81%8B%E2%98%86%E3%83%9E%E3%82%AE%E3%82%AB/%E5%81%BD%E7%89%A9%E8%AA%9E)など物語シリーズと関連が強いことがわかる。
 

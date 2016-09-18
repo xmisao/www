@@ -6,7 +6,7 @@ tag: linux
 
 
 
-![WLI-UTX-AG300/C]({{ site.url }}/assets/2015_10_25_wli_utx_ag300c.jpg)
+![WLI-UTX-AG300/C](/assets/2015_10_25_wli_utx_ag300c.jpg)
 
 残念ながらLinuxでは、WindowsやMacと比較して、未だに無線LANの接続が不安定なことがあります。
 うまく設定したり適切なドライバを使用したりできれば、実用に耐える場合もあるのかも知れません。
@@ -18,7 +18,7 @@ PCは有線LANでイーサネットコンバータに接続して、イーサネ
 大部分のイーサネットコンバータは、据え置き型で、電源を必要とするものが多く、筐体も大きくて、モバイル用途には向きませんが、ごく一部のイーサネットコンバータは、USBで給電が可能で、筐体のサイズも比較的小さく抑えられているものもあります。
 具体的にはBUFFALOのWLI-UTX-AG300/Cです。
 
-<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/31VAZYoViDL._SL160_.jpg" alt="BUFFALO 11n/a/g/b 300Mbps 簡単無線LAN子機 WLI-UTX-AG300/C" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">BUFFALO 11n/a/g/b 300Mbps 簡単無線LAN子機 WLI-UTX-AG300/C</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 15.10.25</div></div><div class="amazlet-detail">バッファロー (2012-08-01)<br />売り上げランキング: 223<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/31VAZYoViDL._SL160_.jpg" alt="BUFFALO 11n/a/g/b 300Mbps 簡単無線LAN子機 WLI-UTX-AG300/C" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">BUFFALO 11n/a/g/b 300Mbps 簡単無線LAN子機 WLI-UTX-AG300/C</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 15.10.25</div></div><div class="amazlet-detail">バッファロー (2012-08-01)<br />売り上げランキング: 223<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B008MRUINC/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
 WLI-UTX-AG300/Cは、BUFFALOの無線LANルータの子機という位置づけです。

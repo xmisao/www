@@ -6,7 +6,7 @@ tag: ['GoF', 'java']
 
 
 
-<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/418CWTjHAFL._SL160_.jpg" alt="オブジェクト指向における再利用のためのデザインパターン" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">オブジェクト指向における再利用のためのデザインパターン</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 13.12.11</div></div><div class="amazlet-detail">エリック ガンマ ラルフ ジョンソン リチャード ヘルム ジョン ブリシディース <br />ソフトバンククリエイティブ <br />売り上げランキング: 61,798<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
+<div class="amazlet-box" style="margin-bottom:0px;"><div class="amazlet-image" style="float:left;margin:0px 12px 1px 0px;"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank"><img src="https://images-fe.ssl-images-amazon.com/images/I/418CWTjHAFL._SL160_.jpg" alt="オブジェクト指向における再利用のためのデザインパターン" style="border: none;" /></a></div><div class="amazlet-info" style="line-height:120%; margin-bottom: 10px"><div class="amazlet-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">オブジェクト指向における再利用のためのデザインパターン</a><div class="amazlet-powered-date" style="font-size:80%;margin-top:5px;line-height:120%">posted with <a href="http://www.amazlet.com/" title="amazlet" target="_blank">amazlet</a> at 13.12.11</div></div><div class="amazlet-detail">エリック ガンマ ラルフ ジョンソン リチャード ヘルム ジョン ブリシディース <br />ソフトバンククリエイティブ <br />売り上げランキング: 61,798<br /></div><div class="amazlet-sub-info" style="float: left;"><div class="amazlet-link" style="margin-top: 5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4797311126/xmisao-22/ref=nosim/" name="amazletlink" target="_blank">Amazon.co.jpで詳細を見る</a></div></div></div><div class="amazlet-footer" style="clear: left"></div></div>
 
 
 オブジェクト指向における再利用のためのデザインパターンより、GoFのデザインパターンをJavaで実装してみる。
@@ -20,7 +20,7 @@ Compositeパターンの主なメリットは以下のとおり。
 
 Compositeパターンのクラス図は以下のとおり。
 
-![Composite]({{ site.url }}/assets/2014_02_10_gof_composite.png)
+![Composite](/assets/2014_02_10_gof_composite.png)
 
 `Component`は木構造の要素を表すクラスである。コンポーネントに共通の操作はすべてこのクラスに定義する。表現したいコンポーネントの種類だけ、`Component`のサブクラスを作る。一例として、`Leaf`は木構造の中で葉を表すサブクラスである。`Composite`は複数の`Component`を束ねるサブクラスであり、このパターンの本質的なクラスである。`Composite`は子オブジェクトとして`Component`の集合を保持し、`operation`が呼ばれたら、全ての子オブジェクトに対して`operation`を再帰的に実行する。
 

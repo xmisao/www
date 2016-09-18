@@ -39,7 +39,7 @@ Rubyスクリプトではこのモジュールを使用してVimとのやりと�
 
 Vimで式を評価して、その値をRuby側で取得するモジュール関数である。
 Rubyから変数の値を取得したり、Vimの関数を実行した結果を取得するのに使用する。
-ヘルプでは返り値は文字列となっているが、[配列や辞書も扱うことができる](http://www.xmisao.com/2014/05/07/if-ruby-vim-evaluate-memo.html)。
+ヘルプでは返り値は文字列となっているが、[配列や辞書も扱うことができる](/2014/05/07/if-ruby-vim-evaluate-memo.html)。
 
 ~~~~
 let a = "foo"
@@ -104,7 +104,7 @@ EOF
 以上、VimのRubyインタフェースの使い方をざっと説明した。
 Rubyに慣れきっていてVimスクリプトで複雑な処理を書くのが辛い…といった場合や、何かVimスクリプトの限界を越えた高度な処理を行いたい場合は、Rubyインタフェースを使ってみても良いだろう。
 
-なお[先日紹介したRubyJump](http://www.xmisao.com/2014/05/11/rubyjump-released.html)は[ripper](http://www.xmisao.com/2014/05/12/ruby-ripper.html)を使うことを念頭に置いて、VimのRubyインタフェースを使って開発している。
+なお[先日紹介したRubyJump](/2014/05/11/rubyjump-released.html)は[ripper](/2014/05/12/ruby-ripper.html)を使うことを念頭に置いて、VimのRubyインタフェースを使って開発している。
 
 - 参考
   - [Vim documentation: if_ruby](http://vim-jp.org/vimdoc-ja/if_ruby.html)

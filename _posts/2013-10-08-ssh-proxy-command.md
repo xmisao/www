@@ -6,7 +6,7 @@ tag: ssh
 
 
 
-![ssh proxy connection]({{ site.url }}/assets/2013_10_08_ssh_proxy_command.png)
+![ssh proxy connection](/assets/2013_10_08_ssh_proxy_command.png)
 
 sshを使っていると、図のようにsshの接続先のホストから更に別のホストにsshコマンドを実行して接続する事があるかも知れない。接続先でまたsshコマンドを叩くのは骨が折れるが、sshにはこのような使い方をサポートしてくれる機能がある。それがProxyCommandだ。
 

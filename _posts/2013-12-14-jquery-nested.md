@@ -6,7 +6,7 @@ tag: ['javascript', 'web']
 
 
 
-![Mondrian Composition]({{ site.url }}/assets/2013_12_14_nested_mondrian.png)
+![Mondrian Composition](/assets/2013_12_14_nested_mondrian.png)
 
 *jQuery Nestedで描いたモンドリアンのコンポジション*
 
@@ -35,9 +35,9 @@ jQuery Nestedは1ファイルで、ダウンロードするだけでするに利
 
 ## Sample.1 マークアップとjQuery Nestedの呼び出し
 
-![Sample.1]({{ site.url }}/assets/2013_12_14_nested_sample1.png)
+![Sample.1](/assets/2013_12_14_nested_sample1.png)
 
-- [sample1.html]({{ site.url }}/assets/samples/nested/sample1.html)
+- [sample1.html](/assets/samples/nested/sample1.html)
 
 jQuery Nestedでレイアウトを行うには所定のクラス名でブロック要素を修飾してやる必要がある。
 レイアウト対象となるデフォルトのクラス名は`box`だ。
@@ -65,9 +65,9 @@ $("#content").nested();
 
 ## Sample.2 jQuery Nestedのオプションについて
 
-![Sample.2]({{ site.url }}/assets/2013_12_14_nested_sample2.png)
+![Sample.2](/assets/2013_12_14_nested_sample2.png)
 
-- [sample2.html]({{ site.url }}/assets/samples/nested/sample2.html)
+- [sample2.html](/assets/samples/nested/sample2.html)
 
 `nested()`関数は連想配列でオプションを受け取る。
 オプションによりボックスの幅やアニメーションの挙動を設定することができる。
@@ -114,9 +114,9 @@ jQuery Nestedのオプションを以下にまとめる。
 
 ## Sample.3 ボックスの動的な追加と再描画
 
-![Sample.3]({{ site.url }}/assets/2013_12_14_nested_sample3.png)
+![Sample.3](/assets/2013_12_14_nested_sample3.png)
 
-- [sample3.html]({{ site.url }}/assets/samples/nested/sample3.html)
+- [sample3.html](/assets/samples/nested/sample3.html)
 
 jQuery Nestedではレイアウト対象の要素を動的に追加することができる。
 要素を追加して再描画が必要になったタイミングで`nested()`を呼び出せば良い。
@@ -146,7 +146,7 @@ function create_element(){
 
 ## おまけ モンドリアンのコンポジション
 
-- [mondrian.html]({{ site.url }}/assets/samples/nested/mondrian.html)
+- [mondrian.html](/assets/samples/nested/mondrian.html)
 
 jQuery Nestedでモンドリアンのコンポジション風のWebページを描画してみた。冒頭の画像がその結果だ。
 簡単なHTMLとわずかなJavaScriptでこれが描けるのだから、jQuery Nestedの表現力を確認することができるだろう。

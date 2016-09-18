@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-![xcal screenshot]({{ site.url }}/assets/2013_09_25_xcal.png)
+![xcal screenshot](/assets/2013_09_25_xcal.png)
 
 私はターミナルで作業することが多いので、`cal`コマンドを良く使う。
 calはカレンダーを表示するUNIXコマンドだ。

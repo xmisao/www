@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-ripperの基本的な使い方は[Rubyの標準添付ライブラリripperでRubyのソースをパースする](http://www.xmisao.com/2014/05/12/ruby-ripper.html)で紹介した。
+ripperの基本的な使い方は[Rubyの標準添付ライブラリripperでRubyのソースをパースする](/2014/05/12/ruby-ripper.html)で紹介した。
 きょうはRubyのバージョンとripperの関係について少し書いておく。
 
 実はripperはRubyのバージョンアップに伴って、きちんと新バージョンで追加された文法にも対応しているようなのだ。

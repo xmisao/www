@@ -43,7 +43,7 @@ public class Timer  extends Application {
 }
 ~~~~
 
-![JavaFX Timer]({{ site.url }}/assets/2014_09_25_timer.png)
+![JavaFX Timer](/assets/2014_09_25_timer.png)
 
 - 参考
   - [JavaFX periodic background task](http://stackoverflow.com/questions/9966136/javafx-periodic-background-task)

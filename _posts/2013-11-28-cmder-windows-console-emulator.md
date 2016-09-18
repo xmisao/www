@@ -6,7 +6,7 @@ tag: windows
 
 
 
-![Cmder]({{ site.url }}/assets/2013_11_28_cmder.jpg)
+![Cmder](/assets/2013_11_28_cmder.jpg)
 
 # Cmderとは
 

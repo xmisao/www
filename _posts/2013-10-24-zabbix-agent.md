@@ -6,13 +6,13 @@ tag: ['zabbix', 'server']
 
 
 
-[Debian WheezyへのZabbix 2.0のインストール](http://www.xmisao.com/2013/10/23/zabbix-instration.htm)では、Zabbixサーバをインストールしサーバのホストを監視する方法を説明した。続いて、他のDebian WheezyホストにZabbix Agentをインストールし、Zabbixの監視対象に追加してみよう。
+[Debian WheezyへのZabbix 2.0のインストール](/2013/10/23/zabbix-instration.htm)では、Zabbixサーバをインストールしサーバのホストを監視する方法を説明した。続いて、他のDebian WheezyホストにZabbix Agentをインストールし、Zabbixの監視対象に追加してみよう。
 
 # 前提
 
 前提としてZabbixサーバホストのポート10051番、Zabbix Agentホストのポート10050番が開いている必要がある。Zabbix サーバとZabbix Agentの間にファイアウォールがある場合は疎通させる設定が必要になる。
 
-![Network Requirements]({{ site.url }}/assets/2013_10_24_network_requirements.png)
+![Network Requirements](/assets/2013_10_24_network_requirements.png)
 
 # ホストへのZabbix Agentのインストール
 
@@ -49,11 +49,11 @@ Server=1.2.3.4
 Zabbixにログインする。
 以下はGUIの操作になるので、スクリーンショットを交えながら説明してゆく。
 
-![Config -> Hosts]({{ site.url }}/assets/2013_10_24_zabbix000.jpg)
+![Config -> Hosts](/assets/2013_10_24_zabbix000.jpg)
 
 まずConfiguration -> Hostsと進む。右上にあるCreate hostボタンを押下し監視対象のホストを追加する画面にを開く。
 
-![Config -> Hosts]({{ site.url }}/assets/2013_10_24_zabbix001.jpg)
+![Config -> Hosts](/assets/2013_10_24_zabbix001.jpg)
 
 ホストの追加画面では以下の項目を入力する。
 
@@ -62,13 +62,13 @@ Zabbixにログインする。
 - New host group -- ホストが所属するグループ(新しいホストグループを作る場合)
 - IP address -- AgentホストのIPアドレス
 
-![Create host]({{ site.url }}/assets/2013_10_24_zabbix001.jpg)
+![Create host](/assets/2013_10_24_zabbix001.jpg)
 
 ついでにテンプレートの設定をしておこう。このZabbix AgentをLinux サーバのテンプレートで監視できるようにする。Templatesタグを開く。Template OS Linuxにチェックを入れて、Selectボタンを押下する。
 
-![Templates]({{ site.url }}/assets/2013_10_24_zabbix002.jpg)
+![Templates](/assets/2013_10_24_zabbix002.jpg)
 
-![Templates]({{ site.url }}/assets/2013_10_24_zabbix003.jpg)
+![Templates](/assets/2013_10_24_zabbix003.jpg)
 
 再びHostタブを戻り、Saveボタンを押下しよう。これでZabbix Agentを監視し、Linux サーバのテンプレートで監視する設定が終了する。
 

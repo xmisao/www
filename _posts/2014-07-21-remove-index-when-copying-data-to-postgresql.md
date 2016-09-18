@@ -9,7 +9,7 @@ tag: postgresql
 常識なのかも知れないが、タイトルの通りである。
 
 先日、拙作のGemのランキングサイト[BestGems.org](http://bestgems.org/)の1億レコードほどあるデータベースをSQLite3からPostgreSQLへマイグレーションした。
-この際に単に[PostgreSQLのCOPY文](http://www.xmisao.com/2014/06/06/postgresql-copy-from-csv.html)を使うだけでは速度が遅すぎる問題が発生したため、このエントリを書く。
+この際に単に[PostgreSQLのCOPY文](/2014/06/06/postgresql-copy-from-csv.html)を使うだけでは速度が遅すぎる問題が発生したため、このエントリを書く。
 
 PostgreSQLに大量のデータを投入する方法については、[PostgreSQLの公式ドキュメント](http://www.postgresql.jp/document/9.3/html/populate.html)が最も信頼のおける情報源だ。ちゃんと日本語訳されているので、これを読まないという選択肢はないだろう。ドキュメントによると、以下のアプローチがある。
 

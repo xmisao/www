@@ -6,7 +6,7 @@ tag: gnuplot
 
 
 
-![Gnuplot Cheatsheet]({{ site.url }}/assets/2013_09_11_gnuplot_cheatsheet.png)
+![Gnuplot Cheatsheet](/assets/2013_09_11_gnuplot_cheatsheet.png)
 
 Gnuplotを使い始めた時の「ここを変えたい!」を一目で確認できるチートシートのようなものを書いた。これだけ知っておけば、ひとまずグラフを書くことはできる。内容はもっと拡充したいな…。
 

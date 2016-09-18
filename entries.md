@@ -10,7 +10,7 @@ active-tab: "posts"
   <dt>{{ post.date | date: "%Y-%m-%d" }}</dt>
   <dd>
   <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  <a href="http://b.hatena.ne.jp/entry/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}"><img src="http://b.hatena.ne.jp/entry/image/http://www.xmisao.com{{ BASE_PATH }}{{ post.url }}"></a>
+  <a href="http://b.hatena.ne.jp/entry/{{ site.url }}{{ post.url }}"><img src="https://b.hatena.ne.jp/entry/image/{{ site.url }}{{ post.url }}"></a>
   </dd>
   {% endfor %}
 </dl>

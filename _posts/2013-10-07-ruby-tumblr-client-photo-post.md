@@ -6,7 +6,7 @@ tag: ['ruby', 'tumblr']
 
 
 
-昨日のエントリ[RubyでTumblrにアクセスする(tumblr_client)](http://www.xmisao.com/2013/10/06/ruby-tumblr-client.html)では、`tumblr_client`の使い方を簡単に説明した。続いて、今日はtumblrに画像を投稿してみよう。
+昨日のエントリ[RubyでTumblrにアクセスする(tumblr_client)](/2013/10/06/ruby-tumblr-client.html)では、`tumblr_client`の使い方を簡単に説明した。続いて、今日はtumblrに画像を投稿してみよう。
 
 テキストの投稿は`text()`で行ったが、画像の投稿は`photo()`を使う。`photo()`を使う場合は、ローカルのファイルをアップロードする方法と、ネットで公開されている画像を取り込ませる2通りの方法がある。
 

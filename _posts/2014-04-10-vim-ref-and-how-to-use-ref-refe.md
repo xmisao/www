@@ -6,13 +6,13 @@ tag: ['vim', 'ruby']
 
 
 
-[前のエントリ](http://www.xmisao.com/2014/04/10/ruby-refe-install.html)では、ReFeを使うとコマンドラインでRubyのリファレンスマニュアルを読めることを説明した。しかし、ReFeの真髄はエディタとの連携にある。
+[前のエントリ](/2014/04/10/ruby-refe-install.html)では、ReFeを使うとコマンドラインでRubyのリファレンスマニュアルを読めることを説明した。しかし、ReFeの真髄はエディタとの連携にある。
 
 [vim-ref](https://github.com/thinca/vim-ref)はリファレンスマニュアルをvim上で読むためのvimプラグインである。これはReFeにも対応しており、Rubyのソースコードからリファレンスを参照するようなことが簡単にできる。
 
 # インストール
 
-[Vundle](http://www.xmisao.com/2013/08/22/vundle.html)を使っていれば以下を`.vimrc`に記載して、`BundleInstall`でインストールできる。
+[Vundle](/2013/08/22/vundle.html)を使っていれば以下を`.vimrc`に記載して、`BundleInstall`でインストールできる。
 
 ~~~~
 Bundle 'thinca/vim-ref'

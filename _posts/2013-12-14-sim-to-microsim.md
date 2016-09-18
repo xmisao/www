@@ -6,7 +6,7 @@ tag: mobile
 
 
 
-![sim2microsim]({{ site.url }}/assets/2013_12_14_sim_to_microsim.jpg)
+![sim2microsim](/assets/2013_12_14_sim_to_microsim.jpg)
 
 ※完全に自己責任。この写真は少し下部を切りすぎているため、自分でカットする場合は、手持ちのマイクロSIMと形を合わせて切ると良いだろう。
 

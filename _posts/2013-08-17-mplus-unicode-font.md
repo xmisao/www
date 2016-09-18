@@ -132,4 +132,4 @@ debianパッケージの作成方法は以下のエントリを参考にした�
 
 - [お手軽 deb パッケージ作成方法](http://d.hatena.ne.jp/conceal-rs/20090518/1242643016)
 
-フォントのインストールについては[Linuxでフォントを追加する方法](http://www.xmisao.com/2013/08/17/how-to-add-fonts-on-linux.html)を参照。
+フォントのインストールについては[Linuxでフォントを追加する方法](/2013/08/17/how-to-add-fonts-on-linux.html)を参照。

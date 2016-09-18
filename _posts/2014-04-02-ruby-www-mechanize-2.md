@@ -6,7 +6,7 @@ tag: ruby
 
 
 
-[楽々スクレイピング! Ruby Mechanizeの使い方](http://www.xmisao.com/2013/10/05/ruby-www-mechanize.html)では、Mechanizeの基本的な使い方を紹介した。このエントリーではもう一歩踏み込んだMechanizeの便利な使い方を紹介する。
+[楽々スクレイピング! Ruby Mechanizeの使い方](/2013/10/05/ruby-www-mechanize.html)では、Mechanizeの基本的な使い方を紹介した。このエントリーではもう一歩踏み込んだMechanizeの便利な使い方を紹介する。
 
 # User-Agentを設定する
 

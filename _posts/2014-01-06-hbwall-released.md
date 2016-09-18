@@ -6,7 +6,7 @@ tag: ['web', 'hbwall']
 
 
 
-![はてなブックマーク ウォールβ]({{ site.url }}/assets/2014_01_06_hbwall.jpg)
+![はてなブックマーク ウォールβ](/assets/2014_01_06_hbwall.jpg)
 
 正月休みで作った。
 
