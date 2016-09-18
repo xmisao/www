@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}</title>
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <meta name="description" content="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} -- ぺけみさお{% else %}ぺけみさお -- xmisao{% endif %}"/>
   <meta property="og:description" content="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"/>
