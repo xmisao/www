@@ -1,2 +1,4 @@
+---
+---
 User-Agent:*
-Sitemap: http://www.xmisao.com/sitemap.xml
+Sitemap: {{ site.url }}/sitemap.xml
