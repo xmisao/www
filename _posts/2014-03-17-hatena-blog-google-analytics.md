@@ -10,4 +10,4 @@ tag: hatena
 はてなブログでもGoogle Analyticsを使いたかったので、方法をメモする。
 
 「設定」から、「詳細設定」タブを開く。
-中程に「Google Analytics 埋め込み」という項目があるので、そこにプロパティID(UA-441387-54など)を入力して完了。
+中程に「Google Analytics 埋め込み」という項目があるので、そこにプロパティID(UA-XXXXXX-XXという数字)を入力して完了。
