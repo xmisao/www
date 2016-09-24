@@ -161,12 +161,12 @@ $ curl --verbose --user-agent 'Ruby/2.3.0' http://b.hatena.ne.jp/entry/jsonlite/
 
 やはり特にUser-Agent以外のヘッダは必要とされておらず、User-Agentが`Ruby/2.3.0`の場合に、はてなブックマークエントリー情報取得APIは、503を返してくることがわかりました。
 
-## 実験
+# 実験
 
 ここまで来ると、どのようなUser-Agentで503が返ってくるのか、いろいろ試してみたくなるのが人間のさがです。
 `curl`コマンドで実験してみることにします。
 
-### どのようなUser-Agentだと失敗するのか
+## どのようなUser-Agentだと失敗するのか
 
 `Ruby/2.3.0`よりシンプルな、`Ruby`ではどうでしょうか。
 
@@ -201,7 +201,7 @@ $ curl --verbose --user-agent 'Ruby' http://b.hatena.ne.jp/entry/jsonlite/?url=h
 `Ruby`のような、いい加減なUser-Agentではダメなのでしょうか。
 実は`curl/7.47.0`のような一般的なUser-Agentだけが許可されているのでしょうか。
 
-### ブラックリストなのかホワイトリストなのか
+## ブラックリストなのかホワイトリストなのか
 
 `Ruby`よりも、かなりいい加減と思われる`hoge`をUser-Agentに指定してみます。
 `Ruby`だけがブラックリストなら成功し、一般的なUser-Agentのホワイトリストならまず失敗するはずです。
@@ -241,7 +241,7 @@ curl --verbose --user-agent 'hoge' http://b.hatena.ne.jp/entry/jsonlite/?url=htt
 成功です。
 取得できてしまいました…。
 
-### Rubyだけが失敗するのか
+## Rubyだけが失敗するのか
 
 Ruby以外プログラミング言語で、`Python`や`Perl`なら良いのでしょうか。
 (このようなUser-Agentを指定するシチュエーションがあるのかは知りませんが…)
@@ -313,7 +313,7 @@ curl --verbose --user-agent 'Perl' http://b.hatena.ne.jp/entry/jsonlite/?url=htt
 成功です。見事に取得できていますね。
 `Ruby`だけがブラックリストのようです。
 
-### 前方一致でRubyだと失敗するのか
+## 前方一致でRubyだと失敗するのか
 
 `Ruby/2.3.0`で失敗したので、これも失敗するかなと想像しますが、念の為`Rubyist`と指定してみます。
 
@@ -346,7 +346,7 @@ $ curl --verbose --user-agent 'Rubyist' http://b.hatena.ne.jp/entry/jsonlite/?ur
 失敗しました。
 ともかく`Ruby`から始まるとダメなようです。
 
-### 大文字小文字を区別するか
+## 大文字小文字を区別するか
 
 大文字と小文字のバリエーションはどうでしょう。
 小文字の`ruby`や大文字の`RUBY`をUser-Agentに指定してみます。
@@ -418,7 +418,7 @@ $ curl --verbose --user-agent 'RUBY' http://b.hatena.ne.jp/entry/jsonlite/?url=h
 成功しました。
 大文字と小文字の区別があり、やはり`Ruby`だけが弾かれているようです。
 
-### 本当にRubyがブラックリストなのか
+## 本当にRubyがブラックリストなのか
 
 先頭3文字の`Rub`だとどうでしょう。
 
@@ -457,7 +457,7 @@ curl --verbose --user-agent 'Rub' http://b.hatena.ne.jp/entry/jsonlite/?url=http
 成功しました。
 `Ruby`という文字列だけがブラックリストに入っているような挙動です。
 
-### 前方一致なのか部分一致か
+## 前方一致なのか部分一致か
 
 `Ruby`がブラックリストだとして、前方一致なのか部分一致なのかが気になってきます。
 
@@ -522,7 +522,7 @@ curl --verbose --user-agent 'I love Ruby' http://b.hatena.ne.jp/entry/jsonlite/?
 * User-Agentが指定されていない
 * User-Agentが`Ruby`という文字列に前方一致する
 
-はてなはRubyに何か恨みでもあるのでしょうか。
+はてなはRubyに何か恨みでもあるのでしょうか。(DOS攻撃でも受けたとか)
 
 はてなブックマークエントリー情報取得APIにアクセスする時には、Webページをスクレイピングする時と同じように、一般的なUser-Agentを偽装しておいた方が良いのかも知れません。
 今回は`Ruby`だけしか確認できていませんが、他のありがちなUser-Agentも、ブラックリストに入っている可能性もあります。
