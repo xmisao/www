@@ -2,7 +2,10 @@
 layout: blog
 title: RubyのEnumerable#each_consを使ってN-gramを簡単に作る
 tag: ruby
+last_update: '2016-11-01'
 ---
+
+# はじめに
 
 Rubyでは`Enumerable#each_cons`を使って簡単にN-gramを作ることができます。
 
@@ -95,7 +98,7 @@ end
 
 # 余談
 
-kawasaki.rb #41では`Array#*`は引数に文字列を渡すと`Array#join`と同じ働きをするので、配列を結合してn-gramにする部分は以下のように書けるという話題もありました。
+kawasaki.rb #41では`Array#*`は引数に文字列を渡すと`Array#join`と同じ働きをするので、配列を結合してN-gramにする部分は以下のように書けるという話題もありました。
 
 ~~~~ruby
 chars = ['a', 'b']
@@ -109,6 +112,23 @@ chars * '' #=> "ab"
 
 仮に無駄なスペースを省くと、配列に`*''`の3文字を足すだけで結合でき、`.join`より2文字短くできます。
 コードゴルフでは役に立ちそうですが、この例ではjoinを使った方が無難です。
+
+# さらに良い書き方
+
+`map`のブロック内で`join`するより`map &:join`を使うと良い、という[コメント](https://twitter.com/pink_bangbi/status/792658771797348352)をTwitterでいただきました。
+ご指摘ごもっともです。この書き方で`String.to_ngram`を書き直すとすっきりしますね。
+
+~~~~ruby
+class String
+  def to_ngram(n)
+    self.each_char
+        .each_cons(n)
+        .map(&:join)
+  end
+end
+~~~~
+
+# おわりに
 
 kawasaki.rbは和気あいあいとした楽しい地域Rubyコミュニティです。
 次回kawasaki.rb #42は11月30日(水)にJR川崎駅徒歩3分のミューザ川崎で開催予定です。
