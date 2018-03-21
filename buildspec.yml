@@ -6,4 +6,4 @@ phases:
       - ./build
   post_build:
     commands:
-      - aws s3 sync _site s3://www2.xmisao.com
+      - aws s3 sync _site s3://www2.xmisao.com --delete --acl public-read 
