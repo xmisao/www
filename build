@@ -1,2 +1,3 @@
 #!/bin/bash
+mkdir _site
 docker run -i --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
