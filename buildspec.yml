@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - ./build
+  post_build:
+    commands:
+      - aws s3 sync _site s3://www.xmisao.com
