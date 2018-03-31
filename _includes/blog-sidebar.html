@@ -43,7 +43,7 @@
 </div>
 <div class="sidebar-element">
   {% for tag in page.tags %}
-  <h6><span>Related posts <b class="my-tag"><a href="/tags/{{ tag }}/">{{ tag }}</a></b></h6>
+  <h6><span>Related posts <b class="my-tag"><a href="/tags/{{ tag }}/index.html">{{ tag }}</a></b></h6>
   <div id="tag_entries_{{ tag }}">
     <ul class="posts">
       {% for post in site.tags[tag] limit:5 %}
