@@ -25,7 +25,7 @@ active-tab: "about"
 
 ## プロフィール
 
-<img style="margin-left:auto; margin-right:auto" src="xmisao_icon_96x96.png" alt="み">
+<img style="margin-left:auto; margin-right:auto" src="{{ root }}/xmisao_icon_origin.svg.96px.png" alt="み">
 
 xmisaoと書いてぺけみさおと読む。
 
