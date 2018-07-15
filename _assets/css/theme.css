@@ -64,7 +64,7 @@ pre code {
 
 #logo-string {
   font-size:32px;
-  font-family:JK Gothic M;
+  font-family: 'JK Gothic M', sans-serif;
 }
 
 .color-text {
@@ -381,6 +381,7 @@ b {
 }
 
 /* Customs */
+
 #post-contents{
   padding: 1em;
 }
@@ -402,4 +403,67 @@ pre.highlight code{
   white-space: pre;
   color: inherit;
   background-color: #f0f0f0;
+}
+
+#top-menu {
+  vertical-align: middle;
+}
+
+#top-menu ul{
+  display: table-cell;
+}
+
+#top-menu ul li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.fluid {
+  max-width: 100%;
+}
+
+.valign-middle{
+  vertical-align: middle;
+}
+
+.valign-top{
+  vertical-align: top;
+}
+
+div.table {
+  display: table;
+}
+
+div.table > div {
+  display: table-cell;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+#navigation-list {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+#logo-img {
+  margin: 4px;
+}
+
+@media (min-width: 750px) {
+  div.weak-table {
+    display: table;
+  }
+
+  div.weak-table div {
+    display: table-cell;
+  }
+}
+
+@media (min-width: 550px) {
+  .flat-list li{
+    display: inline-block;
+    margin-right: 2rem;
+  }
 }
