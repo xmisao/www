@@ -69,9 +69,6 @@
   background-color: #dc4e41;
   padding-top:4px;
 }
-.icon-google-plus3:before {
-  content: "\ea8d";
-}
 .icon-facebook:before {
   content: "\ea90";
   display: inline-block;
@@ -82,9 +79,6 @@
   color: #fff;
   background-color: #3b5998;
   padding-top:4px;
-}
-.icon-facebook2:before {
-  content: "\ea91";
 }
 .icon-twitter:before {
   content: "\ea96";
@@ -106,7 +100,7 @@
   color: #fff;
   background-color: #00a5de;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #0080c0;
@@ -120,7 +114,7 @@
   color: #fff;
   background-color: #00b900;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #009000;
@@ -134,7 +128,7 @@
   color: #fff;
   background-color: #ef3f56;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #c01030;
@@ -148,7 +142,7 @@
   color: #fff;
   background-color: #dc4e41;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #b02020;
@@ -162,7 +156,7 @@
   color: #fff;
   background-color: #3b5998;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #103070;
@@ -176,12 +170,19 @@
   color: #fff;
   background-color: #55acee;
 
-  width: 44px;
+  width: 40px;
   height: 30px;
   font-size: 20px;
   border-left: solid 4px #3080c0;
   padding: 4px 0px 0px 0px;
   margin: 0px 4px 0px 0px;
+}
+
+.icon-google-plus3:before {
+  content: "\ea8d";
+}
+.icon-facebook2:before {
+  content: "\ea91";
 }
 
 .icon-feedly:before {
