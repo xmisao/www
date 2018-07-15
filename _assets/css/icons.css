@@ -24,6 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*
 .icon-hatenabookmark:before {
   content: "\e903";
   display: inline-block;
@@ -34,9 +35,6 @@
   color: #fff;
   background-color: #00a5de;
   padding-top:4px;
-}
-.icon-feedly:before {
-  content: "\e900";
 }
 .icon-line:before {
   content: "\e901";
@@ -59,15 +57,6 @@
   color: #fff;
   background-color: #ef3f56;
   padding-top:4px;
-}
-.icon-arrow-right:before {
-  content: "\ea34";
-}
-.icon-arrow-left:before {
-  content: "\ea38";
-}
-.icon-new-tab:before {
-  content: "\ea7e";
 }
 .icon-google-plus:before {
   content: "\ea8b";
@@ -107,6 +96,105 @@
   color: #fff;
   background-color: #55acee;
   padding-top:4px;
+}
+*/
+
+.icon-hatenabookmark:before {
+  content: "\e903";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #00a5de;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #0080c0;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+.icon-line:before {
+  content: "\e901";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #00b900;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #009000;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+.icon-get-pocket:before {
+  content: "\e902";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #ef3f56;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #c01030;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #dc4e41;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #b02020;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+.icon-facebook:before {
+  content: "\ea90";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #3b5998;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #103070;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+.icon-twitter:before {
+  content: "\ea96";
+  display: inline-block;
+  text-align:center;
+  color: #fff;
+  background-color: #55acee;
+
+  width: 44px;
+  height: 30px;
+  font-size: 20px;
+  border-left: solid 4px #3080c0;
+  padding: 4px 0px 0px 0px;
+  margin: 0px 4px 0px 0px;
+}
+
+.icon-feedly:before {
+  content: "\e900";
+}
+.icon-arrow-right:before {
+  content: "\ea34";
+}
+.icon-arrow-left:before {
+  content: "\ea38";
+}
+.icon-new-tab:before {
+  content: "\ea7e";
 }
 .icon-rss:before {
   content: "\ea9b";

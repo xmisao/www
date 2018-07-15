@@ -84,6 +84,15 @@ pre code {
 #share {
 }
 
+#share > div > div {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 3px;
+  margin-height: 3px;
+  text-size-adjust: 100%;
+  vertical-align: middle;
+}
+
 #nav-prev-next {
 }
 
@@ -119,6 +128,7 @@ ul.tagcloud li{
 }
 
 /* SNS share buttons */
+/*
 .hatena_back {
   background-color: #00a5de;
 }
@@ -137,6 +147,7 @@ ul.tagcloud li{
 .facebook_back {
   background-color: #3b5998;
 }
+*/
 
 .hatena_back > a,
 .line_back > a,
@@ -145,12 +156,11 @@ ul.tagcloud li{
 .twitter_back > a,
 .facebook_back > a {
   text-decoration:underline;
-  color:#eee;
   font-size:15px;
 }
 
 .sns-label {
-  padding-left: 0.5em;
+  font-size: 14px;
 }
 
 
