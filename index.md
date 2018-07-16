@@ -39,7 +39,7 @@ active-tab: "home"
 <ul class="tagcloud">
 {% for tag in site.tags %}
   <li style="font-size: {{ tag | last | size | times: 200 | divided_by: site.tags.size | plus: 100 }}%">
-      <a href="/tags/{{ tag | first | slugize }}">
+      <a href="/tags/{{ tag | first | slugize }}/index.html">
           {{ tag | first }}({{ tag | last | size }})
       </a>
   </li>
