@@ -2,3 +2,30 @@ name: xmisao -- ぺけみさお
 description: xmisaoのポートフォリオ
 url: https://www.xmisao.com
 markdown: kramdown
+gems:
+  - jekyll-assets
+
+# Minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+# Assets
+assets:
+  destination: "/a"
+  sources:
+    - _assets/css
+    - _assets/fonts
+    - _assets/images
+    - _assets/videos
+    - _assets/javascript
+    - _assets/video
+    - _assets/image
+    - _assets/img
+    - _assets/js
