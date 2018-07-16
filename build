@@ -1,3 +1,4 @@
 #!/bin/bash
 mkdir _site
+mkdir .jekyll-cache
 docker run -i --rm --volume="$PWD:/srv/jekyll" jekyll/jekyll jekyll build
