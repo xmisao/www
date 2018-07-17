@@ -74,7 +74,7 @@ compress_html:
   startings: []
 ```
 
-詳細な解説は(公式の解説)[http://jch.penibelst.de/#configuration]をご覧下さい。
+詳細な解説は[公式の解説](http://jch.penibelst.de/#configuration)をご覧下さい。
 
 私が試行錯誤した限り、おそらく大抵の用途を満たしつつ問題を起こさずにHTMLを圧縮する設定は以下のとおりです。
 
@@ -118,3 +118,5 @@ jekyll-compress-htmlには制限事項がドキュメントに明記されてい
 jekyll-compress-htmlはLiquidだけでminifyを実現していて、なかなか興味深いレイアウトです。
 Gemも必要ありませんので、必要に応じてレイアウトをコピペするだけで、Jekyllで生成されるHTMLをminifyできます。
 defaultのレイアウトにしてしまえば勝手にminifyされますので、1バイトでもHTMLの容量を縮めたいときには重宝します。
+
+なおこのブログはjekyll-compress-htmlでminifyしてあります。
