@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: JekyllでHTMLをminifyする
-tag: jekyell
+tag: jekyll
 ---
 
 # サマリ
